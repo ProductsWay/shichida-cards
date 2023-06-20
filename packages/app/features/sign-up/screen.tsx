@@ -1,8 +1,8 @@
-import { YStack } from '@t4/ui'
+import { YStack } from '@shichida/ui'
 import { useSignUp } from 'app/utils/clerk'
 import { OAuthStrategy } from '@clerk/types'
 import { useRouter } from 'solito/router'
-import { SignUpSignInComponent } from '@t4/ui/src/SignUpSignIn'
+import { SignUpSignInComponent } from '@shichida/ui/src/SignUpSignIn'
 
 export function SignUpScreen() {
   const { push } = useRouter()

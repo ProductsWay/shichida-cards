@@ -12,7 +12,7 @@
   "dependencies": {
     "@babel/runtime": "^7.18.9",
     "@react-navigation/native": "^6.1.6",
-    "@t4/ui": "*",
+    "@shichida/ui": "*",
     "@types/react-native": "^0.71.3",
     "app": "*",
     "babel-plugin-module-resolver": "^4.1.0",

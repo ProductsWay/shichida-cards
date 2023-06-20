@@ -1,4 +1,4 @@
-import { Button, H2, Paragraph, YStack } from '@t4/ui'
+import { Button, H2, Paragraph, YStack } from '@shichida/ui'
 import { ChevronLeft } from '@tamagui/lucide-icons'
 import React from 'react'
 import { createParam } from 'solito'

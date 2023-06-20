@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Button, Input, YStack } from '@t4/ui'
+import { Button, Input, YStack } from '@shichida/ui'
 import { useSignUp } from 'app/utils/clerk'
 import { useRouter } from 'solito/router'
 import { trpc } from 'app/utils/trpc'

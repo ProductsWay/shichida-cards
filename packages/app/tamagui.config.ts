@@ -1,4 +1,4 @@
-import { config } from '@t4/ui'
+import { config } from '@shichida/ui'
 
 export type Conf = typeof config
 

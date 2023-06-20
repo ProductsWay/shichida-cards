@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "t4",
-    "slug": "t4",
-    "scheme": "t4",
+    "name": "shichida-flashcard",
+    "slug": "shichida-flashcard",
+    "scheme": "shichida-flashcard",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,14 +18,14 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.t4.app"
+      "bundleIdentifier": "com.shichida.app"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.t4.app"
+      "package": "com.shichida.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"

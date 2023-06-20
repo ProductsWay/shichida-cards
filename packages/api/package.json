@@ -1,5 +1,5 @@
 {
-  "name": "@t4/api",
+  "name": "@shichida/api",
   "version": "2.0.0",
   "main": "src/index.ts",
   "packageManager": "yarn@3.5.0",

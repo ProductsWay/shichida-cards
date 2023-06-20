@@ -1,4 +1,4 @@
-import { Paragraph, VirtualList, YStack } from '@t4/ui'
+import { Paragraph, VirtualList, YStack } from '@shichida/ui'
 import React from 'react'
 import { SolitoImage } from 'solito/image'
 

@@ -15,7 +15,7 @@ const optimizeCss = boolVals[process.env.OPTIMIZE_CSS] ?? process.env.NODE_ENV =
 const plugins = [
   withTamagui({
     config: './tamagui.config.ts',
-    components: ['tamagui', '@t4/ui'],
+    components: ['tamagui', '@shichida/ui'],
     importsWhitelist: ['constants.js', 'colors.js'],
     outputCSS: process.env.NODE_ENV === 'production' ? './public/tamagui.css' : null,
     logTimings: true,
@@ -28,7 +28,6 @@ const plugins = [
     },
   }),
 ]
-
 
 module.exports = function () {
   /** @type {import('next').NextConfig} */
@@ -57,7 +56,7 @@ module.exports = function () {
       'expo-modules-core',
       'react-native-safe-area-context',
       'react-native-reanimated',
-      'react-native-gesture-handler'
+      'react-native-gesture-handler',
     ],
     experimental: {
       /*
