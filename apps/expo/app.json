@@ -15,7 +15,9 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.shichida.app"
@@ -32,8 +34,9 @@
     },
     "extra": {
       "eas": {
-        "projectId": "ade0e615-6a0b-42d8-a558-40e3fbcb53bf"
+        "projectId": "fd197d8a-c033-487a-8db4-0b26d86fccce"
       }
-    }
+    },
+    "owner": "dunghd"
   }
 }
