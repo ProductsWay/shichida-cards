@@ -2055,11 +2055,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@clerk/clerk-expo@npm:0.18.6":
-  version: 0.18.6
-  resolution: "@clerk/clerk-expo@npm:0.18.6"
+"@clerk/clerk-expo@npm:0.18.7":
+  version: 0.18.7
+  resolution: "@clerk/clerk-expo@npm:0.18.7"
   dependencies:
-    "@clerk/clerk-js": ^4.50.0
+    "@clerk/clerk-js": ^4.50.1
     "@clerk/clerk-react": ^4.20.5
     base-64: 1.0.0
     react-native-url-polyfill: 1.3.0
@@ -2067,15 +2067,15 @@ __metadata:
     expo-auth-session: ">=4"
     expo-web-browser: ">=12"
     react: ">=16"
-  checksum: b618a3d3188766d7a7ca25843e1f17b0df47d077b16e8a5e17ee896fb7843a877270bf6b739a70f169b8da8550dd1e9869baedcb6ca6dd6408c375fdc7b23c3f
+  checksum: 6d531ef85d35435d3b6b8fd384d12066b0230ed21f1577680ef487f0f902b5607b1e629154d826bc392d81ded8f71e3da8a69ba84fa3e800b6726d2576772156
   languageName: node
   linkType: hard
 
-"@clerk/clerk-js@npm:^4.50.0":
-  version: 4.50.0
-  resolution: "@clerk/clerk-js@npm:4.50.0"
+"@clerk/clerk-js@npm:^4.50.1":
+  version: 4.50.1
+  resolution: "@clerk/clerk-js@npm:4.50.1"
   dependencies:
-    "@clerk/localizations": ^1.21.0
+    "@clerk/localizations": ^1.21.1
     "@clerk/shared": ^0.19.1
     "@clerk/types": ^3.46.0
     "@emotion/cache": 11.10.5
@@ -2092,7 +2092,7 @@ __metadata:
     regenerator-runtime: 0.13.11
   peerDependencies:
     react: ">=18"
-  checksum: 4f182b1c165cec6ebddd6085f599d7be285aaacae9ed12ef22a6388c65ec50cb1b449c1e72131ffdc4174c758949007837a5622e56c06df49d0ee3e7fae330f4
+  checksum: 36ed64fe503f79d622a4ce19660ce842af85827b9a174e5d41a2afe5d67c7b96a01a8a3a45ff5430603c5b222757e9f88e1d9f1001281a249674ae0604d5036d
   languageName: node
   linkType: hard
 
@@ -2127,20 +2127,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@clerk/localizations@npm:^1.21.0":
-  version: 1.21.0
-  resolution: "@clerk/localizations@npm:1.21.0"
+"@clerk/localizations@npm:^1.21.1":
+  version: 1.21.1
+  resolution: "@clerk/localizations@npm:1.21.1"
   dependencies:
     "@clerk/types": ^3.46.0
   peerDependencies:
     react: ">=16"
-  checksum: fb270a677a4135434164bf9d327be7f0419edb890a966119c5362e2467fc87f4056b4629bb674ea3b220d1b0c9087fe6e80444e4628adcb2137cd79589f42fde
+  checksum: 0f3d84c2e3b65748ee9e89c60ce51b12684fb4ba07b1cd3eaf2b98f1966e684a853cd7de6012d4f4713756fdc4d89c5e8df1b2122142d27e8dec2bb9531423e7
   languageName: node
   linkType: hard
 
-"@clerk/nextjs@npm:4.21.8":
-  version: 4.21.8
-  resolution: "@clerk/nextjs@npm:4.21.8"
+"@clerk/nextjs@npm:4.21.9":
+  version: 4.21.9
+  resolution: "@clerk/nextjs@npm:4.21.9"
   dependencies:
     "@clerk/backend": ^0.23.5
     "@clerk/clerk-react": ^4.20.5
@@ -2152,7 +2152,7 @@ __metadata:
     next: ">=10"
     react: ^17.0.2 || ^18.0.0-0
     react-dom: ^17.0.2 || ^18.0.0-0
-  checksum: 3b3c849b8a0c26f8579eebeaa13e3c208918a09b0955e91d28da73dedf581e836db3d98a20af8f51a880f4c41b81c20a0d0b3d112dcd606174be99ee809e8cc9
+  checksum: 7f1155d60c0e4e75ef5778581190a373edde026d9cfdaf03014b4573f16d0617d6db3ebbe67b76b2f23cecee50de9baf8643b67a083e2ba24c6db0899f6c0f2f
   languageName: node
   linkType: hard
 
@@ -4565,6 +4565,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-navigation/core@npm:^6.4.9":
+  version: 6.4.9
+  resolution: "@react-navigation/core@npm:6.4.9"
+  dependencies:
+    "@react-navigation/routers": ^6.1.9
+    escape-string-regexp: ^4.0.0
+    nanoid: ^3.1.23
+    query-string: ^7.1.3
+    react-is: ^16.13.0
+    use-latest-callback: ^0.1.5
+  peerDependencies:
+    react: "*"
+  checksum: 5479a49f2bf64dd8da149e268bd926804a466a923baf1b7149707e5db9fc78bcfd131e6d225832cb8f826cef6fc8afb91e10802dd5d0f9086aac61cabcc973ac
+  languageName: node
+  linkType: hard
+
 "@react-navigation/elements@npm:^1.3.17":
   version: 1.3.17
   resolution: "@react-navigation/elements@npm:1.3.17"
@@ -4593,7 +4609,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-navigation/native@npm:6.1.6, @react-navigation/native@npm:~6.1.6":
+"@react-navigation/native@npm:6.1.7":
+  version: 6.1.7
+  resolution: "@react-navigation/native@npm:6.1.7"
+  dependencies:
+    "@react-navigation/core": ^6.4.9
+    escape-string-regexp: ^4.0.0
+    fast-deep-equal: ^3.1.3
+    nanoid: ^3.1.23
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 917be90290b2de6aa6d32f0798369757d5577814fa1cf3b6b7fb62efdc6341f0db2c85a1826f1f83ccd563ffd7c2ce3c98ff7560e80f868641a66f162650a992
+  languageName: node
+  linkType: hard
+
+"@react-navigation/native@npm:~6.1.6":
   version: 6.1.6
   resolution: "@react-navigation/native@npm:6.1.6"
   dependencies:
@@ -4614,6 +4645,15 @@ __metadata:
   dependencies:
     nanoid: ^3.1.23
   checksum: f703ab9015e514e218a71a5cded79b1f2d2b7bb3d508e252aaa4b75cc1537b539177b1a66b4278322ce866320535fc1ebda7ea7f2f740abe6eac31f3b40e2c70
+  languageName: node
+  linkType: hard
+
+"@react-navigation/routers@npm:^6.1.9":
+  version: 6.1.9
+  resolution: "@react-navigation/routers@npm:6.1.9"
+  dependencies:
+    nanoid: ^3.1.23
+  checksum: 3a3392ce095d6a2bd2aad69856f513b35774f943a3dc73d8ffb75127de6773203e3264188d87058bdea4c0c9a7d43ed28d0cbf3a1f1cdc086df3ee255d8e1e27
   languageName: node
   linkType: hard
 
@@ -4739,14 +4779,14 @@ __metadata:
     "@cloudflare/d1": 1.4.1
     "@cloudflare/workers-types": 4.20230518.0
     "@hono/trpc-server": 0.1.0
-    "@trpc/server": 10.31.0
+    "@trpc/server": 10.32.0
     "@tsndr/cloudflare-worker-jwt": 2.2.1
     better-sqlite3: 8.4.0
     dotenv-cli: 7.2.1
     drizzle-kit: 0.19.2
     drizzle-orm: 0.27.0
     eslint: 8.43.0
-    hono: 3.2.5
+    hono: 3.2.6
     typescript: 5.1.3
     wrangler: 3.1.1
   languageName: unknown
@@ -6132,49 +6172,49 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@trpc/client@npm:10.31.0":
-  version: 10.31.0
-  resolution: "@trpc/client@npm:10.31.0"
+"@trpc/client@npm:10.32.0":
+  version: 10.32.0
+  resolution: "@trpc/client@npm:10.32.0"
   peerDependencies:
-    "@trpc/server": 10.31.0
-  checksum: 40dc7d07bbb411e4e0da7aa6adf884bb299b6eb30be61eaeefac00774699e614b18a6f24ce29e3a53107bd0df29f28c135f2b602536f47efa8d518cb0540aeaa
+    "@trpc/server": 10.32.0
+  checksum: b7855a864cfe28843f04cf83fe6e0c800924f4b57fb13776c1818f82a955cfc57316b5ed570c44d16b799ef9f8ae7cfdd462761f393841232affccff905d3fee
   languageName: node
   linkType: hard
 
-"@trpc/next@npm:10.31.0":
-  version: 10.31.0
-  resolution: "@trpc/next@npm:10.31.0"
+"@trpc/next@npm:10.32.0":
+  version: 10.32.0
+  resolution: "@trpc/next@npm:10.32.0"
   dependencies:
     react-ssr-prepass: ^1.5.0
   peerDependencies:
     "@tanstack/react-query": ^4.18.0
-    "@trpc/client": 10.31.0
-    "@trpc/react-query": 10.31.0
-    "@trpc/server": 10.31.0
+    "@trpc/client": 10.32.0
+    "@trpc/react-query": 10.32.0
+    "@trpc/server": 10.32.0
     next: "*"
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: c1458c2686f10b5d6f2f1f9557d01d0bab2950ba779d3eaa05cdb9c74bb661adb5e0fe0f7c63d56adffcfb5786c8805d17f776a610875306a952b8dfdc57a7a3
+  checksum: 5ca3811a0667191b92467aa7ec71baa3248eeb0b889641b8b26e9af25d82ac1e93e6b0f652cc42670fc97e650b825daec3394bb2c045153c971cfaa88756f60d
   languageName: node
   linkType: hard
 
-"@trpc/react-query@npm:10.31.0":
-  version: 10.31.0
-  resolution: "@trpc/react-query@npm:10.31.0"
+"@trpc/react-query@npm:10.32.0":
+  version: 10.32.0
+  resolution: "@trpc/react-query@npm:10.32.0"
   peerDependencies:
     "@tanstack/react-query": ^4.18.0
-    "@trpc/client": 10.31.0
-    "@trpc/server": 10.31.0
+    "@trpc/client": 10.32.0
+    "@trpc/server": 10.32.0
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: b2b3df3342644a2ddb54210afc94c367c3eccd67b1b354415ed4935707fc511bae723b3737184e41edd1796a84c0a2a0824b216eafc276566765c117ce76ca55
+  checksum: 5285f3d235c3e11cc8d842f22e17b762204def407b51f1acbb1583929f0afd11e2a57d5715548be8f1cc9bc6270d2473171d3d3a8b5b025fbcfb5be0bbf70dd2
   languageName: node
   linkType: hard
 
-"@trpc/server@npm:10.31.0":
-  version: 10.31.0
-  resolution: "@trpc/server@npm:10.31.0"
-  checksum: 2f8b946f3e0af56c1f2f9a789cf46eb55138aa35be99e7f874ac4bcf2df4698c73a81fe551dd6641f6538cf8de0701c03bf8fe524bad1485b8fd328d040df3dc
+"@trpc/server@npm:10.32.0":
+  version: 10.32.0
+  resolution: "@trpc/server@npm:10.32.0"
+  checksum: 7e77d5b564734675cb6e394237238a18eb6ed2f92d03c45c3ad270e4b9c81486e53d1b0854fc3357390d68f4e0b94d66873ca5a6a6e4d7226f49c10caaf2bc2c
   languageName: node
   linkType: hard
 
@@ -7335,8 +7375,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app@workspace:packages/app"
   dependencies:
-    "@clerk/clerk-expo": 0.18.6
-    "@clerk/nextjs": 4.21.8
+    "@clerk/clerk-expo": 0.18.7
+    "@clerk/nextjs": 4.21.9
     "@shichida/ui": "*"
     "@shopify/flash-list": 1.4.3
     "@tamagui/animations-react-native": latest
@@ -7346,9 +7386,9 @@ __metadata:
     "@tamagui/shorthands": latest
     "@tamagui/themes": latest
     "@tanstack/react-query": 4.29.15
-    "@trpc/client": 10.31.0
-    "@trpc/next": 10.31.0
-    "@trpc/react-query": 10.31.0
+    "@trpc/client": 10.32.0
+    "@trpc/next": 10.32.0
+    "@trpc/react-query": 10.32.0
     "@types/react": 18.2.13
     "@types/react-native": 0.72.2
     burnt: 0.11.7
@@ -11306,7 +11346,7 @@ __metadata:
     "@babel/core": 7.22.5
     "@babel/runtime": 7.22.5
     "@expo/metro-config": 0.7.1
-    "@react-navigation/native": 6.1.6
+    "@react-navigation/native": 6.1.7
     "@shichida/ui": "*"
     "@tamagui/babel-plugin": latest
     "@types/react-native": 0.72.2
@@ -11331,7 +11371,7 @@ __metadata:
     react-native: 0.72.0
     react-native-dotenv: 3.4.9
     react-native-gesture-handler: 2.12.0
-    react-native-screens: 3.21.1
+    react-native-screens: 3.22.0
     react-native-svg: 13.9.0
     react-native-web: 0.19.5
     typescript: 4.9.5
@@ -13020,10 +13060,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hono@npm:3.2.5":
-  version: 3.2.5
-  resolution: "hono@npm:3.2.5"
-  checksum: 54571174e1abbf77428b2bc1a43d90b2db2998e8d443803bcb8c69f82c4b5e057e97ec7b50eeb44677300cef39692b3a7106b78ebf5ee042cdf5f38183f109b8
+"hono@npm:3.2.6":
+  version: 3.2.6
+  resolution: "hono@npm:3.2.6"
+  checksum: 15dd243ed99697eca9cfe7c6a73d6547ecdee9db61e2b0b928a903cc785d267c8c0b5eefc1d8aea006ec56b9fc70c6a542af693a048510e2f183351b4a2cfcb5
   languageName: node
   linkType: hard
 
@@ -18130,16 +18170,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-screens@npm:3.21.1":
-  version: 3.21.1
-  resolution: "react-native-screens@npm:3.21.1"
+"react-native-screens@npm:3.22.0":
+  version: 3.22.0
+  resolution: "react-native-screens@npm:3.22.0"
   dependencies:
     react-freeze: ^1.0.0
     warn-once: ^0.1.0
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 7a596108749e9afef4d3ac8b169f468a1f544ebe89a9b86716badbef0c1113d0fb7d068a17b0e767c473aead3832675ed191c09f572497bf2560f0a1db7498e1
+  checksum: 18014990785abade1223aeb6468c7f5917f9ef5bc7144fac4ba25b1778cb9faac413cbecd565fed6b7c40474a9387ba29d672af1539a175ca87a235900128b7f
   languageName: node
   linkType: hard
 
