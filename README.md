@@ -9,8 +9,6 @@
 yarn install
 ```
 
-Sure, I've added a Usage section based on the provided `package.json` and guidelines.
-
 ## 🛠️ Usage
 
 The `shichida-cards` package is designed to be run in a specific sequence of scripts. These scripts are explained below.
@@ -72,6 +70,18 @@ To give you a better understanding of the T4 Stack, let's delve deeper into the 
 7. **Authentication**: [Clerk](https://clerk.dev) - A complete authentication solution.
 
 The T4 Stack is not just a collection of tools and technologies. It's a well-thought-out system where all parts work together harmoniously, allowing developers to focus more on creating amazing applications and less on setting up and integrating technologies.
+
+## Author
+
+- Website: https://productsway.com/
+- Twitter: [@jellydn](https://twitter.com/jellydn)
+- Github: [@jellydn](https://github.com/jellydn)
+
+## Show your support
+
+[![kofi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/dunghd)
+[![paypal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/dunghd)
+[![buymeacoffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/dunghd)
 
 ## Show your support
 
