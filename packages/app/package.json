@@ -7,7 +7,7 @@
     "*.css"
   ],
   "dependencies": {
-    "@clerk/clerk-expo": "0.18.11",
+    "@clerk/clerk-expo": "0.18.12",
     "@clerk/nextjs": "4.21.14",
     "@shichida/ui": "*",
     "@shopify/flash-list": "1.4.3",
@@ -18,9 +18,9 @@
     "@tamagui/shorthands": "latest",
     "@tamagui/themes": "latest",
     "@tanstack/react-query": "4.29.19",
-    "@trpc/client": "10.33.1",
-    "@trpc/next": "10.33.1",
-    "@trpc/react-query": "10.33.1",
+    "@trpc/client": "10.34.0",
+    "@trpc/next": "10.34.0",
+    "@trpc/react-query": "10.34.0",
     "burnt": "0.11.7",
     "expo-auth-session": "4.1.0",
     "expo-constants": "14.4.2",
