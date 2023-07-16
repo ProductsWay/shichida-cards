@@ -4519,7 +4519,7 @@ __metadata:
     drizzle-kit: 0.19.5
     drizzle-orm: 0.27.2
     eslint: 8.45.0
-    hono: 3.3.0
+    hono: 3.3.1
     typescript: 5.1.6
     wrangler: 3.2.0
   languageName: unknown
@@ -5892,18 +5892,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:4.29.23":
-  version: 4.29.23
-  resolution: "@tanstack/query-core@npm:4.29.23"
-  checksum: bd752e419619c415076816446f06904eba88a9600a9fc6544634afe929d24d40059a57809bf653c6581ae92b564942bed3988f3585ac59b0a60e8331b4ad8acb
+"@tanstack/query-core@npm:4.29.25":
+  version: 4.29.25
+  resolution: "@tanstack/query-core@npm:4.29.25"
+  checksum: 5287e278cf0ef781c5bd238842243adc4430a43ffc9bee1963131726c5bdf6a67d38e122f45c3375232d05c5a335b1309026ce4252647bb3e4710b70bcebdbf5
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:4.29.23":
-  version: 4.29.23
-  resolution: "@tanstack/react-query@npm:4.29.23"
+"@tanstack/react-query@npm:4.29.25":
+  version: 4.29.25
+  resolution: "@tanstack/react-query@npm:4.29.25"
   dependencies:
-    "@tanstack/query-core": 4.29.23
+    "@tanstack/query-core": 4.29.25
     use-sync-external-store: ^1.2.0
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -5914,7 +5914,7 @@ __metadata:
       optional: true
     react-native:
       optional: true
-  checksum: 2d0e0b7c4362c0b7b37c754d2f335f61da2245c25141bd444fef93a53ae3b5d6af5a5cdcea096a981ab6eaeffd25d15fde7d9cb36a5006afe4c2ab3907a82a91
+  checksum: e0ae4cbe1d8f691d488bc1c68df3df12d1ed093796eb879842ef8d4d388d07cebbdd7ab6174481d624dc133326895a53a5442864bb27ffcc0db5f4f40d7f827f
   languageName: node
   linkType: hard
 
@@ -7186,7 +7186,7 @@ __metadata:
     "@tamagui/lucide-icons": latest
     "@tamagui/shorthands": latest
     "@tamagui/themes": latest
-    "@tanstack/react-query": 4.29.23
+    "@tanstack/react-query": 4.29.25
     "@trpc/client": 10.34.0
     "@trpc/next": 10.34.0
     "@trpc/react-query": 10.34.0
@@ -12833,10 +12833,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hono@npm:3.3.0":
-  version: 3.3.0
-  resolution: "hono@npm:3.3.0"
-  checksum: 7be78f158359aef11788f4a92b2c2f6cbbb92624b7d15b8f8400cf3e3859b5e90e95ac9f3bab14377328a0a35741ccf44019afd9fb56d1eb6a056364ff9d3917
+"hono@npm:3.3.1":
+  version: 3.3.1
+  resolution: "hono@npm:3.3.1"
+  checksum: a6958fd996b058120846f08a0d644f9e4d217066168154d3e7ff9695718831a06e06d09bf9172ea92fe6ec66f54d0bcedfbbfda7cd944b177635b615214b3afd
   languageName: node
   linkType: hard
 
