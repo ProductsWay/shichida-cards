@@ -1917,10 +1917,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@drizzle-team/studio@npm:^0.0.1":
-  version: 0.0.1
-  resolution: "@drizzle-team/studio@npm:0.0.1"
-  checksum: 352b02200e51fceff48cadf6080276a5f6c48a47786ae067f883de38fa6cd0ed546c3517c9a4e88aa62966fb2315171a49a0dc0246c74e05a584910b44e0dd20
+"@drizzle-team/studio@npm:^0.0.3":
+  version: 0.0.3
+  resolution: "@drizzle-team/studio@npm:0.0.3"
+  checksum: ffe83bac779998265cdd7f75acbe700e603d4202476c62779b1233ad528a63ef19e71b4b0c36846b332b215bee64acda388ffc4793fdd561866cff60a17d6962
   languageName: node
   linkType: hard
 
@@ -4440,7 +4440,7 @@ __metadata:
     "@tsndr/cloudflare-worker-jwt": 2.2.1
     better-sqlite3: 8.4.0
     dotenv-cli: 7.2.1
-    drizzle-kit: 0.19.6
+    drizzle-kit: 0.19.8
     drizzle-orm: 0.27.2
     eslint: 8.45.0
     hono: 3.3.1
@@ -9569,11 +9569,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"drizzle-kit@npm:0.19.6":
-  version: 0.19.6
-  resolution: "drizzle-kit@npm:0.19.6"
+"drizzle-kit@npm:0.19.8":
+  version: 0.19.8
+  resolution: "drizzle-kit@npm:0.19.8"
   dependencies:
-    "@drizzle-team/studio": ^0.0.1
+    "@drizzle-team/studio": ^0.0.3
     "@esbuild-kit/esm-loader": ^2.5.5
     camelcase: ^7.0.1
     chalk: ^5.2.0
@@ -9587,7 +9587,7 @@ __metadata:
     zod: ^3.20.2
   bin:
     drizzle-kit: index.cjs
-  checksum: 9a953926ad48d676e109a3534dff1f465a326959fd87535955501b164cace795eabff5aefaebb51fd696c95dfbd3d403d38de4f3d0d7a41e19e2484bd6f7bcd4
+  checksum: e8911d33d3293e648f3e93779263a3edddecf76767c5d31ccee656d8799cdc5a94ed88a6e563607e29be9762a7c4916d14843513e6be77ac532cb0f2dd9356f7
   languageName: node
   linkType: hard
 
@@ -19117,7 +19117,7 @@ __metadata:
     eslint: 8.45.0
     node-gyp: 9.4.0
     prettier: 3.0.0
-    turbo: 1.10.7
+    turbo: 1.10.8
     typescript: 5.1.6
   languageName: unknown
   linkType: soft
@@ -20455,58 +20455,58 @@ __metadata:
   languageName: node
   linkType: hard
 
-"turbo-darwin-64@npm:1.10.7":
-  version: 1.10.7
-  resolution: "turbo-darwin-64@npm:1.10.7"
+"turbo-darwin-64@npm:1.10.8":
+  version: 1.10.8
+  resolution: "turbo-darwin-64@npm:1.10.8"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"turbo-darwin-arm64@npm:1.10.7":
-  version: 1.10.7
-  resolution: "turbo-darwin-arm64@npm:1.10.7"
+"turbo-darwin-arm64@npm:1.10.8":
+  version: 1.10.8
+  resolution: "turbo-darwin-arm64@npm:1.10.8"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"turbo-linux-64@npm:1.10.7":
-  version: 1.10.7
-  resolution: "turbo-linux-64@npm:1.10.7"
+"turbo-linux-64@npm:1.10.8":
+  version: 1.10.8
+  resolution: "turbo-linux-64@npm:1.10.8"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"turbo-linux-arm64@npm:1.10.7":
-  version: 1.10.7
-  resolution: "turbo-linux-arm64@npm:1.10.7"
+"turbo-linux-arm64@npm:1.10.8":
+  version: 1.10.8
+  resolution: "turbo-linux-arm64@npm:1.10.8"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"turbo-windows-64@npm:1.10.7":
-  version: 1.10.7
-  resolution: "turbo-windows-64@npm:1.10.7"
+"turbo-windows-64@npm:1.10.8":
+  version: 1.10.8
+  resolution: "turbo-windows-64@npm:1.10.8"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"turbo-windows-arm64@npm:1.10.7":
-  version: 1.10.7
-  resolution: "turbo-windows-arm64@npm:1.10.7"
+"turbo-windows-arm64@npm:1.10.8":
+  version: 1.10.8
+  resolution: "turbo-windows-arm64@npm:1.10.8"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"turbo@npm:1.10.7":
-  version: 1.10.7
-  resolution: "turbo@npm:1.10.7"
+"turbo@npm:1.10.8":
+  version: 1.10.8
+  resolution: "turbo@npm:1.10.8"
   dependencies:
-    turbo-darwin-64: 1.10.7
-    turbo-darwin-arm64: 1.10.7
-    turbo-linux-64: 1.10.7
-    turbo-linux-arm64: 1.10.7
-    turbo-windows-64: 1.10.7
-    turbo-windows-arm64: 1.10.7
+    turbo-darwin-64: 1.10.8
+    turbo-darwin-arm64: 1.10.8
+    turbo-linux-64: 1.10.8
+    turbo-linux-arm64: 1.10.8
+    turbo-windows-64: 1.10.8
+    turbo-windows-arm64: 1.10.8
   dependenciesMeta:
     turbo-darwin-64:
       optional: true
@@ -20522,7 +20522,7 @@ __metadata:
       optional: true
   bin:
     turbo: bin/turbo
-  checksum: 58329caf13b5fef284ccfc21bd1f841023122371d75d2202be809a385aade84fd886cf5c2093323c115c497d503c9c34e1f7ae09e13d06d1dcb4b649883f60dd
+  checksum: 9fd2f9b17461a688e200329c4d910969e828b22c375e88759cd0e59f96db7aac115d289ed20af42db23030b4a4ae0334d1a37bf0a5caf2fdc8a618476742238f
   languageName: node
   linkType: hard
 
