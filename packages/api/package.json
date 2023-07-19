@@ -15,7 +15,7 @@
     "with-env": "dotenv -e ../../.env.local --"
   },
   "dependencies": {
-    "@clerk/backend": "0.25.0",
+    "@clerk/backend": "0.25.1",
     "@cloudflare/d1": "1.4.1",
     "@hono/trpc-server": "0.1.0",
     "@trpc/server": "10.34.0",
