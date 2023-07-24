@@ -7,8 +7,8 @@
     "*.css"
   ],
   "dependencies": {
-    "@clerk/clerk-expo": "0.18.14",
-    "@clerk/nextjs": "4.22.1",
+    "@clerk/clerk-expo": "0.18.16",
+    "@clerk/nextjs": "4.23.1",
     "@shichida/ui": "*",
     "@shopify/flash-list": "1.5.0",
     "@tamagui/animations-react-native": "latest",
@@ -17,7 +17,7 @@
     "@tamagui/lucide-icons": "latest",
     "@tamagui/shorthands": "latest",
     "@tamagui/themes": "latest",
-    "@tanstack/react-query": "4.29.25",
+    "@tanstack/react-query": "4.32.0",
     "@trpc/client": "10.35.0",
     "@trpc/next": "10.35.0",
     "@trpc/react-query": "10.35.0",
