@@ -28,7 +28,7 @@
     "better-sqlite3": "8.5.0",
     "dotenv-cli": "7.2.1",
     "drizzle-kit": "0.19.12",
-    "eslint": "8.45.0",
+    "eslint": "8.46.0",
     "typescript": "5.1.6",
     "wrangler": "3.4.0"
   }
