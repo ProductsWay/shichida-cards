@@ -11089,7 +11089,7 @@ __metadata:
     expo-linear-gradient: 12.3.0
     expo-linking: 4.1.0
     expo-router: 2.0.1
-    expo-splash-screen: 0.20.4
+    expo-splash-screen: 0.20.5
     expo-status-bar: 1.6.0
     expo-updates: 0.18.11
     metro-minify-terser: 0.77.0
@@ -11432,7 +11432,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-splash-screen@npm:0.20.4, expo-splash-screen@npm:~0.20.2":
+"expo-splash-screen@npm:0.20.5":
+  version: 0.20.5
+  resolution: "expo-splash-screen@npm:0.20.5"
+  dependencies:
+    "@expo/prebuild-config": 6.2.6
+  peerDependencies:
+    expo: "*"
+  checksum: c4b0db3d0e8ab755a9f4afb1f20824229fa84ea2410528e4316a62e676e08f990157c9edd4af0978f79183d6b47cf3d4843b86f76c084274a40e07adfd697889
+  languageName: node
+  linkType: hard
+
+"expo-splash-screen@npm:~0.20.2":
   version: 0.20.4
   resolution: "expo-splash-screen@npm:0.20.4"
   dependencies:
