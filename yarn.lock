@@ -4157,7 +4157,7 @@ __metadata:
     "@tamagui/themes": latest
     "@tamagui/toast": latest
     "@tanstack/react-virtual": 3.0.0-beta.54
-    jotai: 2.2.2
+    jotai: 2.2.3
     tamagui: latest
   languageName: unknown
   linkType: soft
@@ -12511,15 +12511,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jotai@npm:2.2.2":
-  version: 2.2.2
-  resolution: "jotai@npm:2.2.2"
+"jotai@npm:2.2.3":
+  version: 2.2.3
+  resolution: "jotai@npm:2.2.3"
   peerDependencies:
+    "@types/react": ">=17.0.0"
     react: ">=17.0.0"
   peerDependenciesMeta:
+    "@types/react":
+      optional: true
     react:
       optional: true
-  checksum: 6b3a62714a22984afd4f089e5bb904dc9d7dc8f6eb26135746bf154da760e485bcd5d83b08297e9f1f3f7843eb8d604c9b480fdae97786170f2d00de0ad2f87b
+  checksum: 41f6c65bd115c92679047aaff47dfe99f8ec27cb4517144bf82b0fdd10b3b6a8b12c5101a80d9147c4660f5c2207aef13df138c8dc24e739f89cb15062ff2bdd
   languageName: node
   linkType: hard
 
