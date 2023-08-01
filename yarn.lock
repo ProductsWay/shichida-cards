@@ -5555,18 +5555,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:4.32.0":
-  version: 4.32.0
-  resolution: "@tanstack/query-core@npm:4.32.0"
-  checksum: 7b3d965d634ff7e754d5f36fe2e4bd9a34548c1d7b13161a2f1a84c8eaafa835f8193e9494952ae20d330f3b56680a5ef516228b2d85b5bc5a34a49947223e58
+"@tanstack/query-core@npm:4.32.1":
+  version: 4.32.1
+  resolution: "@tanstack/query-core@npm:4.32.1"
+  checksum: 7676e367219bfddb3e153ac3771c40b47a5bd2609699351a3342c03e5c17dd5d39dc24c4a27e64a0b2628d5fff99b22d9f29ef19b0eb693ee8f1f86ddfb28b0b
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:4.32.0":
-  version: 4.32.0
-  resolution: "@tanstack/react-query@npm:4.32.0"
+"@tanstack/react-query@npm:4.32.1":
+  version: 4.32.1
+  resolution: "@tanstack/react-query@npm:4.32.1"
   dependencies:
-    "@tanstack/query-core": 4.32.0
+    "@tanstack/query-core": 4.32.1
     use-sync-external-store: ^1.2.0
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -5577,7 +5577,7 @@ __metadata:
       optional: true
     react-native:
       optional: true
-  checksum: fe9c9573a6132961d0437ca3b8d9e379553e0ddd1e884d75dd34c98d5e64e4305e45119d95aec4a7d56aae7bf09cb2792fd9e75da731f5c14db5e43b36732d48
+  checksum: 31cdf93896ea0a5903c62e60fee937495cd3db1a1e3220b36012337e026c967034b5cfdd5b522339a5cc982fbb0000dad700991690e992e13f67cae41a72a589
   languageName: node
   linkType: hard
 
@@ -5958,7 +5958,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.2.17":
+"@types/react@npm:*":
   version: 18.2.17
   resolution: "@types/react@npm:18.2.17"
   dependencies:
@@ -5966,6 +5966,17 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: 150516b31bd98b635e4a56bcf2af007330b35cccb6e35e902f46a47f0e81e30c46cdacc095e91051bdf2f33e4846e7e62fd51b67e064dc7d15c00e15dfa449d5
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:18.2.18":
+  version: 18.2.18
+  resolution: "@types/react@npm:18.2.18"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: 2e0d75de2b618e76780019e52478b1bec2b015a9187aea30f84518c0c3ddc639055bdfea50864aece937bad0cb0544d0100b80d30f5461e72fbc1c3c0be8b140
   languageName: node
   linkType: hard
 
@@ -6621,11 +6632,11 @@ __metadata:
     "@tamagui/lucide-icons": latest
     "@tamagui/shorthands": latest
     "@tamagui/themes": latest
-    "@tanstack/react-query": 4.32.0
+    "@tanstack/react-query": 4.32.1
     "@trpc/client": 10.36.0
     "@trpc/next": 10.36.0
     "@trpc/react-query": 10.36.0
-    "@types/react": 18.2.17
+    "@types/react": 18.2.18
     "@types/react-native": 0.72.2
     burnt: 0.11.7
     expo-auth-session: 4.1.0
