@@ -17,7 +17,7 @@
     "@tamagui/lucide-icons": "latest",
     "@tamagui/shorthands": "latest",
     "@tamagui/themes": "latest",
-    "@tanstack/react-query": "4.32.5",
+    "@tanstack/react-query": "4.32.6",
     "@trpc/client": "10.37.1",
     "@trpc/next": "10.37.1",
     "@trpc/react-query": "10.37.1",
