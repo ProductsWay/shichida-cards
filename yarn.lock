@@ -4135,7 +4135,7 @@ __metadata:
     better-sqlite3: 8.5.0
     dotenv-cli: 7.2.1
     drizzle-kit: 0.19.12
-    drizzle-orm: 0.27.2
+    drizzle-orm: 0.28.0
     eslint: 8.46.0
     hono: 3.3.4
     typescript: 5.1.6
@@ -8862,9 +8862,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"drizzle-orm@npm:0.27.2":
-  version: 0.27.2
-  resolution: "drizzle-orm@npm:0.27.2"
+"drizzle-orm@npm:0.28.0":
+  version: 0.28.0
+  resolution: "drizzle-orm@npm:0.28.0"
   peerDependencies:
     "@aws-sdk/client-rds-data": ">=3"
     "@cloudflare/workers-types": ">=3"
@@ -8924,7 +8924,7 @@ __metadata:
       optional: true
     sqlite3:
       optional: true
-  checksum: a61d39bdd16c8038441829e9ecbf14b91738fab0ef2e89f6deb6b4a02c3ff56054f7898180b4a83eac014a2520994bdde75cf2be772ee8cb3c21ab6b1ed9b601
+  checksum: 7eb046f6055a4c1fe852347135672d7b1207198a897a8201ac4d532e3b6d68c5e10edfb25e3fe2f289e189d2b38998b061a8200b4cbd5f0a9199b3d3ebd589c6
   languageName: node
   linkType: hard
 
