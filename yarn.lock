@@ -2027,10 +2027,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflare/workers-types@npm:4.20230801.0":
-  version: 4.20230801.0
-  resolution: "@cloudflare/workers-types@npm:4.20230801.0"
-  checksum: 8a1cd9ef1535ff894dcafeda09b9fce01fcbb00fff80d2d294d3eb7e0c5324e39db54af8fd663307cbb01b1b7a9a82713455e7bf69c4470133bf82f320a46a0f
+"@cloudflare/workers-types@npm:4.20230807.0":
+  version: 4.20230807.0
+  resolution: "@cloudflare/workers-types@npm:4.20230807.0"
+  checksum: 944a1c6a37462c100b5e615c89131ff54bf1095fcd811f43a9d2cc5fa285c9722eef5fba1805fab080d550fff1dcff24197365b92c7d2116df76b7d894a4a372
   languageName: node
   linkType: hard
 
@@ -4255,7 +4255,7 @@ __metadata:
   dependencies:
     "@clerk/backend": 0.27.0
     "@cloudflare/d1": 1.4.1
-    "@cloudflare/workers-types": 4.20230801.0
+    "@cloudflare/workers-types": 4.20230807.0
     "@hono/trpc-server": 0.1.0
     "@trpc/server": 10.37.1
     "@tsndr/cloudflare-worker-jwt": 2.2.1
@@ -4264,7 +4264,7 @@ __metadata:
     drizzle-kit: 0.19.12
     drizzle-orm: 0.28.1
     eslint: 8.46.0
-    hono: 3.3.4
+    hono: 3.4.1
     typescript: 5.1.6
     wrangler: 3.4.0
   languageName: unknown
@@ -4283,7 +4283,7 @@ __metadata:
     "@tamagui/themes": latest
     "@tamagui/toast": latest
     "@tanstack/react-virtual": 3.0.0-beta.54
-    jotai: 2.3.0
+    jotai: 2.3.1
     tamagui: latest
   languageName: unknown
   linkType: soft
@@ -6094,7 +6094,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.2.18":
+"@types/react@npm:*":
   version: 18.2.18
   resolution: "@types/react@npm:18.2.18"
   dependencies:
@@ -6102,6 +6102,17 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: 2e0d75de2b618e76780019e52478b1bec2b015a9187aea30f84518c0c3ddc639055bdfea50864aece937bad0cb0544d0100b80d30f5461e72fbc1c3c0be8b140
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:18.2.19":
+  version: 18.2.19
+  resolution: "@types/react@npm:18.2.19"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: 1ef657b90c7413451bbac2fd2fbce4f8a093941bc5041d344ab9833bc113c8eebf6318dae8aeeb1a0f922f15bc772507e6aaa0c7b51847b5f7302921c8dd6740
   languageName: node
   linkType: hard
 
@@ -6761,7 +6772,7 @@ __metadata:
     "@trpc/client": 10.37.1
     "@trpc/next": 10.37.1
     "@trpc/react-query": 10.37.1
-    "@types/react": 18.2.18
+    "@types/react": 18.2.19
     "@types/react-native": 0.72.2
     burnt: 0.11.7
     expo-auth-session: 4.1.0
@@ -11742,10 +11753,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hono@npm:3.3.4":
-  version: 3.3.4
-  resolution: "hono@npm:3.3.4"
-  checksum: b0c32bbe067a88bdceaea822301013e6238efcd4d41cab838f1ec7bb498b13b081997c0781da874555295e4fc97b1064555e4844066964e27f5f19ada4c49e50
+"hono@npm:3.4.1":
+  version: 3.4.1
+  resolution: "hono@npm:3.4.1"
+  checksum: 46aa86b161b3721a10349e9559275901c6f757c30deb9394a6272206afd05a2df66a8a23ae3db593274c033faf202c87e34fa2a983f7712cf1da877e8b805938
   languageName: node
   linkType: hard
 
@@ -12647,9 +12658,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jotai@npm:2.3.0":
-  version: 2.3.0
-  resolution: "jotai@npm:2.3.0"
+"jotai@npm:2.3.1":
+  version: 2.3.1
+  resolution: "jotai@npm:2.3.1"
   peerDependencies:
     "@types/react": ">=17.0.0"
     react: ">=17.0.0"
@@ -12658,7 +12669,7 @@ __metadata:
       optional: true
     react:
       optional: true
-  checksum: 21df579532a61e9b745584a17252560ca7267af363e4d9ea3283a1f1290aded33b33d96c5748b09f3e7c23fceae02055a8093647d841b57eb87e566995b89e4a
+  checksum: c2e3dcb3206749cd7f63ab9cfec5d0bacd19ac8c1710e688716fcbdaa031c6bb78f10ed24ea8da65cd98b4dc3c04170c05eedb4d3284b9ad80858f834c69a914
   languageName: node
   linkType: hard
 
