@@ -4245,7 +4245,7 @@ __metadata:
     "@tsndr/cloudflare-worker-jwt": 2.2.1
     better-sqlite3: 8.5.1
     dotenv-cli: 7.3.0
-    drizzle-kit: 0.19.12
+    drizzle-kit: 0.19.13
     drizzle-orm: 0.28.2
     eslint: 8.47.0
     hono: 3.4.3
@@ -8914,9 +8914,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"drizzle-kit@npm:0.19.12":
-  version: 0.19.12
-  resolution: "drizzle-kit@npm:0.19.12"
+"drizzle-kit@npm:0.19.13":
+  version: 0.19.13
+  resolution: "drizzle-kit@npm:0.19.13"
   dependencies:
     "@drizzle-team/studio": ^0.0.5
     "@esbuild-kit/esm-loader": ^2.5.5
@@ -8932,7 +8932,7 @@ __metadata:
     zod: ^3.20.2
   bin:
     drizzle-kit: index.cjs
-  checksum: 36cbcbd5530a76c652fa1db7df82e644c15ac6681a42c7c578c2b7c6d51930f64360e93b467e50caad7ff84f4f244ee0971bc4583b2c7b52c0b7fad002a6c008
+  checksum: f6011f4cd83ef381599444b60133c958539b1eb2bb21cb06849e1f1ba2dde3fa6267ff0d2dcd8587a390f56ecce37e8d74e4cc972c2fd792248c0f3672385b6d
   languageName: node
   linkType: hard
 

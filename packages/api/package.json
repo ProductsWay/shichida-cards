@@ -27,7 +27,7 @@
     "@cloudflare/workers-types": "4.20230814.0",
     "better-sqlite3": "8.5.1",
     "dotenv-cli": "7.3.0",
-    "drizzle-kit": "0.19.12",
+    "drizzle-kit": "0.19.13",
     "eslint": "8.47.0",
     "typescript": "5.1.6",
     "wrangler": "3.5.1"
