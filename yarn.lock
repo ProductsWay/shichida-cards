@@ -4248,7 +4248,7 @@ __metadata:
     drizzle-kit: 0.19.13
     drizzle-orm: 0.28.2
     eslint: 8.47.0
-    hono: 3.4.3
+    hono: 3.5.0
     typescript: 5.1.6
     wrangler: 3.5.1
   languageName: unknown
@@ -10308,7 +10308,7 @@ __metadata:
     react-native-dotenv: 3.4.9
     react-native-gesture-handler: 2.12.1
     react-native-screens: 3.24.0
-    react-native-svg: 13.11.0
+    react-native-svg: 13.12.0
     react-native-web: 0.19.7
     typescript: 5.1.6
   languageName: unknown
@@ -11759,10 +11759,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hono@npm:3.4.3":
-  version: 3.4.3
-  resolution: "hono@npm:3.4.3"
-  checksum: 027842b71ed8f0dbd1203f9f440bebcb8a1d8508c2b4aabf5a22c8764429979dfd8bd6ef0cc05c776fcfdaf2f228e93711590fbd7e734976a2bca0fc76c7c07f
+"hono@npm:3.5.0":
+  version: 3.5.0
+  resolution: "hono@npm:3.5.0"
+  checksum: 950bc5724dbb3a52cce17f277a00be9d08fdb78a76b7c1f840a9033e8edecbd5664b6326caa3f34fc9308c92983ac9c654b7052e234c4c2e323a019042a2ce27
   languageName: node
   linkType: hard
 
@@ -15870,16 +15870,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-svg@npm:13.11.0":
-  version: 13.11.0
-  resolution: "react-native-svg@npm:13.11.0"
+"react-native-svg@npm:13.12.0":
+  version: 13.12.0
+  resolution: "react-native-svg@npm:13.12.0"
   dependencies:
     css-select: ^5.1.0
     css-tree: ^1.1.3
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: b6969e8a425a9f05ca368ba6fb7ea2c1dd759e1659b9270b967555a77ac82df91d287689c963b295b8281a713044c49090435a04742c20203469605a16b38821
+  checksum: 68a67a1fee30f7a07b555da7a59fd7a1e093c168409f5b2ac04d1629fd4a4b3e13e5a71e5701be44b505744f4053759b45a41963ac1818f7874f82e04e12f91b
   languageName: node
   linkType: hard
 
