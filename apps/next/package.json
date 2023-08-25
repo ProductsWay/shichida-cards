@@ -17,12 +17,12 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "0.72.4",
-    "react-native-web": "0.19.7",
+    "react-native-web": "0.19.8",
     "react-native-web-lite": "latest"
   },
   "devDependencies": {
     "@tamagui/next-plugin": "latest",
-    "@types/node": "18.17.9",
+    "@types/node": "18.17.11",
     "critters": "0.0.20",
     "dotenv-cli": "7.3.0",
     "eslint-config-next": "13.4.19",
