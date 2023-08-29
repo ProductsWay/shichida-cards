@@ -2952,15 +2952,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/metro-runtime@npm:2.2.5":
-  version: 2.2.5
-  resolution: "@expo/metro-runtime@npm:2.2.5"
+"@expo/metro-runtime@npm:2.2.6":
+  version: 2.2.6
+  resolution: "@expo/metro-runtime@npm:2.2.6"
   dependencies:
     "@bacons/react-views": ^1.1.3
     qs: ^6.10.3
   peerDependencies:
     react-native: "*"
-  checksum: d5014a9e117242000eb33954271aa4f347d275c645b5f05d72fdaa76ff2318ed7b58cf5c1e1064a022da10df12b6b4ae481b9a60a76c656d0fa47136748f0398
+  checksum: 0953736dd9e30f6f52e637f6e8e8856f881daf21137ac216f7675cb39619caaae31ae573a9d49ae4ead3806e6687ebd553e4830fd1bf809addebf47b81ea3ada
   languageName: node
   linkType: hard
 
@@ -10050,7 +10050,7 @@ __metadata:
     expo-image: 1.3.2
     expo-linear-gradient: 12.3.0
     expo-linking: 4.1.0
-    expo-router: 2.0.2
+    expo-router: 2.0.4
     expo-splash-screen: 0.20.5
     expo-status-bar: 1.6.0
     expo-updates: 0.18.12
@@ -10347,12 +10347,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-router@npm:2.0.2":
-  version: 2.0.2
-  resolution: "expo-router@npm:2.0.2"
+"expo-router@npm:2.0.4":
+  version: 2.0.4
+  resolution: "expo-router@npm:2.0.4"
   dependencies:
     "@bacons/react-views": ^1.1.3
-    "@expo/metro-runtime": 2.2.5
+    "@expo/metro-runtime": 2.2.6
     "@radix-ui/react-slot": 1.0.1
     "@react-navigation/bottom-tabs": ~6.5.7
     "@react-navigation/native": ~6.1.6
@@ -10381,7 +10381,7 @@ __metadata:
       optional: true
     react-native-reanimated:
       optional: true
-  checksum: 9999adbddf1ce2435a86caafda3e089d80451da360d2ecf72888093eadee1db0c023428ae87c3f947f5db60184c240ffbb47e8cebbcf4a732fa06e66978371f1
+  checksum: 7b588c04623f49f02bbcf20fdf79ec3c916d8139366fb92632b5dfcfeec68cc17b57b24131a45413c042ec7761ecebd1fa7cde0899603d37bb8c1b4805149e1b
   languageName: node
   linkType: hard
 
