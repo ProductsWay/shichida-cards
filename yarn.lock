@@ -1713,11 +1713,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@clerk/clerk-expo@npm:0.18.19":
-  version: 0.18.19
-  resolution: "@clerk/clerk-expo@npm:0.18.19"
+"@clerk/clerk-expo@npm:0.18.20":
+  version: 0.18.20
+  resolution: "@clerk/clerk-expo@npm:0.18.20"
   dependencies:
-    "@clerk/clerk-js": ^4.56.1
+    "@clerk/clerk-js": ^4.56.2
     "@clerk/clerk-react": ^4.24.0
     base-64: 1.0.0
     react-native-url-polyfill: 1.3.0
@@ -1725,13 +1725,13 @@ __metadata:
     expo-auth-session: ">=4"
     expo-web-browser: ">=12"
     react: ">=16"
-  checksum: a5de0aad417befcc41a3a9ea32d9c1542e3a651219012cd9d491e225107934b7f5928e73bacdd5bb32107ac2db85f725345e58a1e5bd642cdc5ac5f6df3d8822
+  checksum: a20d4715caad0d0f910af04f01332ea35bda5e38f116527288b59b19354eda827d247f2eb932e5c0fa0c86ba1e712fc515e240333690da1c6cb3a0d700a83618
   languageName: node
   linkType: hard
 
-"@clerk/clerk-js@npm:^4.56.1":
-  version: 4.56.1
-  resolution: "@clerk/clerk-js@npm:4.56.1"
+"@clerk/clerk-js@npm:^4.56.2":
+  version: 4.56.2
+  resolution: "@clerk/clerk-js@npm:4.56.2"
   dependencies:
     "@clerk/localizations": ^1.25.0
     "@clerk/shared": ^0.22.0
@@ -1750,7 +1750,7 @@ __metadata:
     regenerator-runtime: 0.13.11
   peerDependencies:
     react: ">=18"
-  checksum: 9c338d85e4ed5750e27f2ee46fab0f50cfe394e202dbefd365e837cde324c467935303773779182631376e454cf360f1108d865cf76945701f031333dc75c5be
+  checksum: 5a8a8783b1735a818b53c60f31526c7948ceb0efe64d9ec75b1991df1a5d68e675b98673a31a9e79313e53380837c07dfcb5742b0bb9e62adf9a89625b189a9a
   languageName: node
   linkType: hard
 
@@ -2952,15 +2952,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/metro-runtime@npm:2.2.6":
-  version: 2.2.6
-  resolution: "@expo/metro-runtime@npm:2.2.6"
+"@expo/metro-runtime@npm:2.2.7":
+  version: 2.2.7
+  resolution: "@expo/metro-runtime@npm:2.2.7"
   dependencies:
     "@bacons/react-views": ^1.1.3
     qs: ^6.10.3
   peerDependencies:
     react-native: "*"
-  checksum: 0953736dd9e30f6f52e637f6e8e8856f881daf21137ac216f7675cb39619caaae31ae573a9d49ae4ead3806e6687ebd553e4830fd1bf809addebf47b81ea3ada
+  checksum: db02cce741eb05c5ab1755b812928763a7a4f47e08c244808623f22cfedd933999e6883746aef7b98420cae53b320694509f66268ae04fe5f8dfabe11f937058
   languageName: node
   linkType: hard
 
@@ -4099,7 +4099,7 @@ __metadata:
     "@tamagui/themes": latest
     "@tamagui/toast": latest
     "@tanstack/react-virtual": 3.0.0-beta.57
-    jotai: 2.4.0
+    jotai: 2.4.1
     tamagui: latest
   languageName: unknown
   linkType: soft
@@ -6551,7 +6551,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app@workspace:packages/app"
   dependencies:
-    "@clerk/clerk-expo": 0.18.19
+    "@clerk/clerk-expo": 0.18.20
     "@clerk/nextjs": 4.23.3
     "@shichida/ui": "*"
     "@shopify/flash-list": 1.5.0
@@ -10050,7 +10050,7 @@ __metadata:
     expo-image: 1.3.2
     expo-linear-gradient: 12.3.0
     expo-linking: 4.1.0
-    expo-router: 2.0.4
+    expo-router: 2.0.5
     expo-splash-screen: 0.20.5
     expo-status-bar: 1.6.0
     expo-updates: 0.18.12
@@ -10060,7 +10060,7 @@ __metadata:
     react-native: 0.72.4
     react-native-dotenv: 3.4.9
     react-native-gesture-handler: 2.12.1
-    react-native-screens: 3.24.0
+    react-native-screens: 3.25.0
     react-native-svg: 13.13.0
     react-native-web: 0.19.8
     typescript: 5.2.2
@@ -10347,12 +10347,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-router@npm:2.0.4":
-  version: 2.0.4
-  resolution: "expo-router@npm:2.0.4"
+"expo-router@npm:2.0.5":
+  version: 2.0.5
+  resolution: "expo-router@npm:2.0.5"
   dependencies:
     "@bacons/react-views": ^1.1.3
-    "@expo/metro-runtime": 2.2.6
+    "@expo/metro-runtime": 2.2.7
     "@radix-ui/react-slot": 1.0.1
     "@react-navigation/bottom-tabs": ~6.5.7
     "@react-navigation/native": ~6.1.6
@@ -10381,7 +10381,7 @@ __metadata:
       optional: true
     react-native-reanimated:
       optional: true
-  checksum: 7b588c04623f49f02bbcf20fdf79ec3c916d8139366fb92632b5dfcfeec68cc17b57b24131a45413c042ec7761ecebd1fa7cde0899603d37bb8c1b4805149e1b
+  checksum: c45fe3d4c29c97c3b5ff8f8cda43a1918ccb35a2d38ffd82b3735fe7e92a54563982a4422960478ccdf93d5b3faa287e942aafd5159126e19d49ceca5a914ab0
   languageName: node
   linkType: hard
 
@@ -12455,9 +12455,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jotai@npm:2.4.0":
-  version: 2.4.0
-  resolution: "jotai@npm:2.4.0"
+"jotai@npm:2.4.1":
+  version: 2.4.1
+  resolution: "jotai@npm:2.4.1"
   peerDependencies:
     "@types/react": ">=17.0.0"
     react: ">=17.0.0"
@@ -12466,7 +12466,7 @@ __metadata:
       optional: true
     react:
       optional: true
-  checksum: 692c450bae3412da81f886a44cd589a0988479aadafabf01977c6bcd0b8793d5ba85d20f51fea40c4c786db50f29916fbe00c87d147726b86f05f72d7e9a3cdb
+  checksum: e77b17c47f7b9846cee7af0689f2c67dce20d99f1d22ade1f8255d297d60843c38b062c2ab7f48b609db4b821b29a629f726b6fa47bc63fc13fd90ef59197378
   languageName: node
   linkType: hard
 
@@ -15627,16 +15627,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-screens@npm:3.24.0":
-  version: 3.24.0
-  resolution: "react-native-screens@npm:3.24.0"
+"react-native-screens@npm:3.25.0":
+  version: 3.25.0
+  resolution: "react-native-screens@npm:3.25.0"
   dependencies:
     react-freeze: ^1.0.0
     warn-once: ^0.1.0
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: e6eedf2f57eccd22ee9c0ec7a6cd92603db71f22206985b219b88b28f1db5d0e599df68a427ee31b171dcbf8adf23db9b98ffb38f12ffb1a59ec53e1a5a0bc0d
+  checksum: 959e107091944ab1a01e8328f3094020f495f05c23509920922df1bf285942e9ed77e3769b560e1f3c47a9925a18ab4f66a56ff5817ef5f220735e30efe09401
   languageName: node
   linkType: hard
 
