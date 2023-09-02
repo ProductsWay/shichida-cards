@@ -4075,7 +4075,7 @@ __metadata:
     "@hono/trpc-server": 0.1.0
     "@trpc/server": 10.38.1
     "@tsndr/cloudflare-worker-jwt": 2.2.2
-    better-sqlite3: 8.5.2
+    better-sqlite3: 8.6.0
     dotenv-cli: 7.3.0
     drizzle-kit: 0.19.13
     drizzle-orm: 0.28.5
@@ -5853,10 +5853,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.17.13":
-  version: 18.17.13
-  resolution: "@types/node@npm:18.17.13"
-  checksum: d70f263b7591f3993ddc348b809c867f9e4cc5151c7108ffdc89f32777da829e14a471932357da099afbd8db03f62bfc8119cd2d56f06b826bb28bb879feaf9f
+"@types/node@npm:18.17.14":
+  version: 18.17.14
+  resolution: "@types/node@npm:18.17.14"
+  checksum: f96ce1e588426a26cf82440193084f8bbab47bfb3c2e668cf174095f99ce808a20654b2137448c7e88cfd7b6c2b8521ffb6f714f521b3502ac595a0df0bff679
   languageName: node
   linkType: hard
 
@@ -7118,7 +7118,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"better-sqlite3@npm:8.5.2, better-sqlite3@npm:^8.1.0":
+"better-sqlite3@npm:8.6.0":
+  version: 8.6.0
+  resolution: "better-sqlite3@npm:8.6.0"
+  dependencies:
+    bindings: ^1.5.0
+    node-gyp: latest
+    prebuild-install: ^7.1.1
+  checksum: 9ebdfd675352347cda1ba30d620a3c512d9db827a1eba66460fd48203a7ad8138b0195893bbf47d40f704bcdd598710041271d4ed69779979b6f784c0d3579a1
+  languageName: node
+  linkType: hard
+
+"better-sqlite3@npm:^8.1.0":
   version: 8.5.2
   resolution: "better-sqlite3@npm:8.5.2"
   dependencies:
@@ -14095,7 +14106,7 @@ __metadata:
   dependencies:
     "@tamagui/next-plugin": latest
     "@tamagui/next-theme": latest
-    "@types/node": 18.17.13
+    "@types/node": 18.17.14
     app: "*"
     critters: 0.0.20
     dotenv-cli: 7.3.0
@@ -15159,7 +15170,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prebuild-install@npm:^7.1.0":
+"prebuild-install@npm:^7.1.0, prebuild-install@npm:^7.1.1":
   version: 7.1.1
   resolution: "prebuild-install@npm:7.1.1"
   dependencies:
