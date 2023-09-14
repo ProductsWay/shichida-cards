@@ -17,7 +17,7 @@
     "watch": "tamagui-build --watch"
   },
   "dependencies": {
-    "@shopify/flash-list": "1.5.0",
+    "@shopify/flash-list": "1.6.0",
     "@tamagui/animations-react-native": "latest",
     "@tamagui/font-inter": "latest",
     "@tamagui/react-native-media-driver": "latest",
