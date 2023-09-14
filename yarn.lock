@@ -3043,15 +3043,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/metro-runtime@npm:2.2.7":
-  version: 2.2.7
-  resolution: "@expo/metro-runtime@npm:2.2.7"
+"@expo/metro-runtime@npm:2.2.8":
+  version: 2.2.8
+  resolution: "@expo/metro-runtime@npm:2.2.8"
   dependencies:
     "@bacons/react-views": ^1.1.3
     qs: ^6.10.3
   peerDependencies:
     react-native: "*"
-  checksum: db02cce741eb05c5ab1755b812928763a7a4f47e08c244808623f22cfedd933999e6883746aef7b98420cae53b320694509f66268ae04fe5f8dfabe11f937058
+  checksum: 71f5fe5206d7c330698d08c602ea2ee65129e1fa41133f62e820c38df189170abba7fd8dbafbfd270ea96ef1276712bd17f2c25f543891913723c3139f5f76e1
   languageName: node
   linkType: hard
 
@@ -4193,7 +4193,7 @@ __metadata:
     eslint: 8.49.0
     hono: 3.6.0
     typescript: 5.2.2
-    wrangler: 3.7.0
+    wrangler: 3.8.0
   languageName: unknown
   linkType: soft
 
@@ -4201,7 +4201,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@shichida/ui@workspace:packages/ui"
   dependencies:
-    "@shopify/flash-list": 1.5.0
+    "@shopify/flash-list": 1.6.0
     "@tamagui/animations-react-native": latest
     "@tamagui/build": latest
     "@tamagui/font-inter": latest
@@ -4215,9 +4215,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@shopify/flash-list@npm:1.5.0":
-  version: 1.5.0
-  resolution: "@shopify/flash-list@npm:1.5.0"
+"@shopify/flash-list@npm:1.6.0":
+  version: 1.6.0
+  resolution: "@shopify/flash-list@npm:1.6.0"
   dependencies:
     recyclerlistview: 4.2.0
     tslib: 2.4.0
@@ -4225,7 +4225,7 @@ __metadata:
     "@babel/runtime": "*"
     react: "*"
     react-native: "*"
-  checksum: 0abe0651e4cd8c22784b57137b25791f5991374d324afffd7aef3d87bea2de603dddfcd340f1533ebeb1473e5f51b7b854fe0a60cccfdbd1fb9f89b59b50d9ec
+  checksum: e1424d43d642a0cafdc59973440bb4151239e9be3fd60894aa345a3929f27837fd04675a225fc86ed8bc4fa06d8929143a38ca0d11968c2d71a956b19babc19c
   languageName: node
   linkType: hard
 
@@ -6653,7 +6653,7 @@ __metadata:
     "@clerk/clerk-expo": 0.19.1
     "@clerk/nextjs": 4.23.5
     "@shichida/ui": "*"
-    "@shopify/flash-list": 1.5.0
+    "@shopify/flash-list": 1.6.0
     "@tamagui/animations-react-native": latest
     "@tamagui/colors": latest
     "@tamagui/font-inter": latest
@@ -10150,7 +10150,7 @@ __metadata:
     expo-image: 1.5.1
     expo-linear-gradient: 12.5.0
     expo-linking: 4.1.0
-    expo-router: 2.0.5
+    expo-router: 2.0.6
     expo-splash-screen: 0.22.0
     expo-status-bar: 1.7.1
     expo-updates: 0.18.12
@@ -10352,17 +10352,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-head@npm:0.0.11":
-  version: 0.0.11
-  resolution: "expo-head@npm:0.0.11"
+"expo-head@npm:0.0.12":
+  version: 0.0.12
+  resolution: "expo-head@npm:0.0.12"
   dependencies:
     react-helmet-async: ^1.3.0
   peerDependencies:
     expo: "*"
-    expo-constants: "*"
     react: "*"
     react-native: "*"
-  checksum: 243f961d95d40996f216f2618336dd3c3f49da798e6ccd789a0484fdab0c018a6c9ec9d8e6acd4274e50572682368406effc9409d613c652732cb312f2e34187
+  checksum: 816051658818af9e9bbefbd0049c0bd7d7efca4547d3a6ec7777eced0e3b07165129ae9f454139b913d23a0b083f52364107bd4ea2c95a0dec0d0b0af7b8d48f
   languageName: node
   linkType: hard
 
@@ -10447,17 +10446,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-router@npm:2.0.5":
-  version: 2.0.5
-  resolution: "expo-router@npm:2.0.5"
+"expo-router@npm:2.0.6":
+  version: 2.0.6
+  resolution: "expo-router@npm:2.0.6"
   dependencies:
     "@bacons/react-views": ^1.1.3
-    "@expo/metro-runtime": 2.2.7
+    "@expo/metro-runtime": 2.2.8
     "@radix-ui/react-slot": 1.0.1
     "@react-navigation/bottom-tabs": ~6.5.7
     "@react-navigation/native": ~6.1.6
     "@react-navigation/native-stack": ~6.9.12
-    expo-head: 0.0.11
+    expo-head: 0.0.12
     expo-splash-screen: ~0.20.2
     query-string: 7.1.3
     react-helmet-async: ^1.3.0
@@ -10481,7 +10480,7 @@ __metadata:
       optional: true
     react-native-reanimated:
       optional: true
-  checksum: c45fe3d4c29c97c3b5ff8f8cda43a1918ccb35a2d38ffd82b3735fe7e92a54563982a4422960478ccdf93d5b3faa287e942aafd5159126e19d49ceca5a914ab0
+  checksum: 5c9fb300397aba9dc1b23abc15c6bfbd2797b289f11f10de26bbcdad5d66291030d1751c29e97d9346adec3e2cc3fdca4a8a5e53556170fce10439c40a41ccb0
   languageName: node
   linkType: hard
 
@@ -18906,9 +18905,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:3.7.0":
-  version: 3.7.0
-  resolution: "wrangler@npm:3.7.0"
+"wrangler@npm:3.8.0":
+  version: 3.8.0
+  resolution: "wrangler@npm:3.8.0"
   dependencies:
     "@cloudflare/kv-asset-handler": ^0.2.0
     "@esbuild-plugins/node-globals-polyfill": ^0.2.3
@@ -18929,7 +18928,7 @@ __metadata:
   bin:
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: ae70bb2958d5f7d8d7b1d114b1cf11d81667b2f402821f44ec5662e74bfc42596cf0f84cf2a62c2a468542903bcd3f4dc7b37a32dcda5ac28bb7b91ee85af7aa
+  checksum: cba96dbdc3402a61ee518c4d591d7beb714fe55dce6394c15b93eef7c6b9b6eac49358a8b2e009a01ba630837eac89069b99c6c25dae454ec147d9c7a6d78823
   languageName: node
   linkType: hard
 
