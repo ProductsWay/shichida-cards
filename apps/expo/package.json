@@ -31,7 +31,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "0.72.4",
-    "react-native-gesture-handler": "2.13.0",
+    "react-native-gesture-handler": "2.13.1",
     "react-native-screens": "3.25.0",
     "react-native-svg": "13.13.0",
     "react-native-web": "0.19.8"
@@ -41,16 +41,16 @@
     "@expo/metro-config": "0.10.7",
     "@tamagui/babel-plugin": "latest",
     "babel-plugin-transform-inline-environment-variables": "0.4.4",
-    "metro-minify-terser": "0.79.0",
+    "metro-minify-terser": "0.79.1",
     "react-native-dotenv": "3.4.9",
     "typescript": "5.2.2"
   },
   "resolutions": {
-    "metro": "0.79.0",
-    "metro-resolver": "0.79.0"
+    "metro": "0.79.1",
+    "metro-resolver": "0.79.1"
   },
   "overrides": {
-    "metro": "0.79.0",
-    "metro-resolver": "0.79.0"
+    "metro": "0.79.1",
+    "metro-resolver": "0.79.1"
   }
 }
