@@ -3084,15 +3084,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/metro-runtime@npm:2.2.8":
-  version: 2.2.8
-  resolution: "@expo/metro-runtime@npm:2.2.8"
+"@expo/metro-runtime@npm:2.2.9":
+  version: 2.2.9
+  resolution: "@expo/metro-runtime@npm:2.2.9"
   dependencies:
     "@bacons/react-views": ^1.1.3
     qs: ^6.10.3
   peerDependencies:
     react-native: "*"
-  checksum: 71f5fe5206d7c330698d08c602ea2ee65129e1fa41133f62e820c38df189170abba7fd8dbafbfd270ea96ef1276712bd17f2c25f543891913723c3139f5f76e1
+  checksum: fca625be9c3451f282a04e499f8c4461c06ab2e2001660433b8025ee3b7cec1f75b4b5f7502174631815be6ca6dcc294fe03c96c0d01d770ccdf463f08946c39
   languageName: node
   linkType: hard
 
@@ -6002,10 +6002,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.17.17":
-  version: 18.17.17
-  resolution: "@types/node@npm:18.17.17"
-  checksum: ff28f347c77723780836f9bb2ffa6db0cd72490bfd7604397c03db31db34f1f2899e82f0aaf3e825efeb09c15bd94d076ea9aca19a1407e1b56cb4603318936c
+"@types/node@npm:18.17.18":
+  version: 18.17.18
+  resolution: "@types/node@npm:18.17.18"
+  checksum: 59cbd906363d37017fe9ba0c08c1446e440d4d977459609c5f90b8fb7eb41f273ce8af30c5a5b5d599d7de934c1b3702bc9fc27caf8d2270e5cdb659c5232991
   languageName: node
   linkType: hard
 
@@ -10223,7 +10223,7 @@ __metadata:
     expo-image: 1.5.1
     expo-linear-gradient: 12.5.0
     expo-linking: 4.1.0
-    expo-router: 2.0.6
+    expo-router: 2.0.7
     expo-splash-screen: 0.22.0
     expo-status-bar: 1.7.1
     expo-updates: 0.18.13
@@ -10235,7 +10235,7 @@ __metadata:
     react-native-gesture-handler: 2.13.1
     react-native-screens: 3.25.0
     react-native-svg: 13.13.0
-    react-native-web: 0.19.8
+    react-native-web: 0.19.9
     typescript: 5.2.2
   languageName: unknown
   linkType: soft
@@ -10425,16 +10425,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-head@npm:0.0.12":
-  version: 0.0.12
-  resolution: "expo-head@npm:0.0.12"
+"expo-head@npm:0.0.13":
+  version: 0.0.13
+  resolution: "expo-head@npm:0.0.13"
   dependencies:
     react-helmet-async: ^1.3.0
   peerDependencies:
     expo: "*"
     react: "*"
     react-native: "*"
-  checksum: 816051658818af9e9bbefbd0049c0bd7d7efca4547d3a6ec7777eced0e3b07165129ae9f454139b913d23a0b083f52364107bd4ea2c95a0dec0d0b0af7b8d48f
+  checksum: 01d9cb1b6a570b5bfdbd69fbc1ca96c61d9aa14b5f403680a0db7233c5ea407e490dad6458552b7329b3e0e7d8c85a5886a22dba48998a32adc731e00e621046
   languageName: node
   linkType: hard
 
@@ -10519,17 +10519,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-router@npm:2.0.6":
-  version: 2.0.6
-  resolution: "expo-router@npm:2.0.6"
+"expo-router@npm:2.0.7":
+  version: 2.0.7
+  resolution: "expo-router@npm:2.0.7"
   dependencies:
     "@bacons/react-views": ^1.1.3
-    "@expo/metro-runtime": 2.2.8
+    "@expo/metro-runtime": 2.2.9
     "@radix-ui/react-slot": 1.0.1
     "@react-navigation/bottom-tabs": ~6.5.7
     "@react-navigation/native": ~6.1.6
     "@react-navigation/native-stack": ~6.9.12
-    expo-head: 0.0.12
+    expo-head: 0.0.13
     expo-splash-screen: ~0.20.2
     query-string: 7.1.3
     react-helmet-async: ^1.3.0
@@ -10553,7 +10553,7 @@ __metadata:
       optional: true
     react-native-reanimated:
       optional: true
-  checksum: 5c9fb300397aba9dc1b23abc15c6bfbd2797b289f11f10de26bbcdad5d66291030d1751c29e97d9346adec3e2cc3fdca4a8a5e53556170fce10439c40a41ccb0
+  checksum: c122ed5be87d1c0e11534b428235fdbe1d76d470dd303e68a48ed3d42e34218fe81a7ffc277f14c300e689febc98c5c8d0b96e045d2850245893157450ccb7de
   languageName: node
   linkType: hard
 
@@ -14277,7 +14277,7 @@ __metadata:
   dependencies:
     "@tamagui/next-plugin": latest
     "@tamagui/next-theme": latest
-    "@types/node": 18.17.17
+    "@types/node": 18.17.18
     app: "*"
     critters: 0.0.20
     dotenv-cli: 7.3.0
@@ -14287,7 +14287,7 @@ __metadata:
     react: 18.2.0
     react-dom: 18.2.0
     react-native: 0.72.4
-    react-native-web: 0.19.8
+    react-native-web: 0.19.9
     react-native-web-lite: latest
     vercel: latest
   languageName: unknown
@@ -15876,9 +15876,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-web@npm:0.19.8":
-  version: 0.19.8
-  resolution: "react-native-web@npm:0.19.8"
+"react-native-web@npm:0.19.9":
+  version: 0.19.9
+  resolution: "react-native-web@npm:0.19.9"
   dependencies:
     "@babel/runtime": ^7.18.6
     "@react-native/normalize-color": ^2.1.0
@@ -15891,7 +15891,7 @@ __metadata:
   peerDependencies:
     react: ^18.0.0
     react-dom: ^18.0.0
-  checksum: b10bb37730d9d991b3b12c7cc408a6db62b7a7cd14e4f9f44d1128de2ffb2d8fc2cf2122d5c608d320239d342bfe07f1eb75dccdec2ae2ee93078eb879c5ef03
+  checksum: 79fe259a9fc0168c1cd12e72011a5e21cf2493a6b1a92334c3b5cf73ce2219fbf2adb79bca528d02b9643ff4a027e18e4988bc9d50e924be6e9d658c97a7e5ec
   languageName: node
   linkType: hard
 
