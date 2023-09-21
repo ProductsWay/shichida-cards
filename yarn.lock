@@ -4213,7 +4213,7 @@ __metadata:
     "@cloudflare/d1": 1.4.1
     "@cloudflare/workers-types": 4.20230914.0
     "@hono/trpc-server": 0.1.0
-    "@trpc/server": 10.38.3
+    "@trpc/server": 10.38.4
     "@tsndr/cloudflare-worker-jwt": 2.2.2
     better-sqlite3: 8.6.0
     dotenv-cli: 7.3.0
@@ -5693,49 +5693,49 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@trpc/client@npm:10.38.3":
-  version: 10.38.3
-  resolution: "@trpc/client@npm:10.38.3"
+"@trpc/client@npm:10.38.4":
+  version: 10.38.4
+  resolution: "@trpc/client@npm:10.38.4"
   peerDependencies:
-    "@trpc/server": 10.38.3
-  checksum: 4b249d8f1d51fe76c00d55d8a148578397dae66a8d7fa04568bd6c056bb4ae97ef855dfcc48c5296d751adfb944de7ec6a7a989f7c5d9304931a0865275d2fd4
+    "@trpc/server": 10.38.4
+  checksum: 017f61d8cea5362d565ba5c935fbf2dcf32e3478bafc52583053685a454a16da6cc8f577454ca3a2fe032eabc472848ba87c3be144c71f19c419a1a6b19a7114
   languageName: node
   linkType: hard
 
-"@trpc/next@npm:10.38.3":
-  version: 10.38.3
-  resolution: "@trpc/next@npm:10.38.3"
+"@trpc/next@npm:10.38.4":
+  version: 10.38.4
+  resolution: "@trpc/next@npm:10.38.4"
   dependencies:
     react-ssr-prepass: ^1.5.0
   peerDependencies:
     "@tanstack/react-query": ^4.18.0
-    "@trpc/client": 10.38.3
-    "@trpc/react-query": 10.38.3
-    "@trpc/server": 10.38.3
+    "@trpc/client": 10.38.4
+    "@trpc/react-query": 10.38.4
+    "@trpc/server": 10.38.4
     next: "*"
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: 14a9f629b0b2a302bd7a866b51122029f94aab0ac867b73856e79810a16ca5c86f39f6b4569835cb5ee716f82decde2fa4f9602503433816030eb5b81b93e610
+  checksum: 28d020d42221d69848a49038604d7e36e0b1bcc48b95ff794eb9787d1e0001e453477290e1020839c0080d1f5cfef33d27a6aaa84699eebfddcf01007d74138b
   languageName: node
   linkType: hard
 
-"@trpc/react-query@npm:10.38.3":
-  version: 10.38.3
-  resolution: "@trpc/react-query@npm:10.38.3"
+"@trpc/react-query@npm:10.38.4":
+  version: 10.38.4
+  resolution: "@trpc/react-query@npm:10.38.4"
   peerDependencies:
     "@tanstack/react-query": ^4.18.0
-    "@trpc/client": 10.38.3
-    "@trpc/server": 10.38.3
+    "@trpc/client": 10.38.4
+    "@trpc/server": 10.38.4
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: 62195a61b886745eac6329f7e3caa3721754eead5ba87010a0c9a86286ac5c6b1b5559d19468aa91094ac5807b3b5fb4b440fcb3a7c9dd952756f2d833446785
+  checksum: 4d6e58eb262322d46e326839564a96c5bff7847fefed9442c8544ef46d6af07d096613ff147b964760b1162fb13fea6ac08e16580169c156f12293cb626fb1cd
   languageName: node
   linkType: hard
 
-"@trpc/server@npm:10.38.3":
-  version: 10.38.3
-  resolution: "@trpc/server@npm:10.38.3"
-  checksum: 215cff159591f9bdde41fe7be07ad548d358efb31982f4b93726041f7931693e9dfbcc86a929db643deed764d42cb3972ec7e1043887f35379ff48c2eb1c80c5
+"@trpc/server@npm:10.38.4":
+  version: 10.38.4
+  resolution: "@trpc/server@npm:10.38.4"
+  checksum: 9cb1ad5395d5ab059a76209f61d6922d1dee3de5fe412417f3fe28c46e29914a20e0342ec3d9798f24a6b37ff7771263bb797be2962f09f1ee6a92f118417c82
   languageName: node
   linkType: hard
 
@@ -6710,9 +6710,9 @@ __metadata:
     "@tamagui/shorthands": latest
     "@tamagui/themes": latest
     "@tanstack/react-query": 4.35.3
-    "@trpc/client": 10.38.3
-    "@trpc/next": 10.38.3
-    "@trpc/react-query": 10.38.3
+    "@trpc/client": 10.38.4
+    "@trpc/next": 10.38.4
+    "@trpc/react-query": 10.38.4
     "@types/react": 18.2.22
     "@types/react-native": 0.72.2
     burnt: 0.11.7
