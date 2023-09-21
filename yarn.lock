@@ -3084,15 +3084,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/metro-runtime@npm:2.2.9":
-  version: 2.2.9
-  resolution: "@expo/metro-runtime@npm:2.2.9"
+"@expo/metro-runtime@npm:2.2.10":
+  version: 2.2.10
+  resolution: "@expo/metro-runtime@npm:2.2.10"
   dependencies:
     "@bacons/react-views": ^1.1.3
     qs: ^6.10.3
   peerDependencies:
     react-native: "*"
-  checksum: fca625be9c3451f282a04e499f8c4461c06ab2e2001660433b8025ee3b7cec1f75b4b5f7502174631815be6ca6dcc294fe03c96c0d01d770ccdf463f08946c39
+  checksum: 6b1f8392e6e1be684d8389ef1ca44a8b91fded722d085c23feaadab060e1d19cf959c0a64c9693b463f1d9659c9a4b40e2c0bd6dbf0c3cd81db12f9af19d6e93
   languageName: node
   linkType: hard
 
@@ -4220,7 +4220,7 @@ __metadata:
     drizzle-kit: 0.19.13
     drizzle-orm: 0.28.6
     eslint: 8.49.0
-    hono: 3.6.3
+    hono: 3.7.0
     typescript: 5.2.2
     wrangler: 3.9.0
   languageName: unknown
@@ -10211,7 +10211,7 @@ __metadata:
     expo-image: 1.5.1
     expo-linear-gradient: 12.5.0
     expo-linking: 4.1.0
-    expo-router: 2.0.7
+    expo-router: 2.0.8
     expo-splash-screen: 0.22.0
     expo-status-bar: 1.7.1
     expo-updates: 0.18.13
@@ -10413,16 +10413,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-head@npm:0.0.13":
-  version: 0.0.13
-  resolution: "expo-head@npm:0.0.13"
+"expo-head@npm:0.0.14":
+  version: 0.0.14
+  resolution: "expo-head@npm:0.0.14"
   dependencies:
     react-helmet-async: ^1.3.0
   peerDependencies:
     expo: "*"
     react: "*"
     react-native: "*"
-  checksum: 01d9cb1b6a570b5bfdbd69fbc1ca96c61d9aa14b5f403680a0db7233c5ea407e490dad6458552b7329b3e0e7d8c85a5886a22dba48998a32adc731e00e621046
+  checksum: 9f4d2b00f4a969c327635cc57e451496fdc1281d6e26bde56301510eb7d3fa2364dbbf958272c3c295055bd0d780d3f500a110b655609e4c9107d0693b81a799
   languageName: node
   linkType: hard
 
@@ -10507,17 +10507,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-router@npm:2.0.7":
-  version: 2.0.7
-  resolution: "expo-router@npm:2.0.7"
+"expo-router@npm:2.0.8":
+  version: 2.0.8
+  resolution: "expo-router@npm:2.0.8"
   dependencies:
     "@bacons/react-views": ^1.1.3
-    "@expo/metro-runtime": 2.2.9
+    "@expo/metro-runtime": 2.2.10
     "@radix-ui/react-slot": 1.0.1
     "@react-navigation/bottom-tabs": ~6.5.7
     "@react-navigation/native": ~6.1.6
     "@react-navigation/native-stack": ~6.9.12
-    expo-head: 0.0.13
+    expo-head: 0.0.14
     expo-splash-screen: ~0.20.2
     query-string: 7.1.3
     react-helmet-async: ^1.3.0
@@ -10541,7 +10541,7 @@ __metadata:
       optional: true
     react-native-reanimated:
       optional: true
-  checksum: c122ed5be87d1c0e11534b428235fdbe1d76d470dd303e68a48ed3d42e34218fe81a7ffc277f14c300e689febc98c5c8d0b96e045d2850245893157450ccb7de
+  checksum: b7cf02fa32c765f0afe8b3cdea51f27c5a4b0258f2e2692ba90557ad1b7680d99da0a89d55b2629ae5b437859689b3f43593fd31e3f50468525d2f37848632c0
   languageName: node
   linkType: hard
 
@@ -11684,10 +11684,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hono@npm:3.6.3":
-  version: 3.6.3
-  resolution: "hono@npm:3.6.3"
-  checksum: ae36ee31484df65af71890fe9f84aae2eb374222d76ecd4b107ece51ecb3c1d6406d5116cff357329c9554a375632b88552ebb20d3063ad457f5570c3d93b838
+"hono@npm:3.7.0":
+  version: 3.7.0
+  resolution: "hono@npm:3.7.0"
+  checksum: 1054f914f29db30ec66f5a5d0ca56561bb138821464b4e89a0990bfcecbb1a936cb6ce27b3ef0457129874444ca375c112c9adde764113d72b6fd635d9d9bf1b
   languageName: node
   linkType: hard
 
