@@ -7,8 +7,8 @@
     "*.css"
   ],
   "dependencies": {
-    "@clerk/clerk-expo": "0.19.3",
-    "@clerk/nextjs": "4.24.1",
+    "@clerk/clerk-expo": "0.19.4",
+    "@clerk/nextjs": "4.24.2",
     "@shichida/ui": "*",
     "@shopify/flash-list": "1.6.1",
     "@tamagui/animations-react-native": "latest",
