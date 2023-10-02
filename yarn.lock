@@ -1994,10 +1994,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflare/workers-types@npm:4.20230922.0":
-  version: 4.20230922.0
-  resolution: "@cloudflare/workers-types@npm:4.20230922.0"
-  checksum: 629bab47cdbcb74e3c42fc9486f5186734b6dd734154cea7a0983ad83ee053b4fb1ae13ff618a7287612bc3b3d19ad72d6a34a84289a903623cb8a13af57596b
+"@cloudflare/workers-types@npm:4.20231002.0":
+  version: 4.20231002.0
+  resolution: "@cloudflare/workers-types@npm:4.20231002.0"
+  checksum: 066f4ef24286948de0165be9b22b842867330fcbaba520a60bae01a1ce85617364829fe50be7480f12a3fe4dc41463a9a53a8722b473493c61e0fc57dd7b21e9
   languageName: node
   linkType: hard
 
@@ -4335,10 +4335,10 @@ __metadata:
   dependencies:
     "@clerk/backend": 0.30.1
     "@cloudflare/d1": 1.4.1
-    "@cloudflare/workers-types": 4.20230922.0
+    "@cloudflare/workers-types": 4.20231002.0
     "@hono/trpc-server": 0.1.0
     "@trpc/server": 10.38.5
-    "@tsndr/cloudflare-worker-jwt": 2.2.2
+    "@tsndr/cloudflare-worker-jwt": 2.2.5
     better-sqlite3: 8.7.0
     dotenv-cli: 7.3.0
     drizzle-kit: 0.19.13
@@ -5903,10 +5903,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsndr/cloudflare-worker-jwt@npm:2.2.2":
-  version: 2.2.2
-  resolution: "@tsndr/cloudflare-worker-jwt@npm:2.2.2"
-  checksum: de872a1d6e124d263b7016d89d7e03e5f5842d0814cc6af27d4788f37d3ae9768fe10fb3f07201f413d9262f65ad3b5e267d9a44809e46523538abf7796cd40d
+"@tsndr/cloudflare-worker-jwt@npm:2.2.5":
+  version: 2.2.5
+  resolution: "@tsndr/cloudflare-worker-jwt@npm:2.2.5"
+  checksum: 800f47fc14080a8ec96dd53d40db7ba79ae0e5c49546da68461c20901989a79bb205dfcddac0de856263502d1c8a9204f256e972e764d668dea3384545602b15
   languageName: node
   linkType: hard
 
@@ -6114,10 +6114,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.18.1":
-  version: 18.18.1
-  resolution: "@types/node@npm:18.18.1"
-  checksum: 079085afc8615b91727900628410a2077f7fff51c5c3e20c4ab2d9caae4010b035aac13dae1221155e9d6ca46084aebf68121642140527b4009eee17b716d339
+"@types/node@npm:18.18.3":
+  version: 18.18.3
+  resolution: "@types/node@npm:18.18.3"
+  checksum: ed97a832179e0cfbb93738021fe16d0bc5c0f34bea35269c23c9dd5f0ecc8be93dbe5efd51630189a099b31786a47c1bde115508831a7245613a55c3ad1a7d6b
   languageName: node
   linkType: hard
 
@@ -14599,7 +14599,7 @@ __metadata:
   dependencies:
     "@tamagui/next-plugin": latest
     "@tamagui/next-theme": latest
-    "@types/node": 18.18.1
+    "@types/node": 18.18.3
     app: "*"
     critters: 0.0.20
     dotenv-cli: 7.3.0
