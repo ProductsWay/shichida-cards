@@ -4344,7 +4344,7 @@ __metadata:
     drizzle-kit: 0.19.13
     drizzle-orm: 0.28.6
     eslint: 8.50.0
-    hono: 3.7.3
+    hono: 3.7.4
     typescript: 5.2.2
     wrangler: 3.10.1
   languageName: unknown
@@ -6170,14 +6170,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.24":
-  version: 18.2.24
-  resolution: "@types/react@npm:18.2.24"
+"@types/react@npm:18.2.25":
+  version: 18.2.25
+  resolution: "@types/react@npm:18.2.25"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: ea5d8204e71b1c9c6631f429a93f8e7be0614cdbdb464e92b3181bdccd8a7c45e30ded8b13da726684b6393f651317c36d54832e3d3cdea0da480a3f26268909
+  checksum: 177515cd44135d56191ec6c5c10edd490c96c175d37624d9c37bc2007c3abcf6cc2d2137d2a073d692cdc5129d5d5785bd60a6ddd315f695da5d8b989fa2afc5
   languageName: node
   linkType: hard
 
@@ -6868,7 +6868,7 @@ __metadata:
     "@trpc/client": 10.38.5
     "@trpc/next": 10.38.5
     "@trpc/react-query": 10.38.5
-    "@types/react": 18.2.24
+    "@types/react": 18.2.25
     "@types/react-native": 0.72.3
     burnt: 0.11.7
     expo-auth-session: 4.1.0
@@ -11987,10 +11987,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hono@npm:3.7.3":
-  version: 3.7.3
-  resolution: "hono@npm:3.7.3"
-  checksum: 192aa1409a5ee31d74caa4df440a422cc9515d10ce757bd140c5139f754601e8ec33f7e752354e24151a50e9867dd6f22a9c6b5fd3bfc9880d6c70d5d82e1eee
+"hono@npm:3.7.4":
+  version: 3.7.4
+  resolution: "hono@npm:3.7.4"
+  checksum: 21d2e4036a5f304f418f1dc367c1713e49eed55281145478ae94fd7056acb55823c4102651fd4c70fa577fe13764edd417a1d85a5a793b7a84cd4baa75066fd4
   languageName: node
   linkType: hard
 
