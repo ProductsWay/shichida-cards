@@ -10473,7 +10473,7 @@ __metadata:
     expo-router: 2.0.8
     expo-splash-screen: 0.22.0
     expo-status-bar: 1.7.1
-    expo-updates: 0.18.14
+    expo-updates: 0.18.15
     metro-minify-terser: 0.79.1
     react: 18.2.0
     react-dom: 18.2.0
@@ -10858,9 +10858,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-updates@npm:0.18.14":
-  version: 0.18.14
-  resolution: "expo-updates@npm:0.18.14"
+"expo-updates@npm:0.18.15":
+  version: 0.18.15
+  resolution: "expo-updates@npm:0.18.15"
   dependencies:
     "@expo/code-signing-certificates": 0.0.5
     "@expo/config": ~8.1.0
@@ -10877,7 +10877,7 @@ __metadata:
     expo: "*"
   bin:
     expo-updates: bin/cli.js
-  checksum: d5deb30dc838c373ae0f1e38e84cb2a589e5f4eca2dbf186715fe884be20b2e7592ab93ef72692bf02970828b4b1f9d287ac86209f155018560ab8b430bab74b
+  checksum: b668d86246453509d9c16099637bb1f9365645c51637a6d00091cce07db1324fa7167a2d7a9dc3db755b6483411fc5062f2e33418318a7f768a2dc27be0760ba
   languageName: node
   linkType: hard
 
