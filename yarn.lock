@@ -1710,12 +1710,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:7.23.1":
-  version: 7.23.1
-  resolution: "@babel/runtime@npm:7.23.1"
+"@babel/runtime@npm:7.23.2":
+  version: 7.23.2
+  resolution: "@babel/runtime@npm:7.23.2"
   dependencies:
     regenerator-runtime: ^0.14.0
-  checksum: 0cd0d43e6e7dc7f9152fda8c8312b08321cda2f56ef53d6c22ebdd773abdc6f5d0a69008de90aa41908d00e2c1facb24715ff121274e689305c858355ff02c70
+  checksum: 6c4df4839ec75ca10175f636d6362f91df8a3137f86b38f6cd3a4c90668a0fe8e9281d320958f4fbd43b394988958585a17c3aab2a4ea6bf7316b22916a371fb
   languageName: node
   linkType: hard
 
@@ -1961,45 +1961,45 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflare/workerd-darwin-64@npm:1.20231002.0":
-  version: 1.20231002.0
-  resolution: "@cloudflare/workerd-darwin-64@npm:1.20231002.0"
+"@cloudflare/workerd-darwin-64@npm:1.20231010.0":
+  version: 1.20231010.0
+  resolution: "@cloudflare/workerd-darwin-64@npm:1.20231010.0"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@cloudflare/workerd-darwin-arm64@npm:1.20231002.0":
-  version: 1.20231002.0
-  resolution: "@cloudflare/workerd-darwin-arm64@npm:1.20231002.0"
+"@cloudflare/workerd-darwin-arm64@npm:1.20231010.0":
+  version: 1.20231010.0
+  resolution: "@cloudflare/workerd-darwin-arm64@npm:1.20231010.0"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@cloudflare/workerd-linux-64@npm:1.20231002.0":
-  version: 1.20231002.0
-  resolution: "@cloudflare/workerd-linux-64@npm:1.20231002.0"
+"@cloudflare/workerd-linux-64@npm:1.20231010.0":
+  version: 1.20231010.0
+  resolution: "@cloudflare/workerd-linux-64@npm:1.20231010.0"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"@cloudflare/workerd-linux-arm64@npm:1.20231002.0":
-  version: 1.20231002.0
-  resolution: "@cloudflare/workerd-linux-arm64@npm:1.20231002.0"
+"@cloudflare/workerd-linux-arm64@npm:1.20231010.0":
+  version: 1.20231010.0
+  resolution: "@cloudflare/workerd-linux-arm64@npm:1.20231010.0"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"@cloudflare/workerd-windows-64@npm:1.20231002.0":
-  version: 1.20231002.0
-  resolution: "@cloudflare/workerd-windows-64@npm:1.20231002.0"
+"@cloudflare/workerd-windows-64@npm:1.20231010.0":
+  version: 1.20231010.0
+  resolution: "@cloudflare/workerd-windows-64@npm:1.20231010.0"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"@cloudflare/workers-types@npm:4.20231002.0":
-  version: 4.20231002.0
-  resolution: "@cloudflare/workers-types@npm:4.20231002.0"
-  checksum: 066f4ef24286948de0165be9b22b842867330fcbaba520a60bae01a1ce85617364829fe50be7480f12a3fe4dc41463a9a53a8722b473493c61e0fc57dd7b21e9
+"@cloudflare/workers-types@npm:4.20231010.0":
+  version: 4.20231010.0
+  resolution: "@cloudflare/workers-types@npm:4.20231010.0"
+  checksum: ab8a289ae40dc8ea1458a70977b487ee679b6d54001aa7ca9ac539cc4ff69369ed8a27056e473ecebf0c966d69123aba02c39a126540a15f49ed306a0fcc250d
   languageName: node
   linkType: hard
 
@@ -4337,7 +4337,7 @@ __metadata:
   dependencies:
     "@clerk/backend": 0.30.3
     "@cloudflare/d1": 1.4.1
-    "@cloudflare/workers-types": 4.20231002.0
+    "@cloudflare/workers-types": 4.20231010.0
     "@hono/trpc-server": 0.1.0
     "@trpc/server": 10.40.0
     "@tsndr/cloudflare-worker-jwt": 2.2.5
@@ -4348,7 +4348,7 @@ __metadata:
     eslint: 8.51.0
     hono: 3.7.5
     typescript: 5.2.2
-    wrangler: 3.11.0
+    wrangler: 3.12.0
   languageName: unknown
   linkType: soft
 
@@ -10455,7 +10455,7 @@ __metadata:
   resolution: "expo-app@workspace:apps/expo"
   dependencies:
     "@babel/core": 7.23.0
-    "@babel/runtime": 7.23.1
+    "@babel/runtime": 7.23.2
     "@expo/metro-config": 0.10.7
     "@react-navigation/native": 6.1.8
     "@shichida/ui": "*"
@@ -10481,7 +10481,7 @@ __metadata:
     react-dom: 18.2.0
     react-native: 0.72.5
     react-native-dotenv: 3.4.9
-    react-native-gesture-handler: 2.13.1
+    react-native-gesture-handler: 2.13.2
     react-native-screens: 3.25.0
     react-native-svg: 13.14.0
     react-native-web: 0.19.9
@@ -14274,9 +14274,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"miniflare@npm:3.20231002.1":
-  version: 3.20231002.1
-  resolution: "miniflare@npm:3.20231002.1"
+"miniflare@npm:3.20231010.0":
+  version: 3.20231010.0
+  resolution: "miniflare@npm:3.20231010.0"
   dependencies:
     acorn: ^8.8.0
     acorn-walk: ^8.2.0
@@ -14286,11 +14286,11 @@ __metadata:
     source-map-support: 0.5.21
     stoppable: ^1.1.0
     undici: ^5.22.1
-    workerd: 1.20231002.0
+    workerd: 1.20231010.0
     ws: ^8.11.0
     youch: ^3.2.2
     zod: ^3.20.6
-  checksum: 96105f99fc0e34f248c301279dc955fca1b12c0c2808a15954552b75df558c9d9964454cd295d37eeb92a4b564239e4912fa6b0e84359a86a62ab5f1e3399aea
+  checksum: 6fcbfd387e9a680cc521db194bd6e812b465088df4b61303fe071b7fb405dd125440be0f9c890454deb92e15005b9ac911dab77f3d2d5a7e88a684f14c7f1ebd
   languageName: node
   linkType: hard
 
@@ -16181,9 +16181,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-gesture-handler@npm:2.13.1":
-  version: 2.13.1
-  resolution: "react-native-gesture-handler@npm:2.13.1"
+"react-native-gesture-handler@npm:2.13.2":
+  version: 2.13.2
+  resolution: "react-native-gesture-handler@npm:2.13.2"
   dependencies:
     "@egjs/hammerjs": ^2.0.17
     hoist-non-react-statics: ^3.3.0
@@ -16193,7 +16193,7 @@ __metadata:
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: c89504c52a2f4940a5cb56862f0676422ff30ad111fb015e37d2b4d3b736e708e6301da9027f003565bd23d8a3f4e8641eb5810f7da9ed848f81b3063df64e98
+  checksum: 1ec3943d5a3f51d49355279d43441f8bbb60eacc009cd398bc676c7d81bf559f40adcb01c1568adf8be5c976b15dce15ce379f5264e77f37debc0fd6fae7777c
   languageName: node
   linkType: hard
 
@@ -17286,7 +17286,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "shichida-cards@workspace:."
   dependencies:
-    "@babel/runtime": 7.23.1
+    "@babel/runtime": 7.23.2
     "@manypkg/cli": 0.21.0
     check-dependency-version-consistency: 4.1.0
     eslint: 8.51.0
@@ -19456,15 +19456,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"workerd@npm:1.20231002.0":
-  version: 1.20231002.0
-  resolution: "workerd@npm:1.20231002.0"
+"workerd@npm:1.20231010.0":
+  version: 1.20231010.0
+  resolution: "workerd@npm:1.20231010.0"
   dependencies:
-    "@cloudflare/workerd-darwin-64": 1.20231002.0
-    "@cloudflare/workerd-darwin-arm64": 1.20231002.0
-    "@cloudflare/workerd-linux-64": 1.20231002.0
-    "@cloudflare/workerd-linux-arm64": 1.20231002.0
-    "@cloudflare/workerd-windows-64": 1.20231002.0
+    "@cloudflare/workerd-darwin-64": 1.20231010.0
+    "@cloudflare/workerd-darwin-arm64": 1.20231010.0
+    "@cloudflare/workerd-linux-64": 1.20231010.0
+    "@cloudflare/workerd-linux-arm64": 1.20231010.0
+    "@cloudflare/workerd-windows-64": 1.20231010.0
   dependenciesMeta:
     "@cloudflare/workerd-darwin-64":
       optional: true
@@ -19478,13 +19478,13 @@ __metadata:
       optional: true
   bin:
     workerd: bin/workerd
-  checksum: e51c2e33a12f742ba8c04810ff309e65f9cb739fd5701f5502e50deb4c82ad85052d0e0bf3679956272013c5b024ae9165d35149730e7cbbcbfb28aea6cdafa0
+  checksum: b4efba711045d6b1b08ded414ec2f5205146bd35416890e14150a58f383abf12ff70c67f246567f4518fd3abbf3689264a4243d7356f99b83b84c910b5e00881
   languageName: node
   linkType: hard
 
-"wrangler@npm:3.11.0":
-  version: 3.11.0
-  resolution: "wrangler@npm:3.11.0"
+"wrangler@npm:3.12.0":
+  version: 3.12.0
+  resolution: "wrangler@npm:3.12.0"
   dependencies:
     "@cloudflare/kv-asset-handler": ^0.2.0
     "@esbuild-plugins/node-globals-polyfill": ^0.2.3
@@ -19493,7 +19493,7 @@ __metadata:
     chokidar: ^3.5.3
     esbuild: 0.17.19
     fsevents: ~2.3.2
-    miniflare: 3.20231002.1
+    miniflare: 3.20231010.0
     nanoid: ^3.3.3
     path-to-regexp: ^6.2.0
     selfsigned: ^2.0.1
@@ -19506,7 +19506,7 @@ __metadata:
   bin:
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: 0799ab07640ada55adad1b45e5f2ebd04717c8701b2888d0e27fc21d9140680b256e676b5bef247964799ff392449e2ec2b387635ca968c1f97b8da928231385
+  checksum: cb730fe0be423f2b7fe831a5a45135d390012b52e0d51c4d853d78d298ba54b62a098f224651605ac74bf6365d7280973c1320396b42db1a94d74bc76a46fbea
   languageName: node
   linkType: hard
 
