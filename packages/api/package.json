@@ -15,13 +15,13 @@
     "with-env": "dotenv -e ../../.env.local --"
   },
   "dependencies": {
-    "@clerk/backend": "0.30.3",
+    "@clerk/backend": "0.31.0",
     "@cloudflare/d1": "1.4.1",
     "@hono/trpc-server": "0.1.0",
     "@trpc/server": "10.40.0",
     "@tsndr/cloudflare-worker-jwt": "2.2.5",
     "drizzle-orm": "0.28.6",
-    "hono": "3.7.5"
+    "hono": "3.7.6"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "4.20231010.0",
