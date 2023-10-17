@@ -21,10 +21,10 @@
     "@trpc/server": "10.40.0",
     "@tsndr/cloudflare-worker-jwt": "2.2.5",
     "drizzle-orm": "0.28.6",
-    "hono": "3.7.6"
+    "hono": "3.8.0"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20231010.0",
+    "@cloudflare/workers-types": "4.20231016.0",
     "better-sqlite3": "8.7.0",
     "dotenv-cli": "7.3.0",
     "drizzle-kit": "0.19.13",
