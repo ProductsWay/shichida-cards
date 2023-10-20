@@ -18,9 +18,9 @@
     "@tamagui/shorthands": "latest",
     "@tamagui/themes": "latest",
     "@tanstack/react-query": "4.36.1",
-    "@trpc/client": "10.40.0",
-    "@trpc/next": "10.40.0",
-    "@trpc/react-query": "10.40.0",
+    "@trpc/client": "10.41.0",
+    "@trpc/next": "10.41.0",
+    "@trpc/react-query": "10.41.0",
     "burnt": "0.12.1",
     "expo-auth-session": "4.1.0",
     "expo-constants": "14.5.1",
@@ -30,7 +30,7 @@
     "solito": "3.2.9"
   },
   "devDependencies": {
-    "@types/react": "18.2.29",
+    "@types/react": "18.2.30",
     "@types/react-native": "0.72.5"
   }
 }

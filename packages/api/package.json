@@ -18,7 +18,7 @@
     "@clerk/backend": "0.31.2",
     "@cloudflare/d1": "1.4.1",
     "@hono/trpc-server": "0.1.0",
-    "@trpc/server": "10.40.0",
+    "@trpc/server": "10.41.0",
     "@tsndr/cloudflare-worker-jwt": "2.2.5",
     "drizzle-orm": "0.28.6",
     "hono": "3.8.1"
@@ -30,6 +30,6 @@
     "drizzle-kit": "0.19.13",
     "eslint": "8.51.0",
     "typescript": "5.2.2",
-    "wrangler": "3.13.2"
+    "wrangler": "3.14.0"
   }
 }
