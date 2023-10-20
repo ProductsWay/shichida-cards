@@ -10,7 +10,7 @@
     "@clerk/clerk-expo": "0.19.11",
     "@clerk/nextjs": "4.25.6",
     "@shichida/ui": "*",
-    "@shopify/flash-list": "1.6.1",
+    "@shopify/flash-list": "1.6.2",
     "@tamagui/animations-react-native": "latest",
     "@tamagui/colors": "latest",
     "@tamagui/font-inter": "latest",
@@ -30,7 +30,7 @@
     "solito": "3.2.9"
   },
   "devDependencies": {
-    "@types/react": "18.2.30",
+    "@types/react": "18.2.31",
     "@types/react-native": "0.72.5"
   }
 }
