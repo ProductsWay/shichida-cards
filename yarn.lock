@@ -4250,7 +4250,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@shichida/ui@workspace:packages/ui"
   dependencies:
-    "@shopify/flash-list": 1.6.1
+    "@shopify/flash-list": 1.6.2
     "@tamagui/animations-react-native": latest
     "@tamagui/build": latest
     "@tamagui/font-inter": latest
@@ -4264,9 +4264,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@shopify/flash-list@npm:1.6.1":
-  version: 1.6.1
-  resolution: "@shopify/flash-list@npm:1.6.1"
+"@shopify/flash-list@npm:1.6.2":
+  version: 1.6.2
+  resolution: "@shopify/flash-list@npm:1.6.2"
   dependencies:
     recyclerlistview: 4.2.0
     tslib: 2.4.0
@@ -4274,7 +4274,7 @@ __metadata:
     "@babel/runtime": "*"
     react: "*"
     react-native: "*"
-  checksum: cde67dc83738b0d4e48bc17328dedc521321fca0e466bd35f6f8f51b20c9cb06148022733bbf52e72f9a0a4201dfff6e89f0b781d7e2bd912844ca5362d0a850
+  checksum: 7d4875ad1210be000db7afa251032e4564dc41f610124bfcc2995e336e5f805509786c4591dfcb8645be5157650b9993d28f9319f359d753ce0bc84134c94fcb
   languageName: node
   linkType: hard
 
@@ -6078,14 +6078,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.30":
-  version: 18.2.30
-  resolution: "@types/react@npm:18.2.30"
+"@types/react@npm:18.2.31":
+  version: 18.2.31
+  resolution: "@types/react@npm:18.2.31"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 962fa67e4ff439a2eb621ad74e58cb975d2882afa06bb7c9e9823606f6dcc3cd37d5cce143ec3c95b3856549f48ee0382e8c4628267cdcc5c5343d979ad9d92f
+  checksum: b11be8e39174d3303e308461400889e353e422d22b01d09795b2c35b7b99d5351716503d9ec5c58e4c2c871249603fa52840d45a34fb5901dd7a26e06129c716
   languageName: node
   linkType: hard
 
@@ -6765,7 +6765,7 @@ __metadata:
     "@clerk/clerk-expo": 0.19.11
     "@clerk/nextjs": 4.25.6
     "@shichida/ui": "*"
-    "@shopify/flash-list": 1.6.1
+    "@shopify/flash-list": 1.6.2
     "@tamagui/animations-react-native": latest
     "@tamagui/colors": latest
     "@tamagui/font-inter": latest
@@ -6776,7 +6776,7 @@ __metadata:
     "@trpc/client": 10.41.0
     "@trpc/next": 10.41.0
     "@trpc/react-query": 10.41.0
-    "@types/react": 18.2.30
+    "@types/react": 18.2.31
     "@types/react-native": 0.72.5
     burnt: 0.12.1
     expo-auth-session: 4.1.0
