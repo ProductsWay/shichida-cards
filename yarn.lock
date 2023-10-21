@@ -4240,7 +4240,7 @@ __metadata:
     drizzle-kit: 0.19.13
     drizzle-orm: 0.28.6
     eslint: 8.52.0
-    hono: 3.8.1
+    hono: 3.8.2
     typescript: 5.2.2
     wrangler: 3.14.0
   languageName: unknown
@@ -11901,10 +11901,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hono@npm:3.8.1":
-  version: 3.8.1
-  resolution: "hono@npm:3.8.1"
-  checksum: 0aa9b72d037f01b1e56404a805191a71ab8affcce360c0a07b02ee6d93ca63bb2fd4aad51847e9c7f8748c0084b78872cd02b3d921f1217a1e3153613cc5ddac
+"hono@npm:3.8.2":
+  version: 3.8.2
+  resolution: "hono@npm:3.8.2"
+  checksum: ebf6b60a82f8046729baf0284e502ddf20689bc2198292564ac760327347639f80b7ddf6a9694d2cb311d17c754c2bb4934d6783e8537d85a3ace706c908c2c7
   languageName: node
   linkType: hard
 

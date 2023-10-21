@@ -21,7 +21,7 @@
     "@trpc/server": "10.41.0",
     "@tsndr/cloudflare-worker-jwt": "2.2.5",
     "drizzle-orm": "0.28.6",
-    "hono": "3.8.1"
+    "hono": "3.8.2"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "4.20231016.0",
