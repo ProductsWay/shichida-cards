@@ -4228,7 +4228,7 @@ __metadata:
     "@tamagui/themes": latest
     "@tamagui/toast": latest
     "@tanstack/react-virtual": 3.0.0-beta.68
-    jotai: 2.4.3
+    jotai: 2.5.0
     tamagui: latest
   languageName: unknown
   linkType: soft
@@ -10356,7 +10356,7 @@ __metadata:
     react-native: 0.72.6
     react-native-dotenv: 3.4.9
     react-native-gesture-handler: 2.13.3
-    react-native-screens: 3.26.0
+    react-native-screens: 3.27.0
     react-native-svg: 13.14.0
     react-native-web: 0.19.9
     typescript: 5.2.2
@@ -12856,9 +12856,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jotai@npm:2.4.3":
-  version: 2.4.3
-  resolution: "jotai@npm:2.4.3"
+"jotai@npm:2.5.0":
+  version: 2.5.0
+  resolution: "jotai@npm:2.5.0"
   peerDependencies:
     "@types/react": ">=17.0.0"
     react: ">=17.0.0"
@@ -12867,7 +12867,7 @@ __metadata:
       optional: true
     react:
       optional: true
-  checksum: 4991faba3284978bda3d90c6b1fc711759b76ce83ff04edb181d7929951ee54cb077793e5e4b0bba2ddf07fb6681a97a9d3007e2697d6ef181a66479ef9b2116
+  checksum: 95bafc2912a3b5da29a891b6d5b9fa73decf314def6db1fb56cec93c971334704bac3b566dfcf16f4c96f4563a04b49bbbf67eabe5d3379d19bd99e10a2ce759
   languageName: node
   linkType: hard
 
@@ -16077,16 +16077,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-screens@npm:3.26.0":
-  version: 3.26.0
-  resolution: "react-native-screens@npm:3.26.0"
+"react-native-screens@npm:3.27.0":
+  version: 3.27.0
+  resolution: "react-native-screens@npm:3.27.0"
   dependencies:
     react-freeze: ^1.0.0
     warn-once: ^0.1.0
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 18750fb15e80d2c2e4eea9992d1f07f72298e1f65b5c7614196c539f2191bed853d5c09cfaad33f1c8be0ae5d3f70e90458d1e842954e1090957dd42a71084f5
+  checksum: 3a6f54bd755ba8c7909beb4888f96d159639221cbcdb56fccd460cd129ff9b144c7c20dc4c0b7eec23aa38698bbd0cf21bb9b6c99833e9d1399ee75da52f18ed
   languageName: node
   linkType: hard
 
