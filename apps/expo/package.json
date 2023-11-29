@@ -10,47 +10,47 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "@babel/runtime": "7.23.2",
+    "@babel/runtime": "7.23.5",
     "@react-navigation/native": "6.1.9",
     "@shichida/ui": "*",
-    "@types/react-native": "0.72.5",
+    "@types/react-native": "0.72.7",
     "app": "*",
     "babel-plugin-module-resolver": "5.0.0",
     "burnt": "0.12.1",
     "expo": "48.0.21",
     "expo-constants": "14.5.1",
-    "expo-dev-client": "2.4.11",
+    "expo-dev-client": "2.4.12",
     "expo-font": "11.6.0",
     "expo-image": "1.5.1",
     "expo-linear-gradient": "12.5.0",
     "expo-linking": "4.1.0",
-    "expo-router": "2.0.9",
+    "expo-router": "2.0.14",
     "expo-splash-screen": "0.22.0",
     "expo-status-bar": "1.7.1",
-    "expo-updates": "0.18.16",
+    "expo-updates": "0.18.17",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-native": "0.72.6",
-    "react-native-gesture-handler": "2.13.3",
+    "react-native": "0.72.7",
+    "react-native-gesture-handler": "2.14.0",
     "react-native-screens": "3.27.0",
     "react-native-svg": "13.14.0",
     "react-native-web": "0.19.9"
   },
   "devDependencies": {
-    "@babel/core": "7.23.2",
+    "@babel/core": "7.23.5",
     "@expo/metro-config": "0.10.7",
     "@tamagui/babel-plugin": "latest",
     "babel-plugin-transform-inline-environment-variables": "0.4.4",
-    "metro-minify-terser": "0.79.1",
+    "metro-minify-terser": "0.80.1",
     "react-native-dotenv": "3.4.9",
-    "typescript": "5.2.2"
+    "typescript": "5.3.2"
   },
   "resolutions": {
-    "metro": "0.79.1",
-    "metro-resolver": "0.79.1"
+    "metro": "0.80.1",
+    "metro-resolver": "0.80.1"
   },
   "overrides": {
-    "metro": "0.79.1",
-    "metro-resolver": "0.79.1"
+    "metro": "0.80.1",
+    "metro-resolver": "0.80.1"
   }
 }

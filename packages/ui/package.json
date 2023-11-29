@@ -17,7 +17,7 @@
     "watch": "tamagui-build --watch"
   },
   "dependencies": {
-    "@shopify/flash-list": "1.6.2",
+    "@shopify/flash-list": "1.6.3",
     "@tamagui/animations-react-native": "latest",
     "@tamagui/font-inter": "latest",
     "@tamagui/react-native-media-driver": "latest",
@@ -25,7 +25,7 @@
     "@tamagui/themes": "latest",
     "@tamagui/toast": "latest",
     "@tanstack/react-virtual": "3.0.0-beta.68",
-    "jotai": "2.5.0",
+    "jotai": "2.6.0",
     "tamagui": "latest"
   },
   "devDependencies": {
