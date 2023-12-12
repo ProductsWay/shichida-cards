@@ -7076,7 +7076,7 @@ __metadata:
     expo-linking: 4.1.0
     expo-secure-store: 12.5.0
     react-native-safe-area-context: 4.7.4
-    solito: 3.2.9
+    solito: 4.2.0
   languageName: unknown
   linkType: soft
 
@@ -17888,10 +17888,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"solito@npm:3.2.9":
-  version: 3.2.9
-  resolution: "solito@npm:3.2.9"
-  checksum: 79fed7c2f71d1604007cb92f901cabbae3b8af05a0835b110dfb263d6a8d5f4cbb5f02911767e5b9a73e6552898e53ebbfe401d3aa6c9a7cfdc5a5fbf4a2c3e1
+"solito@npm:4.2.0":
+  version: 4.2.0
+  resolution: "solito@npm:4.2.0"
+  dependencies:
+    typescript: ^5.0.4
+  checksum: 58ea67fce743cc864e7cb9065d06fa287fd99bab1b0a96c5d9bd1e974740bb4a308620622c9b46975d58ba084127a8388dc7696cc6e171ed6b501843093ab64f
   languageName: node
   linkType: hard
 
@@ -19210,6 +19212,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"typescript@npm:^5.0.4":
+  version: 5.3.3
+  resolution: "typescript@npm:5.3.3"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 2007ccb6e51bbbf6fde0a78099efe04dc1c3dfbdff04ca3b6a8bc717991862b39fd6126c0c3ebf2d2d98ac5e960bcaa873826bb2bb241f14277034148f41f6a2
+  languageName: node
+  linkType: hard
+
 "typescript@npm:^5.2.2":
   version: 5.2.2
   resolution: "typescript@npm:5.2.2"
@@ -19237,6 +19249,16 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 47b2e63418ea7ef7dd0bf359ee41c6fca852c680826089269c5d03673ead471e052b172561f377f9e51212054e5f0fe19dd58085ff7db7b168449a6af704c784
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@^5.0.4#~builtin<compat/typescript>":
+  version: 5.3.3
+  resolution: "typescript@patch:typescript@npm%3A5.3.3#~builtin<compat/typescript>::version=5.3.3&hash=e012d7"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 4e604a9e107ce0c23b16a2f8d79d0531d4d8fe9ebbb7a8c395c66998c39892f0e0a071ef0b0d4e66420a8ec2b8d6cfd9cdb29ba24f25b37cba072e9282376df9
   languageName: node
   linkType: hard
 
