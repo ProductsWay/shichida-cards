@@ -22,9 +22,9 @@
     "@trpc/next": "10.44.1",
     "@trpc/react-query": "10.44.1",
     "burnt": "0.12.1",
-    "expo-auth-session": "4.1.0",
-    "expo-constants": "14.5.1",
-    "expo-linking": "4.1.0",
+    "expo-auth-session": "5.2.0",
+    "expo-constants": "15.4.2",
+    "expo-linking": "6.0.0",
     "expo-secure-store": "12.5.0",
     "react-native-safe-area-context": "4.7.4",
     "solito": "3.2.9"
