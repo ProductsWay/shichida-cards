@@ -33,7 +33,7 @@
     "@manypkg/cli": "0.21.1",
     "check-dependency-version-consistency": "4.1.0",
     "eslint": "8.56.0",
-    "node-gyp": "9.4.1",
+    "node-gyp": "10.0.1",
     "prettier": "3.1.1",
     "turbo": "1.11.2",
     "typescript": "5.3.3"
