@@ -20,14 +20,14 @@
     "@hono/trpc-server": "0.1.0",
     "@trpc/server": "10.44.1",
     "@tsndr/cloudflare-worker-jwt": "2.3.2",
-    "drizzle-orm": "0.29.1",
+    "drizzle-orm": "0.29.2",
     "hono": "3.11.10"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "4.20231218.0",
     "better-sqlite3": "9.2.2",
     "dotenv-cli": "7.3.0",
-    "drizzle-kit": "0.20.7",
+    "drizzle-kit": "0.20.8",
     "eslint": "8.56.0",
     "typescript": "5.3.3",
     "wrangler": "3.22.1"
