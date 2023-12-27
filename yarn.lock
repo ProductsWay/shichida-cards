@@ -1925,12 +1925,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@drizzle-team/studio@npm:^0.0.35":
-  version: 0.0.35
-  resolution: "@drizzle-team/studio@npm:0.0.35"
+"@drizzle-team/studio@npm:^0.0.37":
+  version: 0.0.37
+  resolution: "@drizzle-team/studio@npm:0.0.37"
   dependencies:
     superjson: "npm:^2.2.1"
-  checksum: d42555237e8793f10b6103681ea07b93e3633689fa6e665a962f3b031b3025c93201e1f4262c89edf53395c74dd813df1bb6a4c3e0f64b93684cb7ad862cb356
+  checksum: 21a0f199fbd93cad30bbef9ef83828d832e899d44be4afe9e32781e2f28b404a66057502e20f44636a3912e98b493990cf329f2c722e0c04505a5ba8621d1104
   languageName: node
   linkType: hard
 
@@ -4422,7 +4422,7 @@ __metadata:
     "@tsndr/cloudflare-worker-jwt": "npm:2.3.2"
     better-sqlite3: "npm:9.2.2"
     dotenv-cli: "npm:7.3.0"
-    drizzle-kit: "npm:0.20.8"
+    drizzle-kit: "npm:0.20.9"
     drizzle-orm: "npm:0.29.2"
     eslint: "npm:8.56.0"
     hono: "npm:3.11.11"
@@ -9219,15 +9219,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"drizzle-kit@npm:0.20.8":
-  version: 0.20.8
-  resolution: "drizzle-kit@npm:0.20.8"
+"drizzle-kit@npm:0.20.9":
+  version: 0.20.9
+  resolution: "drizzle-kit@npm:0.20.9"
   dependencies:
-    "@drizzle-team/studio": "npm:^0.0.35"
+    "@drizzle-team/studio": "npm:^0.0.37"
     "@esbuild-kit/esm-loader": "npm:^2.5.5"
     camelcase: "npm:^7.0.1"
     chalk: "npm:^5.2.0"
     commander: "npm:^9.4.1"
+    env-paths: "npm:^3.0.0"
     esbuild: "npm:^0.19.7"
     esbuild-register: "npm:^3.5.0"
     glob: "npm:^8.1.0"
@@ -9235,11 +9236,10 @@ __metadata:
     json-diff: "npm:0.9.0"
     minimatch: "npm:^7.4.3"
     semver: "npm:^7.5.4"
-    wrangler: "npm:^3.7.0"
     zod: "npm:^3.20.2"
   bin:
     drizzle-kit: bin.cjs
-  checksum: 1cc12f5e1b403b991df57400dcdac9637e2f2ecf1d76a59846b68e6ea8d94ec41997dfc6d7620a0998b14d1db196196afe03ca10ebd8c20dfd8a6913319efd7f
+  checksum: 5ce0e5b8cad60b275c72669a0320a89ecc54d979c3f164839b3a68905aee2fa2858059d21b7ebdecdc14271034fcb04c573578b6815229d2d0f94e4b94ab4170
   languageName: node
   linkType: hard
 
@@ -9462,6 +9462,13 @@ __metadata:
   version: 2.2.1
   resolution: "env-paths@npm:2.2.1"
   checksum: 285325677bf00e30845e330eec32894f5105529db97496ee3f598478e50f008c5352a41a30e5e72ec9de8a542b5a570b85699cd63bd2bc646dbcb9f311d83bc4
+  languageName: node
+  linkType: hard
+
+"env-paths@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "env-paths@npm:3.0.0"
+  checksum: 76dec878cee47f841103bacd7fae03283af16f0702dad65102ef0a556f310b98a377885e0f32943831eb08b5ab37842a323d02529f3dfd5d0a40ca71b01b435f
   languageName: node
   linkType: hard
 
@@ -19532,7 +19539,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:3.22.1, wrangler@npm:^3.7.0":
+"wrangler@npm:3.22.1":
   version: 3.22.1
   resolution: "wrangler@npm:3.22.1"
   dependencies:
