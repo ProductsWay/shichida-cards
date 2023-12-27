@@ -18,10 +18,10 @@
     "@clerk/backend": "0.37.0",
     "@cloudflare/d1": "1.4.1",
     "@hono/trpc-server": "0.1.0",
-    "@trpc/server": "10.44.1",
+    "@trpc/server": "10.45.0",
     "@tsndr/cloudflare-worker-jwt": "2.3.2",
     "drizzle-orm": "0.29.2",
-    "hono": "3.11.10"
+    "hono": "3.11.11"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "4.20231218.0",
