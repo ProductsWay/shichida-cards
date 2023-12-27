@@ -4418,14 +4418,14 @@ __metadata:
     "@cloudflare/d1": "npm:1.4.1"
     "@cloudflare/workers-types": "npm:4.20231218.0"
     "@hono/trpc-server": "npm:0.1.0"
-    "@trpc/server": "npm:10.44.1"
+    "@trpc/server": "npm:10.45.0"
     "@tsndr/cloudflare-worker-jwt": "npm:2.3.2"
     better-sqlite3: "npm:9.2.2"
     dotenv-cli: "npm:7.3.0"
     drizzle-kit: "npm:0.20.8"
     drizzle-orm: "npm:0.29.2"
     eslint: "npm:8.56.0"
-    hono: "npm:3.11.10"
+    hono: "npm:3.11.11"
     typescript: "npm:5.3.3"
     wrangler: "npm:3.22.1"
   languageName: unknown
@@ -5946,49 +5946,47 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@trpc/client@npm:10.44.1":
-  version: 10.44.1
-  resolution: "@trpc/client@npm:10.44.1"
+"@trpc/client@npm:10.45.0":
+  version: 10.45.0
+  resolution: "@trpc/client@npm:10.45.0"
   peerDependencies:
-    "@trpc/server": 10.44.1
-  checksum: 36dc6ca6b401f3d4cdf9eb1bf35e0a5bd92c22b19a07fa538b63cbc5b726cd40dc0b6d1617607dcb9c857018fb669ea4c510c96c04953c3fcf083a8937a00a8b
+    "@trpc/server": 10.45.0
+  checksum: f8df80923fd9bde42a657e6bcfb6dba79cac442f24a4d638290833fe08dc198cae1c185a99787de47667398b48a0ae04fab30985bc3698e8382515d6167302d5
   languageName: node
   linkType: hard
 
-"@trpc/next@npm:10.44.1":
-  version: 10.44.1
-  resolution: "@trpc/next@npm:10.44.1"
-  dependencies:
-    react-ssr-prepass: "npm:^1.5.0"
+"@trpc/next@npm:10.45.0":
+  version: 10.45.0
+  resolution: "@trpc/next@npm:10.45.0"
   peerDependencies:
     "@tanstack/react-query": ^4.18.0
-    "@trpc/client": 10.44.1
-    "@trpc/react-query": 10.44.1
-    "@trpc/server": 10.44.1
+    "@trpc/client": 10.45.0
+    "@trpc/react-query": 10.45.0
+    "@trpc/server": 10.45.0
     next: "*"
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: d5b78fada50db488757709c99c4fbefd9ede59fe6101da3d49c684bfb05adfa96b5f9f1e29655fe0d04bff1b696ed58df6901403f6d668bf5a388ebf60d9fcbb
+  checksum: 54d449943e5d15f3ac12abe91462ede48c04df6d0178c660e0024eeeba7d0c048a47e15e13e7aa9308632c6cd458d539a5e7291d34818c0a91e721a09f326cfa
   languageName: node
   linkType: hard
 
-"@trpc/react-query@npm:10.44.1":
-  version: 10.44.1
-  resolution: "@trpc/react-query@npm:10.44.1"
+"@trpc/react-query@npm:10.45.0":
+  version: 10.45.0
+  resolution: "@trpc/react-query@npm:10.45.0"
   peerDependencies:
     "@tanstack/react-query": ^4.18.0
-    "@trpc/client": 10.44.1
-    "@trpc/server": 10.44.1
+    "@trpc/client": 10.45.0
+    "@trpc/server": 10.45.0
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: 7a7efa25d61effbc82df8511b336121b6ef8054aa5c3ffe01d2b60ffd9c00a7f26841f6b9cfdcb900af2427d96a203c11504c22b781e9338ca50e1a60177928d
+  checksum: 768a1da7acb6061995d4004649275c6828b3224d4e0a1020ba1208bcdd49cbdfcbe2e48da185ce0dbdb9e845ba69252c12eb996a011c8bf92ce5477f4f2ca6a9
   languageName: node
   linkType: hard
 
-"@trpc/server@npm:10.44.1":
-  version: 10.44.1
-  resolution: "@trpc/server@npm:10.44.1"
-  checksum: 838fb12286b91c4f1fe22479b426d6c1100700d253980c54b3417358008abc5e7c3f7a78f8ac0526d7693fcf70276bf42ce5fd6d25b6db2b6e3fdbe16c087dca
+"@trpc/server@npm:10.45.0":
+  version: 10.45.0
+  resolution: "@trpc/server@npm:10.45.0"
+  checksum: b584969104aa4e5df34551fa38576336a62ab8109aec3ac1b1036ffa391dcf2e4a875ab523beb4473dd84419a76df0bdbb8de6643a475b7a6afc1308c9b128a6
   languageName: node
   linkType: hard
 
@@ -6981,9 +6979,9 @@ __metadata:
     "@tamagui/shorthands": "npm:latest"
     "@tamagui/themes": "npm:latest"
     "@tanstack/react-query": "npm:5.15.0"
-    "@trpc/client": "npm:10.44.1"
-    "@trpc/next": "npm:10.44.1"
-    "@trpc/react-query": "npm:10.44.1"
+    "@trpc/client": "npm:10.45.0"
+    "@trpc/next": "npm:10.45.0"
+    "@trpc/react-query": "npm:10.45.0"
     "@types/react": "npm:18.2.45"
     "@types/react-native": "npm:0.72.8"
     burnt: "npm:0.12.1"
@@ -12109,10 +12107,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hono@npm:3.11.10":
-  version: 3.11.10
-  resolution: "hono@npm:3.11.10"
-  checksum: 53e7a7e51854e616f91df69f47235bad9eafed7e57c9108c19187d6ee9afbe795bf4fa06ef118d3f58073b81dcb8f29cb2317f0198067a62630cdb448b8724d1
+"hono@npm:3.11.11":
+  version: 3.11.11
+  resolution: "hono@npm:3.11.11"
+  checksum: 2f061d296a6cca6b32e5f4857477e00a19b2cb94927bbc167b70400f79911ac2d1a24a572b24bbb1bd25652fc1829b3ebcb33f142b46c26b18a4080ebdcb3c22
   languageName: node
   linkType: hard
 
@@ -16423,15 +16421,6 @@ __metadata:
   peerDependencies:
     react: ^16.0.0 || ^17.0.0 || ^18.0.0
   checksum: c194d741792e86043a4ae272f7353c1cb9412bc649945c4220c6a101a6ea5410cceb3d65d5a4d750f11a24f7426e8eec7977e8a4e3ad5d3ee235ca2b18166fa8
-  languageName: node
-  linkType: hard
-
-"react-ssr-prepass@npm:^1.5.0":
-  version: 1.5.0
-  resolution: "react-ssr-prepass@npm:1.5.0"
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0
-  checksum: 5158b13cdc230b6342c986f73eb21bafc27a666701aa7a309f5f39832c445d69e0b9f94df71cbe708feb49823417bd6c16eed81afe612efa6a55d89e03d9f5d3
   languageName: node
   linkType: hard
 
