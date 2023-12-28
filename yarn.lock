@@ -4444,7 +4444,7 @@ __metadata:
     "@tamagui/themes": "npm:latest"
     "@tamagui/toast": "npm:latest"
     "@tanstack/react-virtual": "npm:3.0.1"
-    jotai: "npm:2.6.0"
+    jotai: "npm:2.6.1"
     tamagui: "npm:latest"
   languageName: unknown
   linkType: soft
@@ -6288,7 +6288,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.2.45":
+"@types/react@npm:*":
   version: 18.2.45
   resolution: "@types/react@npm:18.2.45"
   dependencies:
@@ -6296,6 +6296,17 @@ __metadata:
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
   checksum: 4cc650c47ffb88baac29fb7a74e842e4af4a55f437086ef70250fdc75f0a5f2fcf8adc272d05ab2e00b1de6e14613296881271caee037dadf9130fdeb498c59e
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:18.2.46":
+  version: 18.2.46
+  resolution: "@types/react@npm:18.2.46"
+  dependencies:
+    "@types/prop-types": "npm:*"
+    "@types/scheduler": "npm:*"
+    csstype: "npm:^3.0.2"
+  checksum: 814cc67107e5e69501d65bfc371cc2c716665d2a3608d395a2f81e24c3a2875db28e2cad717dfb17017eabcffd1d68ee2c9e09ecaba3f7108d5b7fbb9888ebab
   languageName: node
   linkType: hard
 
@@ -6982,9 +6993,9 @@ __metadata:
     "@trpc/client": "npm:10.45.0"
     "@trpc/next": "npm:10.45.0"
     "@trpc/react-query": "npm:10.45.0"
-    "@types/react": "npm:18.2.45"
+    "@types/react": "npm:18.2.46"
     "@types/react-native": "npm:0.72.8"
-    burnt: "npm:0.12.1"
+    burnt: "npm:0.12.2"
     expo-auth-session: "npm:5.2.0"
     expo-constants: "npm:15.4.2"
     expo-linking: "npm:6.0.0"
@@ -7740,9 +7751,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"burnt@npm:0.12.1":
-  version: 0.12.1
-  resolution: "burnt@npm:0.12.1"
+"burnt@npm:0.12.2":
+  version: 0.12.2
+  resolution: "burnt@npm:0.12.2"
   dependencies:
     sf-symbols-typescript: "npm:^1.0.0"
     sonner: "npm:^0.3.5"
@@ -7750,7 +7761,7 @@ __metadata:
     expo: "*"
     react: "*"
     react-native: "*"
-  checksum: e3d3d1eac988aae262b0fca5f1b26b719d01a9df8ff40badb09b4f5617972b64ee7e1ecf3daf4637d29f09421769f3d2c70af0af91459b0d2ba40081976d4827
+  checksum: d51fd844c26b66572f4f0a50ad210d6956a5bfa3885e7a136d634d7cbad64bc00ed443d8096378c0896f9d3b2e004023bb832a3295b20599368f94346037198f
   languageName: node
   linkType: hard
 
@@ -10579,7 +10590,7 @@ __metadata:
     app: "npm:*"
     babel-plugin-module-resolver: "npm:5.0.0"
     babel-plugin-transform-inline-environment-variables: "npm:0.4.4"
-    burnt: "npm:0.12.1"
+    burnt: "npm:0.12.2"
     expo: "npm:49.0.21"
     expo-constants: "npm:15.4.2"
     expo-dev-client: "npm:2.4.12"
@@ -13110,9 +13121,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jotai@npm:2.6.0":
-  version: 2.6.0
-  resolution: "jotai@npm:2.6.0"
+"jotai@npm:2.6.1":
+  version: 2.6.1
+  resolution: "jotai@npm:2.6.1"
   peerDependencies:
     "@types/react": ">=17.0.0"
     react: ">=17.0.0"
@@ -13121,7 +13132,7 @@ __metadata:
       optional: true
     react:
       optional: true
-  checksum: 8e1687453c3713d227c8081291e286b51ca634657dc456303b3d9f9bf80d67b4a5e71481768675a8480789b432e3b0c0159521ac7794df8a0cce989713fdc7a4
+  checksum: 555145ca5feb2a18c51fc4b23fa8dbcf5c3701ebb306d844ff7ac6991aa1db1a6ebffdf4e460dd59d6678656d9a477db51ef037487f8dd0a618c298deed3cb6d
   languageName: node
   linkType: hard
 

@@ -21,7 +21,7 @@
     "@trpc/client": "10.45.0",
     "@trpc/next": "10.45.0",
     "@trpc/react-query": "10.45.0",
-    "burnt": "0.12.1",
+    "burnt": "0.12.2",
     "expo-auth-session": "5.2.0",
     "expo-constants": "15.4.2",
     "expo-linking": "6.0.0",
@@ -30,7 +30,7 @@
     "solito": "4.2.0"
   },
   "devDependencies": {
-    "@types/react": "18.2.45",
+    "@types/react": "18.2.46",
     "@types/react-native": "0.72.8"
   }
 }
