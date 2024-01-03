@@ -10597,7 +10597,7 @@ __metadata:
     expo-splash-screen: "npm:0.22.0"
     expo-status-bar: "npm:1.7.1"
     expo-updates: "npm:0.18.19"
-    metro-minify-terser: "npm:0.80.2"
+    metro-minify-terser: "npm:0.80.3"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     react-native: "npm:0.73.1"
@@ -14105,6 +14105,15 @@ __metadata:
   dependencies:
     terser: "npm:^5.15.0"
   checksum: 25f461db7deaed7796f2869cba984edbc7f926d6c92a73188efc9e5d11bb4cbedec3f5fabb961f5c663e8e5317d235992871c45fa74464f247dd524adc537fe0
+  languageName: node
+  linkType: hard
+
+"metro-minify-terser@npm:0.80.3":
+  version: 0.80.3
+  resolution: "metro-minify-terser@npm:0.80.3"
+  dependencies:
+    terser: "npm:^5.15.0"
+  checksum: fd52ac0997b259fd539960379d24aed4bc8d34ab2cc54bd2923deb969240cf8611b6d41ebba084769757deaa3fb0683126f1f410e503ffd9beb864446c962dcb
   languageName: node
   linkType: hard
 
