@@ -4422,9 +4422,9 @@ __metadata:
     drizzle-kit: "npm:0.20.9"
     drizzle-orm: "npm:0.29.3"
     eslint: "npm:8.56.0"
-    hono: "npm:3.11.12"
+    hono: "npm:3.12.0"
     typescript: "npm:5.3.3"
-    wrangler: "npm:3.22.2"
+    wrangler: "npm:3.22.3"
   languageName: unknown
   linkType: soft
 
@@ -12120,10 +12120,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hono@npm:3.11.12":
-  version: 3.11.12
-  resolution: "hono@npm:3.11.12"
-  checksum: cf58d8c48ce07f5ed8c3f8c7a43f55b0a1cb11bca2df1bfbb76d4a850aece2c6eada3238b855109637359517f64c4a7fcb180d495e7d321c853cf54675346e2f
+"hono@npm:3.12.0":
+  version: 3.12.0
+  resolution: "hono@npm:3.12.0"
+  checksum: e10dd70e5eda44c76e8e5dae807963841475449fbb4100421ec2e5e680734644006f6133e8a8edf66ac8d47aad114a704db52b53cab2f292a8d17f02342fcff1
   languageName: node
   linkType: hard
 
@@ -14394,9 +14394,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"miniflare@npm:3.20231218.0":
-  version: 3.20231218.0
-  resolution: "miniflare@npm:3.20231218.0"
+"miniflare@npm:3.20231218.1":
+  version: 3.20231218.1
+  resolution: "miniflare@npm:3.20231218.1"
   dependencies:
     "@cspotcode/source-map-support": "npm:0.8.1"
     acorn: "npm:^8.8.0"
@@ -14412,7 +14412,7 @@ __metadata:
     zod: "npm:^3.20.6"
   bin:
     miniflare: bootstrap.js
-  checksum: 3fae047409e2a3d0120a0945ef15af16b4dae4065a04a18ec134a60572b5f93bfdee1d9b4fb0bd09b53ac3b90aa3058c9c081a8598f199b2ffdef9bba07db369
+  checksum: 2980888aeb5b50af3ad95ef7851e53b343838c3874dd1ee9e25174294a30e264b0f66497f8a105e8fbb701aac0f43e6f35bb4f06281ff27471dc1c88169cc42d
   languageName: node
   linkType: hard
 
@@ -17461,7 +17461,7 @@ __metadata:
     eslint: "npm:8.56.0"
     node-gyp: "npm:10.0.1"
     prettier: "npm:3.1.1"
-    turbo: "npm:1.11.2"
+    turbo: "npm:1.11.3"
     typescript: "npm:5.3.3"
   languageName: unknown
   linkType: soft
@@ -18735,58 +18735,58 @@ __metadata:
   languageName: node
   linkType: hard
 
-"turbo-darwin-64@npm:1.11.2":
-  version: 1.11.2
-  resolution: "turbo-darwin-64@npm:1.11.2"
+"turbo-darwin-64@npm:1.11.3":
+  version: 1.11.3
+  resolution: "turbo-darwin-64@npm:1.11.3"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"turbo-darwin-arm64@npm:1.11.2":
-  version: 1.11.2
-  resolution: "turbo-darwin-arm64@npm:1.11.2"
+"turbo-darwin-arm64@npm:1.11.3":
+  version: 1.11.3
+  resolution: "turbo-darwin-arm64@npm:1.11.3"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"turbo-linux-64@npm:1.11.2":
-  version: 1.11.2
-  resolution: "turbo-linux-64@npm:1.11.2"
+"turbo-linux-64@npm:1.11.3":
+  version: 1.11.3
+  resolution: "turbo-linux-64@npm:1.11.3"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"turbo-linux-arm64@npm:1.11.2":
-  version: 1.11.2
-  resolution: "turbo-linux-arm64@npm:1.11.2"
+"turbo-linux-arm64@npm:1.11.3":
+  version: 1.11.3
+  resolution: "turbo-linux-arm64@npm:1.11.3"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"turbo-windows-64@npm:1.11.2":
-  version: 1.11.2
-  resolution: "turbo-windows-64@npm:1.11.2"
+"turbo-windows-64@npm:1.11.3":
+  version: 1.11.3
+  resolution: "turbo-windows-64@npm:1.11.3"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"turbo-windows-arm64@npm:1.11.2":
-  version: 1.11.2
-  resolution: "turbo-windows-arm64@npm:1.11.2"
+"turbo-windows-arm64@npm:1.11.3":
+  version: 1.11.3
+  resolution: "turbo-windows-arm64@npm:1.11.3"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"turbo@npm:1.11.2":
-  version: 1.11.2
-  resolution: "turbo@npm:1.11.2"
+"turbo@npm:1.11.3":
+  version: 1.11.3
+  resolution: "turbo@npm:1.11.3"
   dependencies:
-    turbo-darwin-64: "npm:1.11.2"
-    turbo-darwin-arm64: "npm:1.11.2"
-    turbo-linux-64: "npm:1.11.2"
-    turbo-linux-arm64: "npm:1.11.2"
-    turbo-windows-64: "npm:1.11.2"
-    turbo-windows-arm64: "npm:1.11.2"
+    turbo-darwin-64: "npm:1.11.3"
+    turbo-darwin-arm64: "npm:1.11.3"
+    turbo-linux-64: "npm:1.11.3"
+    turbo-linux-arm64: "npm:1.11.3"
+    turbo-windows-64: "npm:1.11.3"
+    turbo-windows-arm64: "npm:1.11.3"
   dependenciesMeta:
     turbo-darwin-64:
       optional: true
@@ -18802,7 +18802,7 @@ __metadata:
       optional: true
   bin:
     turbo: bin/turbo
-  checksum: 88c6e806675734d009421a8adc126d98d66f199d9f0eed458c73596fdffd57be41bdd19f479683ae76ddc0da15068b1d3820c2d5df7bed3d4d336974ae2b34eb
+  checksum: 066bc49650fcb6e3c3e2082fa71940d7123b86cc17a575089364d87d7e28a9f13fffba2f23ce1341fac4e3f78b00eba9aa715a22c1f77ae683f15af096f4d1ed
   languageName: node
   linkType: hard
 
@@ -19654,9 +19654,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:3.22.2":
-  version: 3.22.2
-  resolution: "wrangler@npm:3.22.2"
+"wrangler@npm:3.22.3":
+  version: 3.22.3
+  resolution: "wrangler@npm:3.22.3"
   dependencies:
     "@cloudflare/kv-asset-handler": "npm:^0.2.0"
     "@cspotcode/source-map-support": "npm:0.8.1"
@@ -19666,7 +19666,7 @@ __metadata:
     chokidar: "npm:^3.5.3"
     esbuild: "npm:0.17.19"
     fsevents: "npm:~2.3.2"
-    miniflare: "npm:3.20231218.0"
+    miniflare: "npm:3.20231218.1"
     nanoid: "npm:^3.3.3"
     path-to-regexp: "npm:^6.2.0"
     resolve.exports: "npm:^2.0.2"
@@ -19679,7 +19679,7 @@ __metadata:
   bin:
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: bcd2dae25baba429dbc62659eea6bd4719961c3b49d5600786859be18ca7869117025a1df61e80d45ce4512f50b2985469cdaa584918d9e971529c007985f31e
+  checksum: ff2a814f572564aca63f0c85abba794407a5d48b1254760eb7022f474a64d31877e15dde8c5bc8b0e33da68246a07d4231389734ca59905784851b44a745e6ee
   languageName: node
   linkType: hard
 
