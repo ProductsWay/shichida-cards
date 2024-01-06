@@ -5901,21 +5901,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:5.17.4":
-  version: 5.17.4
-  resolution: "@tanstack/query-core@npm:5.17.4"
-  checksum: 9a94ac57efabfc07c7df0d5d36697e9263ccf0d9ec2f8718bec00f4f7ae1068e9803b49b68b9cd8cd614c436ead5c3d0a23b79e6861476d449ad6628e5efc3d8
+"@tanstack/query-core@npm:5.17.7":
+  version: 5.17.7
+  resolution: "@tanstack/query-core@npm:5.17.7"
+  checksum: 3f603864e1d2845c31f7603adae3b758a1e57fb30c6996e2472ae0e75ad88044f684872bef7fca0927f5bf81bfd7187fcb4b72fe6e75e1c9636ed20d3bbfb80c
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:5.17.5":
-  version: 5.17.5
-  resolution: "@tanstack/react-query@npm:5.17.5"
+"@tanstack/react-query@npm:5.17.7":
+  version: 5.17.7
+  resolution: "@tanstack/react-query@npm:5.17.7"
   dependencies:
-    "@tanstack/query-core": "npm:5.17.4"
+    "@tanstack/query-core": "npm:5.17.7"
   peerDependencies:
     react: ^18.0.0
-  checksum: db750f975cd287c80b2233642db072fff33ae5a17189d516769cbd49b97b5df60c1c9c8db3e67e311554b3b9b647f22cc8a1c0fd8fc8b7bc8043c6ded71ae9a3
+  checksum: 0148503b2bab9b21a40a6a0b009fcaf8cf5581d6f1a1aca6ec42d6091731f88c3c0b1c1c4ee5d4f57bd3c2d71bf9230e67a2188c1bec60c0e993e4e7975aecae
   languageName: node
   linkType: hard
 
@@ -6287,7 +6287,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.2.46":
+"@types/react@npm:*":
   version: 18.2.46
   resolution: "@types/react@npm:18.2.46"
   dependencies:
@@ -6295,6 +6295,17 @@ __metadata:
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
   checksum: 814cc67107e5e69501d65bfc371cc2c716665d2a3608d395a2f81e24c3a2875db28e2cad717dfb17017eabcffd1d68ee2c9e09ecaba3f7108d5b7fbb9888ebab
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:18.2.47":
+  version: 18.2.47
+  resolution: "@types/react@npm:18.2.47"
+  dependencies:
+    "@types/prop-types": "npm:*"
+    "@types/scheduler": "npm:*"
+    csstype: "npm:^3.0.2"
+  checksum: e98ea1827fe60636d0f7ce206397159a29fc30613fae43e349e32c10ad3c0b7e0ed2ded2f3239e07bd5a3cba8736b6114ba196acccc39905ca4a06f56a8d2841
   languageName: node
   linkType: hard
 
@@ -6978,11 +6989,11 @@ __metadata:
     "@tamagui/lucide-icons": "npm:latest"
     "@tamagui/shorthands": "npm:latest"
     "@tamagui/themes": "npm:latest"
-    "@tanstack/react-query": "npm:5.17.5"
+    "@tanstack/react-query": "npm:5.17.7"
     "@trpc/client": "npm:10.45.0"
     "@trpc/next": "npm:10.45.0"
     "@trpc/react-query": "npm:10.45.0"
-    "@types/react": "npm:18.2.46"
+    "@types/react": "npm:18.2.47"
     "@types/react-native": "npm:0.72.8"
     burnt: "npm:0.12.2"
     expo-auth-session: "npm:5.2.0"
