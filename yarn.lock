@@ -1737,11 +1737,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@clerk/clerk-expo@npm:0.19.28":
-  version: 0.19.28
-  resolution: "@clerk/clerk-expo@npm:0.19.28"
+"@clerk/clerk-expo@npm:0.19.30":
+  version: 0.19.30
+  resolution: "@clerk/clerk-expo@npm:0.19.30"
   dependencies:
-    "@clerk/clerk-js": "npm:4.68.2"
+    "@clerk/clerk-js": "npm:4.68.4"
     "@clerk/clerk-react": "npm:4.30.3"
     "@clerk/shared": "npm:1.3.1"
     base-64: "npm:1.0.0"
@@ -1750,13 +1750,13 @@ __metadata:
     expo-auth-session: ">=4"
     expo-web-browser: ">=12"
     react: ">=16"
-  checksum: 5d6328496ca5509c0fb0fdba469ec96fe7500718539035cfe98dac1833311ad1008aa74752562e46e7c37a7fe18ffdf07e84c10e1fb4a372255f3d9a0d045024
+  checksum: 0bcdb72146d6755f7ed8b62058d0be1f886eeb0c971f494f14ea137139f2e5ae3d96393f896d228b51b9575674a271c78088d906a7123a7d595639cc3981f93e
   languageName: node
   linkType: hard
 
-"@clerk/clerk-js@npm:4.68.2":
-  version: 4.68.2
-  resolution: "@clerk/clerk-js@npm:4.68.2"
+"@clerk/clerk-js@npm:4.68.4":
+  version: 4.68.4
+  resolution: "@clerk/clerk-js@npm:4.68.4"
   dependencies:
     "@clerk/localizations": "npm:1.26.13"
     "@clerk/shared": "npm:1.3.1"
@@ -1775,7 +1775,7 @@ __metadata:
     regenerator-runtime: "npm:0.13.11"
   peerDependencies:
     react: ">=18"
-  checksum: e63e4675cf801447c634d3aa21d258df1ec901bbbc55bd990bd2bf08fce0d98535f9588506ae852cf698ff7e4aa16c2a06ac005f170e9f4d8b197cab80b18be8
+  checksum: 2f7116ba550218a072d94ff0c5cd86d20ce94e70f217460ec625f2ff8fe70932854d4a84d2e6dd7380e9ed1ba39430812c638ada92b22685dacfbaf3dc0e1914
   languageName: node
   linkType: hard
 
@@ -4423,9 +4423,9 @@ __metadata:
     drizzle-kit: "npm:0.20.10"
     drizzle-orm: "npm:0.29.3"
     eslint: "npm:8.56.0"
-    hono: "npm:3.12.0"
+    hono: "npm:3.12.1"
     typescript: "npm:5.3.3"
-    wrangler: "npm:3.22.3"
+    wrangler: "npm:3.22.4"
   languageName: unknown
   linkType: soft
 
@@ -6227,7 +6227,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:20.10.7":
+"@types/node@npm:*":
   version: 20.10.7
   resolution: "@types/node@npm:20.10.7"
   dependencies:
@@ -6247,6 +6247,15 @@ __metadata:
   version: 16.18.6
   resolution: "@types/node@npm:16.18.6"
   checksum: 88192f5cd3d21ca827898c903ce6fbb8a92a51d0f9d8f7e93ac3f2f3b46cdd9f29c969fe3af9ba004833bb265c6330042f37d11cd97b9e4f54dabf2b34399075
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:20.10.8":
+  version: 20.10.8
+  resolution: "@types/node@npm:20.10.8"
+  dependencies:
+    undici-types: "npm:~5.26.4"
+  checksum: 93268c33c3bf0194427d696658160c77ab8661aa57107df5b248ff952898a372bf92cf0ba7fc07788fa35e59c69b6619cce63d45e4e67fca806e37da7ea42512
   languageName: node
   linkType: hard
 
@@ -6978,7 +6987,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app@workspace:packages/app"
   dependencies:
-    "@clerk/clerk-expo": "npm:0.19.28"
+    "@clerk/clerk-expo": "npm:0.19.30"
     "@clerk/nextjs": "npm:4.29.2"
     "@shichida/ui": "npm:*"
     "@shopify/flash-list": "npm:1.6.3"
@@ -12086,10 +12095,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hono@npm:3.12.0":
-  version: 3.12.0
-  resolution: "hono@npm:3.12.0"
-  checksum: e10dd70e5eda44c76e8e5dae807963841475449fbb4100421ec2e5e680734644006f6133e8a8edf66ac8d47aad114a704db52b53cab2f292a8d17f02342fcff1
+"hono@npm:3.12.1":
+  version: 3.12.1
+  resolution: "hono@npm:3.12.1"
+  checksum: 8489db5b94df1d89ae1132081bb181f872fa45addbcab7fbfe8de6de82a4600fd224b70af31a238598b285c962481ef98d1dbe1d81eb0094069a6fa3857ae4fc
   languageName: node
   linkType: hard
 
@@ -14689,7 +14698,7 @@ __metadata:
   dependencies:
     "@tamagui/next-plugin": "npm:latest"
     "@tamagui/next-theme": "npm:latest"
-    "@types/node": "npm:20.10.7"
+    "@types/node": "npm:20.10.8"
     app: "npm:*"
     critters: "npm:0.0.20"
     dotenv-cli: "npm:7.3.0"
@@ -19616,9 +19625,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:3.22.3":
-  version: 3.22.3
-  resolution: "wrangler@npm:3.22.3"
+"wrangler@npm:3.22.4":
+  version: 3.22.4
+  resolution: "wrangler@npm:3.22.4"
   dependencies:
     "@cloudflare/kv-asset-handler": "npm:^0.2.0"
     "@cspotcode/source-map-support": "npm:0.8.1"
@@ -19641,7 +19650,7 @@ __metadata:
   bin:
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: ff2a814f572564aca63f0c85abba794407a5d48b1254760eb7022f474a64d31877e15dde8c5bc8b0e33da68246a07d4231389734ca59905784851b44a745e6ee
+  checksum: 9b5d6a8a3b1ff323083f2491d4970b5e1d51b1cdbcbcfec0b352402c334f808580516fd9c2e7bb5638b15924857631cacb9fccd377e87c780d56800edcc4f666
   languageName: node
   linkType: hard
 
