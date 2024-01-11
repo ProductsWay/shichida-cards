@@ -18,7 +18,7 @@
     "babel-plugin-module-resolver": "5.0.0",
     "burnt": "0.12.2",
     "expo": "49.0.21",
-    "expo-constants": "15.4.2",
+    "expo-constants": "15.4.3",
     "expo-dev-client": "2.4.12",
     "expo-font": "11.6.0",
     "expo-image": "1.5.1",
@@ -41,16 +41,16 @@
     "@expo/metro-config": "0.10.7",
     "@tamagui/babel-plugin": "latest",
     "babel-plugin-transform-inline-environment-variables": "0.4.4",
-    "metro-minify-terser": "0.80.3",
+    "metro-minify-terser": "0.80.4",
     "react-native-dotenv": "3.4.9",
     "typescript": "5.3.3"
   },
   "resolutions": {
-    "metro": "0.80.3",
-    "metro-resolver": "0.80.3"
+    "metro": "0.80.4",
+    "metro-resolver": "0.80.4"
   },
   "overrides": {
-    "metro": "0.80.3",
-    "metro-resolver": "0.80.3"
+    "metro": "0.80.4",
+    "metro-resolver": "0.80.4"
   }
 }
