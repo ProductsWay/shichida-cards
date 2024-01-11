@@ -1737,9 +1737,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@clerk/clerk-expo@npm:0.19.30":
-  version: 0.19.30
-  resolution: "@clerk/clerk-expo@npm:0.19.30"
+"@clerk/clerk-expo@npm:0.20.0":
+  version: 0.20.0
+  resolution: "@clerk/clerk-expo@npm:0.20.0"
   dependencies:
     "@clerk/clerk-js": "npm:4.68.4"
     "@clerk/clerk-react": "npm:4.30.3"
@@ -1747,10 +1747,12 @@ __metadata:
     base-64: "npm:1.0.0"
     react-native-url-polyfill: "npm:2.0.0"
   peerDependencies:
+    expo-application: ">=5"
     expo-auth-session: ">=4"
+    expo-constants: ">=14"
     expo-web-browser: ">=12"
     react: ">=16"
-  checksum: 0bcdb72146d6755f7ed8b62058d0be1f886eeb0c971f494f14ea137139f2e5ae3d96393f896d228b51b9575674a271c78088d906a7123a7d595639cc3981f93e
+  checksum: 2342712af54cd78e91fe0de23e310529995aea7c4836dd9cb89dfedca0d223d7044f1d1ba7ba9d00c524c173eaee159d5f0bd576c6d8c4f3b03f7f87e6bde6b1
   languageName: node
   linkType: hard
 
@@ -6987,7 +6989,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app@workspace:packages/app"
   dependencies:
-    "@clerk/clerk-expo": "npm:0.19.30"
+    "@clerk/clerk-expo": "npm:0.20.0"
     "@clerk/nextjs": "npm:4.29.2"
     "@shichida/ui": "npm:*"
     "@shopify/flash-list": "npm:1.6.3"
@@ -7005,7 +7007,7 @@ __metadata:
     "@types/react-native": "npm:0.72.8"
     burnt: "npm:0.12.2"
     expo-auth-session: "npm:5.2.0"
-    expo-constants: "npm:15.4.2"
+    expo-constants: "npm:15.4.3"
     expo-linking: "npm:6.0.0"
     expo-secure-store: "npm:12.5.0"
     react-native-safe-area-context: "npm:4.8.2"
@@ -10562,7 +10564,7 @@ __metadata:
     babel-plugin-transform-inline-environment-variables: "npm:0.4.4"
     burnt: "npm:0.12.2"
     expo: "npm:49.0.21"
-    expo-constants: "npm:15.4.2"
+    expo-constants: "npm:15.4.3"
     expo-dev-client: "npm:2.4.12"
     expo-font: "npm:11.6.0"
     expo-image: "npm:1.5.1"
@@ -10572,7 +10574,7 @@ __metadata:
     expo-splash-screen: "npm:0.22.0"
     expo-status-bar: "npm:1.7.1"
     expo-updates: "npm:0.18.19"
-    metro-minify-terser: "npm:0.80.3"
+    metro-minify-terser: "npm:0.80.4"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     react-native: "npm:0.73.2"
@@ -10623,14 +10625,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-constants@npm:15.4.2":
-  version: 15.4.2
-  resolution: "expo-constants@npm:15.4.2"
+"expo-constants@npm:15.4.3":
+  version: 15.4.3
+  resolution: "expo-constants@npm:15.4.3"
   dependencies:
     "@expo/config": "npm:~8.5.0"
   peerDependencies:
     expo: "*"
-  checksum: 10e8e109fe6d7c5a9503d4f958756dbdca82f41d2e76bb3c2a78b2afbe7a90ac041415e2dce2fba7523b48ef44b1bf1c2c29811c5e463ef4acba77b0ecdcb6ff
+  checksum: f478ab142f06fa2f3d6103aa17fb5f40fd219ec83ee870253871d9cb64ccfb596a8eb109ee6c97dacb3d0a7a448f07add1d4f1c4e0f557252620fb4489337527
   languageName: node
   linkType: hard
 
@@ -14080,6 +14082,15 @@ __metadata:
   dependencies:
     terser: "npm:^5.15.0"
   checksum: fd52ac0997b259fd539960379d24aed4bc8d34ab2cc54bd2923deb969240cf8611b6d41ebba084769757deaa3fb0683126f1f410e503ffd9beb864446c962dcb
+  languageName: node
+  linkType: hard
+
+"metro-minify-terser@npm:0.80.4":
+  version: 0.80.4
+  resolution: "metro-minify-terser@npm:0.80.4"
+  dependencies:
+    terser: "npm:^5.15.0"
+  checksum: e954685280044240b561534f0b9d99d47b1781b7eb3e81f91e47b23d30eefd36ee919c7e98ee8251c1404dea053ae56f7f845c3607d50ad617c384c76a940135
   languageName: node
   linkType: hard
 
