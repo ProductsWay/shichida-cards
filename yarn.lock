@@ -4422,10 +4422,10 @@ __metadata:
     "@tsndr/cloudflare-worker-jwt": "npm:2.3.2"
     better-sqlite3: "npm:9.2.2"
     dotenv-cli: "npm:7.3.0"
-    drizzle-kit: "npm:0.20.10"
+    drizzle-kit: "npm:0.20.11"
     drizzle-orm: "npm:0.29.3"
     eslint: "npm:8.56.0"
-    hono: "npm:3.12.2"
+    hono: "npm:3.12.3"
     typescript: "npm:5.3.3"
     wrangler: "npm:3.22.4"
   languageName: unknown
@@ -9196,9 +9196,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"drizzle-kit@npm:0.20.10":
-  version: 0.20.10
-  resolution: "drizzle-kit@npm:0.20.10"
+"drizzle-kit@npm:0.20.11":
+  version: 0.20.11
+  resolution: "drizzle-kit@npm:0.20.11"
   dependencies:
     "@drizzle-team/studio": "npm:^0.0.37"
     "@esbuild-kit/esm-loader": "npm:^2.5.5"
@@ -9216,7 +9216,7 @@ __metadata:
     zod: "npm:^3.20.2"
   bin:
     drizzle-kit: bin.cjs
-  checksum: 078b7ae225bfe9011d89f3dacb202cd42aace0da8489ab3fe051037831d8bdade3dce627986ccb68c03e78b44e9241beacd78be4af04f36c45f674476cbd1629
+  checksum: 1687fcc579d391e5d13c3332b63726600ed189bb80136aa65c7e41b3821cc11c377d48a31f456dafc56d55863d252fe9598889aced92c8421166c6f609db258c
   languageName: node
   linkType: hard
 
@@ -10579,7 +10579,7 @@ __metadata:
     react-dom: "npm:18.2.0"
     react-native: "npm:0.73.2"
     react-native-dotenv: "npm:3.4.9"
-    react-native-gesture-handler: "npm:2.14.0"
+    react-native-gesture-handler: "npm:2.14.1"
     react-native-screens: "npm:3.29.0"
     react-native-svg: "npm:14.1.0"
     react-native-web: "npm:0.19.10"
@@ -12097,10 +12097,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hono@npm:3.12.2":
-  version: 3.12.2
-  resolution: "hono@npm:3.12.2"
-  checksum: f998fefab709bb7f3c8a8a7774a99275d8c8991fbdc7953ab01e0236d570033d9bb44149b2680a7832386e2ee32595d7b4fea14c2fd0396deb024285fe52b420
+"hono@npm:3.12.3":
+  version: 3.12.3
+  resolution: "hono@npm:3.12.3"
+  checksum: 84a674ef0c6e51657b984d32dbd4e92ff0db13ab72d71f180e0ad4f801d4ed8d761b7c6dac364b302e9ea2d8e44569d444f678c72f221f7f3cfc4cd18dcef24a
   languageName: node
   linkType: hard
 
@@ -16310,9 +16310,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-gesture-handler@npm:2.14.0":
-  version: 2.14.0
-  resolution: "react-native-gesture-handler@npm:2.14.0"
+"react-native-gesture-handler@npm:2.14.1":
+  version: 2.14.1
+  resolution: "react-native-gesture-handler@npm:2.14.1"
   dependencies:
     "@egjs/hammerjs": "npm:^2.0.17"
     hoist-non-react-statics: "npm:^3.3.0"
@@ -16322,7 +16322,7 @@ __metadata:
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: d567c26756aefc85fb6056efc6be4cdf0c1e7fd45a9d92f4bf0dc0fd94d3e099207398978bac8bdf3fa731f1020d41a7576566b552c525dc71bf7bc270bad25f
+  checksum: f8905498d18b6052b27ab54e33516aa7346d219b847a68ed4ef9ad7286865b8649aa9026b934a192f66472e8ee3efe503698762e90646e67604f9a2b8690e65d
   languageName: node
   linkType: hard
 
