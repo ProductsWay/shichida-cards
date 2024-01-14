@@ -34,7 +34,7 @@
     "check-dependency-version-consistency": "4.1.0",
     "eslint": "8.56.0",
     "node-gyp": "10.0.1",
-    "prettier": "3.2.1",
+    "prettier": "3.2.2",
     "turbo": "1.11.3",
     "typescript": "5.3.3"
   },
