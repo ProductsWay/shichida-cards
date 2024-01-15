@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@babel/runtime": "7.23.8",
-    "@manypkg/cli": "0.21.1",
+    "@manypkg/cli": "0.21.2",
     "check-dependency-version-consistency": "4.1.0",
     "eslint": "8.56.0",
     "node-gyp": "10.0.1",

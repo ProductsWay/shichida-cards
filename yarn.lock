@@ -3601,9 +3601,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@manypkg/cli@npm:0.21.1":
-  version: 0.21.1
-  resolution: "@manypkg/cli@npm:0.21.1"
+"@manypkg/cli@npm:0.21.2":
+  version: 0.21.2
+  resolution: "@manypkg/cli@npm:0.21.2"
   dependencies:
     "@manypkg/get-packages": "npm:^2.2.0"
     chalk: "npm:^2.4.2"
@@ -3620,7 +3620,7 @@ __metadata:
     validate-npm-package-name: "npm:^3.0.0"
   bin:
     manypkg: bin.js
-  checksum: 6d252e47e23bbe2af18bb26b3cede7194bae643186dfaa10555601ccc2998e5aa4b64e6f3aff873451a628d17aa970ebe6494a18883d365b30fb999861fc863e
+  checksum: 1fbabf22bf03aadfb2a05f0b55fe2d28d9efbf75182db7252fe3a33693e1a039ae2bbdd786815e5530f6bc85977d148c9501161c30216c48d9197e4c4150cdf9
   languageName: node
   linkType: hard
 
@@ -6220,7 +6220,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:20.11.0":
+"@types/node@npm:*":
   version: 20.11.0
   resolution: "@types/node@npm:20.11.0"
   dependencies:
@@ -6240,6 +6240,15 @@ __metadata:
   version: 16.18.6
   resolution: "@types/node@npm:16.18.6"
   checksum: 88192f5cd3d21ca827898c903ce6fbb8a92a51d0f9d8f7e93ac3f2f3b46cdd9f29c969fe3af9ba004833bb265c6330042f37d11cd97b9e4f54dabf2b34399075
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:20.11.1":
+  version: 20.11.1
+  resolution: "@types/node@npm:20.11.1"
+  dependencies:
+    undici-types: "npm:~5.26.4"
+  checksum: f665cdce28b0b6e57338d1f74e0599ee9b10eac74cff729921c8f473807398e9aba2f8cf74c74a4d3dfbc2d616c73267da7de3003ed3c8152ea366bf4c96a91a
   languageName: node
   linkType: hard
 
@@ -14682,7 +14691,7 @@ __metadata:
   dependencies:
     "@tamagui/next-plugin": "npm:latest"
     "@tamagui/next-theme": "npm:latest"
-    "@types/node": "npm:20.11.0"
+    "@types/node": "npm:20.11.1"
     app: "npm:*"
     critters: "npm:0.0.20"
     dotenv-cli: "npm:7.3.0"
@@ -17409,7 +17418,7 @@ __metadata:
   resolution: "shichida-cards@workspace:."
   dependencies:
     "@babel/runtime": "npm:7.23.8"
-    "@manypkg/cli": "npm:0.21.1"
+    "@manypkg/cli": "npm:0.21.2"
     check-dependency-version-consistency: "npm:4.1.0"
     eslint: "npm:8.56.0"
     node-gyp: "npm:10.0.1"
