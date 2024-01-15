@@ -17,7 +17,7 @@
     "@tamagui/lucide-icons": "latest",
     "@tamagui/shorthands": "latest",
     "@tamagui/themes": "latest",
-    "@tanstack/react-query": "5.17.10",
+    "@tanstack/react-query": "5.17.12",
     "@trpc/client": "10.45.0",
     "@trpc/next": "10.45.0",
     "@trpc/react-query": "10.45.0",
@@ -30,7 +30,7 @@
     "solito": "4.2.0"
   },
   "devDependencies": {
-    "@types/react": "18.2.47",
+    "@types/react": "18.2.48",
     "@types/react-native": "0.72.8"
   }
 }

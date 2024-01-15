@@ -4415,7 +4415,7 @@ __metadata:
     drizzle-kit: "npm:0.20.12"
     drizzle-orm: "npm:0.29.3"
     eslint: "npm:8.56.0"
-    hono: "npm:3.12.3"
+    hono: "npm:3.12.4"
     typescript: "npm:5.3.3"
     wrangler: "npm:3.22.4"
   languageName: unknown
@@ -5902,14 +5902,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:5.17.10":
-  version: 5.17.10
-  resolution: "@tanstack/react-query@npm:5.17.10"
+"@tanstack/react-query@npm:5.17.12":
+  version: 5.17.12
+  resolution: "@tanstack/react-query@npm:5.17.12"
   dependencies:
     "@tanstack/query-core": "npm:5.17.10"
   peerDependencies:
     react: ^18.0.0
-  checksum: 9c99517251203b885ad625ab7de67874f276de698eeb2de19f07012747998021edb43069e68b1a996c8072ec9af0f81c31194c57a9af8df2fd237ffc040dd49d
+  checksum: 6a4ffcac6045148a8d990b18d031273ec6a356139f4eef2c2f41f1fda1179ec254c2636a373a14c32e3adc12dc047adb7f239c3c2693c8bac565368585e9f082
   languageName: node
   linkType: hard
 
@@ -6243,12 +6243,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.11.1":
-  version: 20.11.1
-  resolution: "@types/node@npm:20.11.1"
+"@types/node@npm:20.11.2":
+  version: 20.11.2
+  resolution: "@types/node@npm:20.11.2"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: f665cdce28b0b6e57338d1f74e0599ee9b10eac74cff729921c8f473807398e9aba2f8cf74c74a4d3dfbc2d616c73267da7de3003ed3c8152ea366bf4c96a91a
+  checksum: 11a935f6676f78e1ced4805f9653891d1fc78ecafd78c7352d289be8c1829c88ebfe45ffd6b4687bbfc73edd0e177746d8cefff651a9f13199ac2dd3ca1076b7
   languageName: node
   linkType: hard
 
@@ -6290,7 +6290,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.2.47":
+"@types/react@npm:*":
   version: 18.2.47
   resolution: "@types/react@npm:18.2.47"
   dependencies:
@@ -6298,6 +6298,17 @@ __metadata:
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
   checksum: e98ea1827fe60636d0f7ce206397159a29fc30613fae43e349e32c10ad3c0b7e0ed2ded2f3239e07bd5a3cba8736b6114ba196acccc39905ca4a06f56a8d2841
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:18.2.48":
+  version: 18.2.48
+  resolution: "@types/react@npm:18.2.48"
+  dependencies:
+    "@types/prop-types": "npm:*"
+    "@types/scheduler": "npm:*"
+    csstype: "npm:^3.0.2"
+  checksum: 7e89f18ea2928b1638f564b156d692894dcb9352a7e0a807873c97e858abe1f23dbd165a25dd088a991344e973fdeef88ba5724bfb64504b74072cbc9c220c3a
   languageName: node
   linkType: hard
 
@@ -6990,11 +7001,11 @@ __metadata:
     "@tamagui/lucide-icons": "npm:latest"
     "@tamagui/shorthands": "npm:latest"
     "@tamagui/themes": "npm:latest"
-    "@tanstack/react-query": "npm:5.17.10"
+    "@tanstack/react-query": "npm:5.17.12"
     "@trpc/client": "npm:10.45.0"
     "@trpc/next": "npm:10.45.0"
     "@trpc/react-query": "npm:10.45.0"
-    "@types/react": "npm:18.2.47"
+    "@types/react": "npm:18.2.48"
     "@types/react-native": "npm:0.72.8"
     burnt: "npm:0.12.2"
     expo-auth-session: "npm:5.2.0"
@@ -12088,10 +12099,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hono@npm:3.12.3":
-  version: 3.12.3
-  resolution: "hono@npm:3.12.3"
-  checksum: 84a674ef0c6e51657b984d32dbd4e92ff0db13ab72d71f180e0ad4f801d4ed8d761b7c6dac364b302e9ea2d8e44569d444f678c72f221f7f3cfc4cd18dcef24a
+"hono@npm:3.12.4":
+  version: 3.12.4
+  resolution: "hono@npm:3.12.4"
+  checksum: f5d52b4914c8a2396f15a1a49fcb6543aff8bd87ceb4cb8766c89cd75c0dbd48e475973b091b713c1694e609eb6c3946456636d7a77d6d7bf95a2b984ae8499e
   languageName: node
   linkType: hard
 
@@ -14691,7 +14702,7 @@ __metadata:
   dependencies:
     "@tamagui/next-plugin": "npm:latest"
     "@tamagui/next-theme": "npm:latest"
-    "@types/node": "npm:20.11.1"
+    "@types/node": "npm:20.11.2"
     app: "npm:*"
     critters: "npm:0.0.20"
     dotenv-cli: "npm:7.3.0"
