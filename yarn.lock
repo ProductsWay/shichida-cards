@@ -4417,7 +4417,7 @@ __metadata:
     eslint: "npm:8.56.0"
     hono: "npm:3.12.5"
     typescript: "npm:5.3.3"
-    wrangler: "npm:3.22.4"
+    wrangler: "npm:3.22.5"
   languageName: unknown
   linkType: soft
 
@@ -5895,21 +5895,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:5.17.14":
-  version: 5.17.14
-  resolution: "@tanstack/query-core@npm:5.17.14"
-  checksum: 970e366023c4ea24690fa86af5256bf01711b1810b6aa37fb8ebcc2c2f0b753f0e29bff44266e30ccd4e497ca7f2491120d73bea51503395f206dacfebad4856
+"@tanstack/query-core@npm:5.17.15":
+  version: 5.17.15
+  resolution: "@tanstack/query-core@npm:5.17.15"
+  checksum: 2967963e94ff78c8bf4941efc09c81e6a6a78400322c26cf5d9528b169c3901a399752d679c3f4ab066c2a6e8df712b5a1b2e033e06fbbaa4b29f5be17032ab4
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:5.17.14":
-  version: 5.17.14
-  resolution: "@tanstack/react-query@npm:5.17.14"
+"@tanstack/react-query@npm:5.17.15":
+  version: 5.17.15
+  resolution: "@tanstack/react-query@npm:5.17.15"
   dependencies:
-    "@tanstack/query-core": "npm:5.17.14"
+    "@tanstack/query-core": "npm:5.17.15"
   peerDependencies:
     react: ^18.0.0
-  checksum: 3258c0e58c1b437d6d519544721bed6c97043dacd2a1633b7773bb13364858646c1850ecd532324bb161cd1cb2c45bbe4b29ea35634bd00c1e609f4cb9876dbe
+  checksum: 99e590cc7feb6355541673f48d8e700ef5f8373ed3d431a31bc8836d867d1ee6b7f9cdce54a4fc0b07686e35fe13631755debe7f2f8d228f1b74f06e0aab16de
   languageName: node
   linkType: hard
 
@@ -7001,7 +7001,7 @@ __metadata:
     "@tamagui/lucide-icons": "npm:latest"
     "@tamagui/shorthands": "npm:latest"
     "@tamagui/themes": "npm:latest"
-    "@tanstack/react-query": "npm:5.17.14"
+    "@tanstack/react-query": "npm:5.17.15"
     "@trpc/client": "npm:10.45.0"
     "@trpc/next": "npm:10.45.0"
     "@trpc/react-query": "npm:10.45.0"
@@ -14364,9 +14364,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"miniflare@npm:3.20231218.1":
-  version: 3.20231218.1
-  resolution: "miniflare@npm:3.20231218.1"
+"miniflare@npm:3.20231218.2":
+  version: 3.20231218.2
+  resolution: "miniflare@npm:3.20231218.2"
   dependencies:
     "@cspotcode/source-map-support": "npm:0.8.1"
     acorn: "npm:^8.8.0"
@@ -14382,7 +14382,7 @@ __metadata:
     zod: "npm:^3.20.6"
   bin:
     miniflare: bootstrap.js
-  checksum: 2980888aeb5b50af3ad95ef7851e53b343838c3874dd1ee9e25174294a30e264b0f66497f8a105e8fbb701aac0f43e6f35bb4f06281ff27471dc1c88169cc42d
+  checksum: 9818abcc138cd3ee83e63bace7c678a385513ce095bd8f565d691eaa93827ecb270daeea89c455dd963b4d4e848fb26411ca8b7c333c5be8b6d8c63a13b895ed
   languageName: node
   linkType: hard
 
@@ -16867,7 +16867,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@npm:^1.14.2, resolve@npm:^1.19.0, resolve@npm:^1.22.1, resolve@npm:^1.22.4":
+"resolve@npm:^1.14.2, resolve@npm:^1.19.0, resolve@npm:^1.22.1, resolve@npm:^1.22.4, resolve@npm:^1.22.8":
   version: 1.22.8
   resolution: "resolve@npm:1.22.8"
   dependencies:
@@ -16902,7 +16902,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@npm%3A^1.14.2#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.19.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.1#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.4#optional!builtin<compat/resolve>":
+"resolve@patch:resolve@npm%3A^1.14.2#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.19.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.1#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.4#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.8#optional!builtin<compat/resolve>":
   version: 1.22.8
   resolution: "resolve@patch:resolve@npm%3A1.22.8#optional!builtin<compat/resolve>::version=1.22.8&hash=c3c19d"
   dependencies:
@@ -19630,21 +19630,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:3.22.4":
-  version: 3.22.4
-  resolution: "wrangler@npm:3.22.4"
+"wrangler@npm:3.22.5":
+  version: 3.22.5
+  resolution: "wrangler@npm:3.22.5"
   dependencies:
     "@cloudflare/kv-asset-handler": "npm:^0.2.0"
-    "@cspotcode/source-map-support": "npm:0.8.1"
     "@esbuild-plugins/node-globals-polyfill": "npm:^0.2.3"
     "@esbuild-plugins/node-modules-polyfill": "npm:^0.2.2"
     blake3-wasm: "npm:^2.1.5"
     chokidar: "npm:^3.5.3"
     esbuild: "npm:0.17.19"
     fsevents: "npm:~2.3.2"
-    miniflare: "npm:3.20231218.1"
+    miniflare: "npm:3.20231218.2"
     nanoid: "npm:^3.3.3"
     path-to-regexp: "npm:^6.2.0"
+    resolve: "npm:^1.22.8"
     resolve.exports: "npm:^2.0.2"
     selfsigned: "npm:^2.0.1"
     source-map: "npm:0.6.1"
@@ -19655,7 +19655,7 @@ __metadata:
   bin:
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: 9b5d6a8a3b1ff323083f2491d4970b5e1d51b1cdbcbcfec0b352402c334f808580516fd9c2e7bb5638b15924857631cacb9fccd377e87c780d56800edcc4f666
+  checksum: 9290b6fb5621121694f17e46f6a925cbe8d975ef099bffa678748c0cfe8ae2a24493c1bba055bf3e1062740454498ba1d3e2fe4e0524410ebc3b9e5d165cd015
   languageName: node
   linkType: hard
 
