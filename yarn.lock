@@ -6243,12 +6243,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.11.2":
-  version: 20.11.2
-  resolution: "@types/node@npm:20.11.2"
+"@types/node@npm:20.11.3":
+  version: 20.11.3
+  resolution: "@types/node@npm:20.11.3"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 11a935f6676f78e1ced4805f9653891d1fc78ecafd78c7352d289be8c1829c88ebfe45ffd6b4687bbfc73edd0e177746d8cefff651a9f13199ac2dd3ca1076b7
+  checksum: 10e58b526efc73ac6e6a54466ec9e8f39a6a24aba902abc91cc2f85dbbe2bf1b4c84d941106036275b335a867d664009679136345c491dd642b953217d859ebb
   languageName: node
   linkType: hard
 
@@ -7009,7 +7009,7 @@ __metadata:
     "@types/react-native": "npm:0.72.8"
     burnt: "npm:0.12.2"
     expo-auth-session: "npm:5.2.0"
-    expo-constants: "npm:15.4.3"
+    expo-constants: "npm:15.4.4"
     expo-linking: "npm:6.0.0"
     expo-secure-store: "npm:12.5.0"
     react-native-safe-area-context: "npm:4.8.2"
@@ -10566,7 +10566,7 @@ __metadata:
     babel-plugin-transform-inline-environment-variables: "npm:0.4.4"
     burnt: "npm:0.12.2"
     expo: "npm:49.0.21"
-    expo-constants: "npm:15.4.3"
+    expo-constants: "npm:15.4.4"
     expo-dev-client: "npm:2.4.12"
     expo-font: "npm:11.6.0"
     expo-image: "npm:1.5.1"
@@ -10627,14 +10627,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-constants@npm:15.4.3":
-  version: 15.4.3
-  resolution: "expo-constants@npm:15.4.3"
+"expo-constants@npm:15.4.4":
+  version: 15.4.4
+  resolution: "expo-constants@npm:15.4.4"
   dependencies:
     "@expo/config": "npm:~8.5.0"
   peerDependencies:
     expo: "*"
-  checksum: f478ab142f06fa2f3d6103aa17fb5f40fd219ec83ee870253871d9cb64ccfb596a8eb109ee6c97dacb3d0a7a448f07add1d4f1c4e0f557252620fb4489337527
+  checksum: c8233916d0dfae73fc59e7e0c4e9750bb158b8e65dd2f788535a6dfcb2784a500bb9938cb411c0cd99fabfad81cd4592f43e3e16a06a3887bd9def585023a4bc
   languageName: node
   linkType: hard
 
@@ -14702,7 +14702,7 @@ __metadata:
   dependencies:
     "@tamagui/next-plugin": "npm:latest"
     "@tamagui/next-theme": "npm:latest"
-    "@types/node": "npm:20.11.2"
+    "@types/node": "npm:20.11.3"
     app: "npm:*"
     critters: "npm:0.0.20"
     dotenv-cli: "npm:7.3.0"
