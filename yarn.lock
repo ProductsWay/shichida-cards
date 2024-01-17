@@ -4410,7 +4410,7 @@ __metadata:
     "@hono/trpc-server": "npm:0.1.0"
     "@trpc/server": "npm:10.45.0"
     "@tsndr/cloudflare-worker-jwt": "npm:2.3.2"
-    better-sqlite3: "npm:9.2.2"
+    better-sqlite3: "npm:9.3.0"
     dotenv-cli: "npm:7.3.0"
     drizzle-kit: "npm:0.20.13"
     drizzle-orm: "npm:0.29.3"
@@ -6243,12 +6243,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.11.4":
-  version: 20.11.4
-  resolution: "@types/node@npm:20.11.4"
+"@types/node@npm:20.11.5":
+  version: 20.11.5
+  resolution: "@types/node@npm:20.11.5"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: af6e1ad4d8f210d06d6db6c85b9aba25b022b493a4f2289e5ac693b418de746db812ab1537096e10e7cb7b78f1d835a06e61f31d93ebe36ef116bfbbf8f04c97
+  checksum: 6d18cec852f5cfbed3ec42b5c01c026e7a3f9da540d6e3d6738d4cee9979fb308cf27b6df7ba40a6553e7bc82e678f0ef53ba6e6ad52e5b86bd97b7783c2a42c
   languageName: node
   linkType: hard
 
@@ -7493,14 +7493,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"better-sqlite3@npm:9.2.2":
-  version: 9.2.2
-  resolution: "better-sqlite3@npm:9.2.2"
+"better-sqlite3@npm:9.3.0":
+  version: 9.3.0
+  resolution: "better-sqlite3@npm:9.3.0"
   dependencies:
     bindings: "npm:^1.5.0"
     node-gyp: "npm:latest"
     prebuild-install: "npm:^7.1.1"
-  checksum: b4bfe142ba4544a0cc76b2ca03d89bce1acf3fe8a86a1ba317a4049b26bf8fed70fb413f6317d2e5abeb97e31b177accb6d09619fdc0531e891cee112e2aade1
+  checksum: 08943620079dd3f7de7e12a7cb63b9a6ca5b399ca3e06363f120b2589c86cadef2eca56558243bfaf930fb28b4d956ab0b3910bc8b09a35276670efe7b7c516c
   languageName: node
   linkType: hard
 
@@ -14702,7 +14702,7 @@ __metadata:
   dependencies:
     "@tamagui/next-plugin": "npm:latest"
     "@tamagui/next-theme": "npm:latest"
-    "@types/node": "npm:20.11.4"
+    "@types/node": "npm:20.11.5"
     app: "npm:*"
     critters: "npm:0.0.20"
     dotenv-cli: "npm:7.3.0"
@@ -15855,12 +15855,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.2.2":
-  version: 3.2.2
-  resolution: "prettier@npm:3.2.2"
+"prettier@npm:3.2.4":
+  version: 3.2.4
+  resolution: "prettier@npm:3.2.4"
   bin:
     prettier: bin/prettier.cjs
-  checksum: e84d0d2a4ce2b88ee1636904effbdf68b59da63d9f887128f2ed5382206454185432e7c0a9578bc4308bc25d099cfef47fd0b9c211066777854e23e65e34044d
+  checksum: 88dfeb78ac6096522c9a5b81f1413d875f568420d9bb6a5e5103527912519b993f2bcdcac311fcff5718d5869671d44e4f85827d3626f3a6ce32b9abc65d88e0
   languageName: node
   linkType: hard
 
@@ -17433,7 +17433,7 @@ __metadata:
     check-dependency-version-consistency: "npm:4.1.0"
     eslint: "npm:8.56.0"
     node-gyp: "npm:10.0.1"
-    prettier: "npm:3.2.2"
+    prettier: "npm:3.2.4"
     turbo: "npm:1.11.3"
     typescript: "npm:5.3.3"
   languageName: unknown
