@@ -4370,7 +4370,7 @@ __metadata:
     "@cloudflare/workers-types": "npm:4.20240117.0"
     "@hono/trpc-server": "npm:0.1.0"
     "@trpc/server": "npm:10.45.0"
-    "@tsndr/cloudflare-worker-jwt": "npm:2.4.0"
+    "@tsndr/cloudflare-worker-jwt": "npm:2.4.2"
     better-sqlite3: "npm:9.3.0"
     dotenv-cli: "npm:7.3.0"
     drizzle-kit: "npm:0.20.13"
@@ -5984,10 +5984,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsndr/cloudflare-worker-jwt@npm:2.4.0":
-  version: 2.4.0
-  resolution: "@tsndr/cloudflare-worker-jwt@npm:2.4.0"
-  checksum: f9382ab5930229aef7a927ef43d9f1c559e0d2eebc55b3b661cdd6d9cbc1dd24a5aeec58f969e5c09afb323ef7e5a0855bd45b262898bc340b8586e9b931ea56
+"@tsndr/cloudflare-worker-jwt@npm:2.4.2":
+  version: 2.4.2
+  resolution: "@tsndr/cloudflare-worker-jwt@npm:2.4.2"
+  checksum: 859878f6e19044720a3cad0b141050ed0cfa9f46ecb956b215ba5f30e6326cfa762986cb5ede93f28df53f955496a76aeea0c8c132463488fb2e8bd8ca2504f1
   languageName: node
   linkType: hard
 
