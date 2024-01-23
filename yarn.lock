@@ -4368,7 +4368,7 @@ __metadata:
     eslint: "npm:8.56.0"
     hono: "npm:3.12.6"
     typescript: "npm:5.3.3"
-    wrangler: "npm:3.23.0"
+    wrangler: "npm:3.24.0"
   languageName: unknown
   linkType: soft
 
@@ -10544,8 +10544,8 @@ __metadata:
     expo-constants: "npm:15.4.5"
     expo-dev-client: "npm:2.4.12"
     expo-font: "npm:11.10.2"
-    expo-image: "npm:1.10.4"
-    expo-linear-gradient: "npm:12.7.0"
+    expo-image: "npm:1.10.5"
+    expo-linear-gradient: "npm:12.7.1"
     expo-linking: "npm:6.2.2"
     expo-router: "npm:2.0.14"
     expo-splash-screen: "npm:0.26.3"
@@ -10747,14 +10747,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-image@npm:1.10.4":
-  version: 1.10.4
-  resolution: "expo-image@npm:1.10.4"
+"expo-image@npm:1.10.5":
+  version: 1.10.5
+  resolution: "expo-image@npm:1.10.5"
   dependencies:
     "@react-native/assets-registry": "npm:~0.73.1"
   peerDependencies:
     expo: "*"
-  checksum: 44046caf95871d8b9c86a20bf5fe82a556993a32f9194b9b84c9e1fec1c86d94eef7bea03b7809f926d7ea30274453550b1d8f2a7352704303d4590418085e78
+  checksum: f8afe5981bdccfdb6f27acd398d4fe1580571204e15e705c07eb34e89f2738e74a3e2fa1894e5f9e0ff4e477bde85a63b75bc8aee82ba01e67615ee14a7b4530
   languageName: node
   linkType: hard
 
@@ -10781,12 +10781,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-linear-gradient@npm:12.7.0":
-  version: 12.7.0
-  resolution: "expo-linear-gradient@npm:12.7.0"
+"expo-linear-gradient@npm:12.7.1":
+  version: 12.7.1
+  resolution: "expo-linear-gradient@npm:12.7.1"
   peerDependencies:
     expo: "*"
-  checksum: d426b7e0f0ce97123e87c583e2a7743f7756ca9c4775436648300ef7de3fa1d7e5fea6e9e83701b556fb17c1b92a7724b36bea53035d10132dd727b7469af2b3
+  checksum: 3ddbe6db469ac337f205d47b0134bd75bfc492eed13be1ec8e6f9016c4deba5eca96f884d33bce186d02fe9897d68a726ad5acde82d14765b35f057fed558a0e
   languageName: node
   linkType: hard
 
@@ -14337,9 +14337,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"miniflare@npm:3.20231218.2":
-  version: 3.20231218.2
-  resolution: "miniflare@npm:3.20231218.2"
+"miniflare@npm:3.20231218.3":
+  version: 3.20231218.3
+  resolution: "miniflare@npm:3.20231218.3"
   dependencies:
     "@cspotcode/source-map-support": "npm:0.8.1"
     acorn: "npm:^8.8.0"
@@ -14348,14 +14348,14 @@ __metadata:
     exit-hook: "npm:^2.2.1"
     glob-to-regexp: "npm:^0.4.1"
     stoppable: "npm:^1.1.0"
-    undici: "npm:^5.22.1"
+    undici: "npm:^5.28.2"
     workerd: "npm:1.20231218.0"
     ws: "npm:^8.11.0"
     youch: "npm:^3.2.2"
     zod: "npm:^3.20.6"
   bin:
     miniflare: bootstrap.js
-  checksum: 9818abcc138cd3ee83e63bace7c678a385513ce095bd8f565d691eaa93827ecb270daeea89c455dd963b4d4e848fb26411ca8b7c333c5be8b6d8c63a13b895ed
+  checksum: 89cd180344cdc425e851a035ff164965aa708541f98c9cb81a5679c95d40c58d37c85b08dd0627a1574872d77543a7c43a67779fd62c5e94373ae80fe4bafa71
   languageName: node
   linkType: hard
 
@@ -18997,7 +18997,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici@npm:^5.22.1":
+"undici@npm:^5.28.2":
   version: 5.28.2
   resolution: "undici@npm:5.28.2"
   dependencies:
@@ -19610,9 +19610,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:3.23.0":
-  version: 3.23.0
-  resolution: "wrangler@npm:3.23.0"
+"wrangler@npm:3.24.0":
+  version: 3.24.0
+  resolution: "wrangler@npm:3.24.0"
   dependencies:
     "@cloudflare/kv-asset-handler": "npm:^0.2.0"
     "@esbuild-plugins/node-globals-polyfill": "npm:^0.2.3"
@@ -19621,7 +19621,7 @@ __metadata:
     chokidar: "npm:^3.5.3"
     esbuild: "npm:0.17.19"
     fsevents: "npm:~2.3.2"
-    miniflare: "npm:3.20231218.2"
+    miniflare: "npm:3.20231218.3"
     nanoid: "npm:^3.3.3"
     path-to-regexp: "npm:^6.2.0"
     resolve: "npm:^1.22.8"
@@ -19635,7 +19635,7 @@ __metadata:
   bin:
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: 73a48e01492a0cf62acdfc1a5f7c5db31b8f7d486ec9fcef4580a4e4bd537d29f1932ba9fee434e4831afe1c69085286cfb80e9fc88975c01e289870773825c6
+  checksum: 4c12568b8a8cc0450cf3dea44db22ef91d1e567b043d3cc49d029534b2dda1460283b35011a7d4ad0c14e2a1c78efcfda952e2bf5395c6233f361d0ea7289325
   languageName: node
   linkType: hard
 
