@@ -3158,9 +3158,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/prebuild-config@npm:6.7.3":
-  version: 6.7.3
-  resolution: "@expo/prebuild-config@npm:6.7.3"
+"@expo/prebuild-config@npm:6.7.4":
+  version: 6.7.4
+  resolution: "@expo/prebuild-config@npm:6.7.4"
   dependencies:
     "@expo/config": "npm:~8.5.0"
     "@expo/config-plugins": "npm:~7.8.0"
@@ -3174,7 +3174,7 @@ __metadata:
     xml2js: "npm:0.6.0"
   peerDependencies:
     expo-modules-autolinking: ">=0.8.1"
-  checksum: b8acd290f956a383b980a565311952ac40afdbcc0b4d1aa7c322247727cd3ef23d29029e6b95792507fc245c329c7b8fceb11e8dc96f5f83820f9bee85de5293
+  checksum: 1bae37cfafe83ac821b0157c14347f7b3f3741d3b11e4b86b861e410c9af57a5d9e53507acf8cf2e3d7e6518b9e6111e759a7ef10006e09d38d8815cdad02cf3
   languageName: node
   linkType: hard
 
@@ -6171,7 +6171,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:20.11.5":
+"@types/node@npm:*":
   version: 20.11.5
   resolution: "@types/node@npm:20.11.5"
   dependencies:
@@ -6191,6 +6191,15 @@ __metadata:
   version: 16.18.6
   resolution: "@types/node@npm:16.18.6"
   checksum: 88192f5cd3d21ca827898c903ce6fbb8a92a51d0f9d8f7e93ac3f2f3b46cdd9f29c969fe3af9ba004833bb265c6330042f37d11cd97b9e4f54dabf2b34399075
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:20.11.6":
+  version: 20.11.6
+  resolution: "@types/node@npm:20.11.6"
+  dependencies:
+    undici-types: "npm:~5.26.4"
+  checksum: 922bc1e78076bb79fd168902c80321b54487181e3be3386e183fc535d102d91c8902da25148eaec841410fab7fb872fd4a93ec9ac9299cedf0ebcbf16b442aa1
   languageName: node
   linkType: hard
 
@@ -10548,7 +10557,7 @@ __metadata:
     expo-linear-gradient: "npm:12.7.1"
     expo-linking: "npm:6.2.2"
     expo-router: "npm:2.0.14"
-    expo-splash-screen: "npm:0.26.3"
+    expo-splash-screen: "npm:0.26.4"
     expo-status-bar: "npm:1.11.1"
     expo-updates: "npm:0.24.8"
     metro-minify-terser: "npm:0.80.4"
@@ -10894,14 +10903,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-splash-screen@npm:0.26.3":
-  version: 0.26.3
-  resolution: "expo-splash-screen@npm:0.26.3"
+"expo-splash-screen@npm:0.26.4":
+  version: 0.26.4
+  resolution: "expo-splash-screen@npm:0.26.4"
   dependencies:
-    "@expo/prebuild-config": "npm:6.7.3"
+    "@expo/prebuild-config": "npm:6.7.4"
   peerDependencies:
     expo: "*"
-  checksum: ec29448edebb0ec53fa3e890859e1e726803d4b0a3344eb1fce37e10c42d3a407649313a523cec74ca02b49170b0b573027bef87b1d299fb6ad389c31cbb17e6
+  checksum: f4ced0f973b5a31ebddc696dbfe2375039553aa02b43634a8615a0f93bc58654b50ac8bfd7e56b40276d0a7cae5464f4494cb2b15d8315287bbf6ce02a7d5b7c
   languageName: node
   linkType: hard
 
@@ -14675,7 +14684,7 @@ __metadata:
   dependencies:
     "@tamagui/next-plugin": "npm:latest"
     "@tamagui/next-theme": "npm:latest"
-    "@types/node": "npm:20.11.5"
+    "@types/node": "npm:20.11.6"
     app: "npm:*"
     critters: "npm:0.0.20"
     dotenv-cli: "npm:7.3.0"
