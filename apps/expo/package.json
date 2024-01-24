@@ -41,16 +41,16 @@
     "@expo/metro-config": "0.17.3",
     "@tamagui/babel-plugin": "latest",
     "babel-plugin-transform-inline-environment-variables": "0.4.4",
-    "metro-minify-terser": "0.80.4",
+    "metro-minify-terser": "0.80.5",
     "react-native-dotenv": "3.4.9",
     "typescript": "5.3.3"
   },
   "resolutions": {
-    "metro": "0.80.4",
-    "metro-resolver": "0.80.4"
+    "metro": "0.80.5",
+    "metro-resolver": "0.80.5"
   },
   "overrides": {
-    "metro": "0.80.4",
-    "metro-resolver": "0.80.4"
+    "metro": "0.80.5",
+    "metro-resolver": "0.80.5"
   }
 }
