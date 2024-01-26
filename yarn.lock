@@ -4452,7 +4452,7 @@ __metadata:
     "@cloudflare/workers-types": "npm:4.20240117.0"
     "@hono/trpc-server": "npm:0.1.0"
     "@trpc/server": "npm:10.45.0"
-    "@tsndr/cloudflare-worker-jwt": "npm:2.4.2"
+    "@tsndr/cloudflare-worker-jwt": "npm:2.4.3"
     better-sqlite3: "npm:9.3.0"
     dotenv-cli: "npm:7.3.0"
     drizzle-kit: "npm:0.20.13"
@@ -4460,7 +4460,7 @@ __metadata:
     eslint: "npm:8.56.0"
     hono: "npm:3.12.7"
     typescript: "npm:5.3.3"
-    wrangler: "npm:3.24.0"
+    wrangler: "npm:3.25.0"
   languageName: unknown
   linkType: soft
 
@@ -6066,10 +6066,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsndr/cloudflare-worker-jwt@npm:2.4.2":
-  version: 2.4.2
-  resolution: "@tsndr/cloudflare-worker-jwt@npm:2.4.2"
-  checksum: 859878f6e19044720a3cad0b141050ed0cfa9f46ecb956b215ba5f30e6326cfa762986cb5ede93f28df53f955496a76aeea0c8c132463488fb2e8bd8ca2504f1
+"@tsndr/cloudflare-worker-jwt@npm:2.4.3":
+  version: 2.4.3
+  resolution: "@tsndr/cloudflare-worker-jwt@npm:2.4.3"
+  checksum: dec1d8950ac9e9881c7643d0bc0e2cb18911b3cb03f7b4974a3aa9c236441c8be709c2bd8b9ef1452640565df29f793ca20aa004d7ea9776c4c3ab0e5f2325d3
   languageName: node
   linkType: hard
 
@@ -6286,12 +6286,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.11.6":
-  version: 20.11.6
-  resolution: "@types/node@npm:20.11.6"
+"@types/node@npm:20.11.7":
+  version: 20.11.7
+  resolution: "@types/node@npm:20.11.7"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 922bc1e78076bb79fd168902c80321b54487181e3be3386e183fc535d102d91c8902da25148eaec841410fab7fb872fd4a93ec9ac9299cedf0ebcbf16b442aa1
+  checksum: ba4b41542b64f21a881a277189e761c553d00af0b1c02f2d8a47ebe8bc29a00ed21b45adf0bf9af2cf8ea6c92a443853d4f7b690081ceaecc150719cc574e9ea
   languageName: node
   linkType: hard
 
@@ -10651,7 +10651,7 @@ __metadata:
     expo-router: "npm:2.0.14"
     expo-splash-screen: "npm:0.26.4"
     expo-status-bar: "npm:1.11.1"
-    expo-updates: "npm:0.24.8"
+    expo-updates: "npm:0.24.9"
     metro-minify-terser: "npm:0.80.5"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
@@ -11049,9 +11049,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-updates@npm:0.24.8":
-  version: 0.24.8
-  resolution: "expo-updates@npm:0.24.8"
+"expo-updates@npm:0.24.9":
+  version: 0.24.9
+  resolution: "expo-updates@npm:0.24.9"
   dependencies:
     "@expo/code-signing-certificates": "npm:0.0.5"
     "@expo/config": "npm:~8.5.0"
@@ -11068,7 +11068,7 @@ __metadata:
     expo: "*"
   bin:
     expo-updates: bin/cli.js
-  checksum: 0940c3fa5acf6130c31fe93764594e8337c44493f527e9b05e4cd24e211420594a6a6285427529bc0f8966101326c3d0dbb9e1d0c35d724a3dd8dd869e377365
+  checksum: fc8fedb03f2c716f83d3c715f54b0f7adbae280037a8e64f0d683a6469b51875ed33a376cb8b4735076c727210ddcfb3d12d552071d6d1d0475e8a6286b61151
   languageName: node
   linkType: hard
 
@@ -14447,9 +14447,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"miniflare@npm:3.20231218.3":
-  version: 3.20231218.3
-  resolution: "miniflare@npm:3.20231218.3"
+"miniflare@npm:3.20231218.4":
+  version: 3.20231218.4
+  resolution: "miniflare@npm:3.20231218.4"
   dependencies:
     "@cspotcode/source-map-support": "npm:0.8.1"
     acorn: "npm:^8.8.0"
@@ -14465,7 +14465,7 @@ __metadata:
     zod: "npm:^3.20.6"
   bin:
     miniflare: bootstrap.js
-  checksum: 89cd180344cdc425e851a035ff164965aa708541f98c9cb81a5679c95d40c58d37c85b08dd0627a1574872d77543a7c43a67779fd62c5e94373ae80fe4bafa71
+  checksum: d80a1a1479f169c94880ee0f2c6265a2470439195d4c1c1ff505559a1b3b4844da0c3f7ed40e7c0e06fb1dd5873627e85d8c61338c8c0c26f92fbfb1d54dbf60
   languageName: node
   linkType: hard
 
@@ -14785,7 +14785,7 @@ __metadata:
   dependencies:
     "@tamagui/next-plugin": "npm:latest"
     "@tamagui/next-theme": "npm:latest"
-    "@types/node": "npm:20.11.6"
+    "@types/node": "npm:20.11.7"
     app: "npm:*"
     critters: "npm:0.0.20"
     dotenv-cli: "npm:7.3.0"
@@ -19720,9 +19720,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:3.24.0":
-  version: 3.24.0
-  resolution: "wrangler@npm:3.24.0"
+"wrangler@npm:3.25.0":
+  version: 3.25.0
+  resolution: "wrangler@npm:3.25.0"
   dependencies:
     "@cloudflare/kv-asset-handler": "npm:^0.2.0"
     "@esbuild-plugins/node-globals-polyfill": "npm:^0.2.3"
@@ -19731,7 +19731,7 @@ __metadata:
     chokidar: "npm:^3.5.3"
     esbuild: "npm:0.17.19"
     fsevents: "npm:~2.3.2"
-    miniflare: "npm:3.20231218.3"
+    miniflare: "npm:3.20231218.4"
     nanoid: "npm:^3.3.3"
     path-to-regexp: "npm:^6.2.0"
     resolve: "npm:^1.22.8"
@@ -19745,7 +19745,7 @@ __metadata:
   bin:
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: 4c12568b8a8cc0450cf3dea44db22ef91d1e567b043d3cc49d029534b2dda1460283b35011a7d4ad0c14e2a1c78efcfda952e2bf5395c6233f361d0ea7289325
+  checksum: 0fef5b842f0511fb7ab662873fab94d2e72aa6933518a356667bd4e0dc2d6ccf2d712cbba19b9bd4ca59c8e434bb13dcbb5ee2659df7b55e47b6a70d7a9260b6
   languageName: node
   linkType: hard
 
