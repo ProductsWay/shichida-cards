@@ -4458,7 +4458,7 @@ __metadata:
     drizzle-kit: "npm:0.20.13"
     drizzle-orm: "npm:0.29.3"
     eslint: "npm:8.56.0"
-    hono: "npm:3.12.7"
+    hono: "npm:3.12.8"
     typescript: "npm:5.3.3"
     wrangler: "npm:3.25.0"
   languageName: unknown
@@ -6286,12 +6286,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.11.7":
-  version: 20.11.7
-  resolution: "@types/node@npm:20.11.7"
+"@types/node@npm:20.11.8":
+  version: 20.11.8
+  resolution: "@types/node@npm:20.11.8"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: ba4b41542b64f21a881a277189e761c553d00af0b1c02f2d8a47ebe8bc29a00ed21b45adf0bf9af2cf8ea6c92a443853d4f7b690081ceaecc150719cc574e9ea
+  checksum: cd4eff91ff2291b909cf8ce81f3117effcfd59c435a9d42a9a085f5de8f414eabfbe4558f53a275eedc280a97393d71084812d91cf31fba436a01369d80133b5
   languageName: node
   linkType: hard
 
@@ -12173,10 +12173,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hono@npm:3.12.7":
-  version: 3.12.7
-  resolution: "hono@npm:3.12.7"
-  checksum: 6faa83f65e362af99768576490cf497bb30045e6c60d926db2ccd7e42a49ab21cc2639ad3b9c55e33d351a3251113766ab7ae039679149d1e4b74523fcb19e00
+"hono@npm:3.12.8":
+  version: 3.12.8
+  resolution: "hono@npm:3.12.8"
+  checksum: 98450510d4e91a1f2ceec6c7d4e7e01c5dd81e9ff1fc68601fcfa64dd95e01e09a27e30a109004d7395f0aaac5a2ba6f975d7350c7c53053f85d8a5ad4cd07b1
   languageName: node
   linkType: hard
 
@@ -14785,7 +14785,7 @@ __metadata:
   dependencies:
     "@tamagui/next-plugin": "npm:latest"
     "@tamagui/next-theme": "npm:latest"
-    "@types/node": "npm:20.11.7"
+    "@types/node": "npm:20.11.8"
     app: "npm:*"
     critters: "npm:0.0.20"
     dotenv-cli: "npm:7.3.0"
