@@ -7,7 +7,7 @@
     "*.css"
   ],
   "dependencies": {
-    "@clerk/clerk-expo": "0.20.1",
+    "@clerk/clerk-expo": "0.20.2",
     "@clerk/nextjs": "4.29.5",
     "@shichida/ui": "*",
     "@shopify/flash-list": "1.6.3",
@@ -17,7 +17,7 @@
     "@tamagui/lucide-icons": "latest",
     "@tamagui/shorthands": "latest",
     "@tamagui/themes": "latest",
-    "@tanstack/react-query": "5.17.19",
+    "@tanstack/react-query": "5.18.0",
     "@trpc/client": "10.45.0",
     "@trpc/next": "10.45.0",
     "@trpc/react-query": "10.45.0",
