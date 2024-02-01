@@ -19,17 +19,17 @@
     "@cloudflare/d1": "1.4.1",
     "@hono/trpc-server": "0.1.0",
     "@trpc/server": "10.45.0",
-    "@tsndr/cloudflare-worker-jwt": "2.4.3",
+    "@tsndr/cloudflare-worker-jwt": "2.4.5",
     "drizzle-orm": "0.29.3",
-    "hono": "3.12.8"
+    "hono": "3.12.9"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "4.20240129.0",
     "better-sqlite3": "9.3.0",
     "dotenv-cli": "7.3.0",
-    "drizzle-kit": "0.20.13",
+    "drizzle-kit": "0.20.14",
     "eslint": "8.56.0",
     "typescript": "5.3.3",
-    "wrangler": "3.25.0"
+    "wrangler": "3.26.0"
   }
 }
