@@ -3348,13 +3348,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hono/trpc-server@npm:0.1.0":
-  version: 0.1.0
-  resolution: "@hono/trpc-server@npm:0.1.0"
+"@hono/trpc-server@npm:0.1.1":
+  version: 0.1.1
+  resolution: "@hono/trpc-server@npm:0.1.1"
   peerDependencies:
     "@trpc/server": ^10.10.0
-    hono: 3.*
-  checksum: 10c0/458c9e0dadd516e16e2c0aa4caeb712d7d7fae32d375a9a0ca3ba0ff9c350a38cfc1fdca22cf8266e884e98f170652b60917ae65ae2894a8e0b5702af2f9c2d3
+    hono: ">=3.*"
+  checksum: 10c0/9263279972c668619260068065a6e5d47e4d8d84653d8dad952e2d30d69665a2e272899c17169e63ce7aff23181819e37524964e26f19441e73a495d72f4d3fc
   languageName: node
   linkType: hard
 
@@ -4358,7 +4358,7 @@ __metadata:
     "@clerk/backend": "npm:0.38.1"
     "@cloudflare/d1": "npm:1.4.1"
     "@cloudflare/workers-types": "npm:4.20240208.0"
-    "@hono/trpc-server": "npm:0.1.0"
+    "@hono/trpc-server": "npm:0.1.1"
     "@trpc/server": "npm:10.45.1"
     "@tsndr/cloudflare-worker-jwt": "npm:2.4.5"
     better-sqlite3: "npm:9.4.0"
