@@ -4353,7 +4353,7 @@ __metadata:
     eslint: "npm:8.56.0"
     hono: "npm:3.12.12"
     typescript: "npm:5.3.3"
-    wrangler: "npm:3.28.2"
+    wrangler: "npm:3.28.3"
   languageName: unknown
   linkType: soft
 
@@ -10639,14 +10639,14 @@ __metadata:
     expo: "npm:49.0.23"
     expo-constants: "npm:15.4.5"
     expo-dev-client: "npm:2.4.13"
-    expo-font: "npm:11.10.2"
+    expo-font: "npm:11.10.3"
     expo-image: "npm:1.10.6"
-    expo-linear-gradient: "npm:12.7.1"
+    expo-linear-gradient: "npm:12.7.2"
     expo-linking: "npm:6.2.2"
     expo-router: "npm:2.0.15"
     expo-splash-screen: "npm:0.26.4"
     expo-status-bar: "npm:1.11.1"
-    expo-updates: "npm:0.24.9"
+    expo-updates: "npm:0.24.11"
     metro-minify-terser: "npm:0.80.6"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
@@ -10820,14 +10820,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-font@npm:11.10.2":
-  version: 11.10.2
-  resolution: "expo-font@npm:11.10.2"
+"expo-font@npm:11.10.3":
+  version: 11.10.3
+  resolution: "expo-font@npm:11.10.3"
   dependencies:
     fontfaceobserver: "npm:^2.1.0"
   peerDependencies:
     expo: "*"
-  checksum: 10c0/0a54c2037861ca17654759f097e6f5c47e707e86ec69343310cfbe8a703ea2d79caa0fc26d87b3bd7af18e1367ae6287a9de77a5780b1a0551e19f1957edbb69
+  checksum: 10c0/130a5bc34865a1f8340e3fde4d9d8c5d7969331fdcac4e7487abcfbcf15476c771ecde6545b6f23f2278f29f13b5cc9b830c261581f7117e432979e9a2f4a71b
   languageName: node
   linkType: hard
 
@@ -10889,12 +10889,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-linear-gradient@npm:12.7.1":
-  version: 12.7.1
-  resolution: "expo-linear-gradient@npm:12.7.1"
+"expo-linear-gradient@npm:12.7.2":
+  version: 12.7.2
+  resolution: "expo-linear-gradient@npm:12.7.2"
   peerDependencies:
     expo: "*"
-  checksum: 10c0/3ddbe6db469ac337f205d47b0134bd75bfc492eed13be1ec8e6f9016c4deba5eca96f884d33bce186d02fe9897d68a726ad5acde82d14765b35f057fed558a0e
+  checksum: 10c0/08701b3aaad7a063da034fe778821453d0bde50b62d54a6a131ab7ffd270422e9f12461846350a6e6bad0165cdf286150ad86e1307fc1712aabe16e0513ec937
   languageName: node
   linkType: hard
 
@@ -11052,9 +11052,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-updates@npm:0.24.9":
-  version: 0.24.9
-  resolution: "expo-updates@npm:0.24.9"
+"expo-updates@npm:0.24.11":
+  version: 0.24.11
+  resolution: "expo-updates@npm:0.24.11"
   dependencies:
     "@expo/code-signing-certificates": "npm:0.0.5"
     "@expo/config": "npm:~8.5.0"
@@ -11071,7 +11071,7 @@ __metadata:
     expo: "*"
   bin:
     expo-updates: bin/cli.js
-  checksum: 10c0/fc8fedb03f2c716f83d3c715f54b0f7adbae280037a8e64f0d683a6469b51875ed33a376cb8b4735076c727210ddcfb3d12d552071d6d1d0475e8a6286b61151
+  checksum: 10c0/8f68908752d2906d55eaf4d991995a8b2cf3956a3491d5a39dc9c68beea2b3849bea775bf9065ff585c8cfa85914022d6d65f7d1c04bcdf6bfd2953f6da64e68
   languageName: node
   linkType: hard
 
@@ -14451,9 +14451,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"miniflare@npm:3.20240129.2":
-  version: 3.20240129.2
-  resolution: "miniflare@npm:3.20240129.2"
+"miniflare@npm:3.20240129.3":
+  version: 3.20240129.3
+  resolution: "miniflare@npm:3.20240129.3"
   dependencies:
     "@cspotcode/source-map-support": "npm:0.8.1"
     acorn: "npm:^8.8.0"
@@ -14469,7 +14469,7 @@ __metadata:
     zod: "npm:^3.20.6"
   bin:
     miniflare: bootstrap.js
-  checksum: 10c0/25548e5233d5506178b88be60d0654c31ad552bcae6cc7aab4a2b255582b62eda19f3ae74f81b02dc0628440d13336826552d25de6c86515be7f0553a8d86c03
+  checksum: 10c0/4d7b7292aebf3503d170a2dcf6ff1efae348c49813a4d5e2440ba470c04c68d418100baf7d7e0df0cc709688c7965b3fbd38f0e2593e371b1c1dff329025e2b8
   languageName: node
   linkType: hard
 
@@ -19731,9 +19731,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:3.28.2":
-  version: 3.28.2
-  resolution: "wrangler@npm:3.28.2"
+"wrangler@npm:3.28.3":
+  version: 3.28.3
+  resolution: "wrangler@npm:3.28.3"
   dependencies:
     "@cloudflare/kv-asset-handler": "npm:0.3.1"
     "@esbuild-plugins/node-globals-polyfill": "npm:^0.2.3"
@@ -19742,7 +19742,7 @@ __metadata:
     chokidar: "npm:^3.5.3"
     esbuild: "npm:0.17.19"
     fsevents: "npm:~2.3.2"
-    miniflare: "npm:3.20240129.2"
+    miniflare: "npm:3.20240129.3"
     nanoid: "npm:^3.3.3"
     path-to-regexp: "npm:^6.2.0"
     resolve: "npm:^1.22.8"
@@ -19761,7 +19761,7 @@ __metadata:
   bin:
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: 10c0/36158512ec086c5443b9d2bafd183faf46ab77279423c74fe25218e13b0b1de76d6755694d0e1fc32e1c0e354494d0c8a2e7208298dcd8b464f3094b2df1644c
+  checksum: 10c0/6b466d8cbb819d24589c48c23b9e560d8458bed3dce591ce6fccba23f1e92273ee8061c3ab57ef9b09305b37ae94e9c1837195dd39fed927bf336a95aee2ea62
   languageName: node
   linkType: hard
 
