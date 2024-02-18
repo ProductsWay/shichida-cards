@@ -4369,7 +4369,7 @@ __metadata:
     "@tamagui/shorthands": "npm:latest"
     "@tamagui/themes": "npm:latest"
     "@tamagui/toast": "npm:latest"
-    "@tanstack/react-virtual": "npm:3.0.4"
+    "@tanstack/react-virtual": "npm:3.1.0"
     jotai: "npm:2.6.4"
     tamagui: "npm:latest"
   languageName: unknown
@@ -5905,22 +5905,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/react-virtual@npm:3.0.4":
-  version: 3.0.4
-  resolution: "@tanstack/react-virtual@npm:3.0.4"
+"@tanstack/react-virtual@npm:3.1.0":
+  version: 3.1.0
+  resolution: "@tanstack/react-virtual@npm:3.1.0"
   dependencies:
-    "@tanstack/virtual-core": "npm:3.0.0"
+    "@tanstack/virtual-core": "npm:3.1.0"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/6222dc1254843fa52bdb93deca74282e2b8aabd17337d7b35596441bb70d1d7e333b1679acfb50240847799d63ee24eb184958ad8c7f1ca84c4ff0c13aefa7ec
+  checksum: 10c0/f22c76f2e0bc6df42bf32c7bf52a00c738644b3f0b24faa28098626482be1a7c6a763a163a67482da088cf27d2714dedc5450c623687992a85600b471434accc
   languageName: node
   linkType: hard
 
-"@tanstack/virtual-core@npm:3.0.0":
-  version: 3.0.0
-  resolution: "@tanstack/virtual-core@npm:3.0.0"
-  checksum: 10c0/d0899fe470b43f80a2ccc567a01138cc015900f13d91b82abc784fc7bc46419e9c8b99c102a5c6ee76d15933db61aecc68c0ae8e92e9cb9ded9ae2f51a01cf4c
+"@tanstack/virtual-core@npm:3.1.0":
+  version: 3.1.0
+  resolution: "@tanstack/virtual-core@npm:3.1.0"
+  checksum: 10c0/e0b5e5ac32c012dd6a78184a6d765825bdd48e5c707e82b3c05f797813280722f35b8d112413075a104c83e880be20f62cc7caa988b1a5f9dad1883a492ab759
   languageName: node
   linkType: hard
 
