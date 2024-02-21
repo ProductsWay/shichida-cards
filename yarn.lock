@@ -4344,7 +4344,7 @@ __metadata:
     eslint: "npm:8.56.0"
     hono: "npm:3.12.12"
     typescript: "npm:5.3.3"
-    wrangler: "npm:3.28.3"
+    wrangler: "npm:3.28.4"
   languageName: unknown
   linkType: soft
 
@@ -4360,8 +4360,8 @@ __metadata:
     "@tamagui/shorthands": "npm:latest"
     "@tamagui/themes": "npm:latest"
     "@tamagui/toast": "npm:latest"
-    "@tanstack/react-virtual": "npm:3.1.1"
-    jotai: "npm:2.6.4"
+    "@tanstack/react-virtual": "npm:3.1.2"
+    jotai: "npm:2.6.5"
     tamagui: "npm:latest"
   languageName: unknown
   linkType: soft
@@ -6037,22 +6037,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/react-virtual@npm:3.1.1":
-  version: 3.1.1
-  resolution: "@tanstack/react-virtual@npm:3.1.1"
+"@tanstack/react-virtual@npm:3.1.2":
+  version: 3.1.2
+  resolution: "@tanstack/react-virtual@npm:3.1.2"
   dependencies:
-    "@tanstack/virtual-core": "npm:3.1.1"
+    "@tanstack/virtual-core": "npm:3.1.2"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/39cb5983e5127c1276db4831e8227d1e15049453d1def825361ee06eb7e50b650cc3ebf510bbda1d3e2381830bdae0ac941ed05a071a2637c50f8148d4295c33
+  checksum: 10c0/4879bdaf19273bd53600109d544629c094caebec78cb8cd76e97135a084942badbfef6d71f6405dfcafde502a7838cd85c6de2fbb88d656a3bec835fa763e546
   languageName: node
   linkType: hard
 
-"@tanstack/virtual-core@npm:3.1.1":
-  version: 3.1.1
-  resolution: "@tanstack/virtual-core@npm:3.1.1"
-  checksum: 10c0/ddaac67c056073a4e558115e4b3fe2810a8cafa57070801fbacf3023f3df97c14d0795d5fbd1f27261ce266c1b47146a79b03496394db37da7106cc7cb95b845
+"@tanstack/virtual-core@npm:3.1.2":
+  version: 3.1.2
+  resolution: "@tanstack/virtual-core@npm:3.1.2"
+  checksum: 10c0/edba704b678b489cca773a96dba3daa04da80cd1f6ff3f606293ed4f2f273d8a571e08d5b9aa218cf03e3d160b8ee031506e8ee2ee6c43164aafd9f7a6c752c3
   languageName: node
   linkType: hard
 
@@ -13350,9 +13350,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jotai@npm:2.6.4":
-  version: 2.6.4
-  resolution: "jotai@npm:2.6.4"
+"jotai@npm:2.6.5":
+  version: 2.6.5
+  resolution: "jotai@npm:2.6.5"
   peerDependencies:
     "@types/react": ">=17.0.0"
     react: ">=17.0.0"
@@ -13361,7 +13361,7 @@ __metadata:
       optional: true
     react:
       optional: true
-  checksum: 10c0/2cda03cccff7f6509d5733412194543634dc496a01a88da4e81d6bf1c46c27383833e8bd9462ecbcd4b745316b54edf5aa403b42c098900561cc08a0f5fcaa54
+  checksum: 10c0/f2a6ca96d6d318942b7dbcbd9eae8b9b224dbc1d348672dad97aa064450cdec5cc7bebffb67e7ea9b1c392e876c63c4978b9ce2f57a58eb725568f7c3e9fbe1d
   languageName: node
   linkType: hard
 
@@ -19914,9 +19914,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:3.28.3":
-  version: 3.28.3
-  resolution: "wrangler@npm:3.28.3"
+"wrangler@npm:3.28.4":
+  version: 3.28.4
+  resolution: "wrangler@npm:3.28.4"
   dependencies:
     "@cloudflare/kv-asset-handler": "npm:0.3.1"
     "@esbuild-plugins/node-globals-polyfill": "npm:^0.2.3"
@@ -19944,7 +19944,7 @@ __metadata:
   bin:
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: 10c0/6b466d8cbb819d24589c48c23b9e560d8458bed3dce591ce6fccba23f1e92273ee8061c3ab57ef9b09305b37ae94e9c1837195dd39fed927bf336a95aee2ea62
+  checksum: 10c0/182362bf9d9d8ec44f3dc21189b745162154955a5178348781f4d7ee76816835fb3598357bdbb7390dd030be668585e88b3d8feb5a40c319f9a1f5106ce6a013
   languageName: node
   linkType: hard
 
