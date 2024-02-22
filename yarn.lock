@@ -4336,8 +4336,8 @@ __metadata:
     "@cloudflare/workers-types": "npm:4.20240208.0"
     "@hono/trpc-server": "npm:0.1.1"
     "@trpc/server": "npm:10.45.1"
-    "@tsndr/cloudflare-worker-jwt": "npm:2.4.5"
-    better-sqlite3: "npm:9.4.1"
+    "@tsndr/cloudflare-worker-jwt": "npm:2.4.7"
+    better-sqlite3: "npm:9.4.3"
     dotenv-cli: "npm:7.3.0"
     drizzle-kit: "npm:0.20.14"
     drizzle-orm: "npm:0.29.3"
@@ -6147,10 +6147,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsndr/cloudflare-worker-jwt@npm:2.4.5":
-  version: 2.4.5
-  resolution: "@tsndr/cloudflare-worker-jwt@npm:2.4.5"
-  checksum: 10c0/32ef4d58d6c9810f2d220223a28d2c9e553f929c7b1618f2c3f045802fde26a36cd0a6aaffd2e6b61fad9edd116a207022cf1a493846fc9b9a84e428b0a6fc9a
+"@tsndr/cloudflare-worker-jwt@npm:2.4.7":
+  version: 2.4.7
+  resolution: "@tsndr/cloudflare-worker-jwt@npm:2.4.7"
+  checksum: 10c0/0fc8f89a6b0b3c5ef94fb33882ef1a1c2fea1cce5cff7141509ce8235c228d3590e3df7603b3fb908870e7661ced368f77db9473a206ccdaebe9c23d2c198fbe
   languageName: node
   linkType: hard
 
@@ -7677,14 +7677,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"better-sqlite3@npm:9.4.1":
-  version: 9.4.1
-  resolution: "better-sqlite3@npm:9.4.1"
+"better-sqlite3@npm:9.4.3":
+  version: 9.4.3
+  resolution: "better-sqlite3@npm:9.4.3"
   dependencies:
     bindings: "npm:^1.5.0"
     node-gyp: "npm:latest"
     prebuild-install: "npm:^7.1.1"
-  checksum: 10c0/dc9ca07240d63222901a838ec0bd49b72e8bee1d7355e8b2c148958e204e7629b476894395259d44cf3234d8ed18c44a85dde0bff826c87510ecd8f7fa9f2aa7
+  checksum: 10c0/efc8b1440388ff0ada7bd1d41021dd5a5a9cfa440d3e66a661e3f89c8d72229de939887aa0a9b24695843f88710ff79b34c5990aaf951b55a00858801a3b134c
   languageName: node
   linkType: hard
 
