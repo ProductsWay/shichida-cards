@@ -19,12 +19,12 @@
     "@cloudflare/d1": "1.4.1",
     "@hono/trpc-server": "0.1.1",
     "@trpc/server": "10.45.1",
-    "@tsndr/cloudflare-worker-jwt": "2.4.7",
+    "@tsndr/cloudflare-worker-jwt": "2.5.0",
     "drizzle-orm": "0.29.4",
     "hono": "3.12.12"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20240208.0",
+    "@cloudflare/workers-types": "4.20240222.0",
     "better-sqlite3": "9.4.3",
     "dotenv-cli": "7.3.0",
     "drizzle-kit": "0.20.14",
