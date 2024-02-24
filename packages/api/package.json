@@ -19,7 +19,7 @@
     "@cloudflare/d1": "1.4.1",
     "@hono/trpc-server": "0.1.1",
     "@trpc/server": "10.45.1",
-    "@tsndr/cloudflare-worker-jwt": "2.5.0",
+    "@tsndr/cloudflare-worker-jwt": "2.5.1",
     "drizzle-orm": "0.29.4",
     "hono": "3.12.12"
   },
@@ -28,7 +28,7 @@
     "better-sqlite3": "9.4.3",
     "dotenv-cli": "7.3.0",
     "drizzle-kit": "0.20.14",
-    "eslint": "8.56.0",
+    "eslint": "8.57.0",
     "typescript": "5.3.3",
     "wrangler": "3.29.0"
   }
