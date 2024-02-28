@@ -4339,6 +4339,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-navigation/core@npm:^6.4.13":
+  version: 6.4.13
+  resolution: "@react-navigation/core@npm:6.4.13"
+  dependencies:
+    "@react-navigation/routers": "npm:^6.1.9"
+    escape-string-regexp: "npm:^4.0.0"
+    nanoid: "npm:^3.1.23"
+    query-string: "npm:^7.1.3"
+    react-is: "npm:^16.13.0"
+    use-latest-callback: "npm:^0.1.7"
+  peerDependencies:
+    react: "*"
+  checksum: 10c0/637a002f10cbfb47169ad4ed049662b39def4313ca3e97f5e3a170bb9d389565313e2d387033ff3106aafc1bc292492bc416e26462d91c4d4caf02f40ebed8bf
+  languageName: node
+  linkType: hard
+
 "@react-navigation/elements@npm:^1.3.24":
   version: 1.3.24
   resolution: "@react-navigation/elements@npm:1.3.24"
@@ -4367,7 +4383,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-navigation/native@npm:6.1.12, @react-navigation/native@npm:~6.1.6":
+"@react-navigation/native@npm:6.1.14":
+  version: 6.1.14
+  resolution: "@react-navigation/native@npm:6.1.14"
+  dependencies:
+    "@react-navigation/core": "npm:^6.4.13"
+    escape-string-regexp: "npm:^4.0.0"
+    fast-deep-equal: "npm:^3.1.3"
+    nanoid: "npm:^3.1.23"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 10c0/1e768c798d9b39870e1b4cc2dd1d5e39c70b482d4bb429c9f4dd7aff67644f6a4a34990749db5da00c1d259dab63c24a605912ea515b7acc3ba268151d1f91d0
+  languageName: node
+  linkType: hard
+
+"@react-navigation/native@npm:~6.1.6":
   version: 6.1.12
   resolution: "@react-navigation/native@npm:6.1.12"
   dependencies:
@@ -6458,12 +6489,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.11.21":
-  version: 20.11.21
-  resolution: "@types/node@npm:20.11.21"
+"@types/node@npm:20.11.22":
+  version: 20.11.22
+  resolution: "@types/node@npm:20.11.22"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10c0/52b1cdfe8b14a67ab98c01b2e9621994b34a2537368e108fb925121a9d5958eb7344a2fb81ff36964932d5e5a093de8897f021bded10cad3536fd31e932b3000
+  checksum: 10c0/304a25607108cbc314417ba1cd0ca7061090cf9444c13f4a70c183164dc189d0e3f4cfda12619c85e5f0fc7a652e3b32501fd0e347b8425dbd5a66c3ec85c7a6
   languageName: node
   linkType: hard
 
@@ -10917,7 +10948,7 @@ __metadata:
     "@babel/core": "npm:7.24.0"
     "@babel/runtime": "npm:7.24.0"
     "@expo/metro-config": "npm:0.17.4"
-    "@react-navigation/native": "npm:6.1.12"
+    "@react-navigation/native": "npm:6.1.14"
     "@shichida/ui": "npm:*"
     "@tamagui/babel-plugin": "npm:latest"
     "@types/react-native": "npm:0.72.8"
@@ -15072,7 +15103,7 @@ __metadata:
   dependencies:
     "@tamagui/next-plugin": "npm:latest"
     "@tamagui/next-theme": "npm:latest"
-    "@types/node": "npm:20.11.21"
+    "@types/node": "npm:20.11.22"
     app: "npm:*"
     critters: "npm:0.0.20"
     dotenv-cli: "npm:7.3.0"

@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@babel/runtime": "7.24.0",
-    "@react-navigation/native": "6.1.12",
+    "@react-navigation/native": "6.1.14",
     "@shichida/ui": "*",
     "@types/react-native": "0.72.8",
     "app": "*",
