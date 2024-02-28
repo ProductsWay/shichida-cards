@@ -4360,7 +4360,7 @@ __metadata:
     "@tamagui/themes": "npm:latest"
     "@tamagui/toast": "npm:latest"
     "@tanstack/react-virtual": "npm:3.1.3"
-    jotai: "npm:2.6.5"
+    jotai: "npm:2.7.0"
     tamagui: "npm:latest"
   languageName: unknown
   linkType: soft
@@ -6343,7 +6343,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:20.11.20":
+"@types/node@npm:*":
   version: 20.11.20
   resolution: "@types/node@npm:20.11.20"
   dependencies:
@@ -6363,6 +6363,15 @@ __metadata:
   version: 16.18.6
   resolution: "@types/node@npm:16.18.6"
   checksum: 10c0/88192f5cd3d21ca827898c903ce6fbb8a92a51d0f9d8f7e93ac3f2f3b46cdd9f29c969fe3af9ba004833bb265c6330042f37d11cd97b9e4f54dabf2b34399075
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:20.11.21":
+  version: 20.11.21
+  resolution: "@types/node@npm:20.11.21"
+  dependencies:
+    undici-types: "npm:~5.26.4"
+  checksum: 10c0/52b1cdfe8b14a67ab98c01b2e9621994b34a2537368e108fb925121a9d5958eb7344a2fb81ff36964932d5e5a093de8897f021bded10cad3536fd31e932b3000
   languageName: node
   linkType: hard
 
@@ -9375,7 +9384,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:^16.3.0, dotenv@npm:^16.4.1":
+"dotenv@npm:^16.3.0, dotenv@npm:^16.4.5":
   version: 16.4.5
   resolution: "dotenv@npm:16.4.5"
   checksum: 10c0/48d92870076832af0418b13acd6e5a5a3e83bb00df690d9812e94b24aff62b88ade955ac99a05501305b8dc8f1b0ee7638b18493deb6fe93d680e5220936292f
@@ -10839,7 +10848,7 @@ __metadata:
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     react-native: "npm:0.73.5"
-    react-native-dotenv: "npm:3.4.10"
+    react-native-dotenv: "npm:3.4.11"
     react-native-gesture-handler: "npm:2.15.0"
     react-native-screens: "npm:3.29.0"
     react-native-svg: "npm:14.1.0"
@@ -13357,9 +13366,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jotai@npm:2.6.5":
-  version: 2.6.5
-  resolution: "jotai@npm:2.6.5"
+"jotai@npm:2.7.0":
+  version: 2.7.0
+  resolution: "jotai@npm:2.7.0"
   peerDependencies:
     "@types/react": ">=17.0.0"
     react: ">=17.0.0"
@@ -13368,7 +13377,7 @@ __metadata:
       optional: true
     react:
       optional: true
-  checksum: 10c0/f2a6ca96d6d318942b7dbcbd9eae8b9b224dbc1d348672dad97aa064450cdec5cc7bebffb67e7ea9b1c392e876c63c4978b9ce2f57a58eb725568f7c3e9fbe1d
+  checksum: 10c0/9f753ab76070d4bd284822f7cbffce4e36632f190be63758c8bca7c69a953d5e2a1d8d7124ab8c11d5745ba639fb0a1a28ec1e565d8e446ff83c81efed5ca39f
   languageName: node
   linkType: hard
 
@@ -14971,7 +14980,7 @@ __metadata:
   dependencies:
     "@tamagui/next-plugin": "npm:latest"
     "@tamagui/next-theme": "npm:latest"
-    "@types/node": "npm:20.11.20"
+    "@types/node": "npm:20.11.21"
     app: "npm:*"
     critters: "npm:0.0.20"
     dotenv-cli: "npm:7.3.0"
@@ -16568,14 +16577,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-dotenv@npm:3.4.10":
-  version: 3.4.10
-  resolution: "react-native-dotenv@npm:3.4.10"
+"react-native-dotenv@npm:3.4.11":
+  version: 3.4.11
+  resolution: "react-native-dotenv@npm:3.4.11"
   dependencies:
-    dotenv: "npm:^16.4.1"
+    dotenv: "npm:^16.4.5"
   peerDependencies:
     "@babel/runtime": ^7.20.6
-  checksum: 10c0/d5e6166ef6d87ca167a22653ae5ef789128e06ce161e7d4e8a9f1e0319fe7ed0b13aa1a7ba052d6d61b6931d42992e19b954ae9addca5999b138b6b5049c20dd
+  checksum: 10c0/9ed4a37fb59030706d17a1cc49d05af9d8fc57dcb2ef97e122b844f3ab6f6331ebc089afac559fe5bddf37806aa282b4118005f1b27aae5e37fdc3fc8bd7625c
   languageName: node
   linkType: hard
 
