@@ -42,7 +42,7 @@
     "@tamagui/babel-plugin": "latest",
     "babel-plugin-transform-inline-environment-variables": "0.4.4",
     "metro-minify-terser": "0.80.6",
-    "react-native-dotenv": "3.4.10",
+    "react-native-dotenv": "3.4.11",
     "typescript": "5.3.3"
   },
   "resolutions": {
