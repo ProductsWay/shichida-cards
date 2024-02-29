@@ -8887,9 +8887,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"critters@npm:0.0.20":
-  version: 0.0.20
-  resolution: "critters@npm:0.0.20"
+"critters@npm:0.0.21":
+  version: 0.0.21
+  resolution: "critters@npm:0.0.21"
   dependencies:
     chalk: "npm:^4.1.0"
     css-select: "npm:^5.1.0"
@@ -8897,8 +8897,9 @@ __metadata:
     domhandler: "npm:^5.0.2"
     htmlparser2: "npm:^8.0.2"
     postcss: "npm:^8.4.23"
+    postcss-media-query-parser: "npm:^0.2.3"
     pretty-bytes: "npm:^5.3.0"
-  checksum: 10c0/d5769969f237c1a8af92ea88c0d224a2f46e8489fa0afe04d16f65937284ceb3f0ede75e16054c9b91c35c181f5d9dc71eaa4e153de0b7c46d3dd5e4689513b9
+  checksum: 10c0/0a1b03a762f1143d686202e234a8f8fecbde87f1ac8b4092d7c13cdbfdd5c503cc32ff7432aa5bde40dd84894d5795afdcf2309d6f9a77d5264361f2ef08ea8c
   languageName: node
   linkType: hard
 
@@ -15105,7 +15106,7 @@ __metadata:
     "@tamagui/next-theme": "npm:latest"
     "@types/node": "npm:20.11.22"
     app: "npm:*"
-    critters: "npm:0.0.20"
+    critters: "npm:0.0.21"
     dotenv-cli: "npm:7.3.0"
     eslint-config-next: "npm:14.1.0"
     next: "npm:14.1.0"
@@ -16141,6 +16142,13 @@ __metadata:
   version: 1.0.0
   resolution: "possible-typed-array-names@npm:1.0.0"
   checksum: 10c0/d9aa22d31f4f7680e20269db76791b41c3a32c01a373e25f8a4813b4d45f7456bfc2b6d68f752dc4aab0e0bb0721cb3d76fb678c9101cb7a16316664bc2c73fd
+  languageName: node
+  linkType: hard
+
+"postcss-media-query-parser@npm:^0.2.3":
+  version: 0.2.3
+  resolution: "postcss-media-query-parser@npm:0.2.3"
+  checksum: 10c0/252c8cf24f0e9018516b0d70b7b3d6f5b52e81c4bab2164b49a4e4c1b87bb11f5dbe708c0076990665cb24c70d5fd2f3aee9c922b0f67c7c619e051801484688
   languageName: node
   linkType: hard
 
