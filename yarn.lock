@@ -3083,9 +3083,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/metro-config@npm:0.17.4":
-  version: 0.17.4
-  resolution: "@expo/metro-config@npm:0.17.4"
+"@expo/metro-config@npm:0.17.5":
+  version: 0.17.5
+  resolution: "@expo/metro-config@npm:0.17.5"
   dependencies:
     "@babel/core": "npm:^7.20.0"
     "@babel/generator": "npm:^7.20.5"
@@ -3109,7 +3109,7 @@ __metadata:
     sucrase: "npm:3.34.0"
   peerDependencies:
     "@react-native/babel-preset": "*"
-  checksum: 10c0/45fbc2b29570e847f53f1b8d6913e0201580823e1dde91b7dff13bd6057a388c70cc5d77d4118d5c610efe6f46fdb444859f6d5cd6d77ff7573322182199009c
+  checksum: 10c0/f83f8190f320a47ed13078715d68bb7e6955734530e0aa78c14e3693d717c1a6e8dddabcd0cb09830f981e9e97f9abc29521a839815e788064c8d97e974d228c
   languageName: node
   linkType: hard
 
@@ -10948,7 +10948,7 @@ __metadata:
   dependencies:
     "@babel/core": "npm:7.24.0"
     "@babel/runtime": "npm:7.24.0"
-    "@expo/metro-config": "npm:0.17.4"
+    "@expo/metro-config": "npm:0.17.5"
     "@react-navigation/native": "npm:6.1.14"
     "@shichida/ui": "npm:*"
     "@tamagui/babel-plugin": "npm:latest"
