@@ -7,7 +7,7 @@
     "*.css"
   ],
   "dependencies": {
-    "@clerk/clerk-expo": "0.20.6",
+    "@clerk/clerk-expo": "0.20.7",
     "@clerk/nextjs": "4.29.8",
     "@shichida/ui": "*",
     "@shopify/flash-list": "1.6.3",
