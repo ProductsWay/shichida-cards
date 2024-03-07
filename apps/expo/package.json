@@ -38,12 +38,12 @@
   },
   "devDependencies": {
     "@babel/core": "7.24.0",
-    "@expo/metro-config": "0.17.5",
+    "@expo/metro-config": "0.17.6",
     "@tamagui/babel-plugin": "latest",
     "babel-plugin-transform-inline-environment-variables": "0.4.4",
     "metro-minify-terser": "0.80.6",
     "react-native-dotenv": "3.4.11",
-    "typescript": "5.3.3"
+    "typescript": "5.4.2"
   },
   "resolutions": {
     "metro": "0.80.6",
