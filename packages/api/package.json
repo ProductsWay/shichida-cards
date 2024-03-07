@@ -20,7 +20,7 @@
     "@hono/trpc-server": "0.1.1",
     "@trpc/server": "10.45.1",
     "@tsndr/cloudflare-worker-jwt": "2.5.2",
-    "drizzle-orm": "0.29.5",
+    "drizzle-orm": "0.30.0",
     "hono": "3.12.12"
   },
   "devDependencies": {
@@ -30,6 +30,6 @@
     "drizzle-kit": "0.20.14",
     "eslint": "8.57.0",
     "typescript": "5.4.2",
-    "wrangler": "3.31.0"
+    "wrangler": "3.32.0"
   }
 }
