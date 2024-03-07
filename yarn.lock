@@ -8765,9 +8765,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"critters@npm:0.0.21":
-  version: 0.0.21
-  resolution: "critters@npm:0.0.21"
+"critters@npm:0.0.22":
+  version: 0.0.22
+  resolution: "critters@npm:0.0.22"
   dependencies:
     chalk: "npm:^4.1.0"
     css-select: "npm:^5.1.0"
@@ -8776,8 +8776,7 @@ __metadata:
     htmlparser2: "npm:^8.0.2"
     postcss: "npm:^8.4.23"
     postcss-media-query-parser: "npm:^0.2.3"
-    pretty-bytes: "npm:^5.3.0"
-  checksum: 10c0/0a1b03a762f1143d686202e234a8f8fecbde87f1ac8b4092d7c13cdbfdd5c503cc32ff7432aa5bde40dd84894d5795afdcf2309d6f9a77d5264361f2ef08ea8c
+  checksum: 10c0/951c1c2f46b848f188b0e4a169e6fe56cc2a6d2934f5270372cfd48aadb6d475b9ad8d55b6d6182843c3ae117cfc05952f353bd4455122b122d2ecf7ff28687b
   languageName: node
   linkType: hard
 
@@ -14984,7 +14983,7 @@ __metadata:
     "@tamagui/next-theme": "npm:latest"
     "@types/node": "npm:20.11.25"
     app: "npm:*"
-    critters: "npm:0.0.21"
+    critters: "npm:0.0.22"
     dotenv-cli: "npm:7.3.0"
     eslint-config-next: "npm:14.1.3"
     next: "npm:14.1.3"
@@ -16158,7 +16157,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pretty-bytes@npm:5.6.0, pretty-bytes@npm:^5.3.0":
+"pretty-bytes@npm:5.6.0":
   version: 5.6.0
   resolution: "pretty-bytes@npm:5.6.0"
   checksum: 10c0/f69f494dcc1adda98dbe0e4a36d301e8be8ff99bfde7a637b2ee2820e7cb583b0fc0f3a63b0e3752c01501185a5cf38602c7be60da41bdf84ef5b70e89c370f3
