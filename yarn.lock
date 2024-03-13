@@ -1742,11 +1742,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@clerk/clerk-expo@npm:0.20.9":
-  version: 0.20.9
-  resolution: "@clerk/clerk-expo@npm:0.20.9"
+"@clerk/clerk-expo@npm:0.20.10":
+  version: 0.20.10
+  resolution: "@clerk/clerk-expo@npm:0.20.10"
   dependencies:
-    "@clerk/clerk-js": "npm:4.70.4"
+    "@clerk/clerk-js": "npm:4.70.5"
     "@clerk/clerk-react": "npm:4.30.7"
     "@clerk/shared": "npm:1.3.3"
     base-64: "npm:1.0.0"
@@ -1757,13 +1757,13 @@ __metadata:
     expo-constants: ">=14"
     expo-web-browser: ">=12"
     react: ">=16"
-  checksum: 10c0/6d62f89cd0b45e1fe0f4912a4b53e7891f1f49f07445e04875705a69eeb193f6c417ae8be2e7a6fe8abc5829e53f4bec21661c14a86e8119d09ca7eebc53e639
+  checksum: 10c0/f3f3d86c5810f662903133fefbf476e5b58e22b368517a2a0d5a969e6f43973192a49b579321ba580ad2c52034061efd02dfa77dbe21a92f5ca8d22227ff3bc7
   languageName: node
   linkType: hard
 
-"@clerk/clerk-js@npm:4.70.4":
-  version: 4.70.4
-  resolution: "@clerk/clerk-js@npm:4.70.4"
+"@clerk/clerk-js@npm:4.70.5":
+  version: 4.70.5
+  resolution: "@clerk/clerk-js@npm:4.70.5"
   dependencies:
     "@clerk/localizations": "npm:1.26.16"
     "@clerk/shared": "npm:1.3.3"
@@ -1782,7 +1782,7 @@ __metadata:
     regenerator-runtime: "npm:0.13.11"
   peerDependencies:
     react: ">=18"
-  checksum: 10c0/4e5b83e7280a82f746764dd68eddede38f51ecb630ae3f0a92d7cec6f36237051a1366ddd06ef217bc42bbd5a732877228caf76eda24b0a105824646baf8e0a6
+  checksum: 10c0/1a23e471e7c5546a3e392e3000c7acc0133a893b861c507977e5fc6f5fed524fe3e4bbde4ed1a35625cd9168999c2be1b32c109b7aecb0994789fed3c24cea8f
   languageName: node
   linkType: hard
 
@@ -6064,21 +6064,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:5.27.5":
-  version: 5.27.5
-  resolution: "@tanstack/query-core@npm:5.27.5"
-  checksum: 10c0/e0a06216de04c2b62d278a666c16ac9dc3cad82d97202ca87ecfb09272912e508a4d365947f98ef4f2d53d46d7a1c1d1011e05d3a9da1e50ba70419e7a385bd7
+"@tanstack/query-core@npm:5.28.0":
+  version: 5.28.0
+  resolution: "@tanstack/query-core@npm:5.28.0"
+  checksum: 10c0/29a5b0e029409d64b2817398df5fd72bfb092cd36cdf92c1fd0bf2e9e1095e0c4dbf2dbc46678aeb84d63ebfbdbc68f4a7d66777a3c558ec4237b8cb314fef6b
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:5.27.5":
-  version: 5.27.5
-  resolution: "@tanstack/react-query@npm:5.27.5"
+"@tanstack/react-query@npm:5.28.0":
+  version: 5.28.0
+  resolution: "@tanstack/react-query@npm:5.28.0"
   dependencies:
-    "@tanstack/query-core": "npm:5.27.5"
+    "@tanstack/query-core": "npm:5.28.0"
   peerDependencies:
     react: ^18.0.0
-  checksum: 10c0/2ca456e763d94b454ab6d6506b8b033863bcf1095fd2925edd29ef88bca4de23acec0d24507f9aa7ef737d0cb1298ee97f011470e19131312a32f832b4c10ff0
+  checksum: 10c0/cd508c052a4e560b3ad050938fa993bfca44060c9cd0eaa2c24e63248c2af16a59e7a5be965454c0b1e567d9ddb71bba249164277fa13a6de37dbb38c55a54a1
   languageName: node
   linkType: hard
 
@@ -6412,12 +6412,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.11.26":
-  version: 20.11.26
-  resolution: "@types/node@npm:20.11.26"
+"@types/node@npm:20.11.27":
+  version: 20.11.27
+  resolution: "@types/node@npm:20.11.27"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10c0/2df81e4f109588c4c490f2c7d616a06d2b3b9298f217468134b80711af810c9a6017a59beb3e6b1c596eb9b6c5a39d33403b99179acb89006badfbc55f2468bb
+  checksum: 10c0/ec40bea80c60a12b39bd0da9b16333237a84c67ae83c8aa382b88381ae3948943bf6af969442e209270ad3e109f301a6b01ab243f80bd0e69673a877425f9418
   languageName: node
   linkType: hard
 
@@ -7163,7 +7163,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app@workspace:packages/app"
   dependencies:
-    "@clerk/clerk-expo": "npm:0.20.9"
+    "@clerk/clerk-expo": "npm:0.20.10"
     "@clerk/nextjs": "npm:4.29.9"
     "@shichida/ui": "npm:*"
     "@shopify/flash-list": "npm:1.6.3"
@@ -7173,7 +7173,7 @@ __metadata:
     "@tamagui/lucide-icons": "npm:latest"
     "@tamagui/shorthands": "npm:latest"
     "@tamagui/themes": "npm:latest"
-    "@tanstack/react-query": "npm:5.27.5"
+    "@tanstack/react-query": "npm:5.28.0"
     "@trpc/client": "npm:10.45.2"
     "@trpc/next": "npm:10.45.2"
     "@trpc/react-query": "npm:10.45.2"
@@ -15103,7 +15103,7 @@ __metadata:
   dependencies:
     "@tamagui/next-plugin": "npm:latest"
     "@tamagui/next-theme": "npm:latest"
-    "@types/node": "npm:20.11.26"
+    "@types/node": "npm:20.11.27"
     app: "npm:*"
     critters: "npm:0.0.22"
     dotenv-cli: "npm:7.4.1"
