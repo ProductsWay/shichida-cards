@@ -4406,7 +4406,7 @@ __metadata:
     "@tamagui/themes": "npm:latest"
     "@tamagui/toast": "npm:latest"
     "@tanstack/react-virtual": "npm:3.1.3"
-    jotai: "npm:2.7.0"
+    jotai: "npm:2.7.1"
     tamagui: "npm:latest"
   languageName: unknown
   linkType: soft
@@ -6064,21 +6064,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:5.28.2":
-  version: 5.28.2
-  resolution: "@tanstack/query-core@npm:5.28.2"
-  checksum: 10c0/4e93c7be19195f0e404c3486d92b8e19cf1605eadf863f442a1be3dae302b67c617781f47e74a5f5c1f9771fb0dd0f2fa2b3dd56f78bc32e70294cf0f6968ed0
+"@tanstack/query-core@npm:5.28.4":
+  version: 5.28.4
+  resolution: "@tanstack/query-core@npm:5.28.4"
+  checksum: 10c0/0aca64c0e20c56fb4b6c0497f29613b0eb5c02eb2e2f99f2ed5616d7c119c18259c7171d25f593d00cd50e9ee1d2e629388968fcd53d0aa7fa95d820fc58cf9c
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:5.28.2":
-  version: 5.28.2
-  resolution: "@tanstack/react-query@npm:5.28.2"
+"@tanstack/react-query@npm:5.28.4":
+  version: 5.28.4
+  resolution: "@tanstack/react-query@npm:5.28.4"
   dependencies:
-    "@tanstack/query-core": "npm:5.28.2"
+    "@tanstack/query-core": "npm:5.28.4"
   peerDependencies:
     react: ^18.0.0
-  checksum: 10c0/204e90d43a2919298efc5e189456a15b6b6990282f9d6ff4f295e03f0e6506334c2e6f17141bcb67a8daabc4c78dc649bf7334f3d6ec943fd40584be57c9c7f5
+  checksum: 10c0/5ffc31cedea548b697770c018fab7fcd35724caf6cf7d40a7370ef6ffeb2427f510ea9745a92ebd6e74f2c4c39a255eabcd2a181c97b54991563ad842945866e
   languageName: node
   linkType: hard
 
@@ -6412,12 +6412,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.11.27":
-  version: 20.11.27
-  resolution: "@types/node@npm:20.11.27"
+"@types/node@npm:20.11.28":
+  version: 20.11.28
+  resolution: "@types/node@npm:20.11.28"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10c0/ec40bea80c60a12b39bd0da9b16333237a84c67ae83c8aa382b88381ae3948943bf6af969442e209270ad3e109f301a6b01ab243f80bd0e69673a877425f9418
+  checksum: 10c0/c599745243ed9ae4ca87460f18f88d02ab7424b545136aa504ed7a1d898e3a9bb133c927bcc7e861f79d7f6043ef917a173e780c8a001e129221e92f6d97b0ee
   languageName: node
   linkType: hard
 
@@ -7173,7 +7173,7 @@ __metadata:
     "@tamagui/lucide-icons": "npm:latest"
     "@tamagui/shorthands": "npm:latest"
     "@tamagui/themes": "npm:latest"
-    "@tanstack/react-query": "npm:5.28.2"
+    "@tanstack/react-query": "npm:5.28.4"
     "@trpc/client": "npm:10.45.2"
     "@trpc/next": "npm:10.45.2"
     "@trpc/react-query": "npm:10.45.2"
@@ -13489,9 +13489,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jotai@npm:2.7.0":
-  version: 2.7.0
-  resolution: "jotai@npm:2.7.0"
+"jotai@npm:2.7.1":
+  version: 2.7.1
+  resolution: "jotai@npm:2.7.1"
   peerDependencies:
     "@types/react": ">=17.0.0"
     react: ">=17.0.0"
@@ -13500,7 +13500,7 @@ __metadata:
       optional: true
     react:
       optional: true
-  checksum: 10c0/9f753ab76070d4bd284822f7cbffce4e36632f190be63758c8bca7c69a953d5e2a1d8d7124ab8c11d5745ba639fb0a1a28ec1e565d8e446ff83c81efed5ca39f
+  checksum: 10c0/7146023b77e32257e120e3a9f3f29ab3972f6ee2146e3c843cc43dc75aaa200c8e3d2513bb6a358755057a23ba716d6b74d56dbcd9d97416d8adf3d50545b096
   languageName: node
   linkType: hard
 
@@ -15103,7 +15103,7 @@ __metadata:
   dependencies:
     "@tamagui/next-plugin": "npm:latest"
     "@tamagui/next-theme": "npm:latest"
-    "@types/node": "npm:20.11.27"
+    "@types/node": "npm:20.11.28"
     app: "npm:*"
     critters: "npm:0.0.22"
     dotenv-cli: "npm:7.4.1"
