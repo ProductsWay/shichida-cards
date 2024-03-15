@@ -1922,10 +1922,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflare/workers-types@npm:4.20240312.0":
-  version: 4.20240312.0
-  resolution: "@cloudflare/workers-types@npm:4.20240312.0"
-  checksum: 10c0/fb69b0235a19b19964cf1ccc95fb4cf59570dadca1238947cfc5939ceabe6ef65d5fbbf72895d839863c42fe277d665245ed7fb455675d91516dd1af2c4c2b02
+"@cloudflare/workers-types@npm:4.20240314.0":
+  version: 4.20240314.0
+  resolution: "@cloudflare/workers-types@npm:4.20240314.0"
+  checksum: 10c0/840f198cb21efac5c0a9f67aabe27409669f71b4ad0afda89940327554f2953c5ce01eaf8a94353605a98be7c922a3beb540f4e8499ffeef24c5e85ac8e74266
   languageName: node
   linkType: hard
 
@@ -3543,11 +3543,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@manypkg/cli@npm:0.21.2":
-  version: 0.21.2
-  resolution: "@manypkg/cli@npm:0.21.2"
+"@manypkg/cli@npm:0.21.3":
+  version: 0.21.3
+  resolution: "@manypkg/cli@npm:0.21.3"
   dependencies:
-    "@manypkg/get-packages": "npm:^2.2.0"
+    "@manypkg/get-packages": "npm:^2.2.1"
     chalk: "npm:^2.4.2"
     detect-indent: "npm:^6.0.0"
     find-up: "npm:^4.1.0"
@@ -3562,7 +3562,7 @@ __metadata:
     validate-npm-package-name: "npm:^3.0.0"
   bin:
     manypkg: bin.js
-  checksum: 10c0/1fbabf22bf03aadfb2a05f0b55fe2d28d9efbf75182db7252fe3a33693e1a039ae2bbdd786815e5530f6bc85977d148c9501161c30216c48d9197e4c4150cdf9
+  checksum: 10c0/48b0d089b1cba8b4e32d12b019ee73b9f4a0b8d6a7ca0cf4978890b9e9a8f420c3e672a0b56395195fd23afeb31dfa3d3c9660dc8bb18cf9916aeda5a57523e1
   languageName: node
   linkType: hard
 
@@ -3577,13 +3577,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@manypkg/get-packages@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "@manypkg/get-packages@npm:2.2.0"
+"@manypkg/get-packages@npm:^2.2.1":
+  version: 2.2.1
+  resolution: "@manypkg/get-packages@npm:2.2.1"
   dependencies:
     "@manypkg/find-root": "npm:^2.2.0"
     "@manypkg/tools": "npm:^1.1.0"
-  checksum: 10c0/2e09c89df945393e0696069721aeff0a1859ebf20e03b94d9f29e0d11657ce9661b3f391969bf0ee34130898dbf5ac40c52fdac33dbb757196b093d7e00ef350
+  checksum: 10c0/a5e39d94d9e2810e5a19b3c4d4aab25c4cbfca6bcdab3c47d0a3cae34622f2d97bbef6e2b788d0d2d3ad5555cf23064971a1d9d5ef1d54a22bc505ab3fe3fd9f
   languageName: node
   linkType: hard
 
@@ -4378,18 +4378,18 @@ __metadata:
   dependencies:
     "@clerk/backend": "npm:0.38.3"
     "@cloudflare/d1": "npm:1.4.1"
-    "@cloudflare/workers-types": "npm:4.20240312.0"
+    "@cloudflare/workers-types": "npm:4.20240314.0"
     "@hono/trpc-server": "npm:0.1.1"
     "@trpc/server": "npm:10.45.2"
     "@tsndr/cloudflare-worker-jwt": "npm:2.5.3"
     better-sqlite3: "npm:9.4.3"
     dotenv-cli: "npm:7.4.1"
     drizzle-kit: "npm:0.20.14"
-    drizzle-orm: "npm:0.30.1"
+    drizzle-orm: "npm:0.30.2"
     eslint: "npm:8.57.0"
     hono: "npm:3.12.12"
     typescript: "npm:5.4.2"
-    wrangler: "npm:3.33.0"
+    wrangler: "npm:3.34.2"
   languageName: unknown
   linkType: soft
 
@@ -6064,21 +6064,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:5.28.0":
-  version: 5.28.0
-  resolution: "@tanstack/query-core@npm:5.28.0"
-  checksum: 10c0/29a5b0e029409d64b2817398df5fd72bfb092cd36cdf92c1fd0bf2e9e1095e0c4dbf2dbc46678aeb84d63ebfbdbc68f4a7d66777a3c558ec4237b8cb314fef6b
+"@tanstack/query-core@npm:5.28.2":
+  version: 5.28.2
+  resolution: "@tanstack/query-core@npm:5.28.2"
+  checksum: 10c0/4e93c7be19195f0e404c3486d92b8e19cf1605eadf863f442a1be3dae302b67c617781f47e74a5f5c1f9771fb0dd0f2fa2b3dd56f78bc32e70294cf0f6968ed0
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:5.28.0":
-  version: 5.28.0
-  resolution: "@tanstack/react-query@npm:5.28.0"
+"@tanstack/react-query@npm:5.28.2":
+  version: 5.28.2
+  resolution: "@tanstack/react-query@npm:5.28.2"
   dependencies:
-    "@tanstack/query-core": "npm:5.28.0"
+    "@tanstack/query-core": "npm:5.28.2"
   peerDependencies:
     react: ^18.0.0
-  checksum: 10c0/cd508c052a4e560b3ad050938fa993bfca44060c9cd0eaa2c24e63248c2af16a59e7a5be965454c0b1e567d9ddb71bba249164277fa13a6de37dbb38c55a54a1
+  checksum: 10c0/204e90d43a2919298efc5e189456a15b6b6990282f9d6ff4f295e03f0e6506334c2e6f17141bcb67a8daabc4c78dc649bf7334f3d6ec943fd40584be57c9c7f5
   languageName: node
   linkType: hard
 
@@ -6470,14 +6470,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.65":
-  version: 18.2.65
-  resolution: "@types/react@npm:18.2.65"
+"@types/react@npm:18.2.66":
+  version: 18.2.66
+  resolution: "@types/react@npm:18.2.66"
   dependencies:
     "@types/prop-types": "npm:*"
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10c0/91158b5a9e90489a5984bb610c3692001ecdf1d286c78384252698bcb306ef88e9434e75f01bf7739017e949e7690b7d6f1b7ef9d7097f86f3f649482a33604b
+  checksum: 10c0/56e4b841f2daf03a0b3268d4f2bcf5841167fe56742b9f1c076fad66587fb59191bdaba4d5727dbfbcff750d5e8797fdd4e57d8d9704b0bfc6ad31ee1e268a70
   languageName: node
   linkType: hard
 
@@ -7173,11 +7173,11 @@ __metadata:
     "@tamagui/lucide-icons": "npm:latest"
     "@tamagui/shorthands": "npm:latest"
     "@tamagui/themes": "npm:latest"
-    "@tanstack/react-query": "npm:5.28.0"
+    "@tanstack/react-query": "npm:5.28.2"
     "@trpc/client": "npm:10.45.2"
     "@trpc/next": "npm:10.45.2"
     "@trpc/react-query": "npm:10.45.2"
-    "@types/react": "npm:18.2.65"
+    "@types/react": "npm:18.2.66"
     "@types/react-native": "npm:0.72.8"
     burnt: "npm:0.12.2"
     expo-auth-session: "npm:5.4.0"
@@ -9536,9 +9536,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"drizzle-orm@npm:0.30.1":
-  version: 0.30.1
-  resolution: "drizzle-orm@npm:0.30.1"
+"drizzle-orm@npm:0.30.2":
+  version: 0.30.2
+  resolution: "drizzle-orm@npm:0.30.2"
   peerDependencies:
     "@aws-sdk/client-rds-data": ">=3"
     "@cloudflare/workers-types": ">=3"
@@ -9610,7 +9610,7 @@ __metadata:
       optional: true
     sqlite3:
       optional: true
-  checksum: 10c0/1cc88489447606054283159dfa8ca1d7a885991f6bcb2f857cb217d443d86300de0e2ff50099c99779f613e04427e70f0116368df5a7a316eed7ccdbdd6e7740
+  checksum: 10c0/41a8e5293164b133dd576bbe38cdd4763efc593ca7df73b671606d1892fd4387ff444d347bc2a022252ca8baad41b7b6b0f491f0d9aa897e1a87cc8533fa9df2
   languageName: node
   linkType: hard
 
@@ -10957,7 +10957,7 @@ __metadata:
     expo-router: "npm:2.0.15"
     expo-splash-screen: "npm:0.26.4"
     expo-status-bar: "npm:1.11.1"
-    expo-updates: "npm:0.24.11"
+    expo-updates: "npm:0.24.12"
     metro-minify-terser: "npm:0.80.6"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
@@ -11363,9 +11363,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-updates@npm:0.24.11":
-  version: 0.24.11
-  resolution: "expo-updates@npm:0.24.11"
+"expo-updates@npm:0.24.12":
+  version: 0.24.12
+  resolution: "expo-updates@npm:0.24.12"
   dependencies:
     "@expo/code-signing-certificates": "npm:0.0.5"
     "@expo/config": "npm:~8.5.0"
@@ -11382,7 +11382,7 @@ __metadata:
     expo: "*"
   bin:
     expo-updates: bin/cli.js
-  checksum: 10c0/8f68908752d2906d55eaf4d991995a8b2cf3956a3491d5a39dc9c68beea2b3849bea775bf9065ff585c8cfa85914022d6d65f7d1c04bcdf6bfd2953f6da64e68
+  checksum: 10c0/7bca8638a95ff8908aeeab687aced3776c7e1330d404fca4289110fd4923362bc2124d9e11f6d9d6f449f12fb0fdb6b0ec1ed129754d626e945c39bee8a91cbc
   languageName: node
   linkType: hard
 
@@ -14765,9 +14765,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"miniflare@npm:3.20240304.1":
-  version: 3.20240304.1
-  resolution: "miniflare@npm:3.20240304.1"
+"miniflare@npm:3.20240304.2":
+  version: 3.20240304.2
+  resolution: "miniflare@npm:3.20240304.2"
   dependencies:
     "@cspotcode/source-map-support": "npm:0.8.1"
     acorn: "npm:^8.8.0"
@@ -14783,7 +14783,7 @@ __metadata:
     zod: "npm:^3.20.6"
   bin:
     miniflare: bootstrap.js
-  checksum: 10c0/b7472a6e9ee410b4444e606d503302007b334c77604caec572c9b67b138e0bd3e5a06083ec993698531f070e4bd6a12f7399658cf0bec0d0ee17e3098411c263
+  checksum: 10c0/30e1c7e47615c7f0b8c1d46dc0a40132edc4841d41bdb4a5197389a8569c60d115fb95820ba39c99ff6a76d436418fedab15930a73ca1bf6c16c91d5e8481af8
   languageName: node
   linkType: hard
 
@@ -17848,7 +17848,7 @@ __metadata:
   resolution: "shichida-cards@workspace:."
   dependencies:
     "@babel/runtime": "npm:7.24.0"
-    "@manypkg/cli": "npm:0.21.2"
+    "@manypkg/cli": "npm:0.21.3"
     check-dependency-version-consistency: "npm:4.1.0"
     eslint: "npm:8.57.0"
     node-gyp: "npm:10.0.1"
@@ -20065,9 +20065,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:3.33.0":
-  version: 3.33.0
-  resolution: "wrangler@npm:3.33.0"
+"wrangler@npm:3.34.2":
+  version: 3.34.2
+  resolution: "wrangler@npm:3.34.2"
   dependencies:
     "@cloudflare/kv-asset-handler": "npm:0.3.1"
     "@esbuild-plugins/node-globals-polyfill": "npm:^0.2.3"
@@ -20076,7 +20076,7 @@ __metadata:
     chokidar: "npm:^3.5.3"
     esbuild: "npm:0.17.19"
     fsevents: "npm:~2.3.2"
-    miniflare: "npm:3.20240304.1"
+    miniflare: "npm:3.20240304.2"
     nanoid: "npm:^3.3.3"
     path-to-regexp: "npm:^6.2.0"
     resolve: "npm:^1.22.8"
@@ -20095,7 +20095,7 @@ __metadata:
   bin:
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: 10c0/cf2683ba97fe788bbda82247673184d20e3950d0cc0ba6c06d133b9108b582c3d45af987576ff8f370ee18f1150920f5e9184119e4a17fe02344102a541b7b05
+  checksum: 10c0/01906114a83d296b8d0c334cc9921393338cb8fecf884d10796924fb48f0f1502bd9b51eda6e791f281d81911471fc2912105202a182dab04b032885af4cc73b
   languageName: node
   linkType: hard
 
