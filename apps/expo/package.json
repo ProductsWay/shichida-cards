@@ -10,7 +10,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "@babel/runtime": "7.24.0",
+    "@babel/runtime": "7.24.1",
     "@react-navigation/native": "6.1.17",
     "@shichida/ui": "*",
     "@types/react-native": "0.72.8",
@@ -37,20 +37,20 @@
     "react-native-web": "0.19.10"
   },
   "devDependencies": {
-    "@babel/core": "7.24.0",
+    "@babel/core": "7.24.1",
     "@expo/metro-config": "0.17.6",
     "@tamagui/babel-plugin": "latest",
     "babel-plugin-transform-inline-environment-variables": "0.4.4",
-    "metro-minify-terser": "0.80.6",
+    "metro-minify-terser": "0.80.7",
     "react-native-dotenv": "3.4.11",
     "typescript": "5.4.2"
   },
   "resolutions": {
-    "metro": "0.80.6",
-    "metro-resolver": "0.80.6"
+    "metro": "0.80.7",
+    "metro-resolver": "0.80.7"
   },
   "overrides": {
-    "metro": "0.80.6",
-    "metro-resolver": "0.80.6"
+    "metro": "0.80.7",
+    "metro-resolver": "0.80.7"
   }
 }
