@@ -10873,7 +10873,7 @@ __metadata:
     react-native: "npm:0.73.6"
     react-native-dotenv: "npm:3.4.11"
     react-native-gesture-handler: "npm:2.15.0"
-    react-native-screens: "npm:3.29.0"
+    react-native-screens: "npm:3.30.1"
     react-native-svg: "npm:14.1.0"
     react-native-web: "npm:0.19.10"
     typescript: "npm:5.4.3"
@@ -15206,7 +15206,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-gyp@npm:10.0.1, node-gyp@npm:latest":
+"node-gyp@npm:10.1.0":
+  version: 10.1.0
+  resolution: "node-gyp@npm:10.1.0"
+  dependencies:
+    env-paths: "npm:^2.2.0"
+    exponential-backoff: "npm:^3.1.1"
+    glob: "npm:^10.3.10"
+    graceful-fs: "npm:^4.2.6"
+    make-fetch-happen: "npm:^13.0.0"
+    nopt: "npm:^7.0.0"
+    proc-log: "npm:^3.0.0"
+    semver: "npm:^7.3.5"
+    tar: "npm:^6.1.2"
+    which: "npm:^4.0.0"
+  bin:
+    node-gyp: bin/node-gyp.js
+  checksum: 10c0/9cc821111ca244a01fb7f054db7523ab0a0cd837f665267eb962eb87695d71fb1e681f9e21464cc2fd7c05530dc4c81b810bca1a88f7d7186909b74477491a3c
+  languageName: node
+  linkType: hard
+
+"node-gyp@npm:latest":
   version: 10.0.1
   resolution: "node-gyp@npm:10.0.1"
   dependencies:
@@ -16653,16 +16673,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-screens@npm:3.29.0":
-  version: 3.29.0
-  resolution: "react-native-screens@npm:3.29.0"
+"react-native-screens@npm:3.30.1":
+  version: 3.30.1
+  resolution: "react-native-screens@npm:3.30.1"
   dependencies:
     react-freeze: "npm:^1.0.0"
     warn-once: "npm:^0.1.0"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10c0/90c32eb5452007f64c2f56412c671de98b4b89f09cf09cc7a7dca1cb23b1ac6de9bc726c67e774c7cb68dbd05bb329c053c1c2f071f534ad4e27d9d60be76eb0
+  checksum: 10c0/3a9930524a44bfd5554908ff616ee757b638ea4a25b45d0a2abd5c800baee36c69d17fed67096066740945962996df9d3302db170fe273d6b13a46bd46e5da19
   languageName: node
   linkType: hard
 
@@ -17760,7 +17780,7 @@ __metadata:
     "@manypkg/cli": "npm:0.21.3"
     check-dependency-version-consistency: "npm:4.1.0"
     eslint: "npm:8.57.0"
-    node-gyp: "npm:10.0.1"
+    node-gyp: "npm:10.1.0"
     prettier: "npm:3.2.5"
     turbo: "npm:1.13.0"
     typescript: "npm:5.4.3"
