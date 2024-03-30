@@ -24,7 +24,7 @@
     "hono": "3.12.12"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20240320.1",
+    "@cloudflare/workers-types": "4.20240329.0",
     "better-sqlite3": "9.4.3",
     "dotenv-cli": "7.4.1",
     "drizzle-kit": "0.20.14",
