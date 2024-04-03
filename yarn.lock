@@ -60,7 +60,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.24.3, @babel/core@npm:^7.13.16, @babel/core@npm:^7.20.0, @babel/core@npm:^7.23.3":
+"@babel/core@npm:7.24.4":
+  version: 7.24.4
+  resolution: "@babel/core@npm:7.24.4"
+  dependencies:
+    "@ampproject/remapping": "npm:^2.2.0"
+    "@babel/code-frame": "npm:^7.24.2"
+    "@babel/generator": "npm:^7.24.4"
+    "@babel/helper-compilation-targets": "npm:^7.23.6"
+    "@babel/helper-module-transforms": "npm:^7.23.3"
+    "@babel/helpers": "npm:^7.24.4"
+    "@babel/parser": "npm:^7.24.4"
+    "@babel/template": "npm:^7.24.0"
+    "@babel/traverse": "npm:^7.24.1"
+    "@babel/types": "npm:^7.24.0"
+    convert-source-map: "npm:^2.0.0"
+    debug: "npm:^4.1.0"
+    gensync: "npm:^1.0.0-beta.2"
+    json5: "npm:^2.2.3"
+    semver: "npm:^6.3.1"
+  checksum: 10c0/fc136966583e64d6f84f4a676368de6ab4583aa87f867186068655b30ef67f21f8e65a88c6d446a7efd219ad7ffb9185c82e8a90183ee033f6f47b5026641e16
+  languageName: node
+  linkType: hard
+
+"@babel/core@npm:^7.13.16, @babel/core@npm:^7.20.0, @babel/core@npm:^7.23.3":
   version: 7.24.3
   resolution: "@babel/core@npm:7.24.3"
   dependencies:
@@ -92,6 +115,18 @@ __metadata:
     "@jridgewell/trace-mapping": "npm:^0.3.25"
     jsesc: "npm:^2.5.1"
   checksum: 10c0/f0eea7497657cdf68cfb4b7d181588e1498eefd1f303d73b0d8ca9b21a6db27136a6f5beb8f988b6bdcd4249870826080950450fd310951de42ecf36df274881
+  languageName: node
+  linkType: hard
+
+"@babel/generator@npm:^7.24.4":
+  version: 7.24.4
+  resolution: "@babel/generator@npm:7.24.4"
+  dependencies:
+    "@babel/types": "npm:^7.24.0"
+    "@jridgewell/gen-mapping": "npm:^0.3.5"
+    "@jridgewell/trace-mapping": "npm:^0.3.25"
+    jsesc: "npm:^2.5.1"
+  checksum: 10c0/67a1b2f7cc985aaaa11b01e8ddd4fffa4f285837bc7a209738eb8203aa34bdafeb8507ed75fd883ddbabd641a036ca0a8d984e760f28ad4a9d60bff29d0a60bb
   languageName: node
   linkType: hard
 
@@ -344,6 +379,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/helpers@npm:^7.24.4":
+  version: 7.24.4
+  resolution: "@babel/helpers@npm:7.24.4"
+  dependencies:
+    "@babel/template": "npm:^7.24.0"
+    "@babel/traverse": "npm:^7.24.1"
+    "@babel/types": "npm:^7.24.0"
+  checksum: 10c0/747ef62b7fe87de31a2f3c19ff337a86cbb79be2f6c18af63133b614ab5a8f6da5b06ae4b06fb0e71271cb6a27efec6f8b6c9f44c60b8a18777832dc7929e6c5
+  languageName: node
+  linkType: hard
+
 "@babel/highlight@npm:^7.10.4, @babel/highlight@npm:^7.24.2":
   version: 7.24.2
   resolution: "@babel/highlight@npm:7.24.2"
@@ -362,6 +408,15 @@ __metadata:
   bin:
     parser: ./bin/babel-parser.js
   checksum: 10c0/d2a8b99aa5f33182b69d5569367403a40e7c027ae3b03a1f81fd8ac9b06ceb85b31f6ee4267fb90726dc2ac99909c6bdaa9cf16c379efab73d8dfe85cee32c50
+  languageName: node
+  linkType: hard
+
+"@babel/parser@npm:^7.24.4":
+  version: 7.24.4
+  resolution: "@babel/parser@npm:7.24.4"
+  bin:
+    parser: ./bin/babel-parser.js
+  checksum: 10c0/8381e1efead5069cb7ed2abc3a583f4a86289b2f376c75cecc69f59a8eb36df18274b1886cecf2f97a6a0dff5334b27330f58535be9b3e4e26102cc50e12eac8
   languageName: node
   linkType: hard
 
@@ -1652,7 +1707,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:7.24.1, @babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.18.6, @babel/runtime@npm:^7.20.0, @babel/runtime@npm:^7.23.2, @babel/runtime@npm:^7.8.4":
+"@babel/runtime@npm:7.24.4":
+  version: 7.24.4
+  resolution: "@babel/runtime@npm:7.24.4"
+  dependencies:
+    regenerator-runtime: "npm:^0.14.0"
+  checksum: 10c0/785aff96a3aa8ff97f90958e1e8a7b1d47f793b204b47c6455eaadc3f694f48c97cd5c0a921fe3596d818e71f18106610a164fb0f1c71fd68c622a58269d537c
+  languageName: node
+  linkType: hard
+
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.18.6, @babel/runtime@npm:^7.20.0, @babel/runtime@npm:^7.23.2, @babel/runtime@npm:^7.8.4":
   version: 7.24.1
   resolution: "@babel/runtime@npm:7.24.1"
   dependencies:
@@ -1727,11 +1791,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@clerk/clerk-expo@npm:0.20.12":
-  version: 0.20.12
-  resolution: "@clerk/clerk-expo@npm:0.20.12"
+"@clerk/clerk-expo@npm:0.20.13":
+  version: 0.20.13
+  resolution: "@clerk/clerk-expo@npm:0.20.13"
   dependencies:
-    "@clerk/clerk-js": "npm:4.71.0"
+    "@clerk/clerk-js": "npm:4.71.1"
     "@clerk/clerk-react": "npm:4.30.8"
     "@clerk/shared": "npm:1.4.0"
     base-64: "npm:1.0.0"
@@ -1742,15 +1806,15 @@ __metadata:
     expo-constants: ">=14"
     expo-web-browser: ">=12"
     react: ">=16"
-  checksum: 10c0/1873f7dd3be919dba6e88ced2c08562591294ac1c7d572759713791dd604211a35ceb6d03327b40a666c894f8e48699c329ad8f8192da75f530057dbb3138bf6
+  checksum: 10c0/dfa44beecf9093cf4d466f900777cd6675db2ccade91c7c5ae47ce3f99619e8052e3568b4f762b92f84f66ec32214c25769b75a603cf812a0ad48b48f2fd0f35
   languageName: node
   linkType: hard
 
-"@clerk/clerk-js@npm:4.71.0":
-  version: 4.71.0
-  resolution: "@clerk/clerk-js@npm:4.71.0"
+"@clerk/clerk-js@npm:4.71.1":
+  version: 4.71.1
+  resolution: "@clerk/clerk-js@npm:4.71.1"
   dependencies:
-    "@clerk/localizations": "npm:1.27.0"
+    "@clerk/localizations": "npm:1.28.0"
     "@clerk/shared": "npm:1.4.0"
     "@clerk/types": "npm:3.63.0"
     "@emotion/cache": "npm:11.11.0"
@@ -1767,7 +1831,7 @@ __metadata:
     regenerator-runtime: "npm:0.13.11"
   peerDependencies:
     react: ">=18"
-  checksum: 10c0/0c31f63bd4e717c315bf04e8d9da0cff210ae3a708bd8f8c52725f4be4d96433e70fb0bc3eb93effd89847d5ea19df7628648fdc9a7260166f355c04bbe6fa56
+  checksum: 10c0/31ab3d7f3534b6fe80a0c2d35c90fca963fca96a35c4c8599ab8f247050bdf05a102ea849cbf181d4b94504dcec136cd51379ec9299c7cee56f9147b9a0e8f43
   languageName: node
   linkType: hard
 
@@ -1801,14 +1865,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@clerk/localizations@npm:1.27.0":
-  version: 1.27.0
-  resolution: "@clerk/localizations@npm:1.27.0"
+"@clerk/localizations@npm:1.28.0":
+  version: 1.28.0
+  resolution: "@clerk/localizations@npm:1.28.0"
   dependencies:
     "@clerk/types": "npm:3.63.0"
   peerDependencies:
     react: ">=16"
-  checksum: 10c0/81a4f11b782a2575de226b151ca2038e8377ba85334f4ea03c8f066ab64ad2bbee527658ed8c3dccfabd8087137df152edbb18b71bf4f05e04bfcb51f770f9ac
+  checksum: 10c0/76844246e381dbef29dec7e186fb3f545d203dfbfb933a53d6697883025fc0026216b5c5e11e561d17cc0c986848c0c24dbdbb78bcd650ba192a6a6e2ae6af83
   languageName: node
   linkType: hard
 
@@ -4488,7 +4552,7 @@ __metadata:
     better-sqlite3: "npm:9.4.4"
     dotenv-cli: "npm:7.4.1"
     drizzle-kit: "npm:0.20.14"
-    drizzle-orm: "npm:0.30.6"
+    drizzle-orm: "npm:0.30.7"
     eslint: "npm:8.57.0"
     hono: "npm:3.12.12"
     typescript: "npm:5.4.3"
@@ -7246,7 +7310,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app@workspace:packages/app"
   dependencies:
-    "@clerk/clerk-expo": "npm:0.20.12"
+    "@clerk/clerk-expo": "npm:0.20.13"
     "@clerk/nextjs": "npm:4.29.10"
     "@shichida/ui": "npm:*"
     "@shopify/flash-list": "npm:1.6.4"
@@ -9600,9 +9664,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"drizzle-orm@npm:0.30.6":
-  version: 0.30.6
-  resolution: "drizzle-orm@npm:0.30.6"
+"drizzle-orm@npm:0.30.7":
+  version: 0.30.7
+  resolution: "drizzle-orm@npm:0.30.7"
   peerDependencies:
     "@aws-sdk/client-rds-data": ">=3"
     "@cloudflare/workers-types": ">=3"
@@ -9616,7 +9680,7 @@ __metadata:
     "@types/pg": "*"
     "@types/react": ">=18"
     "@types/sql.js": "*"
-    "@vercel/postgres": "*"
+    "@vercel/postgres": ">=0.8.0"
     "@xata.io/client": "*"
     better-sqlite3: ">=7"
     bun-types: "*"
@@ -9680,7 +9744,7 @@ __metadata:
       optional: true
     sqlite3:
       optional: true
-  checksum: 10c0/b93d872ac31b81d44afc451d1d77b075843873d3e5ac11b7e9d94895af0c822b292bb36d0fe23710606b93716c4d69773ef6e8adc6da8ed80c42ab6e7e015619
+  checksum: 10c0/f396f1e70e6241a8bb9a070f27139bcd6ac3776df512b43b0cfa57fb27e3165ff5525997e4d23f66baf58cbd5ec07e687c34119203f39961ce0a5df304abaf87
   languageName: node
   linkType: hard
 
@@ -11088,8 +11152,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "expo-app@workspace:apps/expo"
   dependencies:
-    "@babel/core": "npm:7.24.3"
-    "@babel/runtime": "npm:7.24.1"
+    "@babel/core": "npm:7.24.4"
+    "@babel/runtime": "npm:7.24.4"
     "@expo/metro-config": "npm:0.17.6"
     "@react-navigation/native": "npm:6.1.17"
     "@shichida/ui": "npm:*"
@@ -17923,7 +17987,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "shichida-cards@workspace:."
   dependencies:
-    "@babel/runtime": "npm:7.24.1"
+    "@babel/runtime": "npm:7.24.4"
     "@manypkg/cli": "npm:0.21.3"
     check-dependency-version-consistency: "npm:4.1.0"
     eslint: "npm:8.57.0"
