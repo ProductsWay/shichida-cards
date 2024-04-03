@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "4.20240402.0",
-    "better-sqlite3": "9.4.3",
+    "better-sqlite3": "9.4.4",
     "dotenv-cli": "7.4.1",
     "drizzle-kit": "0.20.14",
     "eslint": "8.57.0",
