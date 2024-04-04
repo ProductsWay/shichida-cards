@@ -1774,11 +1774,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@clerk/backend@npm:0.38.4":
-  version: 0.38.4
-  resolution: "@clerk/backend@npm:0.38.4"
+"@clerk/backend@npm:0.38.5":
+  version: 0.38.5
+  resolution: "@clerk/backend@npm:0.38.5"
   dependencies:
-    "@clerk/shared": "npm:1.4.0"
+    "@clerk/shared": "npm:1.4.1"
     "@clerk/types": "npm:3.63.0"
     "@peculiar/webcrypto": "npm:1.4.1"
     "@types/node": "npm:16.18.6"
@@ -1787,17 +1787,17 @@ __metadata:
     node-fetch-native: "npm:1.0.1"
     snakecase-keys: "npm:5.4.4"
     tslib: "npm:2.4.1"
-  checksum: 10c0/d7e903d191d1199df14d06eb29cb45d20eb81a7969a0a00a78699815dbebe826e7b6786289220d6d3d455e1976effa367b1ae2681f428a195af9c523a4767c0f
+  checksum: 10c0/c9118055030c99390e8d4991487828e3b3aeb08b0fb57c8f0f64e079698395654ea7b656ab9a4f6f2a22bb6d0f752eb98afefeeae44443df92c4517e7afe4fc4
   languageName: node
   linkType: hard
 
-"@clerk/clerk-expo@npm:0.20.13":
-  version: 0.20.13
-  resolution: "@clerk/clerk-expo@npm:0.20.13"
+"@clerk/clerk-expo@npm:0.20.14":
+  version: 0.20.14
+  resolution: "@clerk/clerk-expo@npm:0.20.14"
   dependencies:
-    "@clerk/clerk-js": "npm:4.71.1"
-    "@clerk/clerk-react": "npm:4.30.8"
-    "@clerk/shared": "npm:1.4.0"
+    "@clerk/clerk-js": "npm:4.71.2"
+    "@clerk/clerk-react": "npm:4.30.9"
+    "@clerk/shared": "npm:1.4.1"
     base-64: "npm:1.0.0"
     react-native-url-polyfill: "npm:2.0.0"
   peerDependencies:
@@ -1806,16 +1806,16 @@ __metadata:
     expo-constants: ">=14"
     expo-web-browser: ">=12"
     react: ">=16"
-  checksum: 10c0/dfa44beecf9093cf4d466f900777cd6675db2ccade91c7c5ae47ce3f99619e8052e3568b4f762b92f84f66ec32214c25769b75a603cf812a0ad48b48f2fd0f35
+  checksum: 10c0/c58bd8cafa381f799d962dd8512b5b12ec29cc7644ac4194ced342b45033fe96d3571e15176c7f928bcb17f3f082473ddbfb62ffdeba5b4b95b650ec66cffc1b
   languageName: node
   linkType: hard
 
-"@clerk/clerk-js@npm:4.71.1":
-  version: 4.71.1
-  resolution: "@clerk/clerk-js@npm:4.71.1"
+"@clerk/clerk-js@npm:4.71.2":
+  version: 4.71.2
+  resolution: "@clerk/clerk-js@npm:4.71.2"
   dependencies:
-    "@clerk/localizations": "npm:1.28.0"
-    "@clerk/shared": "npm:1.4.0"
+    "@clerk/localizations": "npm:1.28.1"
+    "@clerk/shared": "npm:1.4.1"
     "@clerk/types": "npm:3.63.0"
     "@emotion/cache": "npm:11.11.0"
     "@emotion/react": "npm:11.11.1"
@@ -1831,29 +1831,29 @@ __metadata:
     regenerator-runtime: "npm:0.13.11"
   peerDependencies:
     react: ">=18"
-  checksum: 10c0/31ab3d7f3534b6fe80a0c2d35c90fca963fca96a35c4c8599ab8f247050bdf05a102ea849cbf181d4b94504dcec136cd51379ec9299c7cee56f9147b9a0e8f43
+  checksum: 10c0/1f23db3b39bb392824a7af525d36d8f058a6c2f6f9b25b313870cc474f1910efa20d8591b3df8b538169e55d14d8a72d8cec4d55ba6188d4b60a0a9146a9ad01
   languageName: node
   linkType: hard
 
-"@clerk/clerk-react@npm:4.30.8":
-  version: 4.30.8
-  resolution: "@clerk/clerk-react@npm:4.30.8"
+"@clerk/clerk-react@npm:4.30.9":
+  version: 4.30.9
+  resolution: "@clerk/clerk-react@npm:4.30.9"
   dependencies:
-    "@clerk/shared": "npm:1.4.0"
+    "@clerk/shared": "npm:1.4.1"
     "@clerk/types": "npm:3.63.0"
     tslib: "npm:2.4.1"
   peerDependencies:
     react: ">=16"
-  checksum: 10c0/6726dea514b7c6aa334f3865acc25a4ff025436ab5b014b97b7772fcbba0e6dc60551242a3eab6743750eb78926b3e247afb9582d4f1af29129270ba603a625b
+  checksum: 10c0/df441e8247966efcb4a3b1118a814dfba2082c3fb7d1ac74cfbc65433ce1e638576d1b5a8ceb17118dadddeffa964f69b0d2f6c2054c47d0a21b45f55607f6c7
   languageName: node
   linkType: hard
 
-"@clerk/clerk-sdk-node@npm:4.13.12":
-  version: 4.13.12
-  resolution: "@clerk/clerk-sdk-node@npm:4.13.12"
+"@clerk/clerk-sdk-node@npm:4.13.13":
+  version: 4.13.13
+  resolution: "@clerk/clerk-sdk-node@npm:4.13.13"
   dependencies:
-    "@clerk/backend": "npm:0.38.4"
-    "@clerk/shared": "npm:1.4.0"
+    "@clerk/backend": "npm:0.38.5"
+    "@clerk/shared": "npm:1.4.1"
     "@clerk/types": "npm:3.63.0"
     "@types/cookies": "npm:0.7.7"
     "@types/express": "npm:4.17.14"
@@ -1861,29 +1861,29 @@ __metadata:
     camelcase-keys: "npm:6.2.2"
     snakecase-keys: "npm:3.2.1"
     tslib: "npm:2.4.1"
-  checksum: 10c0/c5d5883a12a4590dfa5c2387bea05fd44f20dc9d26d0ac78cc7a79c962b337b992f05771d449a4b86afeb4ff7ffe5f5ddfde2088163e961785d1314d39830bd9
+  checksum: 10c0/d24b97914000f374d45a72316126e07e5915df55788d75265041b61eea838c6eb5a969656ec5ba6996d8a7610abca16fd19b5ce13574c72a13dae99f186bff6b
   languageName: node
   linkType: hard
 
-"@clerk/localizations@npm:1.28.0":
-  version: 1.28.0
-  resolution: "@clerk/localizations@npm:1.28.0"
+"@clerk/localizations@npm:1.28.1":
+  version: 1.28.1
+  resolution: "@clerk/localizations@npm:1.28.1"
   dependencies:
     "@clerk/types": "npm:3.63.0"
   peerDependencies:
     react: ">=16"
-  checksum: 10c0/76844246e381dbef29dec7e186fb3f545d203dfbfb933a53d6697883025fc0026216b5c5e11e561d17cc0c986848c0c24dbdbb78bcd650ba192a6a6e2ae6af83
+  checksum: 10c0/d9b62c9c9558a88904004852a3ae3c729bb25f303aeaa318869dd770c2d5c6117ad1f377cf39356c58d25d7d34f827635c4682e3cdf9e3ad92ae8059d9667af0
   languageName: node
   linkType: hard
 
-"@clerk/nextjs@npm:4.29.10":
-  version: 4.29.10
-  resolution: "@clerk/nextjs@npm:4.29.10"
+"@clerk/nextjs@npm:4.29.11":
+  version: 4.29.11
+  resolution: "@clerk/nextjs@npm:4.29.11"
   dependencies:
-    "@clerk/backend": "npm:0.38.4"
-    "@clerk/clerk-react": "npm:4.30.8"
-    "@clerk/clerk-sdk-node": "npm:4.13.12"
-    "@clerk/shared": "npm:1.4.0"
+    "@clerk/backend": "npm:0.38.5"
+    "@clerk/clerk-react": "npm:4.30.9"
+    "@clerk/clerk-sdk-node": "npm:4.13.13"
+    "@clerk/shared": "npm:1.4.1"
     "@clerk/types": "npm:3.63.0"
     path-to-regexp: "npm:6.2.1"
     tslib: "npm:2.4.1"
@@ -1891,13 +1891,13 @@ __metadata:
     next: ">=10"
     react: ^17.0.2 || ^18.0.0-0
     react-dom: ^17.0.2 || ^18.0.0-0
-  checksum: 10c0/b6dd7b5c6ccb33217f014c8d75a66a103004a96db050719c919da27efe96015dd94a315367d42b98b8b5731256043c856f2ba38885e241975ac59ef8b43d5f6c
+  checksum: 10c0/e62208d5e64f36895d87429c24ededb43f5ebcd3e702033dc113cf12b7d77b685f6f6fdd0cbee5dd40ef1850f50bd40a992ef69611e6259139af7db448e02a34
   languageName: node
   linkType: hard
 
-"@clerk/shared@npm:1.4.0":
-  version: 1.4.0
-  resolution: "@clerk/shared@npm:1.4.0"
+"@clerk/shared@npm:1.4.1":
+  version: 1.4.1
+  resolution: "@clerk/shared@npm:1.4.1"
   dependencies:
     glob-to-regexp: "npm:0.4.1"
     js-cookie: "npm:3.0.1"
@@ -1907,7 +1907,7 @@ __metadata:
   peerDependenciesMeta:
     react:
       optional: true
-  checksum: 10c0/c61332b09d48212e71d387e60a5ae0f526f6e17d6d31eed6d503b374217b9746c44fc22df4d64eb98d71ee689971a2c3fd8bffffa3a7c9851af54c6448a2cfc3
+  checksum: 10c0/5b77019ef1093131765012cef634d88c79f9a638b67a0d22284f43815af6b0248c9ced0fb4a0016274ad10eeb9106c688ec7aa070c15d9d8aeac4cdc2f044fc4
   languageName: node
   linkType: hard
 
@@ -1936,45 +1936,45 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflare/workerd-darwin-64@npm:1.20240329.0":
-  version: 1.20240329.0
-  resolution: "@cloudflare/workerd-darwin-64@npm:1.20240329.0"
+"@cloudflare/workerd-darwin-64@npm:1.20240404.0":
+  version: 1.20240404.0
+  resolution: "@cloudflare/workerd-darwin-64@npm:1.20240404.0"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@cloudflare/workerd-darwin-arm64@npm:1.20240329.0":
-  version: 1.20240329.0
-  resolution: "@cloudflare/workerd-darwin-arm64@npm:1.20240329.0"
+"@cloudflare/workerd-darwin-arm64@npm:1.20240404.0":
+  version: 1.20240404.0
+  resolution: "@cloudflare/workerd-darwin-arm64@npm:1.20240404.0"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@cloudflare/workerd-linux-64@npm:1.20240329.0":
-  version: 1.20240329.0
-  resolution: "@cloudflare/workerd-linux-64@npm:1.20240329.0"
+"@cloudflare/workerd-linux-64@npm:1.20240404.0":
+  version: 1.20240404.0
+  resolution: "@cloudflare/workerd-linux-64@npm:1.20240404.0"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"@cloudflare/workerd-linux-arm64@npm:1.20240329.0":
-  version: 1.20240329.0
-  resolution: "@cloudflare/workerd-linux-arm64@npm:1.20240329.0"
+"@cloudflare/workerd-linux-arm64@npm:1.20240404.0":
+  version: 1.20240404.0
+  resolution: "@cloudflare/workerd-linux-arm64@npm:1.20240404.0"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"@cloudflare/workerd-windows-64@npm:1.20240329.0":
-  version: 1.20240329.0
-  resolution: "@cloudflare/workerd-windows-64@npm:1.20240329.0"
+"@cloudflare/workerd-windows-64@npm:1.20240404.0":
+  version: 1.20240404.0
+  resolution: "@cloudflare/workerd-windows-64@npm:1.20240404.0"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"@cloudflare/workers-types@npm:4.20240403.0":
-  version: 4.20240403.0
-  resolution: "@cloudflare/workers-types@npm:4.20240403.0"
-  checksum: 10c0/c816c6e15e1d67fc5e23e6cb3f976995686dd93e216ff0305e7f1f8963dca767857fdbf0020e656ef56a78294475b947e7e852207e348fd363dfd403e42ad713
+"@cloudflare/workers-types@npm:4.20240404.0":
+  version: 4.20240404.0
+  resolution: "@cloudflare/workers-types@npm:4.20240404.0"
+  checksum: 10c0/b6df441f23a7e039ddff3d5dc9bad5575df64ac68ed70c82c077469bb65f2ec40b4e8843315cd173a921ab90bb8f18720a770f29c1500fea9e7ee12754433b63
   languageName: node
   linkType: hard
 
@@ -4543,9 +4543,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@shichida/api@workspace:packages/api"
   dependencies:
-    "@clerk/backend": "npm:0.38.4"
+    "@clerk/backend": "npm:0.38.5"
     "@cloudflare/d1": "npm:1.4.1"
-    "@cloudflare/workers-types": "npm:4.20240403.0"
+    "@cloudflare/workers-types": "npm:4.20240404.0"
     "@hono/trpc-server": "npm:0.1.1"
     "@trpc/server": "npm:10.45.2"
     "@tsndr/cloudflare-worker-jwt": "npm:2.5.3"
@@ -4555,8 +4555,8 @@ __metadata:
     drizzle-orm: "npm:0.30.7"
     eslint: "npm:8.57.0"
     hono: "npm:3.12.12"
-    typescript: "npm:5.4.3"
-    wrangler: "npm:3.45.0"
+    typescript: "npm:5.4.4"
+    wrangler: "npm:3.47.1"
   languageName: unknown
   linkType: soft
 
@@ -7310,8 +7310,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app@workspace:packages/app"
   dependencies:
-    "@clerk/clerk-expo": "npm:0.20.13"
-    "@clerk/nextjs": "npm:4.29.10"
+    "@clerk/clerk-expo": "npm:0.20.14"
+    "@clerk/nextjs": "npm:4.29.11"
     "@shichida/ui": "npm:*"
     "@shopify/flash-list": "npm:1.6.4"
     "@tamagui/animations-react-native": "npm:latest"
@@ -11183,7 +11183,7 @@ __metadata:
     react-native-screens: "npm:3.30.1"
     react-native-svg: "npm:14.1.0"
     react-native-web: "npm:0.19.10"
-    typescript: "npm:5.4.3"
+    typescript: "npm:5.4.4"
   languageName: unknown
   linkType: soft
 
@@ -14896,9 +14896,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"miniflare@npm:3.20240329.1":
-  version: 3.20240329.1
-  resolution: "miniflare@npm:3.20240329.1"
+"miniflare@npm:3.20240404.0":
+  version: 3.20240404.0
+  resolution: "miniflare@npm:3.20240404.0"
   dependencies:
     "@cspotcode/source-map-support": "npm:0.8.1"
     acorn: "npm:^8.8.0"
@@ -14908,13 +14908,13 @@ __metadata:
     glob-to-regexp: "npm:^0.4.1"
     stoppable: "npm:^1.1.0"
     undici: "npm:^5.28.2"
-    workerd: "npm:1.20240329.0"
+    workerd: "npm:1.20240404.0"
     ws: "npm:^8.11.0"
     youch: "npm:^3.2.2"
     zod: "npm:^3.20.6"
   bin:
     miniflare: bootstrap.js
-  checksum: 10c0/544281b95f641155f0dc96680d1366807ab5b8471fc5f2b69350990a5b68c6e3aa0b389e496401f15ab11e06f400ddb09be6150f1a6fe02ffc8a43b80b0833f5
+  checksum: 10c0/4e5cb4db91cdc2a18bcb1ca8cf1028ca8a634b473371a6c9bd6549adbe77c2470d4dc7710968f1cde77ff9836040b4cb257deed02b71ee9caf450e042aefc287
   languageName: node
   linkType: hard
 
@@ -17994,7 +17994,7 @@ __metadata:
     node-gyp: "npm:10.1.0"
     prettier: "npm:3.2.5"
     turbo: "npm:1.13.2"
-    typescript: "npm:5.4.3"
+    typescript: "npm:5.4.4"
   languageName: unknown
   linkType: soft
 
@@ -19524,7 +19524,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.4.3, typescript@npm:^5.0.4":
+"typescript@npm:5.4.4":
+  version: 5.4.4
+  resolution: "typescript@npm:5.4.4"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 10c0/4d8de0291204ed61ca97ad0cba2ce064e09c4988ca1c451c787e4653ba76296ba35177a52694e8a00cf4ef899d0ee83338663b926d8b7d55167ff0ba81549999
+  languageName: node
+  linkType: hard
+
+"typescript@npm:^5.0.4":
   version: 5.4.3
   resolution: "typescript@npm:5.4.3"
   bin:
@@ -19544,7 +19554,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A5.4.3#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A^5.0.4#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A5.4.4#optional!builtin<compat/typescript>":
+  version: 5.4.4
+  resolution: "typescript@patch:typescript@npm%3A5.4.4#optional!builtin<compat/typescript>::version=5.4.4&hash=5adc0c"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 10c0/1fa41b9964a9ff0ed913b339c90b46031b2d2da3cb1a192af516610733f7f1d5f7f9754a8e22b9ac7076d3d8aedd2c4f84db3f113bad060eac3a95962443a1bf
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@npm%3A^5.0.4#optional!builtin<compat/typescript>":
   version: 5.4.3
   resolution: "typescript@patch:typescript@npm%3A5.4.3#optional!builtin<compat/typescript>::version=5.4.3&hash=5adc0c"
   bin:
@@ -20183,15 +20203,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"workerd@npm:1.20240329.0":
-  version: 1.20240329.0
-  resolution: "workerd@npm:1.20240329.0"
+"workerd@npm:1.20240404.0":
+  version: 1.20240404.0
+  resolution: "workerd@npm:1.20240404.0"
   dependencies:
-    "@cloudflare/workerd-darwin-64": "npm:1.20240329.0"
-    "@cloudflare/workerd-darwin-arm64": "npm:1.20240329.0"
-    "@cloudflare/workerd-linux-64": "npm:1.20240329.0"
-    "@cloudflare/workerd-linux-arm64": "npm:1.20240329.0"
-    "@cloudflare/workerd-windows-64": "npm:1.20240329.0"
+    "@cloudflare/workerd-darwin-64": "npm:1.20240404.0"
+    "@cloudflare/workerd-darwin-arm64": "npm:1.20240404.0"
+    "@cloudflare/workerd-linux-64": "npm:1.20240404.0"
+    "@cloudflare/workerd-linux-arm64": "npm:1.20240404.0"
+    "@cloudflare/workerd-windows-64": "npm:1.20240404.0"
   dependenciesMeta:
     "@cloudflare/workerd-darwin-64":
       optional: true
@@ -20205,13 +20225,13 @@ __metadata:
       optional: true
   bin:
     workerd: bin/workerd
-  checksum: 10c0/22b605e40ef0fb8592691d24cf70d3d4c0a5e6ca3be74ac779c278fbe1f3f6107a3e4b53cf7927f828d51d5bdff1a9b11268853ea2a4bd35e296f49f12a05bb5
+  checksum: 10c0/17535055e28743f64b11f49ef861bf42bc97fdcbae6d0043ca61ce80b04cb6a912321ba8958c8bda4f871f8bd58763a432b9b359528d025ddda9215c364203c4
   languageName: node
   linkType: hard
 
-"wrangler@npm:3.45.0":
-  version: 3.45.0
-  resolution: "wrangler@npm:3.45.0"
+"wrangler@npm:3.47.1":
+  version: 3.47.1
+  resolution: "wrangler@npm:3.47.1"
   dependencies:
     "@cloudflare/kv-asset-handler": "npm:0.3.1"
     "@esbuild-plugins/node-globals-polyfill": "npm:^0.2.3"
@@ -20220,7 +20240,7 @@ __metadata:
     chokidar: "npm:^3.5.3"
     esbuild: "npm:0.17.19"
     fsevents: "npm:~2.3.2"
-    miniflare: "npm:3.20240329.1"
+    miniflare: "npm:3.20240404.0"
     nanoid: "npm:^3.3.3"
     path-to-regexp: "npm:^6.2.0"
     resolve: "npm:^1.22.8"
@@ -20229,7 +20249,7 @@ __metadata:
     source-map: "npm:0.6.1"
     xxhash-wasm: "npm:^1.0.1"
   peerDependencies:
-    "@cloudflare/workers-types": ^4.20240320.1
+    "@cloudflare/workers-types": ^4.20240404.0
   dependenciesMeta:
     fsevents:
       optional: true
@@ -20239,7 +20259,7 @@ __metadata:
   bin:
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: 10c0/5b78aec92f2c339539f55ddfbc0b64d990348c079e65731be983dd18c655be0b01530a7684a75644efc4648c5aaff80e69453faeb8d97a90e9a39c3f5dab1f9a
+  checksum: 10c0/4b3b089f104c36863eb243796190da5459faa5ef8025c41daa56c3c9b90733b7c5ae4ee9ed68a215e9ce70b23aa6a8d334e785cc85c9f7e7039d7c5528194839
   languageName: node
   linkType: hard
 
