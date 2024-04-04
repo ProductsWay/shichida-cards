@@ -1971,10 +1971,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflare/workers-types@npm:4.20240402.0":
-  version: 4.20240402.0
-  resolution: "@cloudflare/workers-types@npm:4.20240402.0"
-  checksum: 10c0/530a80bcc4e0edd60cd09cfcf9cc7d32333c9e4c7b20edce1861287b360795963b7b4f5a0dd7b98e0518ff2f16efe2769d536127123954d09d67d41b733817a5
+"@cloudflare/workers-types@npm:4.20240403.0":
+  version: 4.20240403.0
+  resolution: "@cloudflare/workers-types@npm:4.20240403.0"
+  checksum: 10c0/c816c6e15e1d67fc5e23e6cb3f976995686dd93e216ff0305e7f1f8963dca767857fdbf0020e656ef56a78294475b947e7e852207e348fd363dfd403e42ad713
   languageName: node
   linkType: hard
 
@@ -4545,18 +4545,18 @@ __metadata:
   dependencies:
     "@clerk/backend": "npm:0.38.4"
     "@cloudflare/d1": "npm:1.4.1"
-    "@cloudflare/workers-types": "npm:4.20240402.0"
+    "@cloudflare/workers-types": "npm:4.20240403.0"
     "@hono/trpc-server": "npm:0.1.1"
     "@trpc/server": "npm:10.45.2"
     "@tsndr/cloudflare-worker-jwt": "npm:2.5.3"
-    better-sqlite3: "npm:9.4.4"
+    better-sqlite3: "npm:9.4.5"
     dotenv-cli: "npm:7.4.1"
     drizzle-kit: "npm:0.20.14"
     drizzle-orm: "npm:0.30.7"
     eslint: "npm:8.57.0"
     hono: "npm:3.12.12"
     typescript: "npm:5.4.3"
-    wrangler: "npm:3.44.0"
+    wrangler: "npm:3.45.0"
   languageName: unknown
   linkType: soft
 
@@ -6579,12 +6579,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.12.3":
-  version: 20.12.3
-  resolution: "@types/node@npm:20.12.3"
+"@types/node@npm:20.12.4":
+  version: 20.12.4
+  resolution: "@types/node@npm:20.12.4"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10c0/45c8485a0e55276b42c26ba1df6c480e4e1a3a3abbf4ea0ff6b4e2823c4f77e32b7e166d4263d464f207cfea5bd4de8879b8df2c7132a727b0346a30191d6bea
+  checksum: 10c0/9b142fcd839a48c348d6b9acfc753dfa4b3fb1f3e23ed67e8952bee9b2dfdaffdddfbcf0e4701557b88631591a5f9968433910027532ef847759f8682e27ffe7
   languageName: node
   linkType: hard
 
@@ -7887,14 +7887,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"better-sqlite3@npm:9.4.4":
-  version: 9.4.4
-  resolution: "better-sqlite3@npm:9.4.4"
+"better-sqlite3@npm:9.4.5":
+  version: 9.4.5
+  resolution: "better-sqlite3@npm:9.4.5"
   dependencies:
     bindings: "npm:^1.5.0"
     node-gyp: "npm:latest"
     prebuild-install: "npm:^7.1.1"
-  checksum: 10c0/fb1142f2b85f4f347371f0c77ae6d7f7114d7c2ba3c13ba9c2dcad36a52106b437a398f13f7bd982bf01f6ab364dcd620bbe947878c537c10fb3e07bc9ba6c47
+  checksum: 10c0/4aabb51d6bcdca71f9b489bb589071b62ab50a5cd5c4c8cbdc68d0771f7e1a0c269d178846a1a680b3b272a9693ca979f96ee1b32f5ab2cbb18fbeb05510a06e
   languageName: node
   linkType: hard
 
@@ -14896,9 +14896,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"miniflare@npm:3.20240329.0":
-  version: 3.20240329.0
-  resolution: "miniflare@npm:3.20240329.0"
+"miniflare@npm:3.20240329.1":
+  version: 3.20240329.1
+  resolution: "miniflare@npm:3.20240329.1"
   dependencies:
     "@cspotcode/source-map-support": "npm:0.8.1"
     acorn: "npm:^8.8.0"
@@ -14914,7 +14914,7 @@ __metadata:
     zod: "npm:^3.20.6"
   bin:
     miniflare: bootstrap.js
-  checksum: 10c0/e95293d4fd6db015db5eca1b878c7b0d27dafa56508a58f92a11cbe7e5dbb3939bde18db177673bbf3b2f7190c4effdd6c834d41d385c72d5daf57a76691bf53
+  checksum: 10c0/544281b95f641155f0dc96680d1366807ab5b8471fc5f2b69350990a5b68c6e3aa0b389e496401f15ab11e06f400ddb09be6150f1a6fe02ffc8a43b80b0833f5
   languageName: node
   linkType: hard
 
@@ -15243,7 +15243,7 @@ __metadata:
   dependencies:
     "@tamagui/next-plugin": "npm:latest"
     "@tamagui/next-theme": "npm:latest"
-    "@types/node": "npm:20.12.3"
+    "@types/node": "npm:20.12.4"
     app: "npm:*"
     critters: "npm:0.0.22"
     dotenv-cli: "npm:7.4.1"
@@ -20209,9 +20209,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:3.44.0":
-  version: 3.44.0
-  resolution: "wrangler@npm:3.44.0"
+"wrangler@npm:3.45.0":
+  version: 3.45.0
+  resolution: "wrangler@npm:3.45.0"
   dependencies:
     "@cloudflare/kv-asset-handler": "npm:0.3.1"
     "@esbuild-plugins/node-globals-polyfill": "npm:^0.2.3"
@@ -20220,7 +20220,7 @@ __metadata:
     chokidar: "npm:^3.5.3"
     esbuild: "npm:0.17.19"
     fsevents: "npm:~2.3.2"
-    miniflare: "npm:3.20240329.0"
+    miniflare: "npm:3.20240329.1"
     nanoid: "npm:^3.3.3"
     path-to-regexp: "npm:^6.2.0"
     resolve: "npm:^1.22.8"
@@ -20239,7 +20239,7 @@ __metadata:
   bin:
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: 10c0/5d539fbaa8376f4725291974b17885bc2e41f764113ad43584e5cc49b25fbf1376de8fa9336191fa76cdd31c0e604dd3d20ad0128edee9aaf7c45776b24df168
+  checksum: 10c0/5b78aec92f2c339539f55ddfbc0b64d990348c079e65731be983dd18c655be0b01530a7684a75644efc4648c5aaff80e69453faeb8d97a90e9a39c3f5dab1f9a
   languageName: node
   linkType: hard
 
