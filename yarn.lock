@@ -1971,10 +1971,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflare/workers-types@npm:4.20240404.0":
-  version: 4.20240404.0
-  resolution: "@cloudflare/workers-types@npm:4.20240404.0"
-  checksum: 10c0/b6df441f23a7e039ddff3d5dc9bad5575df64ac68ed70c82c077469bb65f2ec40b4e8843315cd173a921ab90bb8f18720a770f29c1500fea9e7ee12754433b63
+"@cloudflare/workers-types@npm:4.20240405.0":
+  version: 4.20240405.0
+  resolution: "@cloudflare/workers-types@npm:4.20240405.0"
+  checksum: 10c0/887961d47c9d8f62b99fb9c6987d6d9c5b7c463f2dcc0d134565fddea76444674f07860c7fb18657365fc814f1794210ecead13e897ec4f21cca26cffeb8d0b5
   languageName: node
   linkType: hard
 
@@ -4545,7 +4545,7 @@ __metadata:
   dependencies:
     "@clerk/backend": "npm:0.38.5"
     "@cloudflare/d1": "npm:1.4.1"
-    "@cloudflare/workers-types": "npm:4.20240404.0"
+    "@cloudflare/workers-types": "npm:4.20240405.0"
     "@hono/trpc-server": "npm:0.1.1"
     "@trpc/server": "npm:10.45.2"
     "@tsndr/cloudflare-worker-jwt": "npm:2.5.3"
@@ -4556,7 +4556,7 @@ __metadata:
     eslint: "npm:8.57.0"
     hono: "npm:3.12.12"
     typescript: "npm:5.4.4"
-    wrangler: "npm:3.47.1"
+    wrangler: "npm:3.48.0"
   languageName: unknown
   linkType: soft
 
@@ -6231,21 +6231,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:5.28.13":
-  version: 5.28.13
-  resolution: "@tanstack/query-core@npm:5.28.13"
-  checksum: 10c0/4eb2c162a05948caf556d84ee65a7d640786adcfdc3fbefaf3e010ab462bdfb3ea7bdb200829ca33ccc60699a9a6d9414e7d6a3ea92b819a5de25337ea07b0d7
+"@tanstack/query-core@npm:5.29.0":
+  version: 5.29.0
+  resolution: "@tanstack/query-core@npm:5.29.0"
+  checksum: 10c0/ec90801c7234a551e347656b02c6e4dcc448722c466cc42eaf03bb69ac535c2e26a74f7189c21cf836cacf41851f30d17beae0f9478017b6220b612e1803eddb
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:5.28.14":
-  version: 5.28.14
-  resolution: "@tanstack/react-query@npm:5.28.14"
+"@tanstack/react-query@npm:5.29.0":
+  version: 5.29.0
+  resolution: "@tanstack/react-query@npm:5.29.0"
   dependencies:
-    "@tanstack/query-core": "npm:5.28.13"
+    "@tanstack/query-core": "npm:5.29.0"
   peerDependencies:
     react: ^18.0.0
-  checksum: 10c0/34d269be1653d1ac313603c145540e15c5bd94da012b0fafda2f2d90bbc0712a213e41d4335d5b2f2fd54ac2f238dd0582aeb617b71edba5046235ec6bc69939
+  checksum: 10c0/0c9041912330b4da6dc3b3f6d54e5f11edbb47ebbf8736db708e71e799b68bae9dfcdcaba6af431f3c9c79830225b289d2b6c0dd2304ac38f52a9e6f25c452bd
   languageName: node
   linkType: hard
 
@@ -7320,7 +7320,7 @@ __metadata:
     "@tamagui/lucide-icons": "npm:latest"
     "@tamagui/shorthands": "npm:latest"
     "@tamagui/themes": "npm:latest"
-    "@tanstack/react-query": "npm:5.28.14"
+    "@tanstack/react-query": "npm:5.29.0"
     "@trpc/client": "npm:10.45.2"
     "@trpc/next": "npm:10.45.2"
     "@trpc/react-query": "npm:10.45.2"
@@ -20229,9 +20229,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:3.47.1":
-  version: 3.47.1
-  resolution: "wrangler@npm:3.47.1"
+"wrangler@npm:3.48.0":
+  version: 3.48.0
+  resolution: "wrangler@npm:3.48.0"
   dependencies:
     "@cloudflare/kv-asset-handler": "npm:0.3.1"
     "@esbuild-plugins/node-globals-polyfill": "npm:^0.2.3"
@@ -20259,7 +20259,7 @@ __metadata:
   bin:
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: 10c0/4b3b089f104c36863eb243796190da5459faa5ef8025c41daa56c3c9b90733b7c5ae4ee9ed68a215e9ce70b23aa6a8d334e785cc85c9f7e7039d7c5528194839
+  checksum: 10c0/a076957ed62d06988250cc697fc6110b512105407c07650a0328d75927a8f9a7f8ae3b69a6956d3aa2bff24261453907f512b8ed66b2e1ded3cff444d575489d
   languageName: node
   linkType: hard
 
