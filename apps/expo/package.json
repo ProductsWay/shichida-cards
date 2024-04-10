@@ -43,7 +43,7 @@
     "babel-plugin-transform-inline-environment-variables": "0.4.4",
     "metro-minify-terser": "0.80.8",
     "react-native-dotenv": "3.4.11",
-    "typescript": "5.4.4"
+    "typescript": "5.4.5"
   },
   "resolutions": {
     "metro": "0.80.8",
