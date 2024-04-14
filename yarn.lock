@@ -3702,9 +3702,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@manypkg/cli@npm:0.21.3":
-  version: 0.21.3
-  resolution: "@manypkg/cli@npm:0.21.3"
+"@manypkg/cli@npm:0.21.4":
+  version: 0.21.4
+  resolution: "@manypkg/cli@npm:0.21.4"
   dependencies:
     "@manypkg/get-packages": "npm:^2.2.1"
     chalk: "npm:^2.4.2"
@@ -3721,7 +3721,7 @@ __metadata:
     validate-npm-package-name: "npm:^3.0.0"
   bin:
     manypkg: bin.js
-  checksum: 10c0/48b0d089b1cba8b4e32d12b019ee73b9f4a0b8d6a7ca0cf4978890b9e9a8f420c3e672a0b56395195fd23afeb31dfa3d3c9660dc8bb18cf9916aeda5a57523e1
+  checksum: 10c0/ff4529af341708ef50d8fa9972232abcaac6fe07c934cff4beb34b25ba02048eaa21d4a070fd6ac5b1f101567c318f895beb3a0586ce048beff9d183eff3fb87
   languageName: node
   linkType: hard
 
@@ -17955,7 +17955,7 @@ __metadata:
   resolution: "shichida-cards@workspace:."
   dependencies:
     "@babel/runtime": "npm:7.24.4"
-    "@manypkg/cli": "npm:0.21.3"
+    "@manypkg/cli": "npm:0.21.4"
     check-dependency-version-consistency: "npm:4.1.0"
     eslint: "npm:8.57.0"
     node-gyp: "npm:10.1.0"
