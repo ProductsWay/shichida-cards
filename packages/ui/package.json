@@ -24,7 +24,7 @@
     "@tamagui/shorthands": "latest",
     "@tamagui/themes": "latest",
     "@tamagui/toast": "latest",
-    "@tanstack/react-virtual": "3.2.1",
+    "@tanstack/react-virtual": "3.3.0",
     "jotai": "2.8.0",
     "tamagui": "latest"
   },
