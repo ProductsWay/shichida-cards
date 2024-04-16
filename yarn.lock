@@ -3165,9 +3165,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/metro-config@npm:0.17.6":
-  version: 0.17.6
-  resolution: "@expo/metro-config@npm:0.17.6"
+"@expo/metro-config@npm:0.17.7":
+  version: 0.17.7
+  resolution: "@expo/metro-config@npm:0.17.7"
   dependencies:
     "@babel/core": "npm:^7.20.0"
     "@babel/generator": "npm:^7.20.5"
@@ -3191,7 +3191,7 @@ __metadata:
     sucrase: "npm:3.34.0"
   peerDependencies:
     "@react-native/babel-preset": "*"
-  checksum: 10c0/ba083c6f75f8e279936d559b75d765edb12f43f3e34f87336f755a70362737884ea5a020fc3e7fc28aee61f4bd790925f59400ed63340fa376e6408c8e119407
+  checksum: 10c0/d5be7bb48ade684a09fffeabdb15d063d77ec97456ad93ae198de03e70a3e3882b7af2e6bd2d7e4ad3dce2fa20a4e152f78a7ab5f671a0766d972335b2f806dd
   languageName: node
   linkType: hard
 
@@ -7262,7 +7262,7 @@ __metadata:
     "@types/react-native": "npm:0.73.0"
     burnt: "npm:0.12.2"
     expo-auth-session: "npm:5.4.0"
-    expo-constants: "npm:15.4.5"
+    expo-constants: "npm:15.4.6"
     expo-linking: "npm:6.2.2"
     expo-secure-store: "npm:12.8.1"
     react-native-safe-area-context: "npm:4.9.0"
@@ -11104,7 +11104,7 @@ __metadata:
   dependencies:
     "@babel/core": "npm:7.24.4"
     "@babel/runtime": "npm:7.24.4"
-    "@expo/metro-config": "npm:0.17.6"
+    "@expo/metro-config": "npm:0.17.7"
     "@react-navigation/native": "npm:6.1.17"
     "@shichida/ui": "npm:*"
     "@tamagui/babel-plugin": "npm:latest"
@@ -11114,7 +11114,7 @@ __metadata:
     babel-plugin-transform-inline-environment-variables: "npm:0.4.4"
     burnt: "npm:0.12.2"
     expo: "npm:49.0.23"
-    expo-constants: "npm:15.4.5"
+    expo-constants: "npm:15.4.6"
     expo-dev-client: "npm:2.4.13"
     expo-font: "npm:11.10.3"
     expo-image: "npm:1.10.6"
@@ -11184,14 +11184,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-constants@npm:15.4.5, expo-constants@npm:~15.4.0, expo-constants@npm:~15.4.3":
-  version: 15.4.5
-  resolution: "expo-constants@npm:15.4.5"
+"expo-constants@npm:15.4.6":
+  version: 15.4.6
+  resolution: "expo-constants@npm:15.4.6"
   dependencies:
     "@expo/config": "npm:~8.5.0"
   peerDependencies:
     expo: "*"
-  checksum: 10c0/de8fca03d83e677c0c6c6ed16462488420cfff2b892e4a8b23663dbbc5836f59378604a117fdbfa16a579516d8061b43cfe9f845d4aeb0836fb1f70cf0f65db9
+  checksum: 10c0/eb8cdc2a7e5292e301c80bba2a6becfc168cbdc0c23913d8fc3d5bd8a60b20fdf5d82045b0ce2c2219329d70f58aa4fa709874d113b54aac6c109d6d3178ee9e
   languageName: node
   linkType: hard
 
@@ -11204,6 +11204,17 @@ __metadata:
   peerDependencies:
     expo: "*"
   checksum: 10c0/9230f7a987f01112812ec659b62301cb71553da0451d7f8d19d7df5928591dd676caac7856b5986f6f1af73d01a2db3f10ce27254e071c419a7bca85889f67dc
+  languageName: node
+  linkType: hard
+
+"expo-constants@npm:~15.4.0, expo-constants@npm:~15.4.3":
+  version: 15.4.5
+  resolution: "expo-constants@npm:15.4.5"
+  dependencies:
+    "@expo/config": "npm:~8.5.0"
+  peerDependencies:
+    expo: "*"
+  checksum: 10c0/de8fca03d83e677c0c6c6ed16462488420cfff2b892e4a8b23663dbbc5836f59378604a117fdbfa16a579516d8061b43cfe9f845d4aeb0836fb1f70cf0f65db9
   languageName: node
   linkType: hard
 
