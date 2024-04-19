@@ -15,7 +15,7 @@
     "with-env": "dotenv -e ../../.env.local --"
   },
   "dependencies": {
-    "@clerk/backend": "0.38.6",
+    "@clerk/backend": "0.38.7",
     "@cloudflare/d1": "1.4.1",
     "@hono/trpc-server": "0.1.1",
     "@trpc/server": "10.45.2",
@@ -30,6 +30,6 @@
     "drizzle-kit": "0.20.14",
     "eslint": "8.57.0",
     "typescript": "5.4.5",
-    "wrangler": "3.51.0"
+    "wrangler": "3.51.2"
   }
 }
