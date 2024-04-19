@@ -1920,10 +1920,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflare/workers-types@npm:4.20240405.0":
-  version: 4.20240405.0
-  resolution: "@cloudflare/workers-types@npm:4.20240405.0"
-  checksum: 10c0/887961d47c9d8f62b99fb9c6987d6d9c5b7c463f2dcc0d134565fddea76444674f07860c7fb18657365fc814f1794210ecead13e897ec4f21cca26cffeb8d0b5
+"@cloudflare/workers-types@npm:4.20240419.0":
+  version: 4.20240419.0
+  resolution: "@cloudflare/workers-types@npm:4.20240419.0"
+  checksum: 10c0/e84f7bb16fb0d929dd91f9e0917f4c6f628b6b33d6894229fabd24350c28cfab2b632b605d5ac81eb56a9af096d9179488b4522d6ed9cc772c3d71a4e8f33717
   languageName: node
   linkType: hard
 
@@ -4502,13 +4502,13 @@ __metadata:
   dependencies:
     "@clerk/backend": "npm:0.38.7"
     "@cloudflare/d1": "npm:1.4.1"
-    "@cloudflare/workers-types": "npm:4.20240405.0"
+    "@cloudflare/workers-types": "npm:4.20240419.0"
     "@hono/trpc-server": "npm:0.1.1"
     "@trpc/server": "npm:10.45.2"
     "@tsndr/cloudflare-worker-jwt": "npm:2.5.3"
     better-sqlite3: "npm:9.5.0"
     dotenv-cli: "npm:7.4.1"
-    drizzle-kit: "npm:0.20.15"
+    drizzle-kit: "npm:0.20.16"
     drizzle-orm: "npm:0.30.8"
     eslint: "npm:8.57.0"
     hono: "npm:3.12.12"
@@ -9611,9 +9611,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"drizzle-kit@npm:0.20.15":
-  version: 0.20.15
-  resolution: "drizzle-kit@npm:0.20.15"
+"drizzle-kit@npm:0.20.16":
+  version: 0.20.16
+  resolution: "drizzle-kit@npm:0.20.16"
   dependencies:
     "@esbuild-kit/esm-loader": "npm:^2.5.5"
     "@hono/node-server": "npm:^1.9.0"
@@ -9634,7 +9634,7 @@ __metadata:
     zod: "npm:^3.20.2"
   bin:
     drizzle-kit: bin.cjs
-  checksum: 10c0/0c3349955b3bf07a9dfb69d6cb1ed12791db2fd7d42ff5f1dbeb1734e2362bd56bce6b88df177f0598740c726ecb4aca55e49beaa9f58bd58d0ddceb55f9ffdf
+  checksum: 10c0/dc1208d8b660bce687b03c5ee8a37c80b047f9b9c663c2f78c22b070514ccf681e745d50175d84110f8d4392290d22c1fcddc320a4ba1ca33cea6548f372de02
   languageName: node
   linkType: hard
 
