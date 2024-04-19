@@ -1723,12 +1723,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@clerk/backend@npm:0.38.6":
-  version: 0.38.6
-  resolution: "@clerk/backend@npm:0.38.6"
+"@clerk/backend@npm:0.38.7":
+  version: 0.38.7
+  resolution: "@clerk/backend@npm:0.38.7"
   dependencies:
     "@clerk/shared": "npm:1.4.1"
-    "@clerk/types": "npm:3.63.1"
+    "@clerk/types": "npm:3.64.0"
     "@peculiar/webcrypto": "npm:1.4.1"
     "@types/node": "npm:16.18.6"
     cookie: "npm:0.5.0"
@@ -1736,16 +1736,16 @@ __metadata:
     node-fetch-native: "npm:1.0.1"
     snakecase-keys: "npm:5.4.4"
     tslib: "npm:2.4.1"
-  checksum: 10c0/a4a4e14f5bcf75cb2002ff2f60cd8e601f7852aef1653f4dd160ffd55708276f46e595f96c7d7bfd468edb1388410442fff70e08b7094ac9191ae8f2a6742f63
+  checksum: 10c0/54aa1ba2e9208615be89fc4ab2fa06da71edd4c94cbffca130434d07d7be77d4f8a2574076654cdd709703a0ec97cf844cbf8b78e76126e0b2381fa05e3383b2
   languageName: node
   linkType: hard
 
-"@clerk/clerk-expo@npm:0.20.16":
-  version: 0.20.16
-  resolution: "@clerk/clerk-expo@npm:0.20.16"
+"@clerk/clerk-expo@npm:0.20.18":
+  version: 0.20.18
+  resolution: "@clerk/clerk-expo@npm:0.20.18"
   dependencies:
-    "@clerk/clerk-js": "npm:4.71.4"
-    "@clerk/clerk-react": "npm:4.30.10"
+    "@clerk/clerk-js": "npm:4.72.1"
+    "@clerk/clerk-react": "npm:4.31.0"
     "@clerk/shared": "npm:1.4.1"
     base-64: "npm:1.0.0"
     react-native-url-polyfill: "npm:2.0.0"
@@ -1755,17 +1755,17 @@ __metadata:
     expo-constants: ">=14"
     expo-web-browser: ">=12"
     react: ">=16"
-  checksum: 10c0/63a6e6e51daa8380cf21a0f3fbe5eca643c1e6d84d6f69e193435e202c69cd4c8c179350d2407ac746f1ded592ac17f34b210a8dd73d31e29aa8aa449a895c6f
+  checksum: 10c0/01c33983c9f3067583ceedb836d6a0b5b75f4666edebaae00e500d3c3ff4f8adfc59b719d6a57ff7c07c1104ca35141242ec66ef14948bca541a0b13373384ef
   languageName: node
   linkType: hard
 
-"@clerk/clerk-js@npm:4.71.4":
-  version: 4.71.4
-  resolution: "@clerk/clerk-js@npm:4.71.4"
+"@clerk/clerk-js@npm:4.72.1":
+  version: 4.72.1
+  resolution: "@clerk/clerk-js@npm:4.72.1"
   dependencies:
-    "@clerk/localizations": "npm:1.28.2"
+    "@clerk/localizations": "npm:1.28.3"
     "@clerk/shared": "npm:1.4.1"
-    "@clerk/types": "npm:3.63.1"
+    "@clerk/types": "npm:3.64.0"
     "@emotion/cache": "npm:11.11.0"
     "@emotion/react": "npm:11.11.1"
     "@floating-ui/react": "npm:0.25.4"
@@ -1780,67 +1780,67 @@ __metadata:
     regenerator-runtime: "npm:0.13.11"
   peerDependencies:
     react: ">=18"
-  checksum: 10c0/e02bf2ac091655a11031bc8841761b9189e2ab2d32b3f33a62f5c8ac86b152df767d7cab533fe13b980455f68770c7ffbcaaaa31aa56cbf59ad43ec0ecd69357
+  checksum: 10c0/8a2a555131e1804e001e262c718731c18374fb83b2b9e00bdb4c7d6686f00d7650dce8e2ee57cfd0a0676aabd579a8825f8a5e509cdd87692db40e2860bddd03
   languageName: node
   linkType: hard
 
-"@clerk/clerk-react@npm:4.30.10":
-  version: 4.30.10
-  resolution: "@clerk/clerk-react@npm:4.30.10"
+"@clerk/clerk-react@npm:4.31.0":
+  version: 4.31.0
+  resolution: "@clerk/clerk-react@npm:4.31.0"
   dependencies:
     "@clerk/shared": "npm:1.4.1"
-    "@clerk/types": "npm:3.63.1"
+    "@clerk/types": "npm:3.64.0"
     tslib: "npm:2.4.1"
   peerDependencies:
     react: ">=16"
-  checksum: 10c0/b6cb4b2f4f54d063b8f987cc9acc3607363ea025a5daf01a1c228c666b0324eb971e94bde4fb6e6d7af80d2f0094d47e53713f19aef5f4566d9aba3bb448c668
+  checksum: 10c0/671860a5c3b04bb5450a00974c588ae395718f10535b62982cf450de4f37c23f92041d90eeb0dd7d561be68f5cf2868028c7004db429596f81381a17977a7730
   languageName: node
   linkType: hard
 
-"@clerk/clerk-sdk-node@npm:4.13.14":
-  version: 4.13.14
-  resolution: "@clerk/clerk-sdk-node@npm:4.13.14"
+"@clerk/clerk-sdk-node@npm:4.13.15":
+  version: 4.13.15
+  resolution: "@clerk/clerk-sdk-node@npm:4.13.15"
   dependencies:
-    "@clerk/backend": "npm:0.38.6"
+    "@clerk/backend": "npm:0.38.7"
     "@clerk/shared": "npm:1.4.1"
-    "@clerk/types": "npm:3.63.1"
+    "@clerk/types": "npm:3.64.0"
     "@types/cookies": "npm:0.7.7"
     "@types/express": "npm:4.17.14"
     "@types/node-fetch": "npm:2.6.2"
     camelcase-keys: "npm:6.2.2"
     snakecase-keys: "npm:3.2.1"
     tslib: "npm:2.4.1"
-  checksum: 10c0/a92693d18cdb2e25f31a43d0ab98d5a5fa0fb91bc3ab344c413b801893fd7875e6ea52884aaf24d620157b8f207bcc3a81e7a348df925a1b61239dab732424d0
+  checksum: 10c0/79390b8954a6089370bdf89c6916035808bee0d4fbeecce7de2bf39f9e6ef1829bd13a1dcc8c4c36f6f82998f5f0202cdd78d27c38d93f78a8d5c5a71e88b0c5
   languageName: node
   linkType: hard
 
-"@clerk/localizations@npm:1.28.2":
-  version: 1.28.2
-  resolution: "@clerk/localizations@npm:1.28.2"
+"@clerk/localizations@npm:1.28.3":
+  version: 1.28.3
+  resolution: "@clerk/localizations@npm:1.28.3"
   dependencies:
-    "@clerk/types": "npm:3.63.1"
+    "@clerk/types": "npm:3.64.0"
   peerDependencies:
     react: ">=16"
-  checksum: 10c0/db281fcee2c7d08748b7c19f5cdb1f55b8a566516dd0b499427077f80a2b2d1ed1b900ea5196ab975a91edddc2b48f4020207d90d243db1df76d7c6c02921e31
+  checksum: 10c0/ec5d2abf052fea7307302955e98a2c605c7aa547a9a34d6a0236fb6fbca3f29ee223c3643454ba6f7517317a9c65c412ba6256afa240899bd5e7e1ef417619fe
   languageName: node
   linkType: hard
 
-"@clerk/nextjs@npm:4.29.12":
-  version: 4.29.12
-  resolution: "@clerk/nextjs@npm:4.29.12"
+"@clerk/nextjs@npm:4.30.0":
+  version: 4.30.0
+  resolution: "@clerk/nextjs@npm:4.30.0"
   dependencies:
-    "@clerk/backend": "npm:0.38.6"
-    "@clerk/clerk-react": "npm:4.30.10"
-    "@clerk/clerk-sdk-node": "npm:4.13.14"
+    "@clerk/backend": "npm:0.38.7"
+    "@clerk/clerk-react": "npm:4.31.0"
+    "@clerk/clerk-sdk-node": "npm:4.13.15"
     "@clerk/shared": "npm:1.4.1"
-    "@clerk/types": "npm:3.63.1"
+    "@clerk/types": "npm:3.64.0"
     path-to-regexp: "npm:6.2.1"
     tslib: "npm:2.4.1"
   peerDependencies:
     next: ">=10"
     react: ^17.0.2 || ^18.0.0-0
     react-dom: ^17.0.2 || ^18.0.0-0
-  checksum: 10c0/fd4c240ee104ab6ac83ae4c423857451b42139e5c4dfe784862f3f4cb5de02717bb714dde0c3347f672787caf4c06bd5f1e1103058798efc231b16340cbc435d
+  checksum: 10c0/5eba162d21b9db1c6a92700f4f9a5d68e6f4dbc6d7934e46657ecf758e6f685780c0eeebcb259aaf1828316d3510f9889d7c027fbf8e3100b39186f18d84e8ff
   languageName: node
   linkType: hard
 
@@ -1860,12 +1860,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@clerk/types@npm:3.63.1":
-  version: 3.63.1
-  resolution: "@clerk/types@npm:3.63.1"
+"@clerk/types@npm:3.64.0":
+  version: 3.64.0
+  resolution: "@clerk/types@npm:3.64.0"
   dependencies:
     csstype: "npm:3.1.1"
-  checksum: 10c0/0b0b005e852f13c9eb3738ef0781233671771ada823614389dea8a56ec73c5d18fcfe245d488a22eec4e47fb53b848063f2c5158707279d9de305d6ee5f6c866
+  checksum: 10c0/f0367a1c26b1320115bdf2d8250e08be8dac802013f82c64e20f8c51c0ca993b9ceb1a88615d7624131c9868454bb0c8fc291e56b2abfa1feffc965ea171843d
   languageName: node
   linkType: hard
 
@@ -4492,7 +4492,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@shichida/api@workspace:packages/api"
   dependencies:
-    "@clerk/backend": "npm:0.38.6"
+    "@clerk/backend": "npm:0.38.7"
     "@cloudflare/d1": "npm:1.4.1"
     "@cloudflare/workers-types": "npm:4.20240405.0"
     "@hono/trpc-server": "npm:0.1.1"
@@ -4505,7 +4505,7 @@ __metadata:
     eslint: "npm:8.57.0"
     hono: "npm:3.12.12"
     typescript: "npm:5.4.5"
-    wrangler: "npm:3.51.0"
+    wrangler: "npm:3.51.2"
   languageName: unknown
   linkType: soft
 
@@ -4521,7 +4521,7 @@ __metadata:
     "@tamagui/shorthands": "npm:latest"
     "@tamagui/themes": "npm:latest"
     "@tamagui/toast": "npm:latest"
-    "@tanstack/react-virtual": "npm:3.3.0"
+    "@tanstack/react-virtual": "npm:3.4.0"
     jotai: "npm:2.8.0"
     tamagui: "npm:latest"
   languageName: unknown
@@ -6199,22 +6199,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/react-virtual@npm:3.3.0":
-  version: 3.3.0
-  resolution: "@tanstack/react-virtual@npm:3.3.0"
+"@tanstack/react-virtual@npm:3.4.0":
+  version: 3.4.0
+  resolution: "@tanstack/react-virtual@npm:3.4.0"
   dependencies:
-    "@tanstack/virtual-core": "npm:3.3.0"
+    "@tanstack/virtual-core": "npm:3.4.0"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/52b30c87cbf2518cfe19812b290c60dd576587545bc910adf5a17ff16b241c4cf28690163db2063afd9e3adc0259086263071e63c8c8380ac56c0f6a54bde820
+  checksum: 10c0/b3212062f839c583cc4ae93a8e1ead7233a3523e5ccdf48f4dde78dd09dca2c75523176b9134638310cc4c1a1abfcffa95ed7a959d450abd6634c2bdea732dd8
   languageName: node
   linkType: hard
 
-"@tanstack/virtual-core@npm:3.3.0":
-  version: 3.3.0
-  resolution: "@tanstack/virtual-core@npm:3.3.0"
-  checksum: 10c0/d31125fde6a3ef3aefd3754b37f4724772c8a567f4e8212cf02a64fba6fde9ab8f80a8c9f99d28b046f84a938aea390adbd591eb4858d849a05326b0cebdfc25
+"@tanstack/virtual-core@npm:3.4.0":
+  version: 3.4.0
+  resolution: "@tanstack/virtual-core@npm:3.4.0"
+  checksum: 10c0/9ed0bf9c648f3ddd563f170179be98f2af8e3f0a4bbcdc00dc344adb59d889d25c1ddf3a19d844b570e3790e588f945692ebb412f437a29d7ef6e3645ce222a3
   languageName: node
   linkType: hard
 
@@ -7244,8 +7244,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app@workspace:packages/app"
   dependencies:
-    "@clerk/clerk-expo": "npm:0.20.16"
-    "@clerk/nextjs": "npm:4.29.12"
+    "@clerk/clerk-expo": "npm:0.20.18"
+    "@clerk/nextjs": "npm:4.30.0"
     "@shichida/ui": "npm:*"
     "@shopify/flash-list": "npm:1.6.4"
     "@tamagui/animations-react-native": "npm:latest"
@@ -7659,16 +7659,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-module-resolver@npm:5.0.1":
-  version: 5.0.1
-  resolution: "babel-plugin-module-resolver@npm:5.0.1"
+"babel-plugin-module-resolver@npm:5.0.2":
+  version: 5.0.2
+  resolution: "babel-plugin-module-resolver@npm:5.0.2"
   dependencies:
     find-babel-config: "npm:^2.1.1"
     glob: "npm:^9.3.3"
     pkg-up: "npm:^3.1.0"
-    reselect: "npm:^5.1.0"
+    reselect: "npm:^4.1.7"
     resolve: "npm:^1.22.8"
-  checksum: 10c0/ada1c91243402a28dd77c8861c5819df1730741a1ae2445cb5ee3017248df7b84d902ae9e901cdfc6b6f58c74ee5967c961103efbe254624288a534779e38479
+  checksum: 10c0/ccbb9e673c4219f68937349267521becb72be292cf30bf70b861c3e709d24fbfa589da0bf6c100a0def799d38199299171cb6eac3fb00b1ea740373e2c1fe54c
   languageName: node
   linkType: hard
 
@@ -11123,7 +11123,7 @@ __metadata:
     "@tamagui/babel-plugin": "npm:latest"
     "@types/react-native": "npm:0.73.0"
     app: "npm:*"
-    babel-plugin-module-resolver: "npm:5.0.1"
+    babel-plugin-module-resolver: "npm:5.0.2"
     babel-plugin-transform-inline-environment-variables: "npm:0.4.4"
     burnt: "npm:0.12.2"
     expo: "npm:49.0.23"
@@ -11140,7 +11140,7 @@ __metadata:
     metro-minify-terser: "npm:0.80.8"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
-    react-native: "npm:0.73.6"
+    react-native: "npm:0.73.7"
     react-native-dotenv: "npm:3.4.11"
     react-native-gesture-handler: "npm:2.16.0"
     react-native-screens: "npm:3.30.1"
@@ -15264,7 +15264,7 @@ __metadata:
     raf: "npm:3.4.1"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
-    react-native: "npm:0.73.6"
+    react-native: "npm:0.73.7"
     react-native-web: "npm:0.19.10"
     react-native-web-lite: "npm:latest"
     vercel: "npm:latest"
@@ -16991,7 +16991,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native@npm:*, react-native@npm:0.73.6":
+"react-native@npm:*":
   version: 0.73.6
   resolution: "react-native@npm:0.73.6"
   dependencies:
@@ -17038,6 +17038,56 @@ __metadata:
   bin:
     react-native: cli.js
   checksum: 10c0/1185a5310ffa1f3ac49a0e3be96a49780f779f40d4bd186a8ecaeb796890382f8ba5a27e33f7fef239c7c6b4c6037628a6fc79195c05a3e1290b589976857f93
+  languageName: node
+  linkType: hard
+
+"react-native@npm:0.73.7":
+  version: 0.73.7
+  resolution: "react-native@npm:0.73.7"
+  dependencies:
+    "@jest/create-cache-key-function": "npm:^29.6.3"
+    "@react-native-community/cli": "npm:12.3.6"
+    "@react-native-community/cli-platform-android": "npm:12.3.6"
+    "@react-native-community/cli-platform-ios": "npm:12.3.6"
+    "@react-native/assets-registry": "npm:0.73.1"
+    "@react-native/codegen": "npm:0.73.3"
+    "@react-native/community-cli-plugin": "npm:0.73.17"
+    "@react-native/gradle-plugin": "npm:0.73.4"
+    "@react-native/js-polyfills": "npm:0.73.1"
+    "@react-native/normalize-colors": "npm:0.73.2"
+    "@react-native/virtualized-lists": "npm:0.73.4"
+    abort-controller: "npm:^3.0.0"
+    anser: "npm:^1.4.9"
+    ansi-regex: "npm:^5.0.0"
+    base64-js: "npm:^1.5.1"
+    chalk: "npm:^4.0.0"
+    deprecated-react-native-prop-types: "npm:^5.0.0"
+    event-target-shim: "npm:^5.0.1"
+    flow-enums-runtime: "npm:^0.0.6"
+    invariant: "npm:^2.2.4"
+    jest-environment-node: "npm:^29.6.3"
+    jsc-android: "npm:^250231.0.0"
+    memoize-one: "npm:^5.0.0"
+    metro-runtime: "npm:^0.80.3"
+    metro-source-map: "npm:^0.80.3"
+    mkdirp: "npm:^0.5.1"
+    nullthrows: "npm:^1.1.1"
+    pretty-format: "npm:^26.5.2"
+    promise: "npm:^8.3.0"
+    react-devtools-core: "npm:^4.27.7"
+    react-refresh: "npm:^0.14.0"
+    react-shallow-renderer: "npm:^16.15.0"
+    regenerator-runtime: "npm:^0.13.2"
+    scheduler: "npm:0.24.0-canary-efb381bbf-20230505"
+    stacktrace-parser: "npm:^0.1.10"
+    whatwg-fetch: "npm:^3.0.0"
+    ws: "npm:^6.2.2"
+    yargs: "npm:^17.6.2"
+  peerDependencies:
+    react: 18.2.0
+  bin:
+    react-native: cli.js
+  checksum: 10c0/0968ee39defc3f0a8832650cfbeeaf0fcd23839cd364ea5e013883b03db74aae0852c33b78af9006f12698678195e9e3409005790bdb315b14da160c8d3d8835
   languageName: node
   linkType: hard
 
@@ -17401,13 +17451,6 @@ __metadata:
   version: 4.1.8
   resolution: "reselect@npm:4.1.8"
   checksum: 10c0/06a305a504affcbb67dd0561ddc8306b35796199c7e15b38934c80606938a021eadcf68cfd58e7bb5e17786601c37602a3362a4665c7bf0a96c1041ceee9d0b7
-  languageName: node
-  linkType: hard
-
-"reselect@npm:^5.1.0":
-  version: 5.1.0
-  resolution: "reselect@npm:5.1.0"
-  checksum: 10c0/b0ed789f4f6f10dfbd23741823726793384932969aa7ce8f584c882ad87620a02b09b5d1146cd2ea6eaa0953b3fd9f7df22f113893af73f35f28432a8a4294de
   languageName: node
   linkType: hard
 
@@ -20280,9 +20323,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:3.51.0":
-  version: 3.51.0
-  resolution: "wrangler@npm:3.51.0"
+"wrangler@npm:3.51.2":
+  version: 3.51.2
+  resolution: "wrangler@npm:3.51.2"
   dependencies:
     "@cloudflare/kv-asset-handler": "npm:0.3.1"
     "@esbuild-plugins/node-globals-polyfill": "npm:^0.2.3"
@@ -20311,7 +20354,7 @@ __metadata:
   bin:
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: 10c0/a4595e5cd499f2455838215bb67871cbac4210566a19359783b8627ba26d41765bb03762f69ebd3b53badaa398144a54fe8e3c60f0c838cec323c3f33d0cad6f
+  checksum: 10c0/d99d5e63605496caf34439ef55957a0370a6ad9b754307da7d5dc112b539d4267d322269dd630371935219a9267760040aedb5f54b33bc757c3b05ea08305da5
   languageName: node
   linkType: hard
 
