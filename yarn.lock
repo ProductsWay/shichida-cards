@@ -4508,7 +4508,7 @@ __metadata:
     "@tsndr/cloudflare-worker-jwt": "npm:2.5.3"
     better-sqlite3: "npm:9.5.0"
     dotenv-cli: "npm:7.4.1"
-    drizzle-kit: "npm:0.20.16"
+    drizzle-kit: "npm:0.20.17"
     drizzle-orm: "npm:0.30.8"
     eslint: "npm:8.57.0"
     hono: "npm:3.12.12"
@@ -9611,9 +9611,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"drizzle-kit@npm:0.20.16":
-  version: 0.20.16
-  resolution: "drizzle-kit@npm:0.20.16"
+"drizzle-kit@npm:0.20.17":
+  version: 0.20.17
+  resolution: "drizzle-kit@npm:0.20.17"
   dependencies:
     "@esbuild-kit/esm-loader": "npm:^2.5.5"
     "@hono/node-server": "npm:^1.9.0"
@@ -9634,7 +9634,7 @@ __metadata:
     zod: "npm:^3.20.2"
   bin:
     drizzle-kit: bin.cjs
-  checksum: 10c0/dc1208d8b660bce687b03c5ee8a37c80b047f9b9c663c2f78c22b070514ccf681e745d50175d84110f8d4392290d22c1fcddc320a4ba1ca33cea6548f372de02
+  checksum: 10c0/050c8f6414a6ec250c0ac2734415d6c9221a5bf21a968be2733cc688e0c1a39ecb59f9ea0d81ba7036733c9c6249075e9b493315cfcf47b512ef9bd70f6c1f52
   languageName: node
   linkType: hard
 
