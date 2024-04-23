@@ -1932,10 +1932,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflare/workers-types@npm:4.20240419.0":
-  version: 4.20240419.0
-  resolution: "@cloudflare/workers-types@npm:4.20240419.0"
-  checksum: 10c0/e84f7bb16fb0d929dd91f9e0917f4c6f628b6b33d6894229fabd24350c28cfab2b632b605d5ac81eb56a9af096d9179488b4522d6ed9cc772c3d71a4e8f33717
+"@cloudflare/workers-types@npm:4.20240423.0":
+  version: 4.20240423.0
+  resolution: "@cloudflare/workers-types@npm:4.20240423.0"
+  checksum: 10c0/a6130dae99abfd747a4f0632da89eefc68e9789e2d944282a3175cfcb92bfcac346f110bac82d5193abff7d4bac56b8347682cfda68b90aa4e00054bade150fa
   languageName: node
   linkType: hard
 
@@ -4920,7 +4920,7 @@ __metadata:
   dependencies:
     "@clerk/backend": "npm:0.38.7"
     "@cloudflare/d1": "npm:1.4.1"
-    "@cloudflare/workers-types": "npm:4.20240419.0"
+    "@cloudflare/workers-types": "npm:4.20240423.0"
     "@hono/trpc-server": "npm:0.1.1"
     "@trpc/server": "npm:10.45.2"
     "@tsndr/cloudflare-worker-jwt": "npm:2.5.3"
@@ -6607,21 +6607,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:5.31.0":
-  version: 5.31.0
-  resolution: "@tanstack/query-core@npm:5.31.0"
-  checksum: 10c0/4e1ee7a971eb58bf537627a38b9c60176b785ccaea9db342432f21434c04b2aa656b83eba57e1a976f27964357c91b18bb75703ae58b22d2c04e7f6e965c34ce
+"@tanstack/query-core@npm:5.32.0":
+  version: 5.32.0
+  resolution: "@tanstack/query-core@npm:5.32.0"
+  checksum: 10c0/58e7b053579a23dba36189a1fd87261819b31b344648f693fd613c722260066e11ad8c82dc07f5e5af2e276bde1b9f6a1dd6da3bf93cdd3583d128a2b373fce0
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:5.31.0":
-  version: 5.31.0
-  resolution: "@tanstack/react-query@npm:5.31.0"
+"@tanstack/react-query@npm:5.32.0":
+  version: 5.32.0
+  resolution: "@tanstack/react-query@npm:5.32.0"
   dependencies:
-    "@tanstack/query-core": "npm:5.31.0"
+    "@tanstack/query-core": "npm:5.32.0"
   peerDependencies:
     react: ^18.0.0
-  checksum: 10c0/5eca0d3f684deb643bdd0ba08b4c0de4bdc8821d3b9d2aeb4d05c37d62f92d45db2cec5ab0fdf498e2946dedefdd071d6bb28d8ff87cc43166b241df62ad0752
+  checksum: 10c0/0b55b4f9d91e0f72cf12298c1659ee6520723eed16b7d523bc69269331544af8b62699b72d89840dc8ae75076144ac121ed1373d4f8e7d4cd48f5e0eb1d73d80
   languageName: node
   linkType: hard
 
@@ -7689,7 +7689,7 @@ __metadata:
     "@tamagui/lucide-icons": "npm:latest"
     "@tamagui/shorthands": "npm:latest"
     "@tamagui/themes": "npm:latest"
-    "@tanstack/react-query": "npm:5.31.0"
+    "@tanstack/react-query": "npm:5.32.0"
     "@trpc/client": "npm:10.45.2"
     "@trpc/next": "npm:10.45.2"
     "@trpc/react-query": "npm:10.45.2"
@@ -11568,7 +11568,7 @@ __metadata:
     react-native: "npm:0.74.0"
     react-native-dotenv: "npm:3.4.11"
     react-native-gesture-handler: "npm:2.16.0"
-    react-native-screens: "npm:3.30.1"
+    react-native-screens: "npm:3.31.1"
     react-native-svg: "npm:14.1.0"
     react-native-web: "npm:0.19.11"
     typescript: "npm:5.4.5"
@@ -17350,16 +17350,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-screens@npm:3.30.1":
-  version: 3.30.1
-  resolution: "react-native-screens@npm:3.30.1"
+"react-native-screens@npm:3.31.1":
+  version: 3.31.1
+  resolution: "react-native-screens@npm:3.31.1"
   dependencies:
     react-freeze: "npm:^1.0.0"
     warn-once: "npm:^0.1.0"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10c0/3a9930524a44bfd5554908ff616ee757b638ea4a25b45d0a2abd5c800baee36c69d17fed67096066740945962996df9d3302db170fe273d6b13a46bd46e5da19
+  checksum: 10c0/899a02751ecbc6231ce3c869268fb510e5b53428c788135ae46f4bbd768efe78bf74f17fec5becc4c4c1e81a5f224a907dc890ba2406181ff9e21830dda95dec
   languageName: node
   linkType: hard
 
