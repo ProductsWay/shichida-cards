@@ -6994,13 +6994,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.79":
-  version: 18.2.79
-  resolution: "@types/react@npm:18.2.79"
+"@types/react@npm:18.3.0":
+  version: 18.3.0
+  resolution: "@types/react@npm:18.3.0"
   dependencies:
     "@types/prop-types": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10c0/c8a8a005d8830a48cc1ef93c3510c4935a2a03e5557dbecaa8f1038450cbfcb18eb206fa7fba7077d54b8da21faeb25577e897a333392770a7797f625b62c78a
+  checksum: 10c0/6405f805700daf096a507a191bc4f8814ebed49120f156926b0a5b7b6f41424214320cea3dbb6df85f476b220f0554ef7e587baa88f59375e64bdbab525f58aa
   languageName: node
   linkType: hard
 
@@ -7693,7 +7693,7 @@ __metadata:
     "@trpc/client": "npm:10.45.2"
     "@trpc/next": "npm:10.45.2"
     "@trpc/react-query": "npm:10.45.2"
-    "@types/react": "npm:18.2.79"
+    "@types/react": "npm:18.3.0"
     "@types/react-native": "npm:0.73.0"
     burnt: "npm:0.12.2"
     expo-auth-session: "npm:5.4.0"
@@ -11556,8 +11556,8 @@ __metadata:
     expo-status-bar: "npm:1.11.1"
     expo-updates: "npm:0.24.12"
     metro-minify-terser: "npm:0.80.8"
-    react: "npm:18.2.0"
-    react-dom: "npm:18.2.0"
+    react: "npm:18.3.0"
+    react-dom: "npm:18.3.0"
     react-native: "npm:0.74.0"
     react-native-dotenv: "npm:3.4.11"
     react-native-gesture-handler: "npm:2.16.0"
@@ -15682,8 +15682,8 @@ __metadata:
     eslint-config-next: "npm:14.2.3"
     next: "npm:14.2.3"
     raf: "npm:3.4.1"
-    react: "npm:18.2.0"
-    react-dom: "npm:18.2.0"
+    react: "npm:18.3.0"
+    react-dom: "npm:18.3.0"
     react-native: "npm:0.74.0"
     react-native-web: "npm:0.19.11"
     react-native-web-lite: "npm:latest"
@@ -17241,15 +17241,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:18.2.0":
-  version: 18.2.0
-  resolution: "react-dom@npm:18.2.0"
+"react-dom@npm:18.3.0":
+  version: 18.3.0
+  resolution: "react-dom@npm:18.3.0"
   dependencies:
     loose-envify: "npm:^1.1.0"
-    scheduler: "npm:^0.23.0"
+    scheduler: "npm:^0.23.1"
   peerDependencies:
-    react: ^18.2.0
-  checksum: 10c0/66dfc5f93e13d0674e78ef41f92ed21dfb80f9c4ac4ac25a4b51046d41d4d2186abc915b897f69d3d0ebbffe6184e7c5876f2af26bfa956f179225d921be713a
+    react: ^18.3.0
+  checksum: 10c0/5072767a5d67e242579e5ed46094bf5665385fcfc50584e818273ba668f768348bfd9101841fa3986635635b1238a7a5b2d28b73b134ebbe58a415311afd60d4
   languageName: node
   linkType: hard
 
@@ -17531,10 +17531,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-refresh@npm:0.14.0":
-  version: 0.14.0
-  resolution: "react-refresh@npm:0.14.0"
-  checksum: 10c0/b8ae07ad153357d77830928a7f1fc2df837aabefee907fa273ba04c7643f3b860e986f1d4b7ada9b721c8d79b8c24b5b911a314a1a2398b105f1b13d19ea2b8d
+"react-refresh@npm:0.14.1":
+  version: 0.14.1
+  resolution: "react-refresh@npm:0.14.1"
+  checksum: 10c0/2ec3be9be8a66595968bce983dd1a3ac9b31baa61cb693ab0fc6ea1944fda39265cc17da9acc257e3f3aa7e7786a396f1bc5e18a1f8f55edbdc03f12c7e56596
   languageName: node
   linkType: hard
 
@@ -17602,12 +17602,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.2.0":
-  version: 18.2.0
-  resolution: "react@npm:18.2.0"
+"react@npm:18.3.0":
+  version: 18.3.0
+  resolution: "react@npm:18.3.0"
   dependencies:
     loose-envify: "npm:^1.1.0"
-  checksum: 10c0/b562d9b569b0cb315e44b48099f7712283d93df36b19a39a67c254c6686479d3980b7f013dc931f4a5a3ae7645eae6386b4aa5eea933baa54ecd0f9acb0902b8
+  checksum: 10c0/ad87bbfdb0c5466148c657da18b0d5458e835389fc591d59840f0e6ec797a004073a01c8cdbff1767a8774c7219054a56f74dacd67bdbb849f1314e427999268
   languageName: node
   linkType: hard
 
@@ -18208,12 +18208,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"scheduler@npm:^0.23.0":
-  version: 0.23.0
-  resolution: "scheduler@npm:0.23.0"
+"scheduler@npm:^0.23.1":
+  version: 0.23.1
+  resolution: "scheduler@npm:0.23.1"
   dependencies:
     loose-envify: "npm:^1.1.0"
-  checksum: 10c0/b777f7ca0115e6d93e126ac490dbd82642d14983b3079f58f35519d992fa46260be7d6e6cede433a92db70306310c6f5f06e144f0e40c484199e09c1f7be53dd
+  checksum: 10c0/cfda827a445fb57192e05275040eccc7c5e2749b98f15559520c7f6539d89d75633bb8b6c1cedf56ca0546630b72d0958bf00b63e2b8f9296e87d0d9d2d50e35
   languageName: node
   linkType: hard
 
@@ -18505,7 +18505,7 @@ __metadata:
     eslint: "npm:8.57.0"
     node-gyp: "npm:10.1.0"
     prettier: "npm:3.2.5"
-    turbo: "npm:1.13.2"
+    turbo: "npm:1.13.3"
     typescript: "npm:5.4.5"
   languageName: unknown
   linkType: soft
@@ -19818,58 +19818,58 @@ __metadata:
   languageName: node
   linkType: hard
 
-"turbo-darwin-64@npm:1.13.2":
-  version: 1.13.2
-  resolution: "turbo-darwin-64@npm:1.13.2"
+"turbo-darwin-64@npm:1.13.3":
+  version: 1.13.3
+  resolution: "turbo-darwin-64@npm:1.13.3"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"turbo-darwin-arm64@npm:1.13.2":
-  version: 1.13.2
-  resolution: "turbo-darwin-arm64@npm:1.13.2"
+"turbo-darwin-arm64@npm:1.13.3":
+  version: 1.13.3
+  resolution: "turbo-darwin-arm64@npm:1.13.3"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"turbo-linux-64@npm:1.13.2":
-  version: 1.13.2
-  resolution: "turbo-linux-64@npm:1.13.2"
+"turbo-linux-64@npm:1.13.3":
+  version: 1.13.3
+  resolution: "turbo-linux-64@npm:1.13.3"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"turbo-linux-arm64@npm:1.13.2":
-  version: 1.13.2
-  resolution: "turbo-linux-arm64@npm:1.13.2"
+"turbo-linux-arm64@npm:1.13.3":
+  version: 1.13.3
+  resolution: "turbo-linux-arm64@npm:1.13.3"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"turbo-windows-64@npm:1.13.2":
-  version: 1.13.2
-  resolution: "turbo-windows-64@npm:1.13.2"
+"turbo-windows-64@npm:1.13.3":
+  version: 1.13.3
+  resolution: "turbo-windows-64@npm:1.13.3"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"turbo-windows-arm64@npm:1.13.2":
-  version: 1.13.2
-  resolution: "turbo-windows-arm64@npm:1.13.2"
+"turbo-windows-arm64@npm:1.13.3":
+  version: 1.13.3
+  resolution: "turbo-windows-arm64@npm:1.13.3"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"turbo@npm:1.13.2":
-  version: 1.13.2
-  resolution: "turbo@npm:1.13.2"
+"turbo@npm:1.13.3":
+  version: 1.13.3
+  resolution: "turbo@npm:1.13.3"
   dependencies:
-    turbo-darwin-64: "npm:1.13.2"
-    turbo-darwin-arm64: "npm:1.13.2"
-    turbo-linux-64: "npm:1.13.2"
-    turbo-linux-arm64: "npm:1.13.2"
-    turbo-windows-64: "npm:1.13.2"
-    turbo-windows-arm64: "npm:1.13.2"
+    turbo-darwin-64: "npm:1.13.3"
+    turbo-darwin-arm64: "npm:1.13.3"
+    turbo-linux-64: "npm:1.13.3"
+    turbo-linux-arm64: "npm:1.13.3"
+    turbo-windows-64: "npm:1.13.3"
+    turbo-windows-arm64: "npm:1.13.3"
   dependenciesMeta:
     turbo-darwin-64:
       optional: true
@@ -19885,7 +19885,7 @@ __metadata:
       optional: true
   bin:
     turbo: bin/turbo
-  checksum: 10c0/f02c06dfdb0339b91bea7d1c9f9f35f0a271df636e49f5f50ad444f6ae22d2205214a71ca31b197a665dc0bf995dc100e47d204c6e674550266efa910505eb7e
+  checksum: 10c0/0382cc88f65a6690e97d30a6ad5d9b9ede7705f5f57edea27629408b166eff4a5938824746ce2cbcd50d2b64ebdbd359160e2cbe009f0bfd6f144997f9f6705b
   languageName: node
   linkType: hard
 
