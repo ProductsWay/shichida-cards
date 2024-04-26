@@ -11556,8 +11556,8 @@ __metadata:
     expo-status-bar: "npm:1.11.1"
     expo-updates: "npm:0.24.12"
     metro-minify-terser: "npm:0.80.8"
-    react: "npm:18.3.0"
-    react-dom: "npm:18.3.0"
+    react: "npm:18.3.1"
+    react-dom: "npm:18.3.1"
     react-native: "npm:0.74.0"
     react-native-dotenv: "npm:3.4.11"
     react-native-gesture-handler: "npm:2.16.0"
@@ -15682,8 +15682,8 @@ __metadata:
     eslint-config-next: "npm:14.2.3"
     next: "npm:14.2.3"
     raf: "npm:3.4.1"
-    react: "npm:18.3.0"
-    react-dom: "npm:18.3.0"
+    react: "npm:18.3.1"
+    react-dom: "npm:18.3.1"
     react-native: "npm:0.74.0"
     react-native-web: "npm:0.19.11"
     react-native-web-lite: "npm:latest"
@@ -17241,15 +17241,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:18.3.0":
-  version: 18.3.0
-  resolution: "react-dom@npm:18.3.0"
+"react-dom@npm:18.3.1":
+  version: 18.3.1
+  resolution: "react-dom@npm:18.3.1"
   dependencies:
     loose-envify: "npm:^1.1.0"
-    scheduler: "npm:^0.23.1"
+    scheduler: "npm:^0.23.2"
   peerDependencies:
-    react: ^18.3.0
-  checksum: 10c0/5072767a5d67e242579e5ed46094bf5665385fcfc50584e818273ba668f768348bfd9101841fa3986635635b1238a7a5b2d28b73b134ebbe58a415311afd60d4
+    react: ^18.3.1
+  checksum: 10c0/a752496c1941f958f2e8ac56239172296fcddce1365ce45222d04a1947e0cc5547df3e8447f855a81d6d39f008d7c32eab43db3712077f09e3f67c4874973e85
   languageName: node
   linkType: hard
 
@@ -17531,10 +17531,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-refresh@npm:0.14.1":
-  version: 0.14.1
-  resolution: "react-refresh@npm:0.14.1"
-  checksum: 10c0/2ec3be9be8a66595968bce983dd1a3ac9b31baa61cb693ab0fc6ea1944fda39265cc17da9acc257e3f3aa7e7786a396f1bc5e18a1f8f55edbdc03f12c7e56596
+"react-refresh@npm:0.14.2":
+  version: 0.14.2
+  resolution: "react-refresh@npm:0.14.2"
+  checksum: 10c0/875b72ef56b147a131e33f2abd6ec059d1989854b3ff438898e4f9310bfcc73acff709445b7ba843318a953cb9424bcc2c05af2b3d80011cee28f25aef3e2ebb
   languageName: node
   linkType: hard
 
@@ -17602,12 +17602,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.3.0":
-  version: 18.3.0
-  resolution: "react@npm:18.3.0"
+"react@npm:18.3.1":
+  version: 18.3.1
+  resolution: "react@npm:18.3.1"
   dependencies:
     loose-envify: "npm:^1.1.0"
-  checksum: 10c0/ad87bbfdb0c5466148c657da18b0d5458e835389fc591d59840f0e6ec797a004073a01c8cdbff1767a8774c7219054a56f74dacd67bdbb849f1314e427999268
+  checksum: 10c0/283e8c5efcf37802c9d1ce767f302dd569dd97a70d9bb8c7be79a789b9902451e0d16334b05d73299b20f048cbc3c7d288bbbde10b701fa194e2089c237dbea3
   languageName: node
   linkType: hard
 
@@ -18208,12 +18208,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"scheduler@npm:^0.23.1":
-  version: 0.23.1
-  resolution: "scheduler@npm:0.23.1"
+"scheduler@npm:^0.23.2":
+  version: 0.23.2
+  resolution: "scheduler@npm:0.23.2"
   dependencies:
     loose-envify: "npm:^1.1.0"
-  checksum: 10c0/cfda827a445fb57192e05275040eccc7c5e2749b98f15559520c7f6539d89d75633bb8b6c1cedf56ca0546630b72d0958bf00b63e2b8f9296e87d0d9d2d50e35
+  checksum: 10c0/26383305e249651d4c58e6705d5f8425f153211aef95f15161c151f7b8de885f24751b377e4a0b3dd42cce09aad3f87a61dab7636859c0d89b7daf1a1e2a5c78
   languageName: node
   linkType: hard
 
