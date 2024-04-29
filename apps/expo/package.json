@@ -10,7 +10,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "@babel/runtime": "7.24.4",
+    "@babel/runtime": "7.24.5",
     "@react-navigation/native": "6.1.17",
     "@shichida/ui": "*",
     "@types/react-native": "0.73.0",
@@ -37,7 +37,7 @@
     "react-native-web": "0.19.11"
   },
   "devDependencies": {
-    "@babel/core": "7.24.4",
+    "@babel/core": "7.24.5",
     "@expo/metro-config": "0.17.7",
     "@tamagui/babel-plugin": "latest",
     "babel-plugin-transform-inline-environment-variables": "0.4.4",
