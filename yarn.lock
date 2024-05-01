@@ -4706,7 +4706,7 @@ __metadata:
     better-sqlite3: "npm:9.6.0"
     dotenv-cli: "npm:7.4.1"
     drizzle-kit: "npm:0.20.17"
-    drizzle-orm: "npm:0.30.9"
+    drizzle-orm: "npm:0.30.10"
     eslint: "npm:8.57.0"
     hono: "npm:3.12.12"
     typescript: "npm:5.4.5"
@@ -6705,7 +6705,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:20.12.7":
+"@types/node@npm:*":
   version: 20.12.7
   resolution: "@types/node@npm:20.12.7"
   dependencies:
@@ -6725,6 +6725,15 @@ __metadata:
   version: 16.18.6
   resolution: "@types/node@npm:16.18.6"
   checksum: 10c0/88192f5cd3d21ca827898c903ce6fbb8a92a51d0f9d8f7e93ac3f2f3b46cdd9f29c969fe3af9ba004833bb265c6330042f37d11cd97b9e4f54dabf2b34399075
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:20.12.8":
+  version: 20.12.8
+  resolution: "@types/node@npm:20.12.8"
+  dependencies:
+    undici-types: "npm:~5.26.4"
+  checksum: 10c0/840002d20654e38a9af8cdffa215598fdb28ac4f96c5701ed672ec365ed6ccc66da299edddaa409baf13cd71bbf1128901f633b5e44e070fc236e26415805b78
   languageName: node
   linkType: hard
 
@@ -9800,9 +9809,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"drizzle-orm@npm:0.30.9":
-  version: 0.30.9
-  resolution: "drizzle-orm@npm:0.30.9"
+"drizzle-orm@npm:0.30.10":
+  version: 0.30.10
+  resolution: "drizzle-orm@npm:0.30.10"
   peerDependencies:
     "@aws-sdk/client-rds-data": ">=3"
     "@cloudflare/workers-types": ">=3"
@@ -9880,7 +9889,7 @@ __metadata:
       optional: true
     sqlite3:
       optional: true
-  checksum: 10c0/fe1d3c591413d7c9c7f5c86a52acd5ef5de656eb0c9aa664bc4fb7f48ec8d50d33bfd4c78b51c0b2f56a39b4e8ce8e967b97ef4c805f099c5dea4453f7d7bba7
+  checksum: 10c0/d6ceedbe6b9c6e5908cd242a939b0de4c909344da8616bdf4474fa7a2bc1a659453c5530a275bd66c1b762d08b08a689175f38212575e24b2fbde2e000f83ff9
   languageName: node
   linkType: hard
 
@@ -15407,7 +15416,7 @@ __metadata:
   dependencies:
     "@tamagui/next-plugin": "npm:latest"
     "@tamagui/next-theme": "npm:latest"
-    "@types/node": "npm:20.12.7"
+    "@types/node": "npm:20.12.8"
     app: "npm:*"
     critters: "npm:0.0.22"
     dotenv-cli: "npm:7.4.1"
