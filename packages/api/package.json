@@ -2,7 +2,7 @@
   "name": "@shichida/api",
   "version": "2.0.0",
   "main": "src/index.ts",
-  "packageManager": "yarn@4.1.1",
+  "packageManager": "yarn@4.2.1",
   "license": "Apache-2.0",
   "scripts": {
     "dev": "wrangler dev src/index.ts",
@@ -24,12 +24,12 @@
     "hono": "3.12.12"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20240423.0",
+    "@cloudflare/workers-types": "4.20240502.0",
     "better-sqlite3": "9.6.0",
     "dotenv-cli": "7.4.1",
     "drizzle-kit": "0.20.17",
     "eslint": "8.57.0",
     "typescript": "5.4.5",
-    "wrangler": "3.53.0"
+    "wrangler": "3.53.1"
   }
 }

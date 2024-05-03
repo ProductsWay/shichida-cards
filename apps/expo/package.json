@@ -30,7 +30,7 @@
     "expo-updates": "0.24.12",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "react-native": "0.74.0",
+    "react-native": "0.74.1",
     "react-native-gesture-handler": "2.16.1",
     "react-native-screens": "3.31.1",
     "react-native-svg": "14.1.0",
@@ -41,16 +41,16 @@
     "@expo/metro-config": "0.17.7",
     "@tamagui/babel-plugin": "latest",
     "babel-plugin-transform-inline-environment-variables": "0.4.4",
-    "metro-minify-terser": "0.80.8",
+    "metro-minify-terser": "0.80.9",
     "react-native-dotenv": "3.4.11",
     "typescript": "5.4.5"
   },
   "resolutions": {
-    "metro": "0.80.8",
-    "metro-resolver": "0.80.8"
+    "metro": "0.80.9",
+    "metro-resolver": "0.80.9"
   },
   "overrides": {
-    "metro": "0.80.8",
-    "metro-resolver": "0.80.8"
+    "metro": "0.80.9",
+    "metro-resolver": "0.80.9"
   }
 }
