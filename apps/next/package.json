@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@tamagui/next-plugin": "latest",
-    "@types/node": "20.12.10",
+    "@types/node": "20.12.11",
     "critters": "0.0.22",
     "dotenv-cli": "7.4.2",
     "eslint-config-next": "14.2.3",
