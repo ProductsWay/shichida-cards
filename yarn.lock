@@ -3573,13 +3573,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hono/node-server@npm:^1.9.0":
-  version: 1.11.1
-  resolution: "@hono/node-server@npm:1.11.1"
-  checksum: 10c0/87ad10b0e79c5434935cd83172d1923eb04c7ac1853e79b60303cae983876fc3c736e1826b824b34adae7a3e7289c99d764ecefe13b650f81b1f9d5baea3ed4a
-  languageName: node
-  linkType: hard
-
 "@hono/trpc-server@npm:0.3.0":
   version: 0.3.0
   resolution: "@hono/trpc-server@npm:0.3.0"
@@ -3587,16 +3580,6 @@ __metadata:
     "@trpc/server": ^10.10.0
     hono: ">=3.*"
   checksum: 10c0/aac0d1924567d294f33013ce9eaf349be49d1f3a1fd8913e4038bb313a3bbf063da560f2cab40dbc9e8d5621e9196cb190ab61da6b6f8c770cd40e9d29dd13f5
-  languageName: node
-  linkType: hard
-
-"@hono/zod-validator@npm:^0.2.0":
-  version: 0.2.1
-  resolution: "@hono/zod-validator@npm:0.2.1"
-  peerDependencies:
-    hono: ">=3.9.0"
-    zod: ^3.19.1
-  checksum: 10c0/de399abc8ab26552111c745ae0ecad714af549e79b0412c2285d057bde72b434b09b8f9b65940d3a4b2dd82dcfb52e1601ac505effb410e4439e9c8835a99d7d
   languageName: node
   linkType: hard
 
@@ -4604,12 +4587,12 @@ __metadata:
     "@tsndr/cloudflare-worker-jwt": "npm:2.5.3"
     better-sqlite3: "npm:9.6.0"
     dotenv-cli: "npm:7.4.2"
-    drizzle-kit: "npm:0.20.18"
+    drizzle-kit: "npm:0.21.0"
     drizzle-orm: "npm:0.30.10"
     eslint: "npm:8.57.0"
     hono: "npm:3.12.12"
     typescript: "npm:5.4.5"
-    wrangler: "npm:3.53.1"
+    wrangler: "npm:3.55.0"
   languageName: unknown
   linkType: soft
 
@@ -8318,13 +8301,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"camelcase@npm:^7.0.1":
-  version: 7.0.1
-  resolution: "camelcase@npm:7.0.1"
-  checksum: 10c0/3adfc9a0e96d51b3a2f4efe90a84dad3e206aaa81dfc664f1bd568270e1bf3b010aad31f01db16345b4ffe1910e16ab411c7273a19a859addd1b98ef7cf4cfbd
-  languageName: node
-  linkType: hard
-
 "caniuse-lite@npm:^1.0.30001579, caniuse-lite@npm:^1.0.30001587":
   version: 1.0.30001616
   resolution: "caniuse-lite@npm:1.0.30001616"
@@ -8867,15 +8843,6 @@ __metadata:
   version: 0.5.0
   resolution: "cookie@npm:0.5.0"
   checksum: 10c0/c01ca3ef8d7b8187bae434434582288681273b5a9ed27521d4d7f9f7928fe0c920df0decd9f9d3bbd2d14ac432b8c8cf42b98b3bdd5bfe0e6edddeebebe8b61d
-  languageName: node
-  linkType: hard
-
-"copy-anything@npm:^3.0.2":
-  version: 3.0.5
-  resolution: "copy-anything@npm:3.0.5"
-  dependencies:
-    is-what: "npm:^4.1.8"
-  checksum: 10c0/01eadd500c7e1db71d32d95a3bfaaedcb839ef891c741f6305ab0461398056133de08f2d1bf4c392b364e7bdb7ce498513896e137a7a183ac2516b065c28a4fe
   languageName: node
   linkType: hard
 
@@ -9628,30 +9595,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"drizzle-kit@npm:0.20.18":
-  version: 0.20.18
-  resolution: "drizzle-kit@npm:0.20.18"
+"drizzle-kit@npm:0.21.0":
+  version: 0.21.0
+  resolution: "drizzle-kit@npm:0.21.0"
   dependencies:
     "@esbuild-kit/esm-loader": "npm:^2.5.5"
-    "@hono/node-server": "npm:^1.9.0"
-    "@hono/zod-validator": "npm:^0.2.0"
-    camelcase: "npm:^7.0.1"
-    chalk: "npm:^5.2.0"
     commander: "npm:^9.4.1"
     env-paths: "npm:^3.0.0"
     esbuild: "npm:^0.19.7"
     esbuild-register: "npm:^3.5.0"
     glob: "npm:^8.1.0"
     hanji: "npm:^0.0.5"
-    hono: "npm:^4.1.4"
     json-diff: "npm:0.9.0"
-    minimatch: "npm:^7.4.3"
-    semver: "npm:^7.5.4"
-    superjson: "npm:^2.2.1"
     zod: "npm:^3.20.2"
   bin:
     drizzle-kit: bin.cjs
-  checksum: 10c0/a87b2d6fb4461f89dd167411b06f2e42bb0faf1e74283f7999830eaf5d2d1c8ba24a805d98b10028715ef08ba3c3ef89217f0f7d1cba564f2810d935390e442d
+  checksum: 10c0/bb859e016dc636c95934a507fe6a7e1a70171495c8bad6657e633e3d3ef196f17dc9c5fd3d05d714484e381ed4acf6672f02b742b6243d6f0185067e8dbea261
   languageName: node
   linkType: hard
 
@@ -12736,13 +12695,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hono@npm:^4.1.4":
-  version: 4.3.2
-  resolution: "hono@npm:4.3.2"
-  checksum: 10c0/a87ed147773620f2f37317e5074a04046b6c13f099da8f2393a3c017d41708a3b5e34e46c9303665cfdfb1a36bbb992d3136cbfc5dd8ce6c6b19ea46d9419156
-  languageName: node
-  linkType: hard
-
 "hosted-git-info@npm:^3.0.2":
   version: 3.0.8
   resolution: "hosted-git-info@npm:3.0.8"
@@ -13505,13 +13457,6 @@ __metadata:
     call-bind: "npm:^1.0.7"
     get-intrinsic: "npm:^1.2.4"
   checksum: 10c0/8ad6141b6a400e7ce7c7442a13928c676d07b1f315ab77d9912920bf5f4170622f43126f111615788f26c3b1871158a6797c862233124507db0bcc33a9537d1a
-  languageName: node
-  linkType: hard
-
-"is-what@npm:^4.1.8":
-  version: 4.1.16
-  resolution: "is-what@npm:4.1.16"
-  checksum: 10c0/611f1947776826dcf85b57cfb7bd3b3ea6f4b94a9c2f551d4a53f653cf0cb9d1e6518846648256d46ee6c91d114b6d09d2ac8a07306f7430c5900f87466aae5b
   languageName: node
   linkType: hard
 
@@ -14906,9 +14851,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"miniflare@npm:3.20240419.0":
-  version: 3.20240419.0
-  resolution: "miniflare@npm:3.20240419.0"
+"miniflare@npm:3.20240419.1":
+  version: 3.20240419.1
+  resolution: "miniflare@npm:3.20240419.1"
   dependencies:
     "@cspotcode/source-map-support": "npm:0.8.1"
     acorn: "npm:^8.8.0"
@@ -14924,7 +14869,7 @@ __metadata:
     zod: "npm:^3.20.6"
   bin:
     miniflare: bootstrap.js
-  checksum: 10c0/8e5f2f2efe7ddb7d3c8ab498d0064644a8a2bff218c995770b230ab4a120dc8197bd1ab68736773b6260d5f535652c182ab4f551db8317ba3d8eb4f98623ac96
+  checksum: 10c0/16169a857f2d74719f04999a9217aa999aa605f3a005495c311142a21155e4f36056370de2b13ed538153fd622401ac97e72c72379fd5e1fa0c06ec19de79240
   languageName: node
   linkType: hard
 
@@ -14952,15 +14897,6 @@ __metadata:
   dependencies:
     brace-expansion: "npm:^2.0.1"
   checksum: 10c0/3defdfd230914f22a8da203747c42ee3c405c39d4d37ffda284dac5e45b7e1f6c49aa8be606509002898e73091ff2a3bbfc59c2c6c71d4660609f63aa92f98e3
-  languageName: node
-  linkType: hard
-
-"minimatch@npm:^7.4.3":
-  version: 7.4.6
-  resolution: "minimatch@npm:7.4.6"
-  dependencies:
-    brace-expansion: "npm:^2.0.1"
-  checksum: 10c0/e587bf3d90542555a3d58aca94c549b72d58b0a66545dd00eef808d0d66e5d9a163d3084da7f874e83ca8cc47e91c670e6c6f6593a3e7bb27fcc0e6512e87c67
   languageName: node
   linkType: hard
 
@@ -18719,15 +18655,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"superjson@npm:^2.2.1":
-  version: 2.2.1
-  resolution: "superjson@npm:2.2.1"
-  dependencies:
-    copy-anything: "npm:^3.0.2"
-  checksum: 10c0/5d8202c955170bd98ef2647f712754ac54d2d007923cfdb53a4b035304d8964b8c41d5eff41ee277896e2ac32e06abb009b571f1589416b729fe40216320cc7a
-  languageName: node
-  linkType: hard
-
 "supports-color@npm:^5.3.0":
   version: 5.5.0
   resolution: "supports-color@npm:5.5.0"
@@ -20260,9 +20187,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:3.53.1":
-  version: 3.53.1
-  resolution: "wrangler@npm:3.53.1"
+"wrangler@npm:3.55.0":
+  version: 3.55.0
+  resolution: "wrangler@npm:3.55.0"
   dependencies:
     "@cloudflare/kv-asset-handler": "npm:0.3.2"
     "@esbuild-plugins/node-globals-polyfill": "npm:^0.2.3"
@@ -20271,7 +20198,7 @@ __metadata:
     chokidar: "npm:^3.5.3"
     esbuild: "npm:0.17.19"
     fsevents: "npm:~2.3.2"
-    miniflare: "npm:3.20240419.0"
+    miniflare: "npm:3.20240419.1"
     nanoid: "npm:^3.3.3"
     path-to-regexp: "npm:^6.2.0"
     resolve: "npm:^1.22.8"
@@ -20290,7 +20217,7 @@ __metadata:
   bin:
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: 10c0/f18fa852ec4094c1199a97d3a1c2d065c035a6510dc3cb1d5dad39b150027358a97b4eb46bb46eb8bc8a63563fd9d1e76e258276c2fd4def18ced586a8b55300
+  checksum: 10c0/7dfe1bb0b2b7f70101c008c7e996f69b011a380fe9efd6e6e56f080688bebde4606fa41b4e788df51c0ef22cda9908733f5a2df6f3071a93c779ba718134e960
   languageName: node
   linkType: hard
 
