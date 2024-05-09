@@ -11158,13 +11158,13 @@ __metadata:
     expo-constants: "npm:15.4.6"
     expo-dev-client: "npm:2.4.13"
     expo-font: "npm:11.10.3"
-    expo-image: "npm:1.12.8"
+    expo-image: "npm:1.12.9"
     expo-linear-gradient: "npm:12.7.2"
     expo-linking: "npm:6.3.1"
     expo-router: "npm:2.0.15"
     expo-splash-screen: "npm:0.27.4"
     expo-status-bar: "npm:1.12.1"
-    expo-updates: "npm:0.25.9"
+    expo-updates: "npm:0.25.10"
     metro-minify-terser: "npm:0.80.9"
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
@@ -11384,14 +11384,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-image@npm:1.12.8":
-  version: 1.12.8
-  resolution: "expo-image@npm:1.12.8"
+"expo-image@npm:1.12.9":
+  version: 1.12.9
+  resolution: "expo-image@npm:1.12.9"
   dependencies:
     "@react-native/assets-registry": "npm:~0.74.83"
   peerDependencies:
     expo: "*"
-  checksum: 10c0/a220804488f0aa0212fe8275a4fa841e8dfe5e46cca5b10505a25dc0d59d17aa5b824b9bd37aece965ab124109b85fb9d5b3287ca7140178b82a773a493263d9
+  checksum: 10c0/9c9b020978036c9a81134759024eae5d931d8f2c6480619197ee06251ff57a4a34edac1e4a1442adcba52d942c3af2da8f66534c9f8a7518fc4d77d3b711863b
   languageName: node
   linkType: hard
 
@@ -11581,9 +11581,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-updates@npm:0.25.9":
-  version: 0.25.9
-  resolution: "expo-updates@npm:0.25.9"
+"expo-updates@npm:0.25.10":
+  version: 0.25.10
+  resolution: "expo-updates@npm:0.25.10"
   dependencies:
     "@expo/code-signing-certificates": "npm:0.0.5"
     "@expo/config": "npm:~9.0.0-beta.0"
@@ -11604,7 +11604,7 @@ __metadata:
     expo: "*"
   bin:
     expo-updates: bin/cli.js
-  checksum: 10c0/64f47f7bd7f0341f023e910f1e2c559991cc5cd1771e66eb74bd850abe3c5e29553aab1f5736b18151cb3ee1366249fb86037233b58424acdf22efde89633f8c
+  checksum: 10c0/59bda2ad50a746fe097085a3051f6c515f888b3096cfadbf7cd4275d1f46df97052eae9fd01f6f16e06bd4012710b19aedf6ce039fbbcf2b240275b7d3ad3b5d
   languageName: node
   linkType: hard
 
