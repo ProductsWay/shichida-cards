@@ -11123,7 +11123,7 @@ __metadata:
     expo-router: "npm:2.0.15"
     expo-splash-screen: "npm:0.27.4"
     expo-status-bar: "npm:1.12.1"
-    expo-updates: "npm:0.25.10"
+    expo-updates: "npm:0.25.11"
     metro-minify-terser: "npm:0.80.9"
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
@@ -11531,18 +11531,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-updates-interface@npm:~0.16.0":
-  version: 0.16.1
-  resolution: "expo-updates-interface@npm:0.16.1"
+"expo-updates-interface@npm:~0.16.2":
+  version: 0.16.2
+  resolution: "expo-updates-interface@npm:0.16.2"
   peerDependencies:
     expo: "*"
-  checksum: 10c0/8e9e092659a055bd1dc59e14c1de7d2839dfb32811ff36a8ecd5fe81e18396b4d38593d0935f62effab62b0e18da30c6dc6cd15bc497986239954f5d8f44e1c0
+  checksum: 10c0/b54d80cdd76ebf5421556821310b348a5479e41c30caf0bb5ee6ccfd3436d2d81d3880e508a7a2023ccd85b63db25c5f701e5baa0945484d5b5e7bb695c6db70
   languageName: node
   linkType: hard
 
-"expo-updates@npm:0.25.10":
-  version: 0.25.10
-  resolution: "expo-updates@npm:0.25.10"
+"expo-updates@npm:0.25.11":
+  version: 0.25.11
+  resolution: "expo-updates@npm:0.25.11"
   dependencies:
     "@expo/code-signing-certificates": "npm:0.0.5"
     "@expo/config": "npm:~9.0.0-beta.0"
@@ -11554,7 +11554,7 @@ __metadata:
     expo-eas-client: "npm:~0.12.0"
     expo-manifests: "npm:~0.14.0"
     expo-structured-headers: "npm:~3.8.0"
-    expo-updates-interface: "npm:~0.16.0"
+    expo-updates-interface: "npm:~0.16.2"
     fast-glob: "npm:^3.3.2"
     fbemitter: "npm:^3.0.0"
     ignore: "npm:^5.3.1"
@@ -11563,7 +11563,7 @@ __metadata:
     expo: "*"
   bin:
     expo-updates: bin/cli.js
-  checksum: 10c0/59bda2ad50a746fe097085a3051f6c515f888b3096cfadbf7cd4275d1f46df97052eae9fd01f6f16e06bd4012710b19aedf6ce039fbbcf2b240275b7d3ad3b5d
+  checksum: 10c0/72d69e2897f52a68720bd129ec6729178f7f819be8f2fe6d2a4c324b7a0f7d0f68b3995733cbc0e795db8667600951ba1ecef7a6bc82e232fe6f6052249decb5
   languageName: node
   linkType: hard
 
