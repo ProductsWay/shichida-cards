@@ -1745,11 +1745,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@clerk/clerk-expo@npm:0.20.19":
-  version: 0.20.19
-  resolution: "@clerk/clerk-expo@npm:0.20.19"
+"@clerk/clerk-expo@npm:0.20.20":
+  version: 0.20.20
+  resolution: "@clerk/clerk-expo@npm:0.20.20"
   dependencies:
-    "@clerk/clerk-js": "npm:4.72.2"
+    "@clerk/clerk-js": "npm:4.72.3"
     "@clerk/clerk-react": "npm:4.31.1"
     "@clerk/shared": "npm:1.4.1"
     base-64: "npm:1.0.0"
@@ -1760,13 +1760,13 @@ __metadata:
     expo-constants: ">=14"
     expo-web-browser: ">=12"
     react: ">=16"
-  checksum: 10c0/285ead0a230dc08e8bec6ff73a20f86893ae239ff39a73dedfcd7aefc4d676fea7913dac9e8efba395495ca532a72ab305126d95230a60b4cb21eee96740c2cb
+  checksum: 10c0/9121a1e17cfb6f700bb8fc3e0749eee7864e9ba7630065bf1ec2fb6aa44f1bd29b628d3c6709a7ce2d74fbdad6de38756a8e44472a3c0f932ae7ed0d71e934f4
   languageName: node
   linkType: hard
 
-"@clerk/clerk-js@npm:4.72.2":
-  version: 4.72.2
-  resolution: "@clerk/clerk-js@npm:4.72.2"
+"@clerk/clerk-js@npm:4.72.3":
+  version: 4.72.3
+  resolution: "@clerk/clerk-js@npm:4.72.3"
   dependencies:
     "@clerk/localizations": "npm:1.28.4"
     "@clerk/shared": "npm:1.4.1"
@@ -1785,7 +1785,7 @@ __metadata:
     regenerator-runtime: "npm:0.13.11"
   peerDependencies:
     react: ">=18"
-  checksum: 10c0/7580668d83720b9f9b38f54f5a86dbbe5e55dcb21932071f88f16adad3dfc1a44f26cd7bcae8cfa45a9653f8312705a34c4e262472e70b7486b7110d8d9f73bd
+  checksum: 10c0/74ca2093f72bd851bb25a6058d0aca93f487cee4141c9a23d80d81a496aaace92ea652225154636e58c56a20e5c9416092fb8cb06145ad7f0e876858ecd1d870
   languageName: node
   linkType: hard
 
@@ -4587,7 +4587,7 @@ __metadata:
     "@tsndr/cloudflare-worker-jwt": "npm:2.5.3"
     better-sqlite3: "npm:9.6.0"
     dotenv-cli: "npm:7.4.2"
-    drizzle-kit: "npm:0.21.0"
+    drizzle-kit: "npm:0.21.1"
     drizzle-orm: "npm:0.30.10"
     eslint: "npm:8.57.0"
     hono: "npm:3.12.12"
@@ -6269,21 +6269,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:5.35.1":
-  version: 5.35.1
-  resolution: "@tanstack/query-core@npm:5.35.1"
-  checksum: 10c0/c991efeb29ec42f9aadf43130dac5e4e9e0651880ef96e0cb5f0dc3224b9b919b34f0e4af53231a7de32582aa7ba801ed6683ed7448e41e7b2a344803f08f3fe
+"@tanstack/query-core@npm:5.35.5":
+  version: 5.35.5
+  resolution: "@tanstack/query-core@npm:5.35.5"
+  checksum: 10c0/9c201a7ba2883f6fbab1b229311b249191780bccf46998232ec1e49e43fb4fc605caf37a9a8c8807f5a7c5ea9147925ce77d66357173b313994b2d33fc7c28d0
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:5.35.1":
-  version: 5.35.1
-  resolution: "@tanstack/react-query@npm:5.35.1"
+"@tanstack/react-query@npm:5.35.5":
+  version: 5.35.5
+  resolution: "@tanstack/react-query@npm:5.35.5"
   dependencies:
-    "@tanstack/query-core": "npm:5.35.1"
+    "@tanstack/query-core": "npm:5.35.5"
   peerDependencies:
     react: ^18.0.0
-  checksum: 10c0/80b3d4e295b05171e34f522c1856bcd561c58963e7661ae2340f3406a3097b7c9896d4f67005876c634ce1d808791498a987b200f00341e6df9fcc862060e6ad
+  checksum: 10c0/171c3192edfb2bbe7d79908fa0f035774453fc55d1f5917c9ede9b7d93cc2b61f5e9a822559e89798af9fc2274b581fc9b5ec1a2dd204dc79d6e54439d85f410
   languageName: node
   linkType: hard
 
@@ -7350,7 +7350,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app@workspace:packages/app"
   dependencies:
-    "@clerk/clerk-expo": "npm:0.20.19"
+    "@clerk/clerk-expo": "npm:0.20.20"
     "@clerk/nextjs": "npm:4.30.1"
     "@shichida/ui": "npm:*"
     "@shopify/flash-list": "npm:1.6.4"
@@ -7360,7 +7360,7 @@ __metadata:
     "@tamagui/lucide-icons": "npm:latest"
     "@tamagui/shorthands": "npm:latest"
     "@tamagui/themes": "npm:latest"
-    "@tanstack/react-query": "npm:5.35.1"
+    "@tanstack/react-query": "npm:5.35.5"
     "@trpc/client": "npm:10.45.2"
     "@trpc/next": "npm:10.45.2"
     "@trpc/react-query": "npm:10.45.2"
@@ -9595,9 +9595,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"drizzle-kit@npm:0.21.0":
-  version: 0.21.0
-  resolution: "drizzle-kit@npm:0.21.0"
+"drizzle-kit@npm:0.21.1":
+  version: 0.21.1
+  resolution: "drizzle-kit@npm:0.21.1"
   dependencies:
     "@esbuild-kit/esm-loader": "npm:^2.5.5"
     commander: "npm:^9.4.1"
@@ -9610,7 +9610,7 @@ __metadata:
     zod: "npm:^3.20.2"
   bin:
     drizzle-kit: bin.cjs
-  checksum: 10c0/bb859e016dc636c95934a507fe6a7e1a70171495c8bad6657e633e3d3ef196f17dc9c5fd3d05d714484e381ed4acf6672f02b742b6243d6f0185067e8dbea261
+  checksum: 10c0/34503b6e94c63bb60708e2c611ada883d4ca14dcfd96a7ce0cb59566e1aa9663f8c38d6f896a651742ae3a6d4ab80100fe9fdb92e5b535cdde4d9f5f6b06bd21
   languageName: node
   linkType: hard
 
