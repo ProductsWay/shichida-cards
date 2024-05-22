@@ -15,7 +15,7 @@
     "with-env": "dotenv -e ../../.env.local --"
   },
   "dependencies": {
-    "@clerk/backend": "0.38.8",
+    "@clerk/backend": "0.38.9",
     "@cloudflare/d1": "1.4.1",
     "@hono/trpc-server": "0.3.1",
     "@trpc/server": "10.45.2",
@@ -27,9 +27,9 @@
     "@cloudflare/workers-types": "4.20240512.0",
     "better-sqlite3": "9.6.0",
     "dotenv-cli": "7.4.2",
-    "drizzle-kit": "0.21.2",
+    "drizzle-kit": "0.21.3",
     "eslint": "8.57.0",
     "typescript": "5.4.5",
-    "wrangler": "3.57.0"
+    "wrangler": "3.57.1"
   }
 }
