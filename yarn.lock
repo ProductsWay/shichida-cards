@@ -6456,14 +6456,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:5.38.0":
-  version: 5.38.0
-  resolution: "@tanstack/react-query@npm:5.38.0"
+"@tanstack/react-query@npm:5.39.0":
+  version: 5.39.0
+  resolution: "@tanstack/react-query@npm:5.39.0"
   dependencies:
     "@tanstack/query-core": "npm:5.38.0"
   peerDependencies:
     react: ^18.0.0
-  checksum: 10c0/cf6755e0159162485409f146e502f6429a826deb3fb16ae38c533eeccd8834282dbacd2297302d40006edf8255348a1ccbd4b4a4ad84f76886c4036bcabffbc1
+  checksum: 10c0/b43271d60eb1a28b91f81d60ad2421ef863e6e5ab22b2601f5593321357e6f0e6c2fa535038b2fd04f5ca429695501be35917e147cb59d90d86c56235b0fdb07
   languageName: node
   linkType: hard
 
@@ -7531,7 +7531,7 @@ __metadata:
     "@tamagui/lucide-icons": "npm:latest"
     "@tamagui/shorthands": "npm:latest"
     "@tamagui/themes": "npm:latest"
-    "@tanstack/react-query": "npm:5.38.0"
+    "@tanstack/react-query": "npm:5.39.0"
     "@trpc/client": "npm:10.45.2"
     "@trpc/next": "npm:10.45.2"
     "@trpc/react-query": "npm:10.45.2"
