@@ -11060,7 +11060,7 @@ __metadata:
     expo-router: "npm:2.0.15"
     expo-splash-screen: "npm:0.27.4"
     expo-status-bar: "npm:1.12.1"
-    expo-updates: "npm:0.25.14"
+    expo-updates: "npm:0.25.15"
     metro-minify-terser: "npm:0.80.9"
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
@@ -11477,13 +11477,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-updates@npm:0.25.14":
-  version: 0.25.14
-  resolution: "expo-updates@npm:0.25.14"
+"expo-updates@npm:0.25.15":
+  version: 0.25.15
+  resolution: "expo-updates@npm:0.25.15"
   dependencies:
     "@expo/code-signing-certificates": "npm:0.0.5"
-    "@expo/config": "npm:~9.0.0"
-    "@expo/config-plugins": "npm:~8.0.0"
+    "@expo/config": "npm:~9.0.0-beta.0"
+    "@expo/config-plugins": "npm:~8.0.0-beta.0"
     "@expo/fingerprint": "npm:^0.8.0"
     "@expo/spawn-async": "npm:^1.7.2"
     arg: "npm:4.1.0"
@@ -11500,7 +11500,7 @@ __metadata:
     expo: "*"
   bin:
     expo-updates: bin/cli.js
-  checksum: 10c0/3a785740a9ade41da641af63b16e737144ba70db590f9058fad33f9ebff5183b8fa2bdadb60959c25defbdd6cd9d4f9d94618c04996265d7c17c6e6de225af0d
+  checksum: 10c0/e8f9e93e76786cfad7e32e037c9abe34d3db0895e6477f2568efc09d0887075d169a958b1d0365099cf1fd717dd23503067a89f7749942499cc01126182a9dfa
   languageName: node
   linkType: hard
 
