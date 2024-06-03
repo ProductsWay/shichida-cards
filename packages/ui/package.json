@@ -25,7 +25,7 @@
     "@tamagui/themes": "latest",
     "@tamagui/toast": "latest",
     "@tanstack/react-virtual": "3.5.0",
-    "jotai": "2.8.2",
+    "jotai": "2.8.3",
     "tamagui": "latest"
   },
   "devDependencies": {
