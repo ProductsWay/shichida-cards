@@ -1924,10 +1924,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflare/workers-types@npm:4.20240529.0":
-  version: 4.20240529.0
-  resolution: "@cloudflare/workers-types@npm:4.20240529.0"
-  checksum: 10c0/f5a8b3e930d19806d1bfbfce7106b9fe32f1eebb517bbf662ec8ecf7981f8496401e1b4177d71583afe4bb447738af947ffd12d08cfe8fc8cae318b3173a0190
+"@cloudflare/workers-types@npm:4.20240603.0":
+  version: 4.20240603.0
+  resolution: "@cloudflare/workers-types@npm:4.20240603.0"
+  checksum: 10c0/09829ee9daaaf410ab2dc3900590f843febc5dc2962fa8f197445ed59407d1ca129f5bf228117687c56e8dd91c9d1003c4f57ea3c3fe06d521ffecc0a0b4a2bf
   languageName: node
   linkType: hard
 
@@ -4580,7 +4580,7 @@ __metadata:
   dependencies:
     "@clerk/backend": "npm:0.38.11"
     "@cloudflare/d1": "npm:1.4.1"
-    "@cloudflare/workers-types": "npm:4.20240529.0"
+    "@cloudflare/workers-types": "npm:4.20240603.0"
     "@hono/trpc-server": "npm:0.3.1"
     "@trpc/server": "npm:10.45.2"
     "@tsndr/cloudflare-worker-jwt": "npm:2.5.3"
@@ -6533,7 +6533,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:20.14.0":
+"@types/node@npm:*":
   version: 20.14.0
   resolution: "@types/node@npm:20.14.0"
   dependencies:
@@ -6553,6 +6553,15 @@ __metadata:
   version: 16.18.6
   resolution: "@types/node@npm:16.18.6"
   checksum: 10c0/88192f5cd3d21ca827898c903ce6fbb8a92a51d0f9d8f7e93ac3f2f3b46cdd9f29c969fe3af9ba004833bb265c6330042f37d11cd97b9e4f54dabf2b34399075
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:20.14.1":
+  version: 20.14.1
+  resolution: "@types/node@npm:20.14.1"
+  dependencies:
+    undici-types: "npm:~5.26.4"
+  checksum: 10c0/12b7879047f50cc217bbea3add7c45e542070f6e9fb2092be97542152b7022512bcb2bf848d04f77e295c4c8699acd484e79a4a4dbe9bcfa4e89dd543d530611
   languageName: node
   linkType: hard
 
@@ -14942,7 +14951,7 @@ __metadata:
   dependencies:
     "@tamagui/next-plugin": "npm:latest"
     "@tamagui/next-theme": "npm:latest"
-    "@types/node": "npm:20.14.0"
+    "@types/node": "npm:20.14.1"
     app: "npm:*"
     critters: "npm:0.0.22"
     dotenv-cli: "npm:7.4.2"
