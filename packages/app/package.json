@@ -8,7 +8,7 @@
   ],
   "dependencies": {
     "@clerk/clerk-expo": "0.20.25",
-    "@clerk/nextjs": "4.31.2",
+    "@clerk/nextjs": "5.1.6",
     "@shichida/ui": "*",
     "@shopify/flash-list": "1.6.4",
     "@tamagui/animations-react-native": "latest",
