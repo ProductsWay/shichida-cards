@@ -1744,47 +1744,50 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@clerk/clerk-expo@npm:0.20.25":
-  version: 0.20.25
-  resolution: "@clerk/clerk-expo@npm:0.20.25"
+"@clerk/clerk-expo@npm:1.2.9":
+  version: 1.2.9
+  resolution: "@clerk/clerk-expo@npm:1.2.9"
   dependencies:
-    "@clerk/clerk-js": "npm:4.73.3"
-    "@clerk/clerk-react": "npm:4.32.2"
-    "@clerk/shared": "npm:1.4.1"
-    base-64: "npm:1.0.0"
+    "@clerk/clerk-js": "npm:5.10.1"
+    "@clerk/clerk-react": "npm:5.2.9"
+    "@clerk/shared": "npm:2.4.0"
+    "@clerk/types": "npm:4.9.0"
+    base-64: "npm:^1.0.0"
     react-native-url-polyfill: "npm:2.0.0"
+    tslib: "npm:2.4.1"
   peerDependencies:
-    expo-application: ">=5"
     expo-auth-session: ">=4"
-    expo-constants: ">=14"
-    expo-web-browser: ">=12"
-    react: ">=16"
-  checksum: 10c0/8c92eb6a757465dc25a52aad4f677aa60d5de0bd1c94c9b7a584ee8a43359911fc326bdcb64d9ca381849d8ebd53041014bc80bff3e9f54fe19b7159bf6ddab1
+    expo-web-browser: ">=12.5.0"
+    react: ">=18"
+    react-dom: ">=18"
+  checksum: 10c0/d9aee911411ce51d1d251e291efcdf4c45ed94836daf01c94f86da558f77f52787f6a9eac3bfb11cce7129faced137f0bbfd7a66cb729d8fbccdb275bf90e370
   languageName: node
   linkType: hard
 
-"@clerk/clerk-js@npm:4.73.3":
-  version: 4.73.3
-  resolution: "@clerk/clerk-js@npm:4.73.3"
+"@clerk/clerk-js@npm:5.10.1":
+  version: 5.10.1
+  resolution: "@clerk/clerk-js@npm:5.10.1"
   dependencies:
-    "@clerk/localizations": "npm:1.28.7"
-    "@clerk/shared": "npm:1.4.1"
-    "@clerk/types": "npm:3.65.2"
+    "@clerk/localizations": "npm:2.5.1"
+    "@clerk/shared": "npm:2.4.0"
+    "@clerk/types": "npm:4.9.0"
     "@emotion/cache": "npm:11.11.0"
     "@emotion/react": "npm:11.11.1"
     "@floating-ui/react": "npm:0.25.4"
+    "@formkit/auto-animate": "npm:^0.8.1"
     "@zxcvbn-ts/core": "npm:3.0.4"
     "@zxcvbn-ts/language-common": "npm:3.0.4"
     browser-tabs-lock: "npm:1.2.15"
     copy-to-clipboard: "npm:3.3.3"
     core-js: "npm:3.26.1"
+    crypto-js: "npm:^4.2.0"
     dequal: "npm:2.0.3"
     qrcode.react: "npm:3.1.0"
-    qs: "npm:6.11.0"
     regenerator-runtime: "npm:0.13.11"
   peerDependencies:
     react: ">=18"
-  checksum: 10c0/ed46c961f57033bd1d9a2b732212ec8e4b49316ac97ec588e8d3ff691ce39034698f698e5ef37aa02d0747b51f8737cf11cceb65350f66f419934df4bbb093e2
+    react-dom: ">=18"
+  checksum: 10c0/a9fbba0ed94976597b7995c0677e33258d5e76614994a2d98e2f25b3cf0856c6383633761094f77e7135b35e38cf69518a86213c7e5484fe897c2c8876b2d0f6
   languageName: node
   linkType: hard
 
@@ -1798,6 +1801,20 @@ __metadata:
   peerDependencies:
     react: ">=16"
   checksum: 10c0/ef8ea477bfbc834939a47bf22e3a5724c2a8c4ce8d5135645828bf2d0f117bbb2a30c6ae0ed99e1812beda4349fbbc34d20f21b2bb100d6fd4ebceb0fe511fd7
+  languageName: node
+  linkType: hard
+
+"@clerk/clerk-react@npm:5.2.9":
+  version: 5.2.9
+  resolution: "@clerk/clerk-react@npm:5.2.9"
+  dependencies:
+    "@clerk/shared": "npm:2.4.0"
+    "@clerk/types": "npm:4.9.0"
+    tslib: "npm:2.4.1"
+  peerDependencies:
+    react: ">=18 || >=19.0.0-beta"
+    react-dom: ">=18 || >=19.0.0-beta"
+  checksum: 10c0/1dfdade29331619a676ed8cf84b4c0b2bc5250398d9337e951a864dcf5a96fd5cbc3eefdfc0c038f767e0a4f67dc67dcfdbf6de9665aac09e5f39dfaf68c89bc
   languageName: node
   linkType: hard
 
@@ -1818,14 +1835,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@clerk/localizations@npm:1.28.7":
-  version: 1.28.7
-  resolution: "@clerk/localizations@npm:1.28.7"
+"@clerk/localizations@npm:2.5.1":
+  version: 2.5.1
+  resolution: "@clerk/localizations@npm:2.5.1"
   dependencies:
-    "@clerk/types": "npm:3.65.2"
-  peerDependencies:
-    react: ">=16"
-  checksum: 10c0/bf5895c62f76eea9596c29ec2c0fde4c7bd8d058e0eee504d6bc4420809dfc4103585a040803b08072d08bb362c936b544c25ddf3f57849ed59116ea6e8575ed
+    "@clerk/types": "npm:4.9.0"
+  checksum: 10c0/9b1e611b8bf0e2a85fdf1ae8e0446dc100b5353432810b8206b275377f4e560971d9a2be3f14c51cd4b5d8157abc2e3ccadd943af631f8ffd173a1138166d53d
   languageName: node
   linkType: hard
 
@@ -1864,12 +1879,42 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@clerk/shared@npm:2.4.0":
+  version: 2.4.0
+  resolution: "@clerk/shared@npm:2.4.0"
+  dependencies:
+    "@clerk/types": "npm:4.9.0"
+    glob-to-regexp: "npm:0.4.1"
+    js-cookie: "npm:3.0.5"
+    std-env: "npm:^3.7.0"
+    swr: "npm:^2.2.0"
+  peerDependencies:
+    react: ">=18 || >=19.0.0-beta"
+    react-dom: ">=18 || >=19.0.0-beta"
+  peerDependenciesMeta:
+    react:
+      optional: true
+    react-dom:
+      optional: true
+  checksum: 10c0/5e593de8c9e42e407e07665cea07369c92d46000beb9bf584f7c8ef8fe14f1d99d235ccba16ed18ee99dc1a20bd1e3b57787f134526a1d118b1d11d5609515d0
+  languageName: node
+  linkType: hard
+
 "@clerk/types@npm:3.65.2":
   version: 3.65.2
   resolution: "@clerk/types@npm:3.65.2"
   dependencies:
     csstype: "npm:3.1.1"
   checksum: 10c0/036f4443b383c81ee07df281fe0044eb66f6a647655cd7d10684ef4760afdc50f056f0bd9c8d78bd8506636011c954f092d17a4f95857245bd4539e58cb99131
+  languageName: node
+  linkType: hard
+
+"@clerk/types@npm:4.9.0":
+  version: 4.9.0
+  resolution: "@clerk/types@npm:4.9.0"
+  dependencies:
+    csstype: "npm:3.1.1"
+  checksum: 10c0/06bd190479a38cabd085aa92e84f660e820bbdf8f64f57f6d4548a73713b708c8d469e4fcb9799807d66aeaca404ce1d12d108b3689458d982906ee2b1e569ff
   languageName: node
   linkType: hard
 
@@ -3537,6 +3582,13 @@ __metadata:
   version: 0.2.2
   resolution: "@floating-ui/utils@npm:0.2.2"
   checksum: 10c0/b2becdcafdf395af1641348da0031ff1eaad2bc60c22e14bd3abad4acfe2c8401e03097173d89a2f646a99b75819a78ef21ebb2572cab0042a56dd654b0065cd
+  languageName: node
+  linkType: hard
+
+"@formkit/auto-animate@npm:^0.8.1":
+  version: 0.8.2
+  resolution: "@formkit/auto-animate@npm:0.8.2"
+  checksum: 10c0/0b24af241c229f37643cd62ea78fd7fddf621c06516cf62452035ea0bf489b6b53068eea47abb40b6bb3653bb91c1efad8b7257014a3559d26ad77b47b5337cb
   languageName: node
   linkType: hard
 
@@ -7663,7 +7715,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app@workspace:packages/app"
   dependencies:
-    "@clerk/clerk-expo": "npm:0.20.25"
+    "@clerk/clerk-expo": "npm:1.2.9"
     "@clerk/nextjs": "npm:4.31.2"
     "@shichida/ui": "npm:*"
     "@shopify/flash-list": "npm:1.6.4"
@@ -8173,7 +8225,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"base-64@npm:1.0.0":
+"base-64@npm:^1.0.0":
   version: 1.0.0
   resolution: "base-64@npm:1.0.0"
   checksum: 10c0/d886cb3236cee0bed9f7075675748b59b32fad623ddb8ce1793c790306aa0f76a03238cad4b3fb398abda6527ce08a5588388533a4ccade0b97e82b9da660e28
@@ -8822,7 +8874,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"client-only@npm:0.0.1":
+"client-only@npm:0.0.1, client-only@npm:^0.0.1":
   version: 0.0.1
   resolution: "client-only@npm:0.0.1"
   checksum: 10c0/9d6cfd0c19e1c96a434605added99dff48482152af791ec4172fb912a71cff9027ff174efd8cdb2160cc7f377543e0537ffc462d4f279bc4701de3f2a3c4b358
@@ -9284,6 +9336,13 @@ __metadata:
   version: 0.0.2
   resolution: "crypt@npm:0.0.2"
   checksum: 10c0/adbf263441dd801665d5425f044647533f39f4612544071b1471962209d235042fb703c27eea2795c7c53e1dfc242405173003f83cf4f4761a633d11f9653f18
+  languageName: node
+  linkType: hard
+
+"crypto-js@npm:^4.2.0":
+  version: 4.2.0
+  resolution: "crypto-js@npm:4.2.0"
+  checksum: 10c0/8fbdf9d56f47aea0794ab87b0eb9833baf80b01a7c5c1b0edc7faf25f662fb69ab18dc2199e2afcac54670ff0cd9607a9045a3f7a80336cccd18d77a55b9fdf0
   languageName: node
   linkType: hard
 
@@ -13853,6 +13912,13 @@ __metadata:
   version: 3.0.1
   resolution: "js-cookie@npm:3.0.1"
   checksum: 10c0/a7dab91286c49610fb198bcc0d78fbafe9be869cf3cea6f7eaea515abdfdc9d347982fe22316e34666b479a0701119482d46faa3a350a3a3404eb954405edf72
+  languageName: node
+  linkType: hard
+
+"js-cookie@npm:3.0.5":
+  version: 3.0.5
+  resolution: "js-cookie@npm:3.0.5"
+  checksum: 10c0/04a0e560407b4489daac3a63e231d35f4e86f78bff9d792011391b49c59f721b513411cd75714c418049c8dc9750b20fcddad1ca5a2ca616c3aca4874cce5b3a
   languageName: node
   linkType: hard
 
@@ -18489,6 +18555,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"std-env@npm:^3.7.0":
+  version: 3.7.0
+  resolution: "std-env@npm:3.7.0"
+  checksum: 10c0/60edf2d130a4feb7002974af3d5a5f3343558d1ccf8d9b9934d225c638606884db4a20d2fe6440a09605bca282af6b042ae8070a10490c0800d69e82e478f41e
+  languageName: node
+  linkType: hard
+
 "stdin-discarder@npm:^0.2.1":
   version: 0.2.2
   resolution: "stdin-discarder@npm:0.2.2"
@@ -18864,6 +18937,18 @@ __metadata:
   peerDependencies:
     react: ^16.11.0 || ^17.0.0 || ^18.0.0
   checksum: 10c0/f631dfd206a989313cd82e7d9477b11af08496000c339752c745e8b42ba58667528ee0c70ea529910a7b6dee9b4085e8a2cd622efb70b9709883211111e0d756
+  languageName: node
+  linkType: hard
+
+"swr@npm:^2.2.0":
+  version: 2.2.5
+  resolution: "swr@npm:2.2.5"
+  dependencies:
+    client-only: "npm:^0.0.1"
+    use-sync-external-store: "npm:^1.2.0"
+  peerDependencies:
+    react: ^16.11.0 || ^17.0.0 || ^18.0.0
+  checksum: 10c0/731488d609ac6db60626632e3f76b046f28400b44504b3dfa69231a645127579b1add7a1595e5a6c718e24c80f1399506883bb456ca83c1b621357a0bf5a2a94
   languageName: node
   linkType: hard
 
