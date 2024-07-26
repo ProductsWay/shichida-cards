@@ -17,15 +17,15 @@
     "watch": "tamagui-build --watch"
   },
   "dependencies": {
-    "@shopify/flash-list": "1.6.4",
+    "@shopify/flash-list": "1.7.0",
     "@tamagui/animations-react-native": "latest",
     "@tamagui/font-inter": "latest",
     "@tamagui/react-native-media-driver": "latest",
     "@tamagui/shorthands": "latest",
     "@tamagui/themes": "latest",
     "@tamagui/toast": "latest",
-    "@tanstack/react-virtual": "3.5.0",
-    "jotai": "2.8.3",
+    "@tanstack/react-virtual": "3.8.3",
+    "jotai": "2.9.1",
     "tamagui": "latest"
   },
   "devDependencies": {

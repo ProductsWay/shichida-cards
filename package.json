@@ -29,14 +29,14 @@
     "react-native-web": "0.19.12"
   },
   "dependencies": {
-    "@babel/runtime": "7.24.6",
+    "@babel/runtime": "7.25.0",
     "@manypkg/cli": "0.21.4",
     "check-dependency-version-consistency": "4.1.0",
     "eslint": "8.57.0",
-    "node-gyp": "10.1.0",
-    "prettier": "3.3.0",
+    "node-gyp": "10.2.0",
+    "prettier": "3.3.3",
     "turbo": "1.13.4",
-    "typescript": "5.4.5"
+    "typescript": "5.5.4"
   },
-  "packageManager": "yarn@4.2.2"
+  "packageManager": "yarn@4.3.1"
 }
