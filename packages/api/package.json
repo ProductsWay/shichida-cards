@@ -2,7 +2,7 @@
   "name": "@shichida/api",
   "version": "2.0.0",
   "main": "src/index.ts",
-  "packageManager": "yarn@4.3.1",
+  "packageManager": "yarn@4.4.0",
   "license": "Apache-2.0",
   "scripts": {
     "dev": "wrangler dev src/index.ts",
@@ -15,21 +15,21 @@
     "with-env": "dotenv -e ../../.env.local --"
   },
   "dependencies": {
-    "@clerk/backend": "0.38.12",
+    "@clerk/backend": "0.38.13",
     "@cloudflare/d1": "1.4.1",
     "@hono/trpc-server": "0.3.2",
     "@trpc/server": "10.45.2",
     "@tsndr/cloudflare-worker-jwt": "2.5.3",
-    "drizzle-orm": "0.32.1",
+    "drizzle-orm": "0.33.0",
     "hono": "3.12.12"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20240725.0",
+    "@cloudflare/workers-types": "4.20240806.0",
     "better-sqlite3": "9.6.0",
     "dotenv-cli": "7.4.2",
-    "drizzle-kit": "0.23.0",
+    "drizzle-kit": "0.24.0",
     "eslint": "8.57.0",
     "typescript": "5.5.4",
-    "wrangler": "3.67.1"
+    "wrangler": "3.71.0"
   }
 }
