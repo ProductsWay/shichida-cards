@@ -2213,6 +2213,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@clerk/backend@npm:1.13.9":
+  version: 1.13.9
+  resolution: "@clerk/backend@npm:1.13.9"
+  dependencies:
+    "@clerk/shared": "npm:2.9.0"
+    "@clerk/types": "npm:4.25.0"
+    cookie: "npm:0.7.0"
+    snakecase-keys: "npm:5.4.4"
+    tslib: "npm:2.4.1"
+  checksum: 10c0/aa7599431314fd24bf5550c26594c070ba299aae167e9546bbe288422548e579f37a23f0a2b8808f76ccf307bb9e4ee3efc0c4b24e0d0897dfbc0c342502002d
+  languageName: node
+  linkType: hard
+
 "@clerk/clerk-expo@npm:0.20.27":
   version: 0.20.27
   resolution: "@clerk/clerk-expo@npm:0.20.27"
@@ -2333,12 +2346,42 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@clerk/shared@npm:2.9.0":
+  version: 2.9.0
+  resolution: "@clerk/shared@npm:2.9.0"
+  dependencies:
+    "@clerk/types": "npm:4.25.0"
+    glob-to-regexp: "npm:0.4.1"
+    js-cookie: "npm:3.0.5"
+    std-env: "npm:^3.7.0"
+    swr: "npm:^2.2.0"
+  peerDependencies:
+    react: ">=18 || >=19.0.0-beta"
+    react-dom: ">=18 || >=19.0.0-beta"
+  peerDependenciesMeta:
+    react:
+      optional: true
+    react-dom:
+      optional: true
+  checksum: 10c0/a52d142e406db62be7d51cb13a51110d0182666af9b242ce7bd52c17f4cd73512b9f0f9d7903c80f1b6ab7baed6e27326662f4f5a4b4637a329cfe56d4a1b3fc
+  languageName: node
+  linkType: hard
+
 "@clerk/types@npm:3.65.3":
   version: 3.65.3
   resolution: "@clerk/types@npm:3.65.3"
   dependencies:
     csstype: "npm:3.1.1"
   checksum: 10c0/bd48bbd0e0d697fac83c82867d6283d4f1da14b928fb5368e963c49238ce5a0e65d750eab079a71064fbb9d0438c86f6ab5154f78204cfd05576b2dafd9f55ea
+  languageName: node
+  linkType: hard
+
+"@clerk/types@npm:4.25.0":
+  version: 4.25.0
+  resolution: "@clerk/types@npm:4.25.0"
+  dependencies:
+    csstype: "npm:3.1.1"
+  checksum: 10c0/db889d02ab7d4d39b390fd9fb51264941dcdc7a512d0b8bdaeb28d1a50be4f8e0bd4747645129bd39a0dcc6435569c740a94aad4f49bed3c575b3b9982a1ab36
   languageName: node
   linkType: hard
 
@@ -5520,7 +5563,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@shichida/api@workspace:packages/api"
   dependencies:
-    "@clerk/backend": "npm:0.38.13"
+    "@clerk/backend": "npm:1.13.9"
     "@cloudflare/d1": "npm:1.4.1"
     "@cloudflare/workers-types": "npm:4.20240821.1"
     "@hono/trpc-server": "npm:0.3.2"
@@ -9432,7 +9475,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"client-only@npm:0.0.1":
+"client-only@npm:0.0.1, client-only@npm:^0.0.1":
   version: 0.0.1
   resolution: "client-only@npm:0.0.1"
   checksum: 10c0/9d6cfd0c19e1c96a434605added99dff48482152af791ec4172fb912a71cff9027ff174efd8cdb2160cc7f377543e0537ffc462d4f279bc4701de3f2a3c4b358
@@ -9760,6 +9803,13 @@ __metadata:
   version: 0.5.0
   resolution: "cookie@npm:0.5.0"
   checksum: 10c0/c01ca3ef8d7b8187bae434434582288681273b5a9ed27521d4d7f9f7928fe0c920df0decd9f9d3bbd2d14ac432b8c8cf42b98b3bdd5bfe0e6edddeebebe8b61d
+  languageName: node
+  linkType: hard
+
+"cookie@npm:0.7.0":
+  version: 0.7.0
+  resolution: "cookie@npm:0.7.0"
+  checksum: 10c0/15c20c9b85431c8565b1750f9bccff0bd289b943d956e25fffce3b146e57934075965c8305a4e3a65a70622c9ed483e013daf9159d9c50f5c3f97f2e7c8117ac
   languageName: node
   linkType: hard
 
@@ -14534,6 +14584,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"js-cookie@npm:3.0.5":
+  version: 3.0.5
+  resolution: "js-cookie@npm:3.0.5"
+  checksum: 10c0/04a0e560407b4489daac3a63e231d35f4e86f78bff9d792011391b49c59f721b513411cd75714c418049c8dc9750b20fcddad1ca5a2ca616c3aca4874cce5b3a
+  languageName: node
+  linkType: hard
+
 "js-tokens@npm:^3.0.0 || ^4.0.0, js-tokens@npm:^4.0.0":
   version: 4.0.0
   resolution: "js-tokens@npm:4.0.0"
@@ -19246,6 +19303,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"std-env@npm:^3.7.0":
+  version: 3.7.0
+  resolution: "std-env@npm:3.7.0"
+  checksum: 10c0/60edf2d130a4feb7002974af3d5a5f3343558d1ccf8d9b9934d225c638606884db4a20d2fe6440a09605bca282af6b042ae8070a10490c0800d69e82e478f41e
+  languageName: node
+  linkType: hard
+
 "stdin-discarder@npm:^0.2.2":
   version: 0.2.2
   resolution: "stdin-discarder@npm:0.2.2"
@@ -19621,6 +19685,18 @@ __metadata:
   peerDependencies:
     react: ^16.11.0 || ^17.0.0 || ^18.0.0
   checksum: 10c0/f631dfd206a989313cd82e7d9477b11af08496000c339752c745e8b42ba58667528ee0c70ea529910a7b6dee9b4085e8a2cd622efb70b9709883211111e0d756
+  languageName: node
+  linkType: hard
+
+"swr@npm:^2.2.0":
+  version: 2.2.5
+  resolution: "swr@npm:2.2.5"
+  dependencies:
+    client-only: "npm:^0.0.1"
+    use-sync-external-store: "npm:^1.2.0"
+  peerDependencies:
+    react: ^16.11.0 || ^17.0.0 || ^18.0.0
+  checksum: 10c0/731488d609ac6db60626632e3f76b046f28400b44504b3dfa69231a645127579b1add7a1595e5a6c718e24c80f1399506883bb456ca83c1b621357a0bf5a2a94
   languageName: node
   linkType: hard
 
