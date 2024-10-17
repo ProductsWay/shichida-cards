@@ -11987,7 +11987,7 @@ __metadata:
     react-native-dotenv: "npm:3.4.11"
     react-native-gesture-handler: "npm:2.18.1"
     react-native-screens: "npm:3.34.0"
-    react-native-svg: "npm:14.2.0"
+    react-native-svg: "npm:15.8.0"
     react-native-web: "npm:0.19.12"
     typescript: "npm:5.5.4"
   languageName: unknown
@@ -17714,16 +17714,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-svg@npm:14.2.0":
-  version: 14.2.0
-  resolution: "react-native-svg@npm:14.2.0"
+"react-native-svg@npm:15.8.0":
+  version: 15.8.0
+  resolution: "react-native-svg@npm:15.8.0"
   dependencies:
     css-select: "npm:^5.1.0"
     css-tree: "npm:^1.1.3"
+    warn-once: "npm:0.1.1"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10c0/db7734609f2a8cb7540ca245e6101476ae06315cea7835eec842fb63e53b3f9946a0f3d64ae3f6e131df058a48f9e37b1da4428003a77120a3684c1b507653f4
+  checksum: 10c0/03d2cb19c799da6ba41dea0dc414338d01a55549ea4e4a370315c8ec34e1c6de430a62b538f099423060edc8bea6df134f765bde862770059404617c3c296af8
   languageName: node
   linkType: hard
 
@@ -20902,7 +20903,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"warn-once@npm:^0.1.0":
+"warn-once@npm:0.1.1, warn-once@npm:^0.1.0":
   version: 0.1.1
   resolution: "warn-once@npm:0.1.1"
   checksum: 10c0/f531e7b2382124f51e6d8f97b8c865246db8ab6ff4e53257a2d274e0f02b97d7201eb35db481843dc155815e154ad7afb53b01c4d4db15fb5aa073562496aff7
