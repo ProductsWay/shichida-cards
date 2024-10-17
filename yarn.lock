@@ -5526,7 +5526,7 @@ __metadata:
     "@hono/trpc-server": "npm:0.3.2"
     "@trpc/server": "npm:10.45.2"
     "@tsndr/cloudflare-worker-jwt": "npm:2.5.3"
-    better-sqlite3: "npm:9.6.0"
+    better-sqlite3: "npm:11.4.0"
     dotenv-cli: "npm:7.4.2"
     drizzle-kit: "npm:0.24.2"
     drizzle-orm: "npm:0.33.0"
@@ -8771,14 +8771,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"better-sqlite3@npm:9.6.0":
-  version: 9.6.0
-  resolution: "better-sqlite3@npm:9.6.0"
+"better-sqlite3@npm:11.4.0":
+  version: 11.4.0
+  resolution: "better-sqlite3@npm:11.4.0"
   dependencies:
     bindings: "npm:^1.5.0"
     node-gyp: "npm:latest"
     prebuild-install: "npm:^7.1.1"
-  checksum: 10c0/8db9b38f414e26a56d4c40fc16e94a253118491dae0e2c054338a9e470f1a883c7eb4cb330f2f5737db30f704d4f2e697c59071ca04e03364ee9fe04375aa9c8
+  checksum: 10c0/3dac7284edda55ae650cb3d274da15812c558370907eb33293743867c614977c81cacda5ca66caf49bd9d33af5afd91251c54f13448d9a48fd36a8af5c5394a1
   languageName: node
   linkType: hard
 
