@@ -33,7 +33,7 @@
     "react-native": "0.75.4",
     "react-native-gesture-handler": "2.20.1",
     "react-native-screens": "3.34.0",
-    "react-native-svg": "14.2.0",
+    "react-native-svg": "15.8.0",
     "react-native-web": "0.19.13"
   },
   "devDependencies": {
