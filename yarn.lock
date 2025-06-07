@@ -5746,7 +5746,7 @@ __metadata:
     "@trpc/server": "npm:10.45.2"
     "@tsndr/cloudflare-worker-jwt": "npm:2.5.4"
     better-sqlite3: "npm:9.6.0"
-    dotenv-cli: "npm:7.4.4"
+    dotenv-cli: "npm:8.0.0"
     drizzle-kit: "npm:0.31.1"
     drizzle-orm: "npm:0.44.2"
     eslint: "npm:8.57.1"
@@ -10874,9 +10874,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv-cli@npm:7.4.4":
-  version: 7.4.4
-  resolution: "dotenv-cli@npm:7.4.4"
+"dotenv-cli@npm:8.0.0":
+  version: 8.0.0
+  resolution: "dotenv-cli@npm:8.0.0"
   dependencies:
     cross-spawn: "npm:^7.0.6"
     dotenv: "npm:^16.3.0"
@@ -10884,7 +10884,7 @@ __metadata:
     minimist: "npm:^1.2.6"
   bin:
     dotenv: cli.js
-  checksum: 10c0/180801e02dcc02da4557338f48caa54740e38ffef39c7cd231e283d6fc32f4112186980773344df85a4514db28fdedace94d1b83a706ac39a4f1c2c3a402e71d
+  checksum: 10c0/000469632758b7b44aaaa80cbbbd7f0c94dc170ec02e51aa8d8280341a0108fb7407954c23054257b77235b064033efdb8745836633eb6fd1586924953cf0528
   languageName: node
   linkType: hard
 
@@ -16912,7 +16912,7 @@ __metadata:
     "@types/node": "npm:20.19.0"
     app: "npm:*"
     critters: "npm:0.0.25"
-    dotenv-cli: "npm:7.4.4"
+    dotenv-cli: "npm:8.0.0"
     eslint-config-next: "npm:14.2.29"
     next: "npm:14.2.29"
     raf: "npm:3.4.1"
