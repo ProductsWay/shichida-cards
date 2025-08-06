@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "description": "Easily Create Type-Safe, Full-Stack Apps for React Native + Web using the t4 stack.",
   "dependencies": {
-    "chalk": "5.4.1",
+    "chalk": "5.5.0",
     "ora": "8.2.0"
   },
   "scripts": {
