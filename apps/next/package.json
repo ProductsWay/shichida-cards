@@ -24,7 +24,7 @@
     "@tamagui/next-plugin": "latest",
     "@types/node": "20.19.9",
     "critters": "0.0.25",
-    "dotenv-cli": "7.4.4",
+    "dotenv-cli": "10.0.0",
     "eslint-config-next": "14.2.31",
     "vercel": "latest"
   }
